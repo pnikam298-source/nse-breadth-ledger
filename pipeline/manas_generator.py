@@ -246,7 +246,42 @@ def build_data_json():
 
     momo_groups.sort(key=lambda x: x["industry"])
 
-    # 5. Build series (last 420 sessions)
+    # 5. Build RS ratings (William O'Neil / IBD / MarketSmith 1-99 Relative Strength)
+    rs_scores = []
+    tot_by_ind = {}
+    for sym, g in symbol_series.items():
+        ind = sub_ind_map.get(sym, "Diversified")
+        tot_by_ind[ind] = tot_by_ind.get(ind, 0) + 1
+        if len(g) < 250:
+            continue
+        c = g["adj_close"].values
+        p0 = c[-1]
+        p63 = c[-63]
+        p126 = c[-126]
+        p189 = c[-189]
+        p250 = c[-250]
+        if p63 <= 0 or p126 <= 0 or p189 <= 0 or p250 <= 0:
+            continue
+        score = 2.0 * (p0 / p63 - 1.0) + (p0 / p126 - 1.0) + (p0 / p189 - 1.0) + (p0 / p250 - 1.0)
+        rs_scores.append((sym, score, ind))
+
+    rs_scores.sort(key=lambda x: x[1])
+    n_rated = len(rs_scores)
+    rs_rows = []
+    for rank, (sym, score, ind) in enumerate(rs_scores):
+        rating = int(np.clip(np.floor((rank / n_rated) * 99) + 1, 1, 99))
+        rs_rows.append([sym, rating, ind])
+
+    rs_rows.sort(key=lambda x: (-x[1], x[0]))
+
+    rs_payload = {
+        "asOf": latest_date.replace("-", ""),
+        "n": n_rated,
+        "tot": tot_by_ind,
+        "rows": rs_rows
+    }
+
+    # 6. Build series (last 420 sessions)
     series_list = []
     for d in dates:
         d_df = combined[combined["date"] == d]
@@ -335,7 +370,8 @@ def build_data_json():
             "groups": momo_groups
         },
         "near": near_list,
-        "clusters": clusters
+        "clusters": clusters,
+        "rs": rs_payload
     }
 
     out_file = PUBLIC_DATA_DIR / "data.json"

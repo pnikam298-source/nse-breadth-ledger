@@ -17,7 +17,7 @@ def test_data_json_structure():
     required_keys = [
         "asOf", "final", "shut", "universe", "today", 
         "nifty", "indexChg", "recentDays", "series", 
-        "momo", "near", "clusters"
+        "momo", "near", "clusters", "rs"
     ]
     for k in required_keys:
         assert k in data, f"Key {k} missing in data.json"
@@ -26,6 +26,28 @@ def test_data_json_structure():
     assert len(data["series"]) >= 400, f"Expected >= 400 sessions, got {len(data['series'])}"
     assert len(data["clusters"]) >= 30, f"Expected >= 30 sub-industry clusters, got {len(data['clusters'])}"
     assert len(data["near"]) >= 900, f"Expected >= 900 near stocks, got {len(data['near'])}"
+    
+    # Test RS rating screener
+    rs = data["rs"]
+    assert "asOf" in rs
+    assert "n" in rs
+    assert "tot" in rs
+    assert "rows" in rs
+    assert rs["n"] >= 800, f"Expected >= 800 rated stocks, got {rs['n']}"
+    assert len(rs["rows"]) == rs["n"]
+    
+    # Check rating range (1 to 99)
+    ratings = [r[1] for r in rs["rows"]]
+    assert min(ratings) == 1, f"Expected min RS 1, got {min(ratings)}"
+    assert max(ratings) == 99, f"Expected max RS 99, got {max(ratings)}"
+    # Rows must be sorted descending by rating
+    assert ratings == sorted(ratings, reverse=True), "RS rows must be sorted descending by rating"
+    
+    # First row format: [symbol, rating, industry]
+    first_row = rs["rows"][0]
+    assert isinstance(first_row[0], str)
+    assert isinstance(first_row[1], int)
+    assert isinstance(first_row[2], str)
     
     # Test cluster pills
     cluster = data["clusters"][0]
