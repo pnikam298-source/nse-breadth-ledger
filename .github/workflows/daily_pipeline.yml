@@ -27,6 +27,9 @@ jobs:
   run-pipeline:
     runs-on: ubuntu-latest
     timeout-minutes: 120
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
 
     steps:
       - name: Checkout repository
@@ -38,12 +41,11 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-          cache: 'pip'
 
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install pandas pyarrow requests pytest jsonschema jugaad-data yfinance
+          pip install -r requirements.txt
 
       - name: Run Test Suite
         run: |
