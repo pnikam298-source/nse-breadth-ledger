@@ -48,8 +48,10 @@ jobs:
           pip install -r requirements.txt
 
       - name: Run Test Suite
+        env:
+          PYTHONPATH: .
         run: |
-          pytest tests/
+          python3 -m pytest tests/
 
       # Only run ingestion if triggered by schedule or manual dispatch
       - name: Ingest and Process Daily Data with Retry
