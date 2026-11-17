@@ -128,6 +128,7 @@ a{color:var(--teal)}
 <button class="jfab" id="jumpBtn" type="button" aria-expanded="false" aria-controls="jump">↧ Jump to</button>
 <div class="wrap">
   <div class="mast"><h1>NSE Breadth Ledger</h1><div class="mastr"><div class="tbtns">
+        <button class="tbtn" id="refreshBtn" type="button" title="Check & sync latest NSE bhavcopy">↻ Sync</button>
         <a href="methodology.html" class="tbtn" style="text-decoration:none">Methodology</a>
         <a href="data-quality.html" class="tbtn" style="text-decoration:none">Data Quality</a>
         <div class="secwrap"><button class="tbtn" id="secBtn" type="button" aria-haspopup="true">☰ Sections</button><div id="secPanel" role="group" aria-label="Choose which sections to show"></div></div><button class="tbtn" id="theme" type="button" aria-label="Switch between light and dark mode">☾ Dark</button></div><small id="status">loading…</small></div></div>
@@ -561,11 +562,41 @@ function saveNote(d){const n=new Date(Date.now()+5.5*3600e3),day=n.getUTCDay(),m
   if(preOpen())return`<br>Market opens at ${openAt()} · showing the last close`;
   const same=new Date(new Date(d.asOf).getTime()+5.5*3600e3).toISOString().slice(0,10)===n.toISOString().slice(0,10);
   return`<br>Market shut · showing ${same?"today's close":"the last close"}`}
+async function checkServerUpdate(force=false){
+  try{
+    const r=await fetch('/api/check-update'+(force?'?force=true':''),{cache:'no-store'});
+    if(!r.ok)return;
+    const info=await r.json();
+    if(info.is_updating||info.triggered){
+      const st=$('#status');
+      if(st&&!st.querySelector('.updating-tag')){
+        const span=document.createElement('span');
+        span.className='updating-tag';
+        span.style.color='var(--teal)';
+        span.style.marginLeft='6px';
+        span.textContent='· ↻ Syncing latest bhavcopy...';
+        st.appendChild(span);
+      }
+      const poll=setInterval(async()=>{
+        try{
+          const r2=await fetch('/api/check-update',{cache:'no-store'});
+          const d2=await r2.json();
+          if(!d2.is_updating){
+            clearInterval(poll);
+            const tag=$('.updating-tag');if(tag)tag.remove();
+            DATA=await getJson(DATA_URL);render(DATA);
+          }
+        }catch(_){clearInterval(poll)}
+      },3000);
+    }
+  }catch(_){}
+}
+const rfBtn=$('#refreshBtn');if(rfBtn)rfBtn.onclick=()=>{rfBtn.textContent='↻ Checking…';checkServerUpdate(true);setTimeout(()=>{rfBtn.textContent='↻ Sync'},2500)};
 async function load(){
-  try{DATA=await getJson(DATA_URL);render(DATA);LASTLOAD=Date.now()}
+  try{DATA=await getJson(DATA_URL);render(DATA);LASTLOAD=Date.now();checkServerUpdate()}
   catch(e){
     // The live feed is busy: fall back to the last saved figures instead of showing an error.
-    try{const d=await getJson(SNAP_URL);if(!DATA||String(d.asOf)>String(DATA.asOf)){DATA=d;render(d)}$('#status').innerHTML+=saveNote(DATA);LASTLOAD=Date.now()}
+    try{const d=await getJson(SNAP_URL);if(!DATA||String(d.asOf)>String(DATA.asOf)){DATA=d;render(d)}$('#status').innerHTML+=saveNote(DATA);LASTLOAD=Date.now();checkServerUpdate()}
     catch(e2){if(!DATA)$('#status').innerHTML=`<span class="err">Update failed: ${e.message}</span>`}
   }
 }
