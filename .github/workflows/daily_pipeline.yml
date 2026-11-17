@@ -53,6 +53,16 @@ jobs:
         run: |
           python3 -m pytest tests/
 
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Build React Dashboard
+        run: |
+          npm install
+          npm run build
+
       # Only run ingestion if triggered by schedule or manual dispatch
       - name: Ingest and Process Daily Data with Retry
         if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
