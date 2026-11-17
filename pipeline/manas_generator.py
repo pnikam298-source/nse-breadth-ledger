@@ -24,7 +24,9 @@ def build_data_json():
         raise FileNotFoundError(f"{ohlc_path} not found")
 
     df = pd.read_parquet(ohlc_path)
-    eq = df[df["series"] == "EQ"].copy()
+    # Include both EQ and BE (Trade-for-Trade surveillance) series
+    eq = df[df["series"].isin(["EQ", "BE"])].copy()
+    eq = eq.sort_values(["symbol", "date", "series"]).drop_duplicates(subset=["symbol", "date"], keep="first")
 
     # Load sub-industry map
     sub_ind_file = METADATA_DIR / "sub_industries.json"
@@ -218,13 +220,16 @@ def build_data_json():
 
         stocks_momo = []
         for sym, r in members:
-            # Encode 9 lookbacks into 9 characters
+            # Encode 9 lookbacks into 9 characters and exact percentage gains
             score_digits = []
+            exact_pcts = []
             for lb in LOOKBACKS:
                 val = r[f"gain_{lb}"]
                 if pd.isna(val):
                     score_digits.append("-")
+                    exact_pcts.append(None)
                 else:
+                    exact_pcts.append(round(float(val), 1))
                     # check threshold index
                     digit = 0
                     for idx, th in enumerate(THRESHOLDS):
@@ -232,7 +237,7 @@ def build_data_json():
                             digit = idx + 1
                     score_digits.append(str(digit))
 
-            stocks_momo.append([sym, "".join(score_digits)])
+            stocks_momo.append([sym, "".join(score_digits), exact_pcts])
 
         momo_groups.append({
             "industry": ind,
