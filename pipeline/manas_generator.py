@@ -2,7 +2,7 @@
 Generator for comprehensive 1000-stock universe and exact data.json structure
 matching markets.manasarora.com specifications.
 """
-from datetime import datetime
+from datetime import datetime, timezone
 import json
 from pathlib import Path
 from typing import Dict, List, Any
@@ -307,12 +307,13 @@ def build_data_json():
     live_day["date"] = "live"
     recent_days_final = [live_day] + list(reversed(recent_days_objs[:-1]))
 
+    utc_now_iso = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
     final_payload = {
-        "asOf": datetime.now().isoformat() + "Z",
+        "asOf": utc_now_iso,
         "final": True,
-        "shut": True,
+        "shut": False,
         "delayed": False,
-        "lastStored": datetime.now().isoformat() + "Z",
+        "lastStored": latest_date.replace("-", ""),
         "universe": len(latest_df),
         "today": today_obj,
         "nifty": {

@@ -4,7 +4,7 @@ Smart Local Server for NSE Breadth Ledger.
 - Automatically detects if the trading day has ended and fresh bhavcopy is needed
 - Runs the pipeline in the background and reloads data upon browser refresh
 """
-from datetime import datetime
+from datetime import datetime, timezone, timedelta
 from http.server import HTTPServer, SimpleHTTPRequestHandler
 import json
 import logging
@@ -21,16 +21,15 @@ UPDATE_LOCK = threading.Lock()
 IS_UPDATING = False
 LAST_CHECK_TIME = 0
 
+def get_ist_now():
+    return datetime.now(timezone.utc) + timedelta(hours=5, minutes=30)
+
 def is_market_closed_today():
     """Returns True if today is a weekday and current IST time is past 18:30 IST."""
-    now_utc = datetime.utcnow()
-    # IST = UTC + 5h 30m
-    ist_hours = now_utc.hour + 5 + (now_utc.minute + 30) // 60
-    ist_minutes = (now_utc.minute + 30) % 60
-    # 0 = Monday, 4 = Friday
-    if now_utc.weekday() >= 5:
+    ist_now = get_ist_now()
+    if ist_now.weekday() >= 5:
         return False
-    return (ist_hours > 18) or (ist_hours == 18 and ist_minutes >= 30)
+    return (ist_now.hour > 18) or (ist_now.hour == 18 and ist_now.minute >= 30)
 
 def run_pipeline_update():
     global IS_UPDATING
@@ -79,8 +78,8 @@ class SmartBreadthHandler(SimpleHTTPRequestHandler):
                     try:
                         with open(data_file) as f:
                             dj = json.load(f)
-                        last_d = dj.get("asOf", "")[:10].replace("-", "")
-                        today_str = datetime.now().strftime("%Y%m%d")
+                        last_d = str(dj.get("lastStored", ""))
+                        today_str = get_ist_now().strftime("%Y%m%d")
                         if is_market_closed_today() and last_d != today_str:
                             needs_update = True
                     except Exception:
