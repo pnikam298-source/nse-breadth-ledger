@@ -1,9 +1,12 @@
-name: NSE Breadth Ledger Daily Pipeline
+name: NSE Breadth Ledger Daily Pipeline & GitHub Pages Deploy
 
 on:
   schedule:
     # 13:00 UTC is 18:30 IST (6:30 PM IST), Monday through Friday
     - cron: '0 13 * * 1-5'
+  push:
+    branches:
+      - main
   workflow_dispatch:
     inputs:
       num_sessions:
@@ -13,6 +16,12 @@ on:
 
 permissions:
   contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: 'pages'
+  cancel-in-progress: false
 
 jobs:
   run-pipeline:
@@ -40,10 +49,11 @@ jobs:
         run: |
           pytest tests/
 
+      # Only run ingestion if triggered by schedule or manual dispatch
       - name: Ingest and Process Daily Data with Retry
+        if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
         run: |
           echo "Starting daily pipeline polling loop from 6:30 PM IST..."
-          # Max attempts: 9 tries with 10-minute sleeps = 90 mins max polling window
           MAX_ATTEMPTS=9
           ATTEMPT=1
           SUCCESS=0
@@ -67,19 +77,31 @@ jobs:
           fi
 
       - name: Commit and Push Updated Data
+        if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add public/data.json public/data/ data/processed/ data/metadata/ data/raw/constituents/ data/raw/corporate_actions/ data/raw/holidays/
           git diff --quiet && git diff --staged --quiet || (git commit -m "chore(data): automated daily market breadth update [skip ci]" && git push)
 
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload Pages Artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: 'public'
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
+
       - name: Failure Alert Notification
         if: failure()
         run: |
           echo "ALERT: Daily pipeline execution failed on $(date)"
-          # Configurable alert notification: Telegram / Webhook / Email
           if [ -n "${{ secrets.ALERT_WEBHOOK_URL }}" ]; then
             curl -X POST -H "Content-Type: application/json" \
-              -d '{"text": "🚨 NSE Breadth Ledger: Daily Pipeline Failed or Bhavcopy Delayed on '"$(date)"'"}' \
+              -d '{"text": "🚨 NSE Breadth Ledger: Daily Pipeline Failed on '"$(date)"'"}' \
               "${{ secrets.ALERT_WEBHOOK_URL }}"
           fi
