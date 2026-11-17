@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "NSE Breadth Ledger - 60-Session Heatmap",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": ["date", "regime_score", "regime_label", "color", "new_52w_highs", "new_52w_lows", "monthly_thrust"],
+    "properties": {
+      "date": {"type": "string"},
+      "regime_score": {"type": "number"},
+      "regime_label": {"type": "string"},
+      "color": {"type": "string"},
+      "new_52w_highs": {"type": "integer"},
+      "new_52w_lows": {"type": "integer"},
+      "new_1m_highs": {"type": "integer"},
+      "new_1m_lows": {"type": "integer"},
+      "monthly_thrust": {"type": "integer"},
+      "advancers": {"type": "integer"},
+      "decliners": {"type": "integer"}
+    }
+  }
+}

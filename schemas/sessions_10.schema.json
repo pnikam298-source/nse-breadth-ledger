@@ -1,0 +1,24 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "NSE Breadth Ledger - Last 10 Sessions Log",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": [
+      "date", "universe_size", "advancers", "decliners", "unchanged",
+      "new_52w_highs", "new_52w_lows", "monthly_thrust", "regime_score", "regime_label"
+    ],
+    "properties": {
+      "date": {"type": "string"},
+      "universe_size": {"type": "integer"},
+      "advancers": {"type": "integer"},
+      "decliners": {"type": "integer"},
+      "unchanged": {"type": "integer"},
+      "new_52w_highs": {"type": "integer"},
+      "new_52w_lows": {"type": "integer"},
+      "monthly_thrust": {"type": "integer"},
+      "regime_score": {"type": "number"},
+      "regime_label": {"type": "string"}
+    }
+  }
+}

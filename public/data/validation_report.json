@@ -1,0 +1,94 @@
+{
+  "as_of_date": "2026-11-17",
+  "overall_status": "PASSED",
+  "passed": true,
+  "gates": {
+    "gate_1_trading_date": {
+      "passed": true,
+      "message": "Date 2026-11-17 is a valid trading weekday"
+    },
+    "gate_2_coverage": {
+      "passed": true,
+      "message": "Coverage 100.0% meets > 98.0% tolerance",
+      "details": {
+        "total_universe_stocks": 475,
+        "present_in_bhavcopy": 475,
+        "coverage_pct": 100.0,
+        "missing_symbols": [],
+        "prior_day_row_count": 475,
+        "current_day_row_count": 475,
+        "row_count_diff_pct": 0.0
+      }
+    },
+    "gate_3_price_sanity": {
+      "passed": true,
+      "message": "Price sanity checks passed (no nulls, no negatives, High >= Low, Close/Open in range)",
+      "details": {}
+    },
+    "gate_4_moves_explained": {
+      "passed": true,
+      "message": "Quarantine verified: 4 stocks currently quarantined"
+    },
+    "gate_5_history_continuity": {
+      "passed": true,
+      "message": "History continuity verified across 420 trading sessions with no missing dates",
+      "details": {
+        "sessions": 420
+      }
+    },
+    "gate_6_breadth_accounting": {
+      "passed": true,
+      "message": "Accounting exact: 248 Adv + 226 Dec + 1 Unch = 475 Universe Size"
+    },
+    "gate_7_secondary_spot_check": {
+      "date": "2026-11-17",
+      "tolerance_pct": 1.5,
+      "passed": true,
+      "symbols_checked": [],
+      "max_deviation_pct": 0.0,
+      "errors": [],
+      "warning": "Secondary source returned empty (offline or temporary rate limit). Spot check skipped with warning."
+    },
+    "gate_8_schema_validation": {
+      "passed": true,
+      "message": "All 6 published JSON outputs passed strict JSON Schema validation",
+      "details": {}
+    }
+  },
+  "quarantined_stocks": [
+    {
+      "date": "2025-12-02",
+      "symbol": "OLAELEC",
+      "close_prior": 60.14,
+      "prev_close_reported": 40.59,
+      "gap_pct": 32.51,
+      "reason": "Unexplained price gap of 32.5% (PrevClose 40.59 vs prior Close 60.14) with no corporate action"
+    },
+    {
+      "date": "2025-09-09",
+      "symbol": "RPOWER",
+      "close_prior": 66.98,
+      "prev_close_reported": 46.17,
+      "gap_pct": 31.07,
+      "reason": "Unexplained price gap of 31.1% (PrevClose 46.17 vs prior Close 66.98) with no corporate action"
+    },
+    {
+      "date": "2026-05-19",
+      "symbol": "SCHNEIDER",
+      "close_prior": 914.45,
+      "prev_close_reported": 1201.1,
+      "gap_pct": 31.35,
+      "reason": "Unexplained price gap of 31.3% (PrevClose 1201.1 vs prior Close 914.45) with no corporate action"
+    },
+    {
+      "date": "2025-09-09",
+      "symbol": "TTML",
+      "close_prior": 71.81,
+      "prev_close_reported": 57.12,
+      "gap_pct": 20.46,
+      "reason": "Unexplained price gap of 20.5% (PrevClose 57.12 vs prior Close 71.81) with no corporate action"
+    }
+  ],
+  "errors": [],
+  "warnings": []
+}

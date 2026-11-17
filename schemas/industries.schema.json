@@ -1,0 +1,19 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "NSE Breadth Ledger - Industry Clusters",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": ["industry", "total_stocks", "count_3m_high", "share_3m_high", "count_1m_high", "share_1m_high"],
+    "properties": {
+      "industry": {"type": "string"},
+      "total_stocks": {"type": "integer", "minimum": 3},
+      "count_3m_high": {"type": "integer"},
+      "share_3m_high": {"type": "number"},
+      "count_1m_high": {"type": "integer"},
+      "share_1m_high": {"type": "number"},
+      "avg_gain_20d": {"type": "number"},
+      "median_gain_20d": {"type": "number"}
+    }
+  }
+}

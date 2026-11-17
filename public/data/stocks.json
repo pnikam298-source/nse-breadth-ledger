@@ -1,0 +1,10927 @@
+[
+  {
+    "s": "360ONE",
+    "n": "360 ONE WAM Ltd.",
+    "i": "Financial Services",
+    "c": 1202.85,
+    "h52": 1222.9,
+    "l52": 906.05,
+    "f": {
+      "h1": true,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 5.7,
+      "10": 18.98,
+      "20": 11.89,
+      "50": 1.82
+    }
+  },
+  {
+    "s": "AADHARHFC",
+    "n": "Aadhar Housing Finance Ltd.",
+    "i": "Financial Services",
+    "c": 432.35,
+    "h52": 571.39,
+    "l52": 420.95,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": true,
+      "l6": true,
+      "l52": true
+    },
+    "g": {
+      "5": -0.23,
+      "10": 0.58,
+      "20": -4.7,
+      "50": -10.39
+    }
+  },
+  {
+    "s": "AARTIIND",
+    "n": "Aarti Industries Ltd.",
+    "i": "Chemicals",
+    "c": 470.8,
+    "h52": 551.75,
+    "l52": 338.05,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 2.39,
+      "10": 9.79,
+      "20": -6.4,
+      "50": -6.81
+    }
+  },
+  {
+    "s": "AAVAS",
+    "n": "Aavas Financiers Ltd.",
+    "i": "Financial Services",
+    "c": 1125.8,
+    "h52": 1771.9,
+    "l52": 1055.3,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": -0.99,
+      "10": 2.85,
+      "20": -5.81,
+      "50": -10.56
+    }
+  },
+  {
+    "s": "ABB",
+    "n": "ABB India Ltd.",
+    "i": "Capital Goods",
+    "c": 6923.0,
+    "h52": 8024.52,
+    "l52": 4576.92,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 0.12,
+      "10": 3.59,
+      "20": 0.53,
+      "50": -8.2
+    }
+  },
+  {
+    "s": "ABBOTINDIA",
+    "n": "Abbott India Ltd.",
+    "i": "Healthcare",
+    "c": 25815.0,
+    "h52": 30690.16,
+    "l52": 24968.12,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": -3.24,
+      "10": -1.29,
+      "20": -2.61,
+      "50": -2.15
+    }
+  },
+  {
+    "s": "ABCAPITAL",
+    "n": "Aditya Birla Capital Ltd.",
+    "i": "Financial Services",
+    "c": 411.5,
+    "h52": 430.7,
+    "l52": 287.7,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 2.45,
+      "10": 8.78,
+      "20": 8.46,
+      "50": 3.64
+    }
+  },
+  {
+    "s": "ABDL",
+    "n": "Allied Blenders and Distillers Ltd.",
+    "i": "Fast Moving Consumer Goods",
+    "c": 791.65,
+    "h52": 854.7,
+    "l52": 382.1,
+    "f": {
+      "h1": true,
+      "h3": true,
+      "h6": true,
+      "h52": true,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 10.09,
+      "10": 11.78,
+      "20": 5.74,
+      "50": 30.98
+    }
+  },
+  {
+    "s": "ABREL",
+    "n": "Aditya Birla Real Estate Ltd.",
+    "i": "Realty",
+    "c": 1260.8,
+    "h52": 1820.82,
+    "l52": 1011.11,
+    "f": {
+      "h1": true,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 16.98,
+      "10": 19.88,
+      "20": 10.76,
+      "50": -6.79
+    }
+  },
+  {
+    "s": "ABSLAMC",
+    "n": "Aditya Birla Sun Life AMC Ltd.",
+    "i": "Financial Services",
+    "c": 924.15,
+    "h52": 1250.96,
+    "l52": 723.06,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 4.34,
+      "10": 10.96,
+      "20": -6.9,
+      "50": -11.46
+    }
+  },
+  {
+    "s": "ACC",
+    "n": "ACC Ltd.",
+    "i": "Construction Materials",
+    "c": 1248.2,
+    "h52": 1987.0,
+    "l52": 1115.0,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 1.08,
+      "10": 8.39,
+      "20": 5.14,
+      "50": -1.45
+    }
+  },
+  {
+    "s": "ACE",
+    "n": "Action Construction Equipment Ltd.",
+    "i": "Capital Goods",
+    "c": 1173.75,
+    "h52": 1268.0,
+    "l52": 745.1,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 0.61,
+      "10": 14.9,
+      "20": 3.3,
+      "50": 7.59
+    }
+  },
+  {
+    "s": "ACMESOLAR",
+    "n": "ACME Solar Holdings Ltd.",
+    "i": "Power",
+    "c": 403.6,
+    "h52": 487.34,
+    "l52": 196.52,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": -0.9,
+      "10": -5.68,
+      "20": -3.67,
+      "50": -0.83
+    }
+  },
+  {
+    "s": "ACUTAAS",
+    "n": "Acutaas Chemicals Ltd.",
+    "i": "Healthcare",
+    "c": 3942.9,
+    "h52": 4195.19,
+    "l52": 1553.94,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 1.55,
+      "10": -2.33,
+      "20": 18.59,
+      "50": 21.28
+    }
+  },
+  {
+    "s": "ADANIENSOL",
+    "n": "Adani Energy Solutions Ltd.",
+    "i": "Power",
+    "c": 1493.7,
+    "h52": 1789.0,
+    "l52": 759.08,
+    "f": {
+      "h1": true,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 3.79,
+      "10": 8.4,
+      "20": 9.36,
+      "50": 6.95
+    }
+  },
+  {
+    "s": "ADANIENT",
+    "n": "Adani Enterprises Ltd.",
+    "i": "Metals & Mining",
+    "c": 2745.1,
+    "h52": 3245.0,
+    "l52": 1753.0,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 1.43,
+      "10": 4.96,
+      "20": 1.97,
+      "50": -5.07
+    }
+  },
+  {
+    "s": "ADANIGREEN",
+    "n": "Adani Green Energy Ltd.",
+    "i": "Power",
+    "c": 1429.9,
+    "h52": 1631.5,
+    "l52": 724.16,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": -1.31,
+      "10": 6.95,
+      "20": 9.82,
+      "50": 10.33
+    }
+  },
+  {
+    "s": "ADANIPORTS",
+    "n": "Adani Ports and Special Economic Zone Ltd.",
+    "i": "Services",
+    "c": 1917.0,
+    "h52": 1979.0,
+    "l52": 1223.84,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": -1.32,
+      "10": 3.4,
+      "20": 9.49,
+      "50": 14.61
+    }
+  },
+  {
+    "s": "ADANIPOWER",
+    "n": "Adani Power Ltd.",
+    "i": "Power",
+    "c": 208.07,
+    "h52": 254.2,
+    "l52": 125.71,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 1.0,
+      "10": 6.51,
+      "20": 6.24,
+      "50": 0.18
+    }
+  },
+  {
+    "s": "AEGISLOG",
+    "n": "Aegis Logistics Ltd.",
+    "i": "Oil Gas & Consumable Fuels",
+    "c": 1211.6,
+    "h52": 1571.84,
+    "l52": 592.36,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": -1.23,
+      "10": 7.11,
+      "20": -13.78,
+      "50": -5.11
+    }
+  },
+  {
+    "s": "AEGISVOPAK",
+    "n": "Aegis Vopak Terminals Ltd.",
+    "i": "Oil Gas & Consumable Fuels",
+    "c": 279.46,
+    "h52": 344.71,
+    "l52": 169.7,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 9.54,
+      "10": 13.9,
+      "20": -5.72,
+      "50": -9.12
+    }
+  },
+  {
+    "s": "AETHER",
+    "n": "Aether Industries Ltd.",
+    "i": "Chemicals",
+    "c": 1662.7,
+    "h52": 1862.54,
+    "l52": 747.44,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 4.57,
+      "10": 6.42,
+      "20": 5.26,
+      "50": -1.64
+    }
+  },
+  {
+    "s": "AFCONS",
+    "n": "Afcons Infrastructure Ltd.",
+    "i": "Construction",
+    "c": 221.91,
+    "h52": 452.04,
+    "l52": 206.64,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 3.65,
+      "10": 2.79,
+      "20": -10.52,
+      "50": -23.31
+    }
+  },
+  {
+    "s": "AFFLE",
+    "n": "Affle 3i Ltd.",
+    "i": "Information Technology",
+    "c": 1580.8,
+    "h52": 1886.08,
+    "l52": 1251.3,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": -2.79,
+      "10": 4.93,
+      "20": 9.96,
+      "50": 4.14
+    }
+  },
+  {
+    "s": "AIAENG",
+    "n": "AIA Engineering Ltd.",
+    "i": "Capital Goods",
+    "c": 3241.7,
+    "h52": 5305.27,
+    "l52": 3082.7,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 3.36,
+      "10": -12.26,
+      "20": -14.91,
+      "50": -23.91
+    }
+  },
+  {
+    "s": "AIIL",
+    "n": "Authum Investment & Infrastructure Ltd.",
+    "i": "Financial Services",
+    "c": 568.5,
+    "h52": 3235.11,
+    "l52": 413.47,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": -3.94,
+      "10": 6.45,
+      "20": -3.83,
+      "50": 8.38
+    }
+  },
+  {
+    "s": "AJANTPHARM",
+    "n": "Ajanta Pharmaceuticals Ltd.",
+    "i": "Healthcare",
+    "c": 3312.5,
+    "h52": 3796.0,
+    "l52": 2445.8,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": -0.94,
+      "10": -2.47,
+      "20": -0.5,
+      "50": -4.86
+    }
+  },
+  {
+    "s": "ALKEM",
+    "n": "Alkem Laboratories Ltd.",
+    "i": "Healthcare",
+    "c": 5175.0,
+    "h52": 5915.0,
+    "l52": 4811.0,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": -4.14,
+      "10": 0.39,
+      "20": 2.48,
+      "50": -0.67
+    }
+  },
+  {
+    "s": "AMBER",
+    "n": "Amber Enterprises India Ltd.",
+    "i": "Consumer Durables",
+    "c": 6245.5,
+    "h52": 8974.0,
+    "l52": 5662.21,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 0.25,
+      "10": 0.36,
+      "20": -6.34,
+      "50": -15.77
+    }
+  },
+  {
+    "s": "AMBUJACEM",
+    "n": "Ambuja Cements Ltd.",
+    "i": "Construction Materials",
+    "c": 390.2,
+    "h52": 565.94,
+    "l52": 345.41,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 0.17,
+      "10": 6.95,
+      "20": 7.01,
+      "50": -4.34
+    }
+  },
+  {
+    "s": "ANANDRATHI",
+    "n": "Anand Rathi Wealth Ltd.",
+    "i": "Financial Services",
+    "c": 2375.3,
+    "h52": 3735.0,
+    "l52": 1710.6,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 0.22,
+      "10": 4.32,
+      "20": 9.98,
+      "50": 8.05
+    }
+  },
+  {
+    "s": "ANANTRAJ",
+    "n": "Anant Raj Ltd.",
+    "i": "Realty",
+    "c": 463.6,
+    "h52": 694.94,
+    "l52": 413.36,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 3.13,
+      "10": 0.93,
+      "20": -11.68,
+      "50": -23.24
+    }
+  },
+  {
+    "s": "ANGELONE",
+    "n": "Angel One Ltd.",
+    "i": "Financial Services",
+    "c": 349.8,
+    "h52": 2808.7,
+    "l52": 208.63,
+    "f": {
+      "h1": true,
+      "h3": true,
+      "h6": true,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 3.49,
+      "10": 20.62,
+      "20": 16.6,
+      "50": 25.26
+    }
+  },
+  {
+    "s": "ANTHEM",
+    "n": "Anthem Biosciences Ltd.",
+    "i": "Healthcare",
+    "c": 924.25,
+    "h52": 1006.16,
+    "l52": 586.23,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": -3.54,
+      "10": 7.48,
+      "20": 9.22,
+      "50": -3.91
+    }
+  },
+  {
+    "s": "ANURAS",
+    "n": "Anupam Rasayan India Ltd.",
+    "i": "Chemicals",
+    "c": 1317.5,
+    "h52": 1440.02,
+    "l52": 1058.96,
+    "f": {
+      "h1": true,
+      "h3": true,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 9.95,
+      "10": 13.66,
+      "20": 10.09,
+      "50": 4.38
+    }
+  },
+  {
+    "s": "APARINDS",
+    "n": "Apar Industries Ltd.",
+    "i": "Capital Goods",
+    "c": 14171.0,
+    "h52": 19902.8,
+    "l52": 7026.16,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": -0.24,
+      "10": -12.7,
+      "20": -14.45,
+      "50": -18.42
+    }
+  },
+  {
+    "s": "APLAPOLLO",
+    "n": "APL Apollo Tubes Ltd.",
+    "i": "Capital Goods",
+    "c": 2188.5,
+    "h52": 2312.3,
+    "l52": 1690.0,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 0.33,
+      "10": 1.15,
+      "20": 1.66,
+      "50": -0.97
+    }
+  },
+  {
+    "s": "APOLLOHOSP",
+    "n": "Apollo Hospitals Enterprise Ltd.",
+    "i": "Healthcare",
+    "c": 8712.5,
+    "h52": 9070.5,
+    "l52": 6696.5,
+    "f": {
+      "h1": true,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 1.91,
+      "10": 3.0,
+      "20": 10.42,
+      "50": -0.07
+    }
+  },
+  {
+    "s": "APOLLOTYRE",
+    "n": "Apollo Tyres Ltd.",
+    "i": "Automobile and Auto Components",
+    "c": 418.7,
+    "h52": 540.5,
+    "l52": 365.3,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 0.83,
+      "10": 7.39,
+      "20": 2.41,
+      "50": -3.56
+    }
+  },
+  {
+    "s": "APTUS",
+    "n": "Aptus Value Housing Finance India Ltd.",
+    "i": "Financial Services",
+    "c": 188.58,
+    "h52": 319.5,
+    "l52": 171.32,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 7.13,
+      "10": -8.74,
+      "20": -18.03,
+      "50": -28.27
+    }
+  },
+  {
+    "s": "ARE&M",
+    "n": "Amara Raja Energy & Mobility Ltd.",
+    "i": "Automobile and Auto Components",
+    "c": 746.85,
+    "h52": 1035.6,
+    "l52": 682.05,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": -1.96,
+      "10": 3.57,
+      "20": -1.26,
+      "50": -15.79
+    }
+  },
+  {
+    "s": "ASAHIINDIA",
+    "n": "Asahi India Glass Ltd.",
+    "i": "Automobile and Auto Components",
+    "c": 1166.5,
+    "h52": 1175.0,
+    "l52": 775.1,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 10.48,
+      "10": 24.0,
+      "20": 26.31,
+      "50": 22.65
+    }
+  },
+  {
+    "s": "ASHOKLEY",
+    "n": "Ashok Leyland Ltd.",
+    "i": "Capital Goods",
+    "c": 160.5,
+    "h52": 222.82,
+    "l52": 139.88,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": -8.21,
+      "10": 4.0,
+      "20": 4.21,
+      "50": -7.58
+    }
+  },
+  {
+    "s": "ASIANPAINT",
+    "n": "Asian Paints Ltd.",
+    "i": "Consumer Durables",
+    "c": 2625.0,
+    "h52": 2898.03,
+    "l52": 2115.0,
+    "f": {
+      "h1": true,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 4.61,
+      "10": 11.97,
+      "20": 12.57,
+      "50": 3.86
+    }
+  },
+  {
+    "s": "ASTERDM",
+    "n": "Aster DM Quality Care Ltd.",
+    "i": "Healthcare",
+    "c": 737.95,
+    "h52": 936.54,
+    "l52": 545.45,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 0.61,
+      "10": 4.22,
+      "20": 4.14,
+      "50": -7.58
+    }
+  },
+  {
+    "s": "ASTRAL",
+    "n": "Astral Ltd.",
+    "i": "Capital Goods",
+    "c": 1242.6,
+    "h52": 1768.7,
+    "l52": 1215.5,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": -2.37,
+      "10": -8.34,
+      "20": -12.95,
+      "50": -16.44
+    }
+  },
+  {
+    "s": "ATGL",
+    "n": "Adani Total Gas Ltd.",
+    "i": "Oil Gas & Consumable Fuels",
+    "c": 577.15,
+    "h52": 859.85,
+    "l52": 462.8,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 0.38,
+      "10": 5.01,
+      "20": -0.38,
+      "50": -6.15
+    }
+  },
+  {
+    "s": "ATHERENERG",
+    "n": "Ather Energy Ltd.",
+    "i": "Automobile and Auto Components",
+    "c": 1908.6,
+    "h52": 2021.5,
+    "l52": 589.0,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 2.62,
+      "10": 7.55,
+      "20": 29.84,
+      "50": 13.2
+    }
+  },
+  {
+    "s": "ATUL",
+    "n": "Atul Ltd.",
+    "i": "Chemicals",
+    "c": 5082.5,
+    "h52": 7265.76,
+    "l52": 5020.0,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": true,
+      "l6": true,
+      "l52": true
+    },
+    "g": {
+      "5": -3.92,
+      "10": -0.75,
+      "20": -18.95,
+      "50": -22.56
+    }
+  },
+  {
+    "s": "AUBANK",
+    "n": "AU Small Finance Bank Ltd.",
+    "i": "Financial Services",
+    "c": 993.1,
+    "h52": 1144.1,
+    "l52": 831.65,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 6.9,
+      "10": 11.58,
+      "20": 0.37,
+      "50": -7.87
+    }
+  },
+  {
+    "s": "AUROPHARMA",
+    "n": "Aurobindo Pharma Ltd.",
+    "i": "Healthcare",
+    "c": 1794.1,
+    "h52": 1859.9,
+    "l52": 1083.3,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": -3.3,
+      "10": 6.55,
+      "20": 7.63,
+      "50": 8.85
+    }
+  },
+  {
+    "s": "AVANTIFEED",
+    "n": "Avanti Feeds Ltd.",
+    "i": "Fast Moving Consumer Goods",
+    "c": 727.7,
+    "h52": 1637.89,
+    "l52": 673.43,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 0.71,
+      "10": 3.04,
+      "20": -2.01,
+      "50": -11.62
+    }
+  },
+  {
+    "s": "AWL",
+    "n": "AWL Agri Business Ltd.",
+    "i": "Fast Moving Consumer Goods",
+    "c": 168.42,
+    "h52": 275.44,
+    "l52": 159.65,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 1.24,
+      "10": 1.6,
+      "20": -10.08,
+      "50": -11.94
+    }
+  },
+  {
+    "s": "AXISBANK",
+    "n": "Axis Bank Ltd.",
+    "i": "Financial Services",
+    "c": 1369.0,
+    "h52": 1418.3,
+    "l52": 1150.3,
+    "f": {
+      "h1": true,
+      "h3": true,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 4.45,
+      "10": 13.23,
+      "20": 6.12,
+      "50": 9.18
+    }
+  },
+  {
+    "s": "AZAD",
+    "n": "Azad Engineering Ltd.",
+    "i": "Capital Goods",
+    "c": 2364.8,
+    "h52": 3229.38,
+    "l52": 1397.35,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": true,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": -2.85,
+      "10": -8.71,
+      "20": -16.44,
+      "50": -17.78
+    }
+  },
+  {
+    "s": "BAJAJ-AUTO",
+    "n": "Bajaj Auto Ltd.",
+    "i": "Automobile and Auto Components",
+    "c": 10770.0,
+    "h52": 12470.0,
+    "l52": 8596.81,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": -1.9,
+      "10": 4.17,
+      "20": 3.51,
+      "50": -11.21
+    }
+  },
+  {
+    "s": "BAJAJFINSV",
+    "n": "Bajaj Finserv Ltd.",
+    "i": "Financial Services",
+    "c": 1870.8,
+    "h52": 2118.5,
+    "l52": 1597.0,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 1.85,
+      "10": 10.6,
+      "20": 8.2,
+      "50": -5.99
+    }
+  },
+  {
+    "s": "BAJAJHFL",
+    "n": "Bajaj Housing Finance Ltd.",
+    "i": "Financial Services",
+    "c": 82.89,
+    "h52": 110.13,
+    "l52": 74.2,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 2.13,
+      "10": 3.81,
+      "20": -2.64,
+      "50": -1.96
+    }
+  },
+  {
+    "s": "BAJAJHLDNG",
+    "n": "Bajaj Holdings & Investment Ltd.",
+    "i": "Financial Services",
+    "c": 11384.0,
+    "h52": 12817.11,
+    "l52": 8588.0,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 4.04,
+      "10": 9.88,
+      "20": 1.66,
+      "50": 2.56
+    }
+  },
+  {
+    "s": "BAJFINANCE",
+    "n": "Bajaj Finance Ltd.",
+    "i": "Financial Services",
+    "c": 1121.1,
+    "h52": 1176.4,
+    "l52": 787.9,
+    "f": {
+      "h1": true,
+      "h3": true,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 5.28,
+      "10": 16.85,
+      "20": 14.15,
+      "50": 6.17
+    }
+  },
+  {
+    "s": "BALKRISIND",
+    "n": "Balkrishna Industries Ltd.",
+    "i": "Automobile and Auto Components",
+    "c": 2326.4,
+    "h52": 2775.0,
+    "l52": 1964.7,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": -0.73,
+      "10": 9.75,
+      "20": 13.33,
+      "50": -0.12
+    }
+  },
+  {
+    "s": "BALRAMCHIN",
+    "n": "Balrampur Chini Mills Ltd.",
+    "i": "Fast Moving Consumer Goods",
+    "c": 656.65,
+    "h52": 780.95,
+    "l52": 393.55,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": -0.27,
+      "10": 9.46,
+      "20": -8.94,
+      "50": -1.96
+    }
+  },
+  {
+    "s": "BANDHANBNK",
+    "n": "Bandhan Bank Ltd.",
+    "i": "Financial Services",
+    "c": 174.62,
+    "h52": 220.76,
+    "l52": 128.96,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 3.57,
+      "10": 12.48,
+      "20": 4.25,
+      "50": 8.11
+    }
+  },
+  {
+    "s": "BANKBARODA",
+    "n": "Bank of Baroda",
+    "i": "Financial Services",
+    "c": 274.89,
+    "h52": 325.5,
+    "l52": 223.82,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 5.72,
+      "10": 12.13,
+      "20": 19.31,
+      "50": 13.97
+    }
+  },
+  {
+    "s": "BANKINDIA",
+    "n": "Bank of India",
+    "i": "Financial Services",
+    "c": 159.28,
+    "h52": 178.36,
+    "l52": 123.64,
+    "f": {
+      "h1": true,
+      "h3": true,
+      "h6": true,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 9.85,
+      "10": 18.51,
+      "20": 20.34,
+      "50": 11.31
+    }
+  },
+  {
+    "s": "BATAINDIA",
+    "n": "Bata India Ltd.",
+    "i": "Consumer Durables",
+    "c": 633.25,
+    "h52": 1066.1,
+    "l52": 599.6,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": -0.94,
+      "10": -0.71,
+      "20": -0.85,
+      "50": -5.55
+    }
+  },
+  {
+    "s": "BBOX",
+    "n": "Black Box Ltd.",
+    "i": "Information Technology",
+    "c": 889.85,
+    "h52": 1143.53,
+    "l52": 460.63,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 9.22,
+      "10": 8.74,
+      "20": -5.39,
+      "50": 18.35
+    }
+  },
+  {
+    "s": "BDL",
+    "n": "Bharat Dynamics Ltd.",
+    "i": "Capital Goods",
+    "c": 1027.1,
+    "h52": 1481.2,
+    "l52": 974.0,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": -7.44,
+      "10": 3.12,
+      "20": -7.86,
+      "50": -18.07
+    }
+  },
+  {
+    "s": "BEL",
+    "n": "Bharat Electronics Ltd.",
+    "i": "Capital Goods",
+    "c": 399.55,
+    "h52": 473.45,
+    "l52": 354.55,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 1.27,
+      "10": 6.12,
+      "20": 6.02,
+      "50": -1.53
+    }
+  },
+  {
+    "s": "BELRISE",
+    "n": "Belrise Industries Ltd.",
+    "i": "Automobile and Auto Components",
+    "c": 235.66,
+    "h52": 280.7,
+    "l52": 150.17,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 8.37,
+      "10": 7.44,
+      "20": -2.74,
+      "50": -3.9
+    }
+  },
+  {
+    "s": "BEML",
+    "n": "BEML Ltd.",
+    "i": "Capital Goods",
+    "c": 2062.5,
+    "h52": 2241.46,
+    "l52": 1377.41,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 3.56,
+      "10": -0.1,
+      "20": 3.07,
+      "50": -0.17
+    }
+  },
+  {
+    "s": "BERGEPAINT",
+    "n": "Berger Paints India Ltd.",
+    "i": "Consumer Durables",
+    "c": 478.9,
+    "h52": 594.55,
+    "l52": 391.1,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 1.63,
+      "10": 2.2,
+      "20": 1.04,
+      "50": -1.87
+    }
+  },
+  {
+    "s": "BHARATFORG",
+    "n": "Bharat Forge Ltd.",
+    "i": "Automobile and Auto Components",
+    "c": 1714.7,
+    "h52": 2295.0,
+    "l52": 1245.99,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": -0.6,
+      "10": -2.21,
+      "20": -6.56,
+      "50": -15.61
+    }
+  },
+  {
+    "s": "BHARTIARTL",
+    "n": "Bharti Airtel Ltd.",
+    "i": "Telecommunication",
+    "c": 2138.3,
+    "h52": 2172.3,
+    "l52": 1708.52,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 3.19,
+      "10": 8.58,
+      "20": 13.41,
+      "50": 15.98
+    }
+  },
+  {
+    "s": "BHARTIHEXA",
+    "n": "Bharti Hexacom Ltd.",
+    "i": "Telecommunication",
+    "c": 1672.7,
+    "h52": 1975.48,
+    "l52": 1395.7,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 1.05,
+      "10": -3.08,
+      "20": 0.43,
+      "50": 6.39
+    }
+  },
+  {
+    "s": "BHEL",
+    "n": "Bharat Heavy Electricals Ltd.",
+    "i": "Capital Goods",
+    "c": 430.65,
+    "h52": 464.0,
+    "l52": 230.8,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 1.82,
+      "10": 9.04,
+      "20": -0.91,
+      "50": 0.74
+    }
+  },
+  {
+    "s": "BIOCON",
+    "n": "Biocon Ltd.",
+    "i": "Healthcare",
+    "c": 359.4,
+    "h52": 447.15,
+    "l52": 318.4,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": -2.47,
+      "10": 1.33,
+      "20": 2.92,
+      "50": -10.37
+    }
+  },
+  {
+    "s": "BLS",
+    "n": "BLS International Services Ltd.",
+    "i": "Consumer Services",
+    "c": 227.89,
+    "h52": 350.05,
+    "l52": 203.15,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 2.65,
+      "10": 3.68,
+      "20": 0.16,
+      "50": -3.12
+    }
+  },
+  {
+    "s": "BLUESTARCO",
+    "n": "Blue Star Ltd.",
+    "i": "Consumer Durables",
+    "c": 1608.0,
+    "h52": 2029.6,
+    "l52": 1432.3,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 1.93,
+      "10": 0.88,
+      "20": 2.58,
+      "50": 11.26
+    }
+  },
+  {
+    "s": "BOSCHLTD",
+    "n": "Bosch Ltd.",
+    "i": "Automobile and Auto Components",
+    "c": 49085.0,
+    "h52": 52475.0,
+    "l52": 28610.0,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": -0.94,
+      "10": 2.05,
+      "20": 7.74,
+      "50": 3.88
+    }
+  },
+  {
+    "s": "BPCL",
+    "n": "Bharat Petroleum Corporation Ltd.",
+    "i": "Oil Gas & Consumable Fuels",
+    "c": 305.8,
+    "h52": 391.65,
+    "l52": 266.6,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": -3.23,
+      "10": 4.35,
+      "20": 4.19,
+      "50": -4.32
+    }
+  },
+  {
+    "s": "BRIGADE",
+    "n": "Brigade Enterprises Ltd.",
+    "i": "Realty",
+    "c": 560.5,
+    "h52": 976.92,
+    "l52": 493.05,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 2.48,
+      "10": 6.47,
+      "20": -2.55,
+      "50": -12.42
+    }
+  },
+  {
+    "s": "BRITANNIA",
+    "n": "Britannia Industries Ltd.",
+    "i": "Fast Moving Consumer Goods",
+    "c": 4700.0,
+    "h52": 6208.5,
+    "l52": 4499.9,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": -1.88,
+      "10": 1.4,
+      "20": -1.34,
+      "50": -8.81
+    }
+  },
+  {
+    "s": "BSE",
+    "n": "BSE Ltd.",
+    "i": "Financial Services",
+    "c": 3864.9,
+    "h52": 4446.8,
+    "l52": 2369.05,
+    "f": {
+      "h1": true,
+      "h3": true,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 1.27,
+      "10": 10.74,
+      "20": 14.92,
+      "50": 22.0
+    }
+  },
+  {
+    "s": "BSOFT",
+    "n": "Birlasoft Ltd.",
+    "i": "Information Technology",
+    "c": 304.3,
+    "h52": 474.0,
+    "l52": 267.05,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": -8.43,
+      "10": -7.41,
+      "20": -4.37,
+      "50": 3.36
+    }
+  },
+  {
+    "s": "CAMS",
+    "n": "Computer Age Management Services Ltd.",
+    "i": "Financial Services",
+    "c": 744.0,
+    "h52": 3954.17,
+    "l52": 611.4,
+    "f": {
+      "h1": true,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 4.62,
+      "10": 11.83,
+      "20": 6.29,
+      "50": 0.29
+    }
+  },
+  {
+    "s": "CANBK",
+    "n": "Canara Bank",
+    "i": "Financial Services",
+    "c": 134.0,
+    "h52": 162.89,
+    "l52": 114.63,
+    "f": {
+      "h1": true,
+      "h3": true,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 4.61,
+      "10": 12.47,
+      "20": 13.28,
+      "50": 6.1
+    }
+  },
+  {
+    "s": "CANFINHOME",
+    "n": "Can Fin Homes Ltd.",
+    "i": "Financial Services",
+    "c": 786.65,
+    "h52": 973.93,
+    "l52": 706.0,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 3.87,
+      "10": 3.75,
+      "20": 5.47,
+      "50": -2.91
+    }
+  },
+  {
+    "s": "CANHLIFE",
+    "n": "Canara HSBC Life Insurance Company Ltd.",
+    "i": "Financial Services",
+    "c": 129.98,
+    "h52": 164.57,
+    "l52": 114.06,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 8.65,
+      "10": 8.69,
+      "20": 0.99,
+      "50": -13.85
+    }
+  },
+  {
+    "s": "CAPLIPOINT",
+    "n": "Caplin Point Laboratories Ltd.",
+    "i": "Healthcare",
+    "c": 2247.1,
+    "h52": 3083.75,
+    "l52": 1547.34,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": true,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": -10.21,
+      "10": -6.75,
+      "20": -5.32,
+      "50": -19.91
+    }
+  },
+  {
+    "s": "CARBORUNIV",
+    "n": "Carborundum Universal Ltd.",
+    "i": "Capital Goods",
+    "c": 1014.1,
+    "h52": 1368.9,
+    "l52": 735.2,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": -3.53,
+      "10": -6.09,
+      "20": -8.65,
+      "50": -5.36
+    }
+  },
+  {
+    "s": "CARTRADE",
+    "n": "Cartrade Tech Ltd.",
+    "i": "Consumer Services",
+    "c": 2612.1,
+    "h52": 3304.14,
+    "l52": 1624.65,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": -3.38,
+      "10": 13.48,
+      "20": -14.58,
+      "50": -12.27
+    }
+  },
+  {
+    "s": "CASTROLIND",
+    "n": "Castrol India Ltd.",
+    "i": "Oil Gas & Consumable Fuels",
+    "c": 191.09,
+    "h52": 203.4,
+    "l52": 170.1,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 0.42,
+      "10": -2.75,
+      "20": -3.36,
+      "50": 2.69
+    }
+  },
+  {
+    "s": "CCL",
+    "n": "CCL Products (I) Ltd.",
+    "i": "Fast Moving Consumer Goods",
+    "c": 976.9,
+    "h52": 1261.66,
+    "l52": 899.57,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": -0.34,
+      "10": 3.2,
+      "20": -4.61,
+      "50": -11.44
+    }
+  },
+  {
+    "s": "CDSL",
+    "n": "Central Depository Services (India) Ltd.",
+    "i": "Financial Services",
+    "c": 1439.8,
+    "h52": 1559.73,
+    "l52": 1116.3,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 6.18,
+      "10": 15.0,
+      "20": 11.88,
+      "50": 5.46
+    }
+  },
+  {
+    "s": "CEATLTD",
+    "n": "Ceat Ltd.",
+    "i": "Automobile and Auto Components",
+    "c": 3538.5,
+    "h52": 4102.43,
+    "l52": 2978.78,
+    "f": {
+      "h1": true,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 2.4,
+      "10": 10.67,
+      "20": 8.61,
+      "50": 6.9
+    }
+  },
+  {
+    "s": "CEMPRO",
+    "n": "Cemindia Projects Ltd.",
+    "i": "Construction",
+    "c": 1352.3,
+    "h52": 1649.2,
+    "l52": 503.3,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 3.43,
+      "10": 4.86,
+      "20": 12.91,
+      "50": 9.43
+    }
+  },
+  {
+    "s": "CENTRALBK",
+    "n": "Central Bank of India",
+    "i": "Financial Services",
+    "c": 32.6,
+    "h52": 40.92,
+    "l52": 28.26,
+    "f": {
+      "h1": true,
+      "h3": true,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 4.39,
+      "10": 10.51,
+      "20": 5.57,
+      "50": 7.34
+    }
+  },
+  {
+    "s": "CESC",
+    "n": "CESC Ltd.",
+    "i": "Power",
+    "c": 125.81,
+    "h52": 212.19,
+    "l52": 124.9,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": -2.43,
+      "10": -4.13,
+      "20": -10.78,
+      "50": -17.2
+    }
+  },
+  {
+    "s": "CGCL",
+    "n": "Capri Global Capital Ltd.",
+    "i": "Financial Services",
+    "c": 240.6,
+    "h52": 292.19,
+    "l52": 153.59,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": -1.89,
+      "10": 1.74,
+      "20": -4.39,
+      "50": -7.76
+    }
+  },
+  {
+    "s": "CGPOWER",
+    "n": "CG Power and Industrial Solutions Ltd.",
+    "i": "Capital Goods",
+    "c": 801.0,
+    "h52": 993.21,
+    "l52": 543.8,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 0.12,
+      "10": -3.54,
+      "20": -6.49,
+      "50": -9.87
+    }
+  },
+  {
+    "s": "CHAMBLFERT",
+    "n": "Chambal Fertilizers & Chemicals Ltd.",
+    "i": "Chemicals",
+    "c": 372.9,
+    "h52": 507.83,
+    "l52": 357.05,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": -4.22,
+      "10": -0.74,
+      "20": -5.81,
+      "50": -11.16
+    }
+  },
+  {
+    "s": "CHENNPETRO",
+    "n": "Chennai Petroleum Corporation Ltd.",
+    "i": "Oil Gas & Consumable Fuels",
+    "c": 1410.4,
+    "h52": 1694.72,
+    "l52": 743.58,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": -3.46,
+      "10": -9.7,
+      "20": -0.75,
+      "50": -1.27
+    }
+  },
+  {
+    "s": "CHOICEIN",
+    "n": "Choice International Ltd.",
+    "i": "Financial Services",
+    "c": 726.5,
+    "h52": 854.3,
+    "l52": 568.7,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": -3.08,
+      "10": -3.28,
+      "20": -1.9,
+      "50": -4.83
+    }
+  },
+  {
+    "s": "CHOLAFIN",
+    "n": "Cholamandalam Investment and Finance Company Ltd.",
+    "i": "Financial Services",
+    "c": 1884.7,
+    "h52": 1952.5,
+    "l52": 1299.4,
+    "f": {
+      "h1": true,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 5.24,
+      "10": 16.02,
+      "20": 19.71,
+      "50": 3.22
+    }
+  },
+  {
+    "s": "CHOLAHLDNG",
+    "n": "Cholamandalam Financial Holdings Ltd.",
+    "i": "Financial Services",
+    "c": 1438.4,
+    "h52": 2107.56,
+    "l52": 1255.15,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 0.98,
+      "10": 1.11,
+      "20": 4.21,
+      "50": -4.82
+    }
+  },
+  {
+    "s": "CIEINDIA",
+    "n": "CIE Automotive India Ltd.",
+    "i": "Automobile and Auto Components",
+    "c": 370.1,
+    "h52": 537.66,
+    "l52": 348.56,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 2.72,
+      "10": 2.88,
+      "20": -4.01,
+      "50": -5.95
+    }
+  },
+  {
+    "s": "CIPLA",
+    "n": "Cipla Ltd.",
+    "i": "Healthcare",
+    "c": 1388.0,
+    "h52": 1539.7,
+    "l52": 1165.7,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": -1.13,
+      "10": 0.07,
+      "20": 4.75,
+      "50": -1.76
+    }
+  },
+  {
+    "s": "CLEAN",
+    "n": "Clean Science and Technology Ltd.",
+    "i": "Chemicals",
+    "c": 715.95,
+    "h52": 923.98,
+    "l52": 659.47,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 2.87,
+      "10": 5.69,
+      "20": -10.65,
+      "50": -18.87
+    }
+  },
+  {
+    "s": "COALINDIA",
+    "n": "Coal India Ltd.",
+    "i": "Oil Gas & Consumable Fuels",
+    "c": 391.55,
+    "h52": 491.25,
+    "l52": 351.82,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": -2.48,
+      "10": -4.03,
+      "20": -6.15,
+      "50": -6.29
+    }
+  },
+  {
+    "s": "COCHINSHIP",
+    "n": "Cochin Shipyard Ltd.",
+    "i": "Capital Goods",
+    "c": 1147.0,
+    "h52": 1867.72,
+    "l52": 1116.09,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": -11.09,
+      "10": -3.03,
+      "20": -9.38,
+      "50": -22.65
+    }
+  },
+  {
+    "s": "COFORGE",
+    "n": "Coforge Ltd.",
+    "i": "Information Technology",
+    "c": 2041.0,
+    "h52": 2127.9,
+    "l52": 1008.1,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": -0.29,
+      "10": -2.76,
+      "20": 4.56,
+      "50": 3.83
+    }
+  },
+  {
+    "s": "COHANCE",
+    "n": "Cohance Lifesciences Ltd.",
+    "i": "Healthcare",
+    "c": 451.6,
+    "h52": 707.14,
+    "l52": 271.9,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 1.79,
+      "10": -0.91,
+      "20": -4.54,
+      "50": -3.35
+    }
+  },
+  {
+    "s": "COLPAL",
+    "n": "Colgate Palmolive (India) Ltd.",
+    "i": "Fast Moving Consumer Goods",
+    "c": 1719.7,
+    "h52": 2301.6,
+    "l52": 1563.9,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 1.46,
+      "10": 9.19,
+      "20": -2.89,
+      "50": -7.62
+    }
+  },
+  {
+    "s": "CONCOR",
+    "n": "Container Corporation of India Ltd.",
+    "i": "Services",
+    "c": 441.9,
+    "h52": 543.7,
+    "l52": 404.25,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": -0.92,
+      "10": 5.76,
+      "20": -1.35,
+      "50": -13.35
+    }
+  },
+  {
+    "s": "CONCORDBIO",
+    "n": "Concord Biotech Ltd.",
+    "i": "Healthcare",
+    "c": 554.8,
+    "h52": 1562.92,
+    "l52": 553.5,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": true,
+      "l6": true,
+      "l52": true
+    },
+    "g": {
+      "5": -7.04,
+      "10": -50.73,
+      "20": -57.19,
+      "50": -60.32
+    }
+  },
+  {
+    "s": "COROMANDEL",
+    "n": "Coromandel International Ltd.",
+    "i": "Chemicals",
+    "c": 1973.5,
+    "h52": 2428.28,
+    "l52": 1651.1,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 5.02,
+      "10": 13.42,
+      "20": 12.22,
+      "50": 3.08
+    }
+  },
+  {
+    "s": "CPPLUS",
+    "n": "Aditya Infotech Ltd.",
+    "i": "Capital Goods",
+    "c": 3989.2,
+    "h52": 4710.8,
+    "l52": 1374.8,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": -5.58,
+      "10": 1.64,
+      "20": -3.72,
+      "50": 5.13
+    }
+  },
+  {
+    "s": "CRAFTSMAN",
+    "n": "Craftsman Automation Ltd.",
+    "i": "Automobile and Auto Components",
+    "c": 11195.0,
+    "h52": 12125.12,
+    "l52": 6519.31,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 6.69,
+      "10": 5.41,
+      "20": 1.08,
+      "50": 0.72
+    }
+  },
+  {
+    "s": "CREDITACC",
+    "n": "CreditAccess Grameen Ltd.",
+    "i": "Financial Services",
+    "c": 1110.0,
+    "h52": 1670.21,
+    "l52": 1015.92,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 0.77,
+      "10": 4.59,
+      "20": -11.94,
+      "50": -22.62
+    }
+  },
+  {
+    "s": "CRISIL",
+    "n": "CRISIL Ltd.",
+    "i": "Financial Services",
+    "c": 4273.1,
+    "h52": 4971.81,
+    "l52": 3760.97,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": -2.65,
+      "10": -7.93,
+      "20": -7.92,
+      "50": -10.93
+    }
+  },
+  {
+    "s": "CROMPTON",
+    "n": "Crompton Greaves Consumer Electricals Ltd.",
+    "i": "Consumer Durables",
+    "c": 208.95,
+    "h52": 310.5,
+    "l52": 191.55,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": -4.55,
+      "10": 7.15,
+      "20": -3.04,
+      "50": -8.24
+    }
+  },
+  {
+    "s": "CUB",
+    "n": "City Union Bank Ltd.",
+    "i": "Financial Services",
+    "c": 232.4,
+    "h52": 324.1,
+    "l52": 194.55,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 3.29,
+      "10": 10.46,
+      "20": 2.21,
+      "50": 0.78
+    }
+  },
+  {
+    "s": "CUMMINSIND",
+    "n": "Cummins India Ltd.",
+    "i": "Capital Goods",
+    "c": 4065.0,
+    "h52": 6199.74,
+    "l52": 3858.69,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": -1.7,
+      "10": -11.77,
+      "20": -13.2,
+      "50": -21.4
+    }
+  },
+  {
+    "s": "CUPID",
+    "n": "Cupid Ltd.",
+    "i": "Fast Moving Consumer Goods",
+    "c": 365.85,
+    "h52": 540.1,
+    "l52": 75.44,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 6.71,
+      "10": 6.25,
+      "20": 2.29,
+      "50": 28.89
+    }
+  },
+  {
+    "s": "CYIENT",
+    "n": "Cyient Ltd.",
+    "i": "Information Technology",
+    "c": 1086.1,
+    "h52": 1304.31,
+    "l52": 766.34,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": -0.59,
+      "10": -6.84,
+      "20": -10.98,
+      "50": -5.24
+    }
+  },
+  {
+    "s": "DABUR",
+    "n": "Dabur India Ltd.",
+    "i": "Fast Moving Consumer Goods",
+    "c": 384.3,
+    "h52": 534.0,
+    "l52": 354.3,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 2.41,
+      "10": 2.78,
+      "20": -0.18,
+      "50": 1.4
+    }
+  },
+  {
+    "s": "DALBHARAT",
+    "n": "Dalmia Bharat Ltd.",
+    "i": "Construction Materials",
+    "c": 1524.3,
+    "h52": 2255.38,
+    "l52": 1340.08,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 3.96,
+      "10": 8.74,
+      "20": -10.93,
+      "50": -15.38
+    }
+  },
+  {
+    "s": "DATAPATTNS",
+    "n": "Data Patterns (India) Ltd.",
+    "i": "Capital Goods",
+    "c": 4215.9,
+    "h52": 4915.47,
+    "l52": 1937.44,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 4.74,
+      "10": 11.68,
+      "20": 5.31,
+      "50": -5.05
+    }
+  },
+  {
+    "s": "DEEPAKFERT",
+    "n": "Deepak Fertilisers & Petrochemicals Corp. Ltd.",
+    "i": "Chemicals",
+    "c": 1443.7,
+    "h52": 1681.0,
+    "l52": 866.4,
+    "f": {
+      "h1": true,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 22.63,
+      "10": 25.98,
+      "20": 7.41,
+      "50": 1.91
+    }
+  },
+  {
+    "s": "DEEPAKNTR",
+    "n": "Deepak Nitrite Ltd.",
+    "i": "Chemicals",
+    "c": 1590.1,
+    "h52": 1920.3,
+    "l52": 1295.11,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 3.25,
+      "10": 2.64,
+      "20": -1.69,
+      "50": -9.37
+    }
+  },
+  {
+    "s": "DELHIVERY",
+    "n": "Delhivery Ltd.",
+    "i": "Services",
+    "c": 457.95,
+    "h52": 524.0,
+    "l52": 364.65,
+    "f": {
+      "h1": true,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 5.73,
+      "10": 12.04,
+      "20": 12.38,
+      "50": 0.69
+    }
+  },
+  {
+    "s": "DEVYANI",
+    "n": "Devyani International Ltd.",
+    "i": "Consumer Services",
+    "c": 127.16,
+    "h52": 157.87,
+    "l52": 90.53,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 0.42,
+      "10": 10.22,
+      "20": 5.47,
+      "50": -6.86
+    }
+  },
+  {
+    "s": "DIVISLAB",
+    "n": "Divi's Laboratories Ltd.",
+    "i": "Healthcare",
+    "c": 11150.0,
+    "h52": 11824.0,
+    "l52": 6072.41,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": -3.59,
+      "10": 4.27,
+      "20": 13.4,
+      "50": 12.47
+    }
+  },
+  {
+    "s": "DIXON",
+    "n": "Dixon Technologies (India) Ltd.",
+    "i": "Consumer Durables",
+    "c": 13081.0,
+    "h52": 15397.46,
+    "l52": 9599.62,
+    "f": {
+      "h1": true,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 3.79,
+      "10": 6.19,
+      "20": 6.0,
+      "50": -10.34
+    }
+  },
+  {
+    "s": "DLF",
+    "n": "DLF Ltd.",
+    "i": "Realty",
+    "c": 765.95,
+    "h52": 773.65,
+    "l52": 489.4,
+    "f": {
+      "h1": true,
+      "h3": true,
+      "h6": true,
+      "h52": true,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 1.45,
+      "10": 9.27,
+      "20": 13.47,
+      "50": 13.72
+    }
+  },
+  {
+    "s": "DMART",
+    "n": "Avenue Supermarts Ltd.",
+    "i": "Consumer Services",
+    "c": 3470.0,
+    "h52": 4644.0,
+    "l52": 3102.3,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 0.09,
+      "10": 7.43,
+      "20": 3.83,
+      "50": -9.01
+    }
+  },
+  {
+    "s": "DOMS",
+    "n": "DOMS Industries Ltd.",
+    "i": "Fast Moving Consumer Goods",
+    "c": 2043.8,
+    "h52": 2805.57,
+    "l52": 1807.58,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 0.15,
+      "10": 8.78,
+      "20": -4.63,
+      "50": -9.04
+    }
+  },
+  {
+    "s": "DRREDDY",
+    "n": "Dr. Reddy's Laboratories Ltd.",
+    "i": "Healthcare",
+    "c": 1388.0,
+    "h52": 1414.9,
+    "l52": 1101.0,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 0.22,
+      "10": 3.43,
+      "20": 12.57,
+      "50": 20.02
+    }
+  },
+  {
+    "s": "ECLERX",
+    "n": "eClerx Services Ltd.",
+    "i": "Services",
+    "c": 1546.1,
+    "h52": 4995.0,
+    "l52": 1320.0,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 1.22,
+      "10": -2.51,
+      "20": -21.0,
+      "50": -22.87
+    }
+  },
+  {
+    "s": "EICHERMOT",
+    "n": "Eicher Motors Ltd.",
+    "i": "Automobile and Auto Components",
+    "c": 7828.0,
+    "h52": 8230.0,
+    "l52": 6442.0,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 2.61,
+      "10": 8.53,
+      "20": 7.46,
+      "50": 1.51
+    }
+  },
+  {
+    "s": "EIDPARRY",
+    "n": "E.I.D. Parry (India) Ltd.",
+    "i": "Fast Moving Consumer Goods",
+    "c": 648.5,
+    "h52": 1040.88,
+    "l52": 601.82,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 0.61,
+      "10": 3.18,
+      "20": -7.74,
+      "50": -20.01
+    }
+  },
+  {
+    "s": "EIHOTEL",
+    "n": "EIH Ltd.",
+    "i": "Consumer Services",
+    "c": 310.45,
+    "h52": 391.9,
+    "l52": 271.15,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 0.62,
+      "10": 5.54,
+      "20": 2.71,
+      "50": 8.62
+    }
+  },
+  {
+    "s": "ELECON",
+    "n": "Elecon Engineering Co. Ltd.",
+    "i": "Capital Goods",
+    "c": 453.9,
+    "h52": 596.55,
+    "l52": 360.18,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 5.68,
+      "10": 0.52,
+      "20": -8.29,
+      "50": 5.75
+    }
+  },
+  {
+    "s": "ELGIEQUIP",
+    "n": "Elgi Equipments Ltd.",
+    "i": "Capital Goods",
+    "c": 582.75,
+    "h52": 653.4,
+    "l52": 415.4,
+    "f": {
+      "h1": true,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 5.21,
+      "10": 11.08,
+      "20": 1.84,
+      "50": -5.51
+    }
+  },
+  {
+    "s": "EMAMILTD",
+    "n": "Emami Ltd.",
+    "i": "Fast Moving Consumer Goods",
+    "c": 412.6,
+    "h52": 546.66,
+    "l52": 360.78,
+    "f": {
+      "h1": true,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 0.54,
+      "10": 9.69,
+      "20": 8.54,
+      "50": 10.93
+    }
+  },
+  {
+    "s": "EMCURE",
+    "n": "Emcure Pharmaceuticals Ltd.",
+    "i": "Healthcare",
+    "c": 2339.4,
+    "h52": 2397.5,
+    "l52": 1372.01,
+    "f": {
+      "h1": true,
+      "h3": true,
+      "h6": true,
+      "h52": true,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 5.56,
+      "10": 20.54,
+      "20": 24.71,
+      "50": 22.17
+    }
+  },
+  {
+    "s": "ENDURANCE",
+    "n": "Endurance Technologies Ltd.",
+    "i": "Automobile and Auto Components",
+    "c": 2506.1,
+    "h52": 3105.03,
+    "l52": 2165.84,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 0.81,
+      "10": 5.53,
+      "20": 3.04,
+      "50": -10.03
+    }
+  },
+  {
+    "s": "ENGINERSIN",
+    "n": "Engineers India Ltd.",
+    "i": "Construction",
+    "c": 312.9,
+    "h52": 323.65,
+    "l52": 159.97,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 4.53,
+      "10": 8.03,
+      "20": 14.43,
+      "50": 13.12
+    }
+  },
+  {
+    "s": "ENRIN",
+    "n": "Siemens Energy India Ltd.",
+    "i": "Capital Goods",
+    "c": 3021.5,
+    "h52": 4032.27,
+    "l52": 2149.26,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 6.5,
+      "10": 1.15,
+      "20": 2.92,
+      "50": -4.68
+    }
+  },
+  {
+    "s": "ESCORTS",
+    "n": "Escorts Kubota Ltd.",
+    "i": "Capital Goods",
+    "c": 2401.5,
+    "h52": 4196.85,
+    "l52": 2381.5,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": -1.31,
+      "10": -2.81,
+      "20": -14.39,
+      "50": -22.0
+    }
+  },
+  {
+    "s": "ETERNAL",
+    "n": "Eternal Ltd.",
+    "i": "Consumer Services",
+    "c": 375.05,
+    "h52": 378.0,
+    "l52": 212.6,
+    "f": {
+      "h1": true,
+      "h3": true,
+      "h6": true,
+      "h52": true,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 3.19,
+      "10": 9.03,
+      "20": 15.29,
+      "50": 14.59
+    }
+  },
+  {
+    "s": "EXIDEIND",
+    "n": "Exide Industries Ltd.",
+    "i": "Automobile and Auto Components",
+    "c": 380.15,
+    "h52": 508.9,
+    "l52": 294.23,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": -1.27,
+      "10": 9.64,
+      "20": -0.04,
+      "50": -12.88
+    }
+  },
+  {
+    "s": "FACT",
+    "n": "Fertilisers and Chemicals Travancore Ltd.",
+    "i": "Chemicals",
+    "c": 787.35,
+    "h52": 1058.6,
+    "l52": 652.1,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 5.2,
+      "10": 11.88,
+      "20": 7.39,
+      "50": -2.11
+    }
+  },
+  {
+    "s": "FEDERALBNK",
+    "n": "Federal Bank Ltd.",
+    "i": "Financial Services",
+    "c": 365.8,
+    "h52": 371.7,
+    "l52": 233.48,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 6.31,
+      "10": 8.39,
+      "20": 8.22,
+      "50": 3.52
+    }
+  },
+  {
+    "s": "FINCABLES",
+    "n": "Finolex Cables Ltd.",
+    "i": "Capital Goods",
+    "c": 1230.4,
+    "h52": 1798.53,
+    "l52": 840.83,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": -0.16,
+      "10": -9.84,
+      "20": -25.02,
+      "50": -13.91
+    }
+  },
+  {
+    "s": "FIRSTCRY",
+    "n": "Brainbees Solutions Ltd.",
+    "i": "Consumer Services",
+    "c": 178.97,
+    "h52": 333.99,
+    "l52": 156.6,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": true,
+      "l6": true,
+      "l52": true
+    },
+    "g": {
+      "5": 10.33,
+      "10": 9.59,
+      "20": -1.3,
+      "50": 3.21
+    }
+  },
+  {
+    "s": "FIVESTAR",
+    "n": "Five-Star Business Finance Ltd.",
+    "i": "Financial Services",
+    "c": 438.7,
+    "h52": 652.5,
+    "l52": 338.15,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 2.76,
+      "10": 9.52,
+      "20": -13.33,
+      "50": -16.41
+    }
+  },
+  {
+    "s": "FLUOROCHEM",
+    "n": "Gujarat Fluorochemicals Ltd.",
+    "i": "Chemicals",
+    "c": 4752.0,
+    "h52": 4899.0,
+    "l52": 2783.82,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 3.88,
+      "10": 11.99,
+      "20": 9.98,
+      "50": 2.43
+    }
+  },
+  {
+    "s": "FORCEMOT",
+    "n": "Force Motors Ltd.",
+    "i": "Automobile and Auto Components",
+    "c": 19945.0,
+    "h52": 26450.0,
+    "l52": 16064.02,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 5.88,
+      "10": 12.88,
+      "20": 12.68,
+      "50": 13.32
+    }
+  },
+  {
+    "s": "FORTIS",
+    "n": "Fortis Healthcare Ltd.",
+    "i": "Healthcare",
+    "c": 806.8,
+    "h52": 1010.1,
+    "l52": 704.95,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 4.16,
+      "10": 5.95,
+      "20": 9.55,
+      "50": -11.83
+    }
+  },
+  {
+    "s": "FSL",
+    "n": "Firstsource Solutions Ltd.",
+    "i": "Services",
+    "c": 286.2,
+    "h52": 361.12,
+    "l52": 202.0,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": -4.02,
+      "10": -2.82,
+      "20": 1.56,
+      "50": 5.84
+    }
+  },
+  {
+    "s": "GABRIEL",
+    "n": "Gabriel India Ltd.",
+    "i": "Automobile and Auto Components",
+    "c": 1498.9,
+    "h52": 1690.0,
+    "l52": 807.68,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 5.54,
+      "10": 2.28,
+      "20": 1.92,
+      "50": 6.63
+    }
+  },
+  {
+    "s": "GAIL",
+    "n": "GAIL (India) Ltd.",
+    "i": "Oil Gas & Consumable Fuels",
+    "c": 187.0,
+    "h52": 189.9,
+    "l52": 134.36,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": -0.53,
+      "10": 5.65,
+      "20": 11.24,
+      "50": 8.09
+    }
+  },
+  {
+    "s": "GALLANTT",
+    "n": "Gallantt Ispat Ltd.",
+    "i": "Capital Goods",
+    "c": 534.0,
+    "h52": 948.0,
+    "l52": 496.25,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": -1.84,
+      "10": 3.42,
+      "20": -12.37,
+      "50": -3.85
+    }
+  },
+  {
+    "s": "GESHIP",
+    "n": "Great Eastern Shipping Co. Ltd.",
+    "i": "Services",
+    "c": 1548.5,
+    "h52": 1848.72,
+    "l52": 1086.71,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 8.59,
+      "10": -5.9,
+      "20": -0.09,
+      "50": 15.35
+    }
+  },
+  {
+    "s": "GICRE",
+    "n": "General Insurance Corporation of India",
+    "i": "Financial Services",
+    "c": 342.15,
+    "h52": 417.95,
+    "l52": 308.0,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 2.24,
+      "10": 7.93,
+      "20": 4.46,
+      "50": -3.74
+    }
+  },
+  {
+    "s": "GILLETTE",
+    "n": "Gillette India Ltd.",
+    "i": "Fast Moving Consumer Goods",
+    "c": 7098.5,
+    "h52": 9065.0,
+    "l52": 6860.0,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": -3.44,
+      "10": 0.85,
+      "20": -1.77,
+      "50": -3.37
+    }
+  },
+  {
+    "s": "GLAND",
+    "n": "Gland Pharma Ltd.",
+    "i": "Healthcare",
+    "c": 3248.4,
+    "h52": 3429.0,
+    "l52": 1555.48,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": -1.64,
+      "10": 7.16,
+      "20": 7.98,
+      "50": 14.57
+    }
+  },
+  {
+    "s": "GLAXO",
+    "n": "Glaxosmithkline Pharmaceuticals Ltd.",
+    "i": "Healthcare",
+    "c": 2687.6,
+    "h52": 3120.7,
+    "l52": 2088.1,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": -0.83,
+      "10": 6.17,
+      "20": 4.73,
+      "50": -8.89
+    }
+  },
+  {
+    "s": "GLENMARK",
+    "n": "Glenmark Pharmaceuticals Ltd.",
+    "i": "Healthcare",
+    "c": 2615.8,
+    "h52": 2714.0,
+    "l52": 1738.97,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": -2.07,
+      "10": 9.82,
+      "20": 17.47,
+      "50": 6.33
+    }
+  },
+  {
+    "s": "GMDCLTD",
+    "n": "Gujarat Mineral Development Corporation Ltd.",
+    "i": "Metals & Mining",
+    "c": 469.8,
+    "h52": 788.21,
+    "l52": 402.89,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": -1.77,
+      "10": 8.37,
+      "20": -2.33,
+      "50": -17.5
+    }
+  },
+  {
+    "s": "GMRAIRPORT",
+    "n": "GMR Airports Ltd.",
+    "i": "Services",
+    "c": 104.5,
+    "h52": 115.64,
+    "l52": 84.11,
+    "f": {
+      "h1": true,
+      "h3": true,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 5.13,
+      "10": 17.88,
+      "20": 16.76,
+      "50": 11.18
+    }
+  },
+  {
+    "s": "GODFRYPHLP",
+    "n": "Godfrey Phillips India Ltd.",
+    "i": "Fast Moving Consumer Goods",
+    "c": 1788.0,
+    "h52": 2994.52,
+    "l52": 1641.2,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 0.74,
+      "10": 5.17,
+      "20": -3.46,
+      "50": -11.72
+    }
+  },
+  {
+    "s": "GODREJCP",
+    "n": "Godrej Consumer Products Ltd.",
+    "i": "Fast Moving Consumer Goods",
+    "c": 894.5,
+    "h52": 1273.9,
+    "l52": 777.2,
+    "f": {
+      "h1": true,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 5.15,
+      "10": 8.89,
+      "20": 4.62,
+      "50": -1.16
+    }
+  },
+  {
+    "s": "GODREJIND",
+    "n": "Godrej Industries Ltd.",
+    "i": "Diversified",
+    "c": 1095.45,
+    "h52": 1464.59,
+    "l52": 755.33,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 15.07,
+      "10": 15.97,
+      "20": 3.36,
+      "50": -5.22
+    }
+  },
+  {
+    "s": "GODREJPROP",
+    "n": "Godrej Properties Ltd.",
+    "i": "Realty",
+    "c": 1892.4,
+    "h52": 2180.0,
+    "l52": 1420.03,
+    "f": {
+      "h1": true,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 4.29,
+      "10": 15.99,
+      "20": 18.03,
+      "50": -3.97
+    }
+  },
+  {
+    "s": "GPIL",
+    "n": "Godawari Power & Ispat Ltd.",
+    "i": "Capital Goods",
+    "c": 220.83,
+    "h52": 325.93,
+    "l52": 192.65,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 5.81,
+      "10": 12.03,
+      "20": 2.46,
+      "50": -9.43
+    }
+  },
+  {
+    "s": "GRANULES",
+    "n": "Granules India Ltd.",
+    "i": "Healthcare",
+    "c": 815.5,
+    "h52": 923.65,
+    "l52": 512.95,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 2.04,
+      "10": -0.63,
+      "20": -1.19,
+      "50": -1.95
+    }
+  },
+  {
+    "s": "GRAPHITE",
+    "n": "Graphite India Ltd.",
+    "i": "Capital Goods",
+    "c": 792.35,
+    "h52": 874.35,
+    "l52": 497.84,
+    "f": {
+      "h1": true,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 3.83,
+      "10": 4.87,
+      "20": 2.87,
+      "50": 9.05
+    }
+  },
+  {
+    "s": "GRASIM",
+    "n": "Grasim Industries Ltd.",
+    "i": "Construction Materials",
+    "c": 3054.8,
+    "h52": 3411.1,
+    "l52": 2502.5,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": -3.62,
+      "10": -0.08,
+      "20": 4.62,
+      "50": -7.29
+    }
+  },
+  {
+    "s": "GRAVITA",
+    "n": "Gravita India Ltd.",
+    "i": "Metals & Mining",
+    "c": 1490.1,
+    "h52": 1870.0,
+    "l52": 1266.9,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": -0.43,
+      "10": 4.88,
+      "20": 0.73,
+      "50": -14.81
+    }
+  },
+  {
+    "s": "GRSE",
+    "n": "Garden Reach Shipbuilders & Engineers Ltd.",
+    "i": "Capital Goods",
+    "c": 2107.3,
+    "h52": 3339.0,
+    "l52": 1842.0,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": -4.13,
+      "10": 2.96,
+      "20": -0.61,
+      "50": -15.54
+    }
+  },
+  {
+    "s": "GVT&D",
+    "n": "GE Vernova T&D India Ltd.",
+    "i": "Capital Goods",
+    "c": 4320.0,
+    "h52": 5650.0,
+    "l52": 2523.2,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 5.21,
+      "10": 3.46,
+      "20": 9.12,
+      "50": 1.89
+    }
+  },
+  {
+    "s": "HAL",
+    "n": "Hindustan Aeronautics Ltd.",
+    "i": "Capital Goods",
+    "c": 4727.0,
+    "h52": 5149.9,
+    "l52": 3479.1,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": -5.44,
+      "10": -2.64,
+      "20": -5.25,
+      "50": -1.11
+    }
+  },
+  {
+    "s": "HAVELLS",
+    "n": "Havells India Ltd.",
+    "i": "Consumer Durables",
+    "c": 1175.0,
+    "h52": 1514.7,
+    "l52": 999.2,
+    "f": {
+      "h1": true,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 1.34,
+      "10": 14.23,
+      "20": 4.82,
+      "50": -1.51
+    }
+  },
+  {
+    "s": "HBLENGINE",
+    "n": "HBL Engineering Ltd.",
+    "i": "Capital Goods",
+    "c": 785.85,
+    "h52": 1040.23,
+    "l52": 585.28,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": -1.45,
+      "10": 0.61,
+      "20": -1.21,
+      "50": 24.67
+    }
+  },
+  {
+    "s": "HCLTECH",
+    "n": "HCL Technologies Ltd.",
+    "i": "Information Technology",
+    "c": 1355.7,
+    "h52": 1780.1,
+    "l52": 1030.0,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": -3.65,
+      "10": -5.46,
+      "20": -1.76,
+      "50": 1.82
+    }
+  },
+  {
+    "s": "HDBFS",
+    "n": "HDB Financial Services Ltd.",
+    "i": "Financial Services",
+    "c": 573.6,
+    "h52": 806.01,
+    "l52": 499.93,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 5.35,
+      "10": 12.43,
+      "20": 10.61,
+      "50": -16.03
+    }
+  },
+  {
+    "s": "HDFCAMC",
+    "n": "HDFC Asset Management Company Ltd.",
+    "i": "Financial Services",
+    "c": 2699.0,
+    "h52": 5449.96,
+    "l52": 2205.6,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 3.03,
+      "10": 13.43,
+      "20": 12.52,
+      "50": 6.86
+    }
+  },
+  {
+    "s": "HDFCBANK",
+    "n": "HDFC Bank Ltd.",
+    "i": "Financial Services",
+    "c": 814.95,
+    "h52": 1017.5,
+    "l52": 669.2,
+    "f": {
+      "h1": true,
+      "h3": true,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 2.1,
+      "10": 16.42,
+      "20": 11.81,
+      "50": 16.29
+    }
+  },
+  {
+    "s": "HDFCLIFE",
+    "n": "HDFC Life Insurance Company Ltd.",
+    "i": "Financial Services",
+    "c": 595.05,
+    "h52": 771.57,
+    "l52": 508.05,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 5.24,
+      "10": 13.94,
+      "20": 7.6,
+      "50": 11.64
+    }
+  },
+  {
+    "s": "HEROMOTOCO",
+    "n": "Hero MotoCorp Ltd.",
+    "i": "Automobile and Auto Components",
+    "c": 5329.0,
+    "h52": 6388.5,
+    "l52": 4671.5,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": -1.51,
+      "10": 2.62,
+      "20": 1.99,
+      "50": 0.55
+    }
+  },
+  {
+    "s": "HEXT",
+    "n": "Hexaware Technologies Ltd.",
+    "i": "Information Technology",
+    "c": 490.65,
+    "h52": 833.61,
+    "l52": 408.07,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": -1.61,
+      "10": -3.36,
+      "20": -17.43,
+      "50": -11.48
+    }
+  },
+  {
+    "s": "HINDALCO",
+    "n": "Hindalco Industries Ltd.",
+    "i": "Metals & Mining",
+    "c": 927.75,
+    "h52": 1176.0,
+    "l52": 728.23,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": -3.36,
+      "10": 1.79,
+      "20": 2.18,
+      "50": -8.12
+    }
+  },
+  {
+    "s": "HINDCOPPER",
+    "n": "Hindustan Copper Ltd.",
+    "i": "Metals & Mining",
+    "c": 431.95,
+    "h52": 681.06,
+    "l52": 276.44,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 0.45,
+      "10": 2.49,
+      "20": -8.14,
+      "50": -19.16
+    }
+  },
+  {
+    "s": "HINDPETRO",
+    "n": "Hindustan Petroleum Corporation Ltd.",
+    "i": "Oil Gas & Consumable Fuels",
+    "c": 389.55,
+    "h52": 513.75,
+    "l52": 316.2,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 0.99,
+      "10": 11.94,
+      "20": 12.59,
+      "50": 8.51
+    }
+  },
+  {
+    "s": "HINDUNILVR",
+    "n": "Hindustan Unilever Ltd.",
+    "i": "Fast Moving Consumer Goods",
+    "c": 2009.9,
+    "h52": 2488.0,
+    "l52": 1758.2,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 0.98,
+      "10": 5.88,
+      "20": 6.13,
+      "50": 1.77
+    }
+  },
+  {
+    "s": "HINDZINC",
+    "n": "Hindustan Zinc Ltd.",
+    "i": "Metals & Mining",
+    "c": 550.0,
+    "h52": 678.25,
+    "l52": 411.36,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": -4.51,
+      "10": 6.18,
+      "20": 1.85,
+      "50": -6.53
+    }
+  },
+  {
+    "s": "HOMEFIRST",
+    "n": "Home First Finance Company India Ltd.",
+    "i": "Financial Services",
+    "c": 1088.4,
+    "h52": 1269.27,
+    "l52": 879.61,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 0.89,
+      "10": 4.16,
+      "20": 0.55,
+      "50": -7.59
+    }
+  },
+  {
+    "s": "HONASA",
+    "n": "Honasa Consumer Ltd.",
+    "i": "Fast Moving Consumer Goods",
+    "c": 517.8,
+    "h52": 524.0,
+    "l52": 248.4,
+    "f": {
+      "h1": true,
+      "h3": true,
+      "h6": true,
+      "h52": true,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 6.97,
+      "10": 14.37,
+      "20": 14.49,
+      "50": 10.18
+    }
+  },
+  {
+    "s": "HONAUT",
+    "n": "Honeywell Automation India Ltd.",
+    "i": "Capital Goods",
+    "c": 30520.0,
+    "h52": 42439.95,
+    "l52": 26817.1,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 1.4,
+      "10": 2.16,
+      "20": -7.02,
+      "50": -15.15
+    }
+  },
+  {
+    "s": "HSCL",
+    "n": "Himadri Speciality Chemical Ltd.",
+    "i": "Chemicals",
+    "c": 561.25,
+    "h52": 831.47,
+    "l52": 410.61,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": -2.16,
+      "10": 6.27,
+      "20": -16.28,
+      "50": -16.14
+    }
+  },
+  {
+    "s": "HUDCO",
+    "n": "Housing & Urban Development Corporation Ltd.",
+    "i": "Financial Services",
+    "c": 163.07,
+    "h52": 252.61,
+    "l52": 145.12,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": -3.59,
+      "10": 9.04,
+      "20": -1.08,
+      "50": -10.65
+    }
+  },
+  {
+    "s": "HYUNDAI",
+    "n": "Hyundai Motor India Ltd.",
+    "i": "Automobile and Auto Components",
+    "c": 2121.3,
+    "h52": 2463.5,
+    "l52": 1658.0,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 0.54,
+      "10": 6.87,
+      "20": 6.76,
+      "50": -1.54
+    }
+  },
+  {
+    "s": "ICICIBANK",
+    "n": "ICICI Bank Ltd.",
+    "i": "Financial Services",
+    "c": 1598.7,
+    "h52": 1616.0,
+    "l52": 1187.6,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 0.61,
+      "10": 15.23,
+      "20": 14.44,
+      "50": 12.07
+    }
+  },
+  {
+    "s": "ICICIGI",
+    "n": "ICICI Lombard General Insurance Company Ltd.",
+    "i": "Financial Services",
+    "c": 1693.5,
+    "h52": 2064.9,
+    "l52": 1423.1,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 2.02,
+      "10": 8.67,
+      "20": 0.8,
+      "50": 10.18
+    }
+  },
+  {
+    "s": "IDBI",
+    "n": "IDBI Bank Ltd.",
+    "i": "Financial Services",
+    "c": 79.28,
+    "h52": 117.55,
+    "l52": 61.01,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": -0.51,
+      "10": 0.43,
+      "20": -5.75,
+      "50": -13.4
+    }
+  },
+  {
+    "s": "IDEA",
+    "n": "Vodafone Idea Ltd.",
+    "i": "Telecommunication",
+    "c": 12.3,
+    "h52": 15.79,
+    "l52": 8.13,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": -2.92,
+      "10": 0.41,
+      "20": -2.3,
+      "50": -15.35
+    }
+  },
+  {
+    "s": "IDFCFIRSTB",
+    "n": "IDFC First Bank Ltd.",
+    "i": "Financial Services",
+    "c": 83.59,
+    "h52": 89.61,
+    "l52": 58.08,
+    "f": {
+      "h1": true,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 7.35,
+      "10": 13.53,
+      "20": 7.06,
+      "50": -1.76
+    }
+  },
+  {
+    "s": "IEX",
+    "n": "Indian Energy Exchange Ltd.",
+    "i": "Financial Services",
+    "c": 114.4,
+    "h52": 159.75,
+    "l52": 100.7,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 1.47,
+      "10": 5.13,
+      "20": 5.1,
+      "50": -4.9
+    }
+  },
+  {
+    "s": "IFCI",
+    "n": "IFCI Ltd.",
+    "i": "Financial Services",
+    "c": 61.73,
+    "h52": 108.59,
+    "l52": 46.87,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 0.15,
+      "10": 5.81,
+      "20": -8.78,
+      "50": -37.84
+    }
+  },
+  {
+    "s": "IGIL",
+    "n": "International Gemological Institute Ltd.",
+    "i": "Services",
+    "c": 450.6,
+    "h52": 453.65,
+    "l52": 302.39,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 5.58,
+      "10": 7.39,
+      "20": 30.9,
+      "50": 30.7
+    }
+  },
+  {
+    "s": "IGL",
+    "n": "Indraprastha Gas Ltd.",
+    "i": "Oil Gas & Consumable Fuels",
+    "c": 148.19,
+    "h52": 214.0,
+    "l52": 125.63,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 3.37,
+      "10": 11.49,
+      "20": 3.59,
+      "50": 0.17
+    }
+  },
+  {
+    "s": "IIFL",
+    "n": "IIFL Finance Ltd.",
+    "i": "Financial Services",
+    "c": 636.4,
+    "h52": 705.0,
+    "l52": 409.1,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 1.5,
+      "10": 15.09,
+      "20": 3.41,
+      "50": 0.5
+    }
+  },
+  {
+    "s": "IKS",
+    "n": "Inventurus Knowledge Solutions Ltd.",
+    "i": "Information Technology",
+    "c": 1630.1,
+    "h52": 2006.62,
+    "l52": 1285.46,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": true,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": -1.28,
+      "10": -7.32,
+      "20": -7.57,
+      "50": -8.24
+    }
+  },
+  {
+    "s": "INDHOTEL",
+    "n": "Indian Hotels Co. Ltd.",
+    "i": "Consumer Services",
+    "c": 901.55,
+    "h52": 909.65,
+    "l52": 565.0,
+    "f": {
+      "h1": true,
+      "h3": true,
+      "h6": true,
+      "h52": true,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 1.11,
+      "10": 9.61,
+      "20": 16.77,
+      "50": 23.89
+    }
+  },
+  {
+    "s": "INDIACEM",
+    "n": "India Cements Ltd.",
+    "i": "Construction Materials",
+    "c": 321.5,
+    "h52": 475.0,
+    "l52": 286.5,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": -5.83,
+      "10": 1.2,
+      "20": 6.35,
+      "50": -10.27
+    }
+  },
+  {
+    "s": "INDIAMART",
+    "n": "Indiamart Intermesh Ltd.",
+    "i": "Consumer Services",
+    "c": 1546.7,
+    "h52": 2567.53,
+    "l52": 1489.55,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 0.25,
+      "10": 1.32,
+      "20": -6.49,
+      "50": -12.59
+    }
+  },
+  {
+    "s": "INDIANB",
+    "n": "Indian Bank",
+    "i": "Financial Services",
+    "c": 936.0,
+    "h52": 1000.9,
+    "l52": 706.6,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 0.25,
+      "10": 8.18,
+      "20": 9.59,
+      "50": 6.51
+    }
+  },
+  {
+    "s": "INDIGO",
+    "n": "InterGlobe Aviation Ltd.",
+    "i": "Services",
+    "c": 5611.0,
+    "h52": 5906.0,
+    "l52": 3853.45,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 3.33,
+      "10": 15.28,
+      "20": 21.01,
+      "50": 12.98
+    }
+  },
+  {
+    "s": "INDUSINDBK",
+    "n": "IndusInd Bank Ltd.",
+    "i": "Financial Services",
+    "c": 931.0,
+    "h52": 1077.85,
+    "l52": 750.5,
+    "f": {
+      "h1": true,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 4.02,
+      "10": 11.03,
+      "20": 6.16,
+      "50": -4.81
+    }
+  },
+  {
+    "s": "INDUSTOWER",
+    "n": "Indus Towers Ltd.",
+    "i": "Telecommunication",
+    "c": 392.6,
+    "h52": 481.5,
+    "l52": 355.55,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 2.36,
+      "10": 2.51,
+      "20": 2.43,
+      "50": 3.59
+    }
+  },
+  {
+    "s": "INFY",
+    "n": "Infosys Ltd.",
+    "i": "Information Technology",
+    "c": 1130.0,
+    "h52": 1728.0,
+    "l52": 980.4,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": -2.09,
+      "10": -2.67,
+      "20": -2.69,
+      "50": -0.88
+    }
+  },
+  {
+    "s": "INOXINDIA",
+    "n": "INOX India Ltd.",
+    "i": "Capital Goods",
+    "c": 1969.4,
+    "h52": 2411.05,
+    "l52": 1085.18,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 3.67,
+      "10": 3.64,
+      "20": -3.86,
+      "50": -8.98
+    }
+  },
+  {
+    "s": "INOXWIND",
+    "n": "Inox Wind Ltd.",
+    "i": "Capital Goods",
+    "c": 59.7,
+    "h52": 148.47,
+    "l52": 55.1,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": -10.48,
+      "10": -0.13,
+      "20": -11.73,
+      "50": -15.43
+    }
+  },
+  {
+    "s": "INTELLECT",
+    "n": "Intellect Design Arena Ltd.",
+    "i": "Information Technology",
+    "c": 542.5,
+    "h52": 1151.78,
+    "l52": 484.82,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 6.31,
+      "10": 0.72,
+      "20": -17.26,
+      "50": -21.26
+    }
+  },
+  {
+    "s": "IOB",
+    "n": "Indian Overseas Bank",
+    "i": "Financial Services",
+    "c": 31.67,
+    "h52": 39.71,
+    "l52": 28.64,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 1.77,
+      "10": 6.92,
+      "20": 1.09,
+      "50": -4.15
+    }
+  },
+  {
+    "s": "IOC",
+    "n": "Indian Oil Corporation Ltd.",
+    "i": "Oil Gas & Consumable Fuels",
+    "c": 145.56,
+    "h52": 188.96,
+    "l52": 124.92,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": -0.88,
+      "10": 8.15,
+      "20": 11.64,
+      "50": 6.25
+    }
+  },
+  {
+    "s": "IPCALAB",
+    "n": "Ipca Laboratories Ltd.",
+    "i": "Healthcare",
+    "c": 1834.4,
+    "h52": 2038.0,
+    "l52": 1235.13,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": -6.39,
+      "10": -5.92,
+      "20": 0.1,
+      "50": -6.24
+    }
+  },
+  {
+    "s": "IRB",
+    "n": "IRB Infrastructure Developers Ltd.",
+    "i": "Construction",
+    "c": 17.95,
+    "h52": 45.77,
+    "l52": 15.97,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": -1.75,
+      "10": 8.13,
+      "20": 0.0,
+      "50": -8.14
+    }
+  },
+  {
+    "s": "IRCON",
+    "n": "IRCON International Ltd.",
+    "i": "Construction",
+    "c": 108.84,
+    "h52": 174.78,
+    "l52": 95.76,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": -2.26,
+      "10": 7.45,
+      "20": 2.08,
+      "50": -7.96
+    }
+  },
+  {
+    "s": "IRCTC",
+    "n": "Indian Railway Catering And Tourism Corporation Ltd.",
+    "i": "Consumer Services",
+    "c": 449.35,
+    "h52": 712.92,
+    "l52": 442.09,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": -2.3,
+      "10": -1.21,
+      "20": -5.25,
+      "50": -6.44
+    }
+  },
+  {
+    "s": "IREDA",
+    "n": "Indian Renewable Energy Development Agency Ltd.",
+    "i": "Financial Services",
+    "c": 117.4,
+    "h52": 149.02,
+    "l52": 98.78,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": -1.88,
+      "10": 14.83,
+      "20": 7.9,
+      "50": 4.31
+    }
+  },
+  {
+    "s": "IRFC",
+    "n": "Indian Railway Finance Corporation Ltd.",
+    "i": "Financial Services",
+    "c": 82.65,
+    "h52": 129.68,
+    "l52": 73.05,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": -1.02,
+      "10": 9.25,
+      "20": 2.99,
+      "50": 0.21
+    }
+  },
+  {
+    "s": "ITC",
+    "n": "ITC Ltd.",
+    "i": "Fast Moving Consumer Goods",
+    "c": 293.3,
+    "h52": 395.76,
+    "l52": 252.8,
+    "f": {
+      "h1": true,
+      "h3": true,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 5.2,
+      "10": 10.1,
+      "20": 11.31,
+      "50": 10.14
+    }
+  },
+  {
+    "s": "ITCHOTELS",
+    "n": "ITC Hotels Ltd.",
+    "i": "Consumer Services",
+    "c": 177.81,
+    "h52": 213.74,
+    "l52": 139.56,
+    "f": {
+      "h1": true,
+      "h3": true,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 0.51,
+      "10": 2.61,
+      "20": 7.67,
+      "50": 10.28
+    }
+  },
+  {
+    "s": "ITI",
+    "n": "ITI Ltd.",
+    "i": "Telecommunication",
+    "c": 251.68,
+    "h52": 325.86,
+    "l52": 210.76,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 1.38,
+      "10": -2.88,
+      "20": 3.37,
+      "50": -5.98
+    }
+  },
+  {
+    "s": "J&KBANK",
+    "n": "Jammu & Kashmir Bank Ltd.",
+    "i": "Financial Services",
+    "c": 139.95,
+    "h52": 207.01,
+    "l52": 97.19,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 7.49,
+      "10": 14.55,
+      "20": 1.54,
+      "50": -5.57
+    }
+  },
+  {
+    "s": "JAINREC",
+    "n": "Jain Resource Recycling Ltd.",
+    "i": "Metals & Mining",
+    "c": 286.85,
+    "h52": 593.95,
+    "l52": 264.3,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 0.97,
+      "10": 4.06,
+      "20": -1.02,
+      "50": 1.67
+    }
+  },
+  {
+    "s": "JBMA",
+    "n": "JBM Auto Ltd.",
+    "i": "Automobile and Auto Components",
+    "c": 489.35,
+    "h52": 738.5,
+    "l52": 465.0,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": -2.5,
+      "10": 1.15,
+      "20": -9.23,
+      "50": -21.26
+    }
+  },
+  {
+    "s": "JINDALSAW",
+    "n": "Jindal Saw Ltd.",
+    "i": "Capital Goods",
+    "c": 258.79,
+    "h52": 324.82,
+    "l52": 152.35,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 2.7,
+      "10": 4.74,
+      "20": -15.45,
+      "50": -17.53
+    }
+  },
+  {
+    "s": "JINDALSTEL",
+    "n": "Jindal Steel Ltd.",
+    "i": "Metals & Mining",
+    "c": 1137.5,
+    "h52": 1306.2,
+    "l52": 951.21,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": -0.74,
+      "10": 3.22,
+      "20": 8.83,
+      "50": -1.89
+    }
+  },
+  {
+    "s": "JIOFIN",
+    "n": "Jio Financial Services Ltd.",
+    "i": "Financial Services",
+    "c": 228.96,
+    "h52": 301.66,
+    "l52": 202.51,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": -0.45,
+      "10": 7.37,
+      "20": 5.88,
+      "50": -3.35
+    }
+  },
+  {
+    "s": "JKCEMENT",
+    "n": "J.K. Cement Ltd.",
+    "i": "Construction Materials",
+    "c": 5237.5,
+    "h52": 6105.0,
+    "l52": 4671.5,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 3.66,
+      "10": 6.98,
+      "20": 6.39,
+      "50": 5.18
+    }
+  },
+  {
+    "s": "JKTYRE",
+    "n": "JK Tyre & Industries Ltd.",
+    "i": "Automobile and Auto Components",
+    "c": 364.5,
+    "h52": 611.9,
+    "l52": 296.75,
+    "f": {
+      "h1": true,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 2.02,
+      "10": 12.69,
+      "20": 7.71,
+      "50": -1.53
+    }
+  },
+  {
+    "s": "JMFINANCIL",
+    "n": "JM Financial Ltd.",
+    "i": "Financial Services",
+    "c": 113.34,
+    "h52": 155.22,
+    "l52": 103.0,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 0.6,
+      "10": 1.4,
+      "20": -6.62,
+      "50": -12.4
+    }
+  },
+  {
+    "s": "JPPOWER",
+    "n": "Jaiprakash Power Ventures Ltd.",
+    "i": "Power",
+    "c": 13.7,
+    "h52": 24.78,
+    "l52": 12.64,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": -2.07,
+      "10": 0.0,
+      "20": -9.51,
+      "50": -17.27
+    }
+  },
+  {
+    "s": "JSL",
+    "n": "Jindal Stainless Ltd.",
+    "i": "Metals & Mining",
+    "c": 731.95,
+    "h52": 846.76,
+    "l52": 652.25,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 5.92,
+      "10": 8.01,
+      "20": -0.62,
+      "50": -0.4
+    }
+  },
+  {
+    "s": "JSWCEMENT",
+    "n": "JSW Cement Ltd.",
+    "i": "Construction Materials",
+    "c": 125.94,
+    "h52": 143.4,
+    "l52": 106.65,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 3.78,
+      "10": 4.98,
+      "20": 9.79,
+      "50": 1.89
+    }
+  },
+  {
+    "s": "JSWENERGY",
+    "n": "JSW Energy Ltd.",
+    "i": "Power",
+    "c": 514.9,
+    "h52": 617.35,
+    "l52": 410.07,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": -1.58,
+      "10": 1.86,
+      "20": 6.69,
+      "50": -4.61
+    }
+  },
+  {
+    "s": "JSWINFRA",
+    "n": "JSW Infrastructure Ltd.",
+    "i": "Services",
+    "c": 339.1,
+    "h52": 375.5,
+    "l52": 233.42,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": -0.04,
+      "10": 7.16,
+      "20": -0.29,
+      "50": 2.11
+    }
+  },
+  {
+    "s": "JSWSTEEL",
+    "n": "JSW Steel Ltd.",
+    "i": "Metals & Mining",
+    "c": 1332.0,
+    "h52": 1370.0,
+    "l52": 1052.96,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": -1.11,
+      "10": 1.69,
+      "20": 9.51,
+      "50": 1.99
+    }
+  },
+  {
+    "s": "JUBLFOOD",
+    "n": "Jubilant Foodworks Ltd.",
+    "i": "Consumer Services",
+    "c": 427.5,
+    "h52": 614.5,
+    "l52": 392.41,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": -0.23,
+      "10": 1.78,
+      "20": 3.69,
+      "50": -10.92
+    }
+  },
+  {
+    "s": "JUBLINGREA",
+    "n": "Jubilant Ingrevia Ltd.",
+    "i": "Chemicals",
+    "c": 588.45,
+    "h52": 818.54,
+    "l52": 553.21,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 0.14,
+      "10": -0.29,
+      "20": -9.42,
+      "50": -16.39
+    }
+  },
+  {
+    "s": "JWL",
+    "n": "Jupiter Wagons Ltd.",
+    "i": "Capital Goods",
+    "c": 203.32,
+    "h52": 341.29,
+    "l52": 171.95,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": -0.58,
+      "10": 6.18,
+      "20": -2.77,
+      "50": -16.48
+    }
+  },
+  {
+    "s": "JYOTICNC",
+    "n": "Jyoti CNC Automation Ltd.",
+    "i": "Capital Goods",
+    "c": 1041.25,
+    "h52": 1157.52,
+    "l52": 591.82,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 0.47,
+      "10": 8.41,
+      "20": 2.35,
+      "50": 6.8
+    }
+  },
+  {
+    "s": "KAJARIACER",
+    "n": "Kajaria Ceramics Ltd.",
+    "i": "Consumer Durables",
+    "c": 1168.7,
+    "h52": 1311.72,
+    "l52": 879.0,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": -2.57,
+      "10": 0.17,
+      "20": -6.19,
+      "50": -9.92
+    }
+  },
+  {
+    "s": "KALYANKJIL",
+    "n": "Kalyan Jewellers India Ltd.",
+    "i": "Consumer Durables",
+    "c": 682.75,
+    "h52": 729.35,
+    "l52": 327.05,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 11.74,
+      "10": 35.08,
+      "20": 22.36,
+      "50": 15.72
+    }
+  },
+  {
+    "s": "KARURVYSYA",
+    "n": "Karur Vysya Bank Ltd.",
+    "i": "Financial Services",
+    "c": 393.5,
+    "h52": 397.85,
+    "l52": 224.58,
+    "f": {
+      "h1": true,
+      "h3": true,
+      "h6": true,
+      "h52": true,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 6.35,
+      "10": 14.22,
+      "20": 10.64,
+      "50": 13.53
+    }
+  },
+  {
+    "s": "KAYNES",
+    "n": "Kaynes Technology India Ltd.",
+    "i": "Capital Goods",
+    "c": 2858.0,
+    "h52": 6688.12,
+    "l52": 2744.0,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": -13.39,
+      "10": -10.97,
+      "20": -12.89,
+      "50": -20.23
+    }
+  },
+  {
+    "s": "KEC",
+    "n": "Kec International Ltd.",
+    "i": "Construction",
+    "c": 322.15,
+    "h52": 779.81,
+    "l52": 302.27,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": -3.46,
+      "10": -8.69,
+      "20": -9.54,
+      "50": -21.86
+    }
+  },
+  {
+    "s": "KEI",
+    "n": "KEI Industries Ltd.",
+    "i": "Capital Goods",
+    "c": 3851.0,
+    "h52": 5899.0,
+    "l52": 3666.1,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": -3.79,
+      "10": -0.11,
+      "20": -14.08,
+      "50": -25.51
+    }
+  },
+  {
+    "s": "KFINTECH",
+    "n": "Kfin Technologies Ltd.",
+    "i": "Financial Services",
+    "c": 965.0,
+    "h52": 1092.63,
+    "l52": 784.0,
+    "f": {
+      "h1": true,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 5.52,
+      "10": 13.22,
+      "20": 8.79,
+      "50": 3.88
+    }
+  },
+  {
+    "s": "KIMS",
+    "n": "Krishna Institute of Medical Sciences Ltd.",
+    "i": "Healthcare",
+    "c": 768.3,
+    "h52": 871.88,
+    "l52": 575.23,
+    "f": {
+      "h1": true,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 6.46,
+      "10": 4.88,
+      "20": 10.28,
+      "50": 0.32
+    }
+  },
+  {
+    "s": "KIRLOSBROS",
+    "n": "Kirloskar Brothers Ltd.",
+    "i": "Capital Goods",
+    "c": 1574.5,
+    "h52": 2215.79,
+    "l52": 1351.22,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": -3.74,
+      "10": -13.23,
+      "20": -7.56,
+      "50": -15.81
+    }
+  },
+  {
+    "s": "KIRLOSENG",
+    "n": "Kirloskar Oil Eng Ltd.",
+    "i": "Capital Goods",
+    "c": 1646.3,
+    "h52": 2806.46,
+    "l52": 935.3,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 1.45,
+      "10": -7.52,
+      "20": -21.23,
+      "50": -26.16
+    }
+  },
+  {
+    "s": "KOTAKBANK",
+    "n": "Kotak Mahindra Bank Ltd.",
+    "i": "Financial Services",
+    "c": 497.25,
+    "h52": 2228.0,
+    "l52": 345.5,
+    "f": {
+      "h1": true,
+      "h3": true,
+      "h6": true,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 3.7,
+      "10": 8.49,
+      "20": 11.14,
+      "50": 17.41
+    }
+  },
+  {
+    "s": "KPIL",
+    "n": "Kalpataru Projects International Ltd.",
+    "i": "Construction",
+    "c": 1332.3,
+    "h52": 1490.0,
+    "l52": 1007.1,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": -2.79,
+      "10": 0.28,
+      "20": -2.35,
+      "50": -5.54
+    }
+  },
+  {
+    "s": "KPITTECH",
+    "n": "KPIT Technologies Ltd.",
+    "i": "Information Technology",
+    "c": 531.65,
+    "h52": 1222.25,
+    "l52": 470.1,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": -1.97,
+      "10": -0.06,
+      "20": -4.21,
+      "50": -9.58
+    }
+  },
+  {
+    "s": "KPRMILL",
+    "n": "K.P.R. Mill Ltd.",
+    "i": "Textiles",
+    "c": 1217.1,
+    "h52": 1334.0,
+    "l52": 796.1,
+    "f": {
+      "h1": true,
+      "h3": true,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 5.39,
+      "10": 7.57,
+      "20": 10.62,
+      "50": 4.26
+    }
+  },
+  {
+    "s": "KSB",
+    "n": "KSB Ltd.",
+    "i": "Capital Goods",
+    "c": 667.05,
+    "h52": 1062.06,
+    "l52": 633.0,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 4.86,
+      "10": -2.68,
+      "20": -17.16,
+      "50": -19.85
+    }
+  },
+  {
+    "s": "LALPATHLAB",
+    "n": "Dr. Lal Path Labs Ltd.",
+    "i": "Healthcare",
+    "c": 1980.2,
+    "h52": 3422.26,
+    "l52": 1297.66,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": -1.8,
+      "10": 2.9,
+      "20": 4.41,
+      "50": 1.35
+    }
+  },
+  {
+    "s": "LAURUSLABS",
+    "n": "Laurus Labs Ltd.",
+    "i": "Healthcare",
+    "c": 2338.0,
+    "h52": 2488.0,
+    "l52": 929.24,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": -4.73,
+      "10": -1.69,
+      "20": 12.05,
+      "50": 23.84
+    }
+  },
+  {
+    "s": "LEMONTREE",
+    "n": "Lemon Tree Hotels Ltd.",
+    "i": "Consumer Services",
+    "c": 123.31,
+    "h52": 167.87,
+    "l52": 99.61,
+    "f": {
+      "h1": true,
+      "h3": true,
+      "h6": true,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 6.38,
+      "10": 9.25,
+      "20": 8.72,
+      "50": 16.13
+    }
+  },
+  {
+    "s": "LENSKART",
+    "n": "Lenskart Solutions Ltd.",
+    "i": "Consumer Services",
+    "c": 739.05,
+    "h52": 770.7,
+    "l52": 344.55,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 2.82,
+      "10": 10.03,
+      "20": 13.14,
+      "50": 9.35
+    }
+  },
+  {
+    "s": "LGEINDIA",
+    "n": "LG Electronics India Ltd.",
+    "i": "Consumer Durables",
+    "c": 1721.3,
+    "h52": 1854.95,
+    "l52": 1284.61,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": -4.04,
+      "10": 1.29,
+      "20": -0.95,
+      "50": 3.06
+    }
+  },
+  {
+    "s": "LICHSGFIN",
+    "n": "LIC Housing Finance Ltd.",
+    "i": "Financial Services",
+    "c": 622.5,
+    "h52": 623.3,
+    "l52": 458.9,
+    "f": {
+      "h1": true,
+      "h3": true,
+      "h6": true,
+      "h52": true,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 12.79,
+      "10": 25.68,
+      "20": 19.48,
+      "50": 15.01
+    }
+  },
+  {
+    "s": "LICI",
+    "n": "Life Insurance Corporation of India",
+    "i": "Financial Services",
+    "c": 397.7,
+    "h52": 908.0,
+    "l52": 377.1,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": -0.33,
+      "10": 2.24,
+      "20": -0.01,
+      "50": -2.58
+    }
+  },
+  {
+    "s": "LINDEINDIA",
+    "n": "Linde India Ltd.",
+    "i": "Chemicals",
+    "c": 6886.0,
+    "h52": 7932.24,
+    "l52": 5463.58,
+    "f": {
+      "h1": true,
+      "h3": true,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 1.35,
+      "10": 21.35,
+      "20": 12.98,
+      "50": 9.99
+    }
+  },
+  {
+    "s": "LLOYDSME",
+    "n": "Lloyds Metals And Energy Ltd.",
+    "i": "Metals & Mining",
+    "c": 1748.0,
+    "h52": 2146.42,
+    "l52": 1053.41,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": true,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": -3.27,
+      "10": -5.18,
+      "20": -6.54,
+      "50": -4.55
+    }
+  },
+  {
+    "s": "LODHA",
+    "n": "Lodha Developers Ltd.",
+    "i": "Realty",
+    "c": 1203.1,
+    "h52": 1344.95,
+    "l52": 650.8,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 0.68,
+      "10": 19.97,
+      "20": 13.64,
+      "50": -0.43
+    }
+  },
+  {
+    "s": "LT",
+    "n": "Larsen & Toubro Ltd.",
+    "i": "Construction",
+    "c": 4155.5,
+    "h52": 4440.0,
+    "l52": 3288.1,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": -0.7,
+      "10": 5.47,
+      "20": 14.57,
+      "50": 4.38
+    }
+  },
+  {
+    "s": "LTF",
+    "n": "L&T Finance Ltd.",
+    "i": "Financial Services",
+    "c": 280.3,
+    "h52": 332.22,
+    "l52": 224.88,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 2.41,
+      "10": 13.59,
+      "20": 12.54,
+      "50": -8.67
+    }
+  },
+  {
+    "s": "LTFOODS",
+    "n": "LT Foods Ltd.",
+    "i": "Fast Moving Consumer Goods",
+    "c": 420.15,
+    "h52": 490.7,
+    "l52": 322.61,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 0.14,
+      "10": 6.73,
+      "20": 0.6,
+      "50": -5.04
+    }
+  },
+  {
+    "s": "LTTS",
+    "n": "L&T Technology Services Ltd.",
+    "i": "Information Technology",
+    "c": 4208.0,
+    "h52": 4783.89,
+    "l52": 3010.0,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 0.14,
+      "10": -0.42,
+      "20": 13.28,
+      "50": 20.06
+    }
+  },
+  {
+    "s": "LUPIN",
+    "n": "Lupin Ltd.",
+    "i": "Healthcare",
+    "c": 1950.0,
+    "h52": 2529.5,
+    "l52": 1892.9,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": -3.7,
+      "10": -2.33,
+      "20": -0.59,
+      "50": -9.52
+    }
+  },
+  {
+    "s": "M&M",
+    "n": "Mahindra & Mahindra Ltd.",
+    "i": "Automobile and Auto Components",
+    "c": 3399.0,
+    "h52": 3787.0,
+    "l52": 2744.3,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 3.29,
+      "10": 18.48,
+      "20": 16.37,
+      "50": 6.55
+    }
+  },
+  {
+    "s": "M&MFIN",
+    "n": "Mahindra & Mahindra Financial Services Ltd.",
+    "i": "Financial Services",
+    "c": 291.25,
+    "h52": 424.19,
+    "l52": 259.01,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 3.93,
+      "10": 8.86,
+      "20": -8.54,
+      "50": -22.75
+    }
+  },
+  {
+    "s": "MAHABANK",
+    "n": "Bank of Maharashtra",
+    "i": "Financial Services",
+    "c": 95.99,
+    "h52": 96.1,
+    "l52": 51.39,
+    "f": {
+      "h1": true,
+      "h3": true,
+      "h6": true,
+      "h52": true,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 9.48,
+      "10": 21.52,
+      "20": 20.3,
+      "50": 16.49
+    }
+  },
+  {
+    "s": "MANAPPURAM",
+    "n": "Manappuram Finance Ltd.",
+    "i": "Financial Services",
+    "c": 296.6,
+    "h52": 381.55,
+    "l52": 245.15,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": -8.39,
+      "10": -0.7,
+      "20": -8.44,
+      "50": -13.0
+    }
+  },
+  {
+    "s": "MANKIND",
+    "n": "Mankind Pharma Ltd.",
+    "i": "Healthcare",
+    "c": 2610.0,
+    "h52": 2705.0,
+    "l52": 1941.95,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": -2.18,
+      "10": 3.44,
+      "20": 12.8,
+      "50": 7.32
+    }
+  },
+  {
+    "s": "MARICO",
+    "n": "Marico Ltd.",
+    "i": "Fast Moving Consumer Goods",
+    "c": 924.0,
+    "h52": 925.0,
+    "l52": 697.89,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 2.44,
+      "10": 15.71,
+      "20": 17.71,
+      "50": 11.41
+    }
+  },
+  {
+    "s": "MARUTI",
+    "n": "Maruti Suzuki India Ltd.",
+    "i": "Automobile and Auto Components",
+    "c": 12625.0,
+    "h52": 16894.08,
+    "l52": 10985.0,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": -2.34,
+      "10": 8.16,
+      "20": 9.89,
+      "50": -1.74
+    }
+  },
+  {
+    "s": "MAXHEALTH",
+    "n": "Max Healthcare Institute Ltd.",
+    "i": "Healthcare",
+    "c": 1030.9,
+    "h52": 1210.05,
+    "l52": 797.0,
+    "f": {
+      "h1": true,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 12.67,
+      "10": 16.52,
+      "20": 21.86,
+      "50": 3.71
+    }
+  },
+  {
+    "s": "MAZDOCK",
+    "n": "Mazagoan Dock Shipbuilders Ltd.",
+    "i": "Capital Goods",
+    "c": 1847.0,
+    "h52": 2839.02,
+    "l52": 1704.93,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": -1.65,
+      "10": 5.27,
+      "20": -12.61,
+      "50": -25.66
+    }
+  },
+  {
+    "s": "MCX",
+    "n": "Multi Commodity Exchange of India Ltd.",
+    "i": "Financial Services",
+    "c": 3705.4,
+    "h52": 9911.15,
+    "l52": 1920.57,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 4.52,
+      "10": 14.05,
+      "20": 17.19,
+      "50": 12.76
+    }
+  },
+  {
+    "s": "MEDANTA",
+    "n": "Global Health Ltd.",
+    "i": "Healthcare",
+    "c": 1444.2,
+    "h52": 1544.0,
+    "l52": 956.0,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 1.2,
+      "10": 11.23,
+      "20": 16.47,
+      "50": -0.05
+    }
+  },
+  {
+    "s": "MFSL",
+    "n": "Max Financial Services Ltd.",
+    "i": "Financial Services",
+    "c": 1431.0,
+    "h52": 1892.5,
+    "l52": 1172.6,
+    "f": {
+      "h1": true,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 13.8,
+      "10": 21.61,
+      "20": 10.51,
+      "50": -4.92
+    }
+  },
+  {
+    "s": "MGL",
+    "n": "Mahanagar Gas Ltd.",
+    "i": "Oil Gas & Consumable Fuels",
+    "c": 1104.1,
+    "h52": 1263.5,
+    "l52": 900.0,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": -1.67,
+      "10": 6.38,
+      "20": 4.75,
+      "50": 3.65
+    }
+  },
+  {
+    "s": "MINDACORP",
+    "n": "Minda Corporation Ltd.",
+    "i": "Automobile and Auto Components",
+    "c": 707.75,
+    "h52": 769.0,
+    "l52": 468.5,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 0.45,
+      "10": 7.41,
+      "20": 8.91,
+      "50": -0.01
+    }
+  },
+  {
+    "s": "MMTC",
+    "n": "MMTC Ltd.",
+    "i": "Services",
+    "c": 53.48,
+    "h52": 79.88,
+    "l52": 50.37,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": -0.94,
+      "10": 0.43,
+      "20": -7.14,
+      "50": -15.53
+    }
+  },
+  {
+    "s": "MOTHERSON",
+    "n": "Samvardhana Motherson International Ltd.",
+    "i": "Automobile and Auto Components",
+    "c": 164.39,
+    "h52": 173.27,
+    "l52": 101.08,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 1.53,
+      "10": 3.39,
+      "20": 2.74,
+      "50": 0.67
+    }
+  },
+  {
+    "s": "MOTILALOFS",
+    "n": "Motilal Oswal Financial Services Ltd.",
+    "i": "Financial Services",
+    "c": 1240.25,
+    "h52": 1277.8,
+    "l52": 638.34,
+    "f": {
+      "h1": true,
+      "h3": true,
+      "h6": true,
+      "h52": true,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 8.1,
+      "10": 23.88,
+      "20": 12.96,
+      "50": 17.41
+    }
+  },
+  {
+    "s": "MPHASIS",
+    "n": "MphasiS Ltd.",
+    "i": "Information Technology",
+    "c": 2445.0,
+    "h52": 2975.0,
+    "l52": 2013.0,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": -0.41,
+      "10": -4.63,
+      "20": -2.2,
+      "50": -1.41
+    }
+  },
+  {
+    "s": "MRF",
+    "n": "MRF Ltd.",
+    "i": "Automobile and Auto Components",
+    "c": 128840.0,
+    "h52": 161490.8,
+    "l52": 116481.69,
+    "f": {
+      "h1": true,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 2.99,
+      "10": 8.97,
+      "20": 3.76,
+      "50": -3.39
+    }
+  },
+  {
+    "s": "MRPL",
+    "n": "Mangalore Refinery & Petrochemicals Ltd.",
+    "i": "Oil Gas & Consumable Fuels",
+    "c": 174.24,
+    "h52": 212.31,
+    "l52": 125.41,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": -1.16,
+      "10": -1.82,
+      "20": 0.89,
+      "50": -0.56
+    }
+  },
+  {
+    "s": "MSUMI",
+    "n": "Motherson Sumi Wiring India Ltd.",
+    "i": "Automobile and Auto Components",
+    "c": 39.65,
+    "h52": 52.51,
+    "l52": 32.7,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 1.77,
+      "10": 2.24,
+      "20": 11.88,
+      "50": 8.33
+    }
+  },
+  {
+    "s": "MTARTECH",
+    "n": "MTAR Technologies Ltd.",
+    "i": "Capital Goods",
+    "c": 5709.5,
+    "h52": 8299.06,
+    "l52": 1394.17,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 3.5,
+      "10": -16.45,
+      "20": -22.91,
+      "50": -4.06
+    }
+  },
+  {
+    "s": "MUTHOOTFIN",
+    "n": "Muthoot Finance Ltd.",
+    "i": "Financial Services",
+    "c": 2749.0,
+    "h52": 4082.9,
+    "l52": 2305.0,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": -5.78,
+      "10": 9.32,
+      "20": 5.8,
+      "50": -6.42
+    }
+  },
+  {
+    "s": "NAM-INDIA",
+    "n": "Nippon Life India Asset Management Ltd.",
+    "i": "Financial Services",
+    "c": 1085.5,
+    "h52": 1269.5,
+    "l52": 795.8,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 1.12,
+      "10": 13.34,
+      "20": 1.9,
+      "50": -7.34
+    }
+  },
+  {
+    "s": "NATCOPHARM",
+    "n": "NATCO Pharma Ltd.",
+    "i": "Healthcare",
+    "c": 822.9,
+    "h52": 1226.8,
+    "l52": 773.6,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 2.31,
+      "10": 4.73,
+      "20": 4.82,
+      "50": -2.41
+    }
+  },
+  {
+    "s": "NATIONALUM",
+    "n": "National Aluminium Co. Ltd.",
+    "i": "Metals & Mining",
+    "c": 320.9,
+    "h52": 445.15,
+    "l52": 221.6,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": -2.46,
+      "10": -2.16,
+      "20": -1.03,
+      "50": -13.27
+    }
+  },
+  {
+    "s": "NAUKRI",
+    "n": "Info Edge (India) Ltd.",
+    "i": "Consumer Services",
+    "c": 1175.0,
+    "h52": 1402.8,
+    "l52": 908.3,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": -2.1,
+      "10": -1.45,
+      "20": -7.12,
+      "50": -12.55
+    }
+  },
+  {
+    "s": "NAVA",
+    "n": "Nava Ltd.",
+    "i": "Power",
+    "c": 547.15,
+    "h52": 747.99,
+    "l52": 461.3,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 2.44,
+      "10": 4.69,
+      "20": -0.8,
+      "50": -3.55
+    }
+  },
+  {
+    "s": "NAVINFLUOR",
+    "n": "Navin Fluorine International Ltd.",
+    "i": "Chemicals",
+    "c": 9815.0,
+    "h52": 10165.0,
+    "l52": 5307.1,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 7.68,
+      "10": 16.76,
+      "20": 20.18,
+      "50": 14.9
+    }
+  },
+  {
+    "s": "NBCC",
+    "n": "NBCC (India) Ltd.",
+    "i": "Construction",
+    "c": 78.51,
+    "h52": 121.43,
+    "l52": 67.02,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": -2.35,
+      "10": 3.13,
+      "20": 3.97,
+      "50": -7.64
+    }
+  },
+  {
+    "s": "NCC",
+    "n": "NCC Ltd.",
+    "i": "Construction",
+    "c": 134.09,
+    "h52": 200.02,
+    "l52": 115.87,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 2.41,
+      "10": 10.06,
+      "20": 4.53,
+      "50": -7.84
+    }
+  },
+  {
+    "s": "NESTLEIND",
+    "n": "Nestle India Ltd.",
+    "i": "Fast Moving Consumer Goods",
+    "c": 1294.3,
+    "h52": 1553.0,
+    "l52": 1147.4,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": -0.27,
+      "10": 8.31,
+      "20": 2.28,
+      "50": -9.17
+    }
+  },
+  {
+    "s": "NETWEB",
+    "n": "Netweb Technologies India Ltd.",
+    "i": "Information Technology",
+    "c": 4053.4,
+    "h52": 6050.52,
+    "l52": 3138.19,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 5.58,
+      "10": -4.77,
+      "20": -17.7,
+      "50": -23.79
+    }
+  },
+  {
+    "s": "NEULANDLAB",
+    "n": "Neuland Laboratories Ltd.",
+    "i": "Healthcare",
+    "c": 21445.0,
+    "h52": 24225.0,
+    "l52": 11500.0,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 5.53,
+      "10": 9.55,
+      "20": 9.0,
+      "50": -6.6
+    }
+  },
+  {
+    "s": "NH",
+    "n": "Narayana Hrudayalaya Ltd.",
+    "i": "Healthcare",
+    "c": 1907.6,
+    "h52": 2133.56,
+    "l52": 1589.0,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 0.84,
+      "10": 4.0,
+      "20": 10.95,
+      "50": -0.79
+    }
+  },
+  {
+    "s": "NHPC",
+    "n": "NHPC Ltd.",
+    "i": "Power",
+    "c": 74.8,
+    "h52": 85.73,
+    "l52": 67.92,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": -6.95,
+      "10": -3.83,
+      "20": 6.05,
+      "50": 0.15
+    }
+  },
+  {
+    "s": "NIACL",
+    "n": "The New India Assurance Company Ltd.",
+    "i": "Financial Services",
+    "c": 154.58,
+    "h52": 245.55,
+    "l52": 118.39,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": -2.52,
+      "10": -1.37,
+      "20": -14.95,
+      "50": -23.3
+    }
+  },
+  {
+    "s": "NLCINDIA",
+    "n": "NLC India Ltd.",
+    "i": "Power",
+    "c": 234.82,
+    "h52": 394.25,
+    "l52": 221.91,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": -3.42,
+      "10": -3.15,
+      "20": -8.83,
+      "50": -16.16
+    }
+  },
+  {
+    "s": "NMDC",
+    "n": "NMDC Ltd.",
+    "i": "Metals & Mining",
+    "c": 69.3,
+    "h52": 97.49,
+    "l52": 65.15,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": -3.08,
+      "10": 1.29,
+      "20": -3.33,
+      "50": -19.18
+    }
+  },
+  {
+    "s": "NSLNISP",
+    "n": "NMDC Steel Ltd.",
+    "i": "Metals & Mining",
+    "c": 39.77,
+    "h52": 54.36,
+    "l52": 33.39,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": -1.66,
+      "10": 0.94,
+      "20": -2.29,
+      "50": -13.94
+    }
+  },
+  {
+    "s": "NTPC",
+    "n": "NTPC Ltd.",
+    "i": "Power",
+    "c": 321.8,
+    "h52": 414.4,
+    "l52": 292.05,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": -2.11,
+      "10": -0.37,
+      "20": 2.11,
+      "50": -2.48
+    }
+  },
+  {
+    "s": "NTPCGREEN",
+    "n": "NTPC Green Energy Ltd.",
+    "i": "Power",
+    "c": 82.99,
+    "h52": 121.94,
+    "l52": 80.31,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 0.61,
+      "10": -2.13,
+      "20": -9.11,
+      "50": -7.36
+    }
+  },
+  {
+    "s": "NUVAMA",
+    "n": "Nuvama Wealth Management Ltd.",
+    "i": "Financial Services",
+    "c": 1888.3,
+    "h52": 7203.24,
+    "l52": 1116.43,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 0.92,
+      "10": 2.78,
+      "20": 8.74,
+      "50": 0.78
+    }
+  },
+  {
+    "s": "NUVOCO",
+    "n": "Nuvoco Vistas Corporation Ltd.",
+    "i": "Construction Materials",
+    "c": 345.55,
+    "h52": 398.0,
+    "l52": 276.25,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 1.16,
+      "10": 1.99,
+      "20": 1.29,
+      "50": 5.3
+    }
+  },
+  {
+    "s": "NYKAA",
+    "n": "FSN E-Commerce Ventures Ltd.",
+    "i": "Consumer Services",
+    "c": 358.0,
+    "h52": 368.3,
+    "l52": 232.05,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": -0.47,
+      "10": 1.23,
+      "20": 3.77,
+      "50": 6.11
+    }
+  },
+  {
+    "s": "OBEROIRLTY",
+    "n": "Oberoi Realty Ltd.",
+    "i": "Realty",
+    "c": 1819.7,
+    "h52": 1986.1,
+    "l52": 1387.83,
+    "f": {
+      "h1": true,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 2.52,
+      "10": 11.16,
+      "20": 6.85,
+      "50": -2.48
+    }
+  },
+  {
+    "s": "OFSS",
+    "n": "Oracle Financial Services Software Ltd.",
+    "i": "Information Technology",
+    "c": 9741.0,
+    "h52": 12540.0,
+    "l52": 6234.5,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": -2.97,
+      "10": -0.03,
+      "20": -6.21,
+      "50": -19.88
+    }
+  },
+  {
+    "s": "OIL",
+    "n": "Oil India Ltd.",
+    "i": "Oil Gas & Consumable Fuels",
+    "c": 433.5,
+    "h52": 531.0,
+    "l52": 389.2,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": -1.25,
+      "10": -6.15,
+      "20": -2.58,
+      "50": -12.98
+    }
+  },
+  {
+    "s": "OLAELEC",
+    "n": "Ola Electric Mobility Ltd.",
+    "i": "Automobile and Auto Components",
+    "c": 33.24,
+    "h52": 69.42,
+    "l52": 22.25,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": -2.12,
+      "10": -5.06,
+      "20": -5.0,
+      "50": -14.73
+    }
+  },
+  {
+    "s": "OLECTRA",
+    "n": "Olectra Greentech Ltd.",
+    "i": "Automobile and Auto Components",
+    "c": 1005.55,
+    "h52": 1603.98,
+    "l52": 893.32,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": -6.85,
+      "10": -1.63,
+      "20": -8.52,
+      "50": -21.26
+    }
+  },
+  {
+    "s": "ONESOURCE",
+    "n": "Onesource Specialty Pharma Ltd.",
+    "i": "Healthcare",
+    "c": 1580.8,
+    "h52": 1957.12,
+    "l52": 1092.31,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": -2.3,
+      "10": -0.59,
+      "20": 10.03,
+      "50": 0.3
+    }
+  },
+  {
+    "s": "ONGC",
+    "n": "Oil & Natural Gas Corporation Ltd.",
+    "i": "Oil Gas & Consumable Fuels",
+    "c": 223.52,
+    "h52": 311.53,
+    "l52": 218.98,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": -4.27,
+      "10": -6.05,
+      "20": -0.62,
+      "50": -7.11
+    }
+  },
+  {
+    "s": "PAGEIND",
+    "n": "Page Industries Ltd.",
+    "i": "Textiles",
+    "c": 31105.0,
+    "h52": 43855.0,
+    "l52": 29805.0,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": true,
+      "l6": true,
+      "l52": false
+    },
+    "g": {
+      "5": -14.5,
+      "10": -12.38,
+      "20": -13.94,
+      "50": -14.07
+    }
+  },
+  {
+    "s": "PARADEEP",
+    "n": "Paradeep Phosphates Ltd.",
+    "i": "Chemicals",
+    "c": 141.42,
+    "h52": 176.29,
+    "l52": 99.7,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 1.07,
+      "10": 4.77,
+      "20": -3.9,
+      "50": -9.46
+    }
+  },
+  {
+    "s": "PATANJALI",
+    "n": "Patanjali Foods Ltd.",
+    "i": "Fast Moving Consumer Goods",
+    "c": 404.8,
+    "h52": 602.9,
+    "l52": 332.59,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": -5.74,
+      "10": 8.26,
+      "20": 8.76,
+      "50": 15.79
+    }
+  },
+  {
+    "s": "PAYTM",
+    "n": "One 97 Communications Ltd.",
+    "i": "Financial Services",
+    "c": 1903.4,
+    "h52": 1960.0,
+    "l52": 930.6,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 6.45,
+      "10": 15.36,
+      "20": 12.39,
+      "50": 17.57
+    }
+  },
+  {
+    "s": "PCBL",
+    "n": "PCBL Chemical Ltd.",
+    "i": "Chemicals",
+    "c": 274.5,
+    "h52": 374.0,
+    "l52": 226.5,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": -1.17,
+      "10": -2.87,
+      "20": -11.25,
+      "50": -12.94
+    }
+  },
+  {
+    "s": "PERSISTENT",
+    "n": "Persistent Systems Ltd.",
+    "i": "Information Technology",
+    "c": 5911.0,
+    "h52": 6599.0,
+    "l52": 4244.5,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": -2.14,
+      "10": -2.31,
+      "20": 2.96,
+      "50": 3.88
+    }
+  },
+  {
+    "s": "PETRONET",
+    "n": "Petronet LNG Ltd.",
+    "i": "Oil Gas & Consumable Fuels",
+    "c": 328.1,
+    "h52": 336.3,
+    "l52": 235.35,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 2.39,
+      "10": 9.02,
+      "20": 11.98,
+      "50": 13.45
+    }
+  },
+  {
+    "s": "PFC",
+    "n": "Power Finance Corporation Ltd.",
+    "i": "Financial Services",
+    "c": 328.0,
+    "h52": 486.5,
+    "l52": 310.3,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": -3.04,
+      "10": 2.98,
+      "20": -1.58,
+      "50": -5.34
+    }
+  },
+  {
+    "s": "PFOCUS",
+    "n": "Prime Focus Ltd.",
+    "i": "Media Entertainment & Publication",
+    "c": 279.0,
+    "h52": 362.8,
+    "l52": 128.02,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": -0.21,
+      "10": -0.8,
+      "20": -3.89,
+      "50": -0.48
+    }
+  },
+  {
+    "s": "PGEL",
+    "n": "PG Electroplast Ltd.",
+    "i": "Consumer Durables",
+    "c": 533.0,
+    "h52": 643.95,
+    "l52": 436.55,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": -5.5,
+      "10": -0.01,
+      "20": 2.29,
+      "50": -5.83
+    }
+  },
+  {
+    "s": "PHOENIXLTD",
+    "n": "Phoenix Mills Ltd.",
+    "i": "Realty",
+    "c": 2229.0,
+    "h52": 2300.0,
+    "l52": 1449.0,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 3.82,
+      "10": 11.8,
+      "20": 18.85,
+      "50": 17.42
+    }
+  },
+  {
+    "s": "PIDILITIND",
+    "n": "Pidilite Industries Ltd.",
+    "i": "Chemicals",
+    "c": 1534.6,
+    "h52": 1707.5,
+    "l52": 1259.0,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": -3.33,
+      "10": 3.13,
+      "20": 2.12,
+      "50": -6.26
+    }
+  },
+  {
+    "s": "PIIND",
+    "n": "PI Industries Ltd.",
+    "i": "Chemicals",
+    "c": 1672.0,
+    "h52": 3716.07,
+    "l52": 1667.6,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": true,
+      "l6": true,
+      "l52": true
+    },
+    "g": {
+      "5": -2.39,
+      "10": -22.81,
+      "20": -23.65,
+      "50": -30.13
+    }
+  },
+  {
+    "s": "PNB",
+    "n": "Punjab National Bank",
+    "i": "Financial Services",
+    "c": 150.0,
+    "h52": 151.67,
+    "l52": 98.5,
+    "f": {
+      "h1": true,
+      "h3": true,
+      "h6": true,
+      "h52": true,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 13.49,
+      "10": 21.89,
+      "20": 28.98,
+      "50": 28.21
+    }
+  },
+  {
+    "s": "PNBHOUSING",
+    "n": "PNB Housing Finance Ltd.",
+    "i": "Financial Services",
+    "c": 1138.0,
+    "h52": 1224.8,
+    "l52": 729.6,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 2.39,
+      "10": 7.33,
+      "20": -2.54,
+      "50": -0.26
+    }
+  },
+  {
+    "s": "POLICYBZR",
+    "n": "PB Fintech Ltd.",
+    "i": "Financial Services",
+    "c": 1052.1,
+    "h52": 1922.17,
+    "l52": 916.0,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 10.31,
+      "10": 13.01,
+      "20": -1.67,
+      "50": -43.19
+    }
+  },
+  {
+    "s": "POLYCAB",
+    "n": "Polycab India Ltd.",
+    "i": "Capital Goods",
+    "c": 7702.0,
+    "h52": 10126.0,
+    "l52": 6478.22,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": -1.67,
+      "10": -2.75,
+      "20": -6.29,
+      "50": -12.52
+    }
+  },
+  {
+    "s": "POLYMED",
+    "n": "Poly Medicure Ltd.",
+    "i": "Healthcare",
+    "c": 1649.6,
+    "h52": 2071.99,
+    "l52": 1182.0,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 2.19,
+      "10": 10.94,
+      "20": 3.5,
+      "50": -7.52
+    }
+  },
+  {
+    "s": "POONAWALLA",
+    "n": "Poonawalla Fincorp Ltd.",
+    "i": "Financial Services",
+    "c": 490.65,
+    "h52": 511.9,
+    "l52": 361.2,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 3.44,
+      "10": 2.07,
+      "20": 9.29,
+      "50": 6.74
+    }
+  },
+  {
+    "s": "POWERGRID",
+    "n": "Power Grid Corporation of India Ltd.",
+    "i": "Power",
+    "c": 258.0,
+    "h52": 324.95,
+    "l52": 242.3,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 0.02,
+      "10": -3.62,
+      "20": 3.01,
+      "50": -3.3
+    }
+  },
+  {
+    "s": "POWERINDIA",
+    "n": "Hitachi Energy India Ltd.",
+    "i": "Capital Goods",
+    "c": 30435.0,
+    "h52": 38785.0,
+    "l52": 15466.12,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 8.12,
+      "10": 8.39,
+      "20": 4.98,
+      "50": -5.48
+    }
+  },
+  {
+    "s": "PPLPHARMA",
+    "n": "Piramal Pharma Ltd.",
+    "i": "Healthcare",
+    "c": 240.7,
+    "h52": 253.9,
+    "l52": 136.1,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": -2.3,
+      "10": -2.48,
+      "20": 18.33,
+      "50": 9.44
+    }
+  },
+  {
+    "s": "PREMIERENE",
+    "n": "Premier Energies Ltd.",
+    "i": "Capital Goods",
+    "c": 833.0,
+    "h52": 1134.0,
+    "l52": 648.52,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": true,
+      "l6": true,
+      "l52": false
+    },
+    "g": {
+      "5": -5.98,
+      "10": -5.66,
+      "20": -7.55,
+      "50": -16.7
+    }
+  },
+  {
+    "s": "PRESTIGE",
+    "n": "Prestige Estates Projects Ltd.",
+    "i": "Realty",
+    "c": 1691.5,
+    "h52": 1801.64,
+    "l52": 1073.87,
+    "f": {
+      "h1": true,
+      "h3": true,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 5.88,
+      "10": 16.05,
+      "20": 15.07,
+      "50": 8.53
+    }
+  },
+  {
+    "s": "PRIVISCL",
+    "n": "Privi Speciality Chemicals Ltd.",
+    "i": "Chemicals",
+    "c": 3430.7,
+    "h52": 3882.04,
+    "l52": 2636.5,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": -1.75,
+      "10": 1.7,
+      "20": -0.11,
+      "50": 0.3
+    }
+  },
+  {
+    "s": "PTCIL",
+    "n": "PTC Industries Ltd.",
+    "i": "Capital Goods",
+    "c": 23950.0,
+    "h52": 26085.0,
+    "l52": 14499.0,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": -3.21,
+      "10": -1.78,
+      "20": -2.96,
+      "50": 5.44
+    }
+  },
+  {
+    "s": "PVRINOX",
+    "n": "PVR INOX Ltd.",
+    "i": "Media Entertainment & Publication",
+    "c": 1677.4,
+    "h52": 1690.0,
+    "l52": 921.19,
+    "f": {
+      "h1": true,
+      "h3": true,
+      "h6": true,
+      "h52": true,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 5.51,
+      "10": 8.73,
+      "20": 17.4,
+      "50": 35.94
+    }
+  },
+  {
+    "s": "RADICO",
+    "n": "Radico Khaitan Ltd",
+    "i": "Fast Moving Consumer Goods",
+    "c": 4662.9,
+    "h52": 4747.0,
+    "l52": 2500.0,
+    "f": {
+      "h1": true,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 2.24,
+      "10": 13.73,
+      "20": 4.24,
+      "50": 4.17
+    }
+  },
+  {
+    "s": "RAILTEL",
+    "n": "Railtel Corporation Of India Ltd.",
+    "i": "Telecommunication",
+    "c": 246.71,
+    "h52": 367.38,
+    "l52": 220.06,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": -0.82,
+      "10": 6.05,
+      "20": -3.4,
+      "50": -9.15
+    }
+  },
+  {
+    "s": "RAINBOW",
+    "n": "Rainbow Childrens Medicare Ltd.",
+    "i": "Healthcare",
+    "c": 1270.4,
+    "h52": 1643.64,
+    "l52": 1106.65,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": -0.38,
+      "10": 0.42,
+      "20": -0.36,
+      "50": -13.16
+    }
+  },
+  {
+    "s": "RAMCOCEM",
+    "n": "The Ramco Cements Ltd.",
+    "i": "Construction Materials",
+    "c": 823.3,
+    "h52": 1242.36,
+    "l52": 727.62,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": -2.08,
+      "10": 9.09,
+      "20": -0.07,
+      "50": -6.89
+    }
+  },
+  {
+    "s": "RBLBANK",
+    "n": "RBL Bank Ltd.",
+    "i": "Financial Services",
+    "c": 390.1,
+    "h52": 429.6,
+    "l52": 280.71,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 2.93,
+      "10": 10.76,
+      "20": 3.13,
+      "50": 0.18
+    }
+  },
+  {
+    "s": "RECLTD",
+    "n": "REC Ltd.",
+    "i": "Financial Services",
+    "c": 298.0,
+    "h52": 387.45,
+    "l52": 281.9,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": -2.34,
+      "10": 3.87,
+      "20": -3.18,
+      "50": -5.83
+    }
+  },
+  {
+    "s": "REDINGTON",
+    "n": "Redington Ltd.",
+    "i": "Services",
+    "c": 343.1,
+    "h52": 431.41,
+    "l52": 196.74,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 4.44,
+      "10": 0.96,
+      "20": -13.0,
+      "50": -8.14
+    }
+  },
+  {
+    "s": "RELIANCE",
+    "n": "Reliance Industries Ltd.",
+    "i": "Oil Gas & Consumable Fuels",
+    "c": 1367.0,
+    "h52": 1555.89,
+    "l52": 1152.2,
+    "f": {
+      "h1": true,
+      "h3": true,
+      "h6": true,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 3.22,
+      "10": 5.15,
+      "20": 12.86,
+      "50": 4.1
+    }
+  },
+  {
+    "s": "RHIM",
+    "n": "RHI MAGNESITA INDIA LTD.",
+    "i": "Capital Goods",
+    "c": 343.5,
+    "h52": 495.21,
+    "l52": 326.2,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": true,
+      "l6": true,
+      "l52": true
+    },
+    "g": {
+      "5": -4.38,
+      "10": -3.65,
+      "20": -8.19,
+      "50": -8.28
+    }
+  },
+  {
+    "s": "RITES",
+    "n": "RITES Ltd.",
+    "i": "Construction",
+    "c": 192.64,
+    "h52": 251.32,
+    "l52": 177.14,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": -2.11,
+      "10": -0.62,
+      "20": -9.28,
+      "50": -10.48
+    }
+  },
+  {
+    "s": "RKFORGE",
+    "n": "Ramkrishna Forgings Ltd.",
+    "i": "Automobile and Auto Components",
+    "c": 782.2,
+    "h52": 805.49,
+    "l52": 479.61,
+    "f": {
+      "h1": true,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 9.64,
+      "10": 7.81,
+      "20": 8.53,
+      "50": 3.35
+    }
+  },
+  {
+    "s": "RPOWER",
+    "n": "Reliance Power Ltd.",
+    "i": "Power",
+    "c": 17.94,
+    "h52": 41.88,
+    "l52": 16.18,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": -4.57,
+      "10": -4.57,
+      "20": -5.18,
+      "50": -19.66
+    }
+  },
+  {
+    "s": "RRKABEL",
+    "n": "R R Kabel Ltd.",
+    "i": "Capital Goods",
+    "c": 1858.0,
+    "h52": 3285.92,
+    "l52": 1411.04,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": true,
+      "l6": true,
+      "l52": false
+    },
+    "g": {
+      "5": -5.66,
+      "10": -13.72,
+      "20": -29.35,
+      "50": -35.86
+    }
+  },
+  {
+    "s": "RUBICON",
+    "n": "Rubicon Research Ltd.",
+    "i": "Healthcare",
+    "c": 1683.9,
+    "h52": 1980.83,
+    "l52": 635.5,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": -4.96,
+      "10": -3.18,
+      "20": 7.01,
+      "50": -11.73
+    }
+  },
+  {
+    "s": "RVNL",
+    "n": "Rail Vikas Nigam Ltd.",
+    "i": "Construction",
+    "c": 195.5,
+    "h52": 381.04,
+    "l52": 177.86,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": -3.07,
+      "10": 5.05,
+      "20": -1.98,
+      "50": -5.1
+    }
+  },
+  {
+    "s": "SAGILITY",
+    "n": "Sagility Ltd.",
+    "i": "Information Technology",
+    "c": 43.89,
+    "h52": 53.21,
+    "l52": 36.19,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": -1.81,
+      "10": 1.67,
+      "20": -4.09,
+      "50": -6.95
+    }
+  },
+  {
+    "s": "SAIL",
+    "n": "Steel Authority of India Ltd.",
+    "i": "Metals & Mining",
+    "c": 171.31,
+    "h52": 209.7,
+    "l52": 121.95,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 1.01,
+      "10": 3.64,
+      "20": 0.21,
+      "50": -12.82
+    }
+  },
+  {
+    "s": "SAILIFE",
+    "n": "Sai Life Sciences Ltd.",
+    "i": "Healthcare",
+    "c": 1751.5,
+    "h52": 1954.8,
+    "l52": 765.8,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": -4.64,
+      "10": 16.24,
+      "20": 29.03,
+      "50": 12.97
+    }
+  },
+  {
+    "s": "SAMMAANCAP",
+    "n": "Sammaan Capital Ltd.",
+    "i": "Financial Services",
+    "c": 131.29,
+    "h52": 194.62,
+    "l52": 112.74,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": -2.51,
+      "10": 8.82,
+      "20": -3.07,
+      "50": -14.81
+    }
+  },
+  {
+    "s": "SANSERA",
+    "n": "Sansera Engineering Ltd.",
+    "i": "Automobile and Auto Components",
+    "c": 4614.6,
+    "h52": 4849.9,
+    "l52": 1515.91,
+    "f": {
+      "h1": true,
+      "h3": true,
+      "h6": true,
+      "h52": true,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": -0.83,
+      "10": 8.69,
+      "20": 9.66,
+      "50": 18.59
+    }
+  },
+  {
+    "s": "SARDAEN",
+    "n": "Sarda Energy and Minerals Ltd.",
+    "i": "Metals & Mining",
+    "c": 449.0,
+    "h52": 637.59,
+    "l52": 433.29,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 2.06,
+      "10": 2.39,
+      "20": -10.11,
+      "50": -10.51
+    }
+  },
+  {
+    "s": "SBICARD",
+    "n": "SBI Cards and Payment Services Ltd.",
+    "i": "Financial Services",
+    "c": 574.5,
+    "h52": 886.91,
+    "l52": 519.05,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": -2.65,
+      "10": 7.81,
+      "20": 1.83,
+      "50": -9.55
+    }
+  },
+  {
+    "s": "SBILIFE",
+    "n": "SBI Life Insurance Company Ltd.",
+    "i": "Financial Services",
+    "c": 1815.0,
+    "h52": 2108.34,
+    "l52": 1589.86,
+    "f": {
+      "h1": true,
+      "h3": true,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 3.83,
+      "10": 10.53,
+      "20": 10.78,
+      "50": 6.71
+    }
+  },
+  {
+    "s": "SBIN",
+    "n": "State Bank of India",
+    "i": "Financial Services",
+    "c": 1108.6,
+    "h52": 1234.7,
+    "l52": 892.76,
+    "f": {
+      "h1": true,
+      "h3": true,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 6.39,
+      "10": 12.32,
+      "20": 15.17,
+      "50": 8.59
+    }
+  },
+  {
+    "s": "SCHAEFFLER",
+    "n": "Schaeffler India Ltd.",
+    "i": "Automobile and Auto Components",
+    "c": 3653.9,
+    "h52": 4582.7,
+    "l52": 3508.03,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 3.17,
+      "10": 0.78,
+      "20": -2.92,
+      "50": -10.21
+    }
+  },
+  {
+    "s": "SCHNEIDER",
+    "n": "Schneider Electric Infrastructure Ltd.",
+    "i": "Capital Goods",
+    "c": 1007.6,
+    "h52": 1622.24,
+    "l52": 606.54,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": true,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": -5.35,
+      "10": -14.75,
+      "20": -16.93,
+      "50": -17.79
+    }
+  },
+  {
+    "s": "SCI",
+    "n": "Shipping Corporation of India Ltd.",
+    "i": "Services",
+    "c": 260.58,
+    "h52": 374.23,
+    "l52": 188.08,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": -0.29,
+      "10": -0.98,
+      "20": -9.87,
+      "50": -10.91
+    }
+  },
+  {
+    "s": "SHREECEM",
+    "n": "Shree Cement Ltd.",
+    "i": "Construction Materials",
+    "c": 24900.0,
+    "h52": 27550.0,
+    "l52": 21355.0,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": -0.08,
+      "10": 5.55,
+      "20": 10.86,
+      "50": 5.15
+    }
+  },
+  {
+    "s": "SHRIPISTON",
+    "n": "SPR Auto Technologies Ltd.",
+    "i": "Automobile and Auto Components",
+    "c": 4322.1,
+    "h52": 4972.53,
+    "l52": 2537.95,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 0.12,
+      "10": -0.75,
+      "20": -9.08,
+      "50": -8.5
+    }
+  },
+  {
+    "s": "SHRIRAMFIN",
+    "n": "Shriram Finance Ltd.",
+    "i": "Financial Services",
+    "c": 982.85,
+    "h52": 1153.7,
+    "l52": 786.25,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 1.85,
+      "10": 13.84,
+      "20": 4.56,
+      "50": -6.13
+    }
+  },
+  {
+    "s": "SHYAMMETL",
+    "n": "Shyam Metalics and Energy Ltd.",
+    "i": "Capital Goods",
+    "c": 1321.1,
+    "h52": 1354.0,
+    "l52": 771.12,
+    "f": {
+      "h1": true,
+      "h3": true,
+      "h6": true,
+      "h52": true,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 0.05,
+      "10": 7.31,
+      "20": 6.64,
+      "50": 19.16
+    }
+  },
+  {
+    "s": "SIEMENS",
+    "n": "Siemens Ltd.",
+    "i": "Capital Goods",
+    "c": 3561.9,
+    "h52": 4276.45,
+    "l52": 2800.3,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": -2.55,
+      "10": 1.5,
+      "20": -4.63,
+      "50": -14.0
+    }
+  },
+  {
+    "s": "SIGNATURE",
+    "n": "Signatureglobal (India) Ltd.",
+    "i": "Realty",
+    "c": 835.6,
+    "h52": 1153.9,
+    "l52": 695.0,
+    "f": {
+      "h1": true,
+      "h3": true,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 15.11,
+      "10": 18.01,
+      "20": 14.49,
+      "50": 9.19
+    }
+  },
+  {
+    "s": "SJVN",
+    "n": "SJVN Ltd.",
+    "i": "Power",
+    "c": 55.88,
+    "h52": 87.23,
+    "l52": 46.08,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": -3.19,
+      "10": -1.1,
+      "20": 3.71,
+      "50": -12.58
+    }
+  },
+  {
+    "s": "SOBHA",
+    "n": "Sobha Ltd.",
+    "i": "Realty",
+    "c": 1290.4,
+    "h52": 1653.89,
+    "l52": 1112.1,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 2.59,
+      "10": 13.66,
+      "20": 8.58,
+      "50": 4.9
+    }
+  },
+  {
+    "s": "SOLARINDS",
+    "n": "Solar Industries India Ltd.",
+    "i": "Chemicals",
+    "c": 18764.0,
+    "h52": 22700.0,
+    "l52": 11402.37,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": -1.37,
+      "10": -3.47,
+      "20": -6.23,
+      "50": -8.91
+    }
+  },
+  {
+    "s": "SONACOMS",
+    "n": "Sona BLW Precision Forgings Ltd.",
+    "i": "Automobile and Auto Components",
+    "c": 899.7,
+    "h52": 934.9,
+    "l52": 432.4,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": -2.63,
+      "10": -0.69,
+      "20": 12.46,
+      "50": 14.96
+    }
+  },
+  {
+    "s": "SRF",
+    "n": "SRF Ltd.",
+    "i": "Chemicals",
+    "c": 2479.4,
+    "h52": 3081.7,
+    "l52": 2178.3,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 0.8,
+      "10": 2.92,
+      "20": 0.3,
+      "50": -4.58
+    }
+  },
+  {
+    "s": "STARHEALTH",
+    "n": "Star Health and Allied Insurance Company Ltd.",
+    "i": "Financial Services",
+    "c": 549.15,
+    "h52": 624.9,
+    "l52": 416.55,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 0.16,
+      "10": 7.26,
+      "20": 0.05,
+      "50": -2.45
+    }
+  },
+  {
+    "s": "SUMICHEM",
+    "n": "Sumitomo Chemical India Ltd.",
+    "i": "Chemicals",
+    "c": 342.4,
+    "h52": 594.57,
+    "l52": 323.09,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 0.75,
+      "10": 2.63,
+      "20": -18.61,
+      "50": -34.79
+    }
+  },
+  {
+    "s": "SUNDARMFIN",
+    "n": "Sundaram Finance Ltd.",
+    "i": "Financial Services",
+    "c": 4358.0,
+    "h52": 5642.0,
+    "l52": 3816.0,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 3.07,
+      "10": 9.67,
+      "20": 2.86,
+      "50": -4.37
+    }
+  },
+  {
+    "s": "SUNPHARMA",
+    "n": "Sun Pharmaceutical Industries Ltd.",
+    "i": "Healthcare",
+    "c": 1870.0,
+    "h52": 2107.43,
+    "l52": 1630.53,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": -1.81,
+      "10": 2.62,
+      "20": 3.27,
+      "50": -5.97
+    }
+  },
+  {
+    "s": "SUNTV",
+    "n": "Sun TV Network Ltd.",
+    "i": "Media Entertainment & Publication",
+    "c": 659.7,
+    "h52": 673.95,
+    "l52": 447.2,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 8.17,
+      "10": 11.55,
+      "20": 3.4,
+      "50": 43.23
+    }
+  },
+  {
+    "s": "SUPREMEIND",
+    "n": "Supreme Industries Ltd.",
+    "i": "Capital Goods",
+    "c": 3231.3,
+    "h52": 4156.25,
+    "l52": 3140.03,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": -1.98,
+      "10": -1.56,
+      "20": -11.89,
+      "50": -10.27
+    }
+  },
+  {
+    "s": "SUZLON",
+    "n": "Suzlon Energy Ltd.",
+    "i": "Capital Goods",
+    "c": 37.19,
+    "h52": 60.45,
+    "l52": 33.15,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": -4.42,
+      "10": 5.5,
+      "20": -11.45,
+      "50": -18.19
+    }
+  },
+  {
+    "s": "SWANCORP",
+    "n": "Swan Corp Ltd.",
+    "i": "Chemicals",
+    "c": 230.23,
+    "h52": 476.22,
+    "l52": 221.85,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": -5.27,
+      "10": -3.39,
+      "20": -13.24,
+      "50": -19.33
+    }
+  },
+  {
+    "s": "SWIGGY",
+    "n": "Swiggy Ltd.",
+    "i": "Consumer Services",
+    "c": 188.5,
+    "h52": 427.86,
+    "l52": 174.2,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 0.27,
+      "10": 6.06,
+      "20": -19.55,
+      "50": -29.59
+    }
+  },
+  {
+    "s": "SYNGENE",
+    "n": "Syngene International Ltd.",
+    "i": "Healthcare",
+    "c": 434.35,
+    "h52": 695.16,
+    "l52": 358.81,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": -0.58,
+      "10": 0.97,
+      "20": 7.99,
+      "50": 4.61
+    }
+  },
+  {
+    "s": "SYRMA",
+    "n": "Syrma SGS Technology Ltd.",
+    "i": "Capital Goods",
+    "c": 1433.9,
+    "h52": 1879.68,
+    "l52": 654.37,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": true,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": -1.92,
+      "10": -8.05,
+      "20": -13.35,
+      "50": -3.04
+    }
+  },
+  {
+    "s": "TARIL",
+    "n": "Transformers And Rectifiers (India) Ltd.",
+    "i": "Capital Goods",
+    "c": 306.65,
+    "h52": 379.4,
+    "l52": 228.51,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": -1.11,
+      "10": -2.51,
+      "20": -8.64,
+      "50": -0.44
+    }
+  },
+  {
+    "s": "TATACAP",
+    "n": "Tata Capital Ltd.",
+    "i": "Financial Services",
+    "c": 344.4,
+    "h52": 383.28,
+    "l52": 290.75,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": -2.45,
+      "10": 7.78,
+      "20": 8.62,
+      "50": -3.87
+    }
+  },
+  {
+    "s": "TATACHEM",
+    "n": "Tata Chemicals Ltd.",
+    "i": "Chemicals",
+    "c": 649.45,
+    "h52": 864.6,
+    "l52": 570.05,
+    "f": {
+      "h1": true,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 7.39,
+      "10": 6.47,
+      "20": 2.57,
+      "50": 2.44
+    }
+  },
+  {
+    "s": "TATACOMM",
+    "n": "Tata Communications Ltd.",
+    "i": "Telecommunication",
+    "c": 1802.2,
+    "h52": 2110.0,
+    "l52": 1322.5,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 5.99,
+      "10": 2.66,
+      "20": 3.41,
+      "50": 5.39
+    }
+  },
+  {
+    "s": "TATACONSUM",
+    "n": "Tata Consumer Products Ltd.",
+    "i": "Fast Moving Consumer Goods",
+    "c": 1112.4,
+    "h52": 1282.7,
+    "l52": 916.0,
+    "f": {
+      "h1": true,
+      "h3": true,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 2.63,
+      "10": 8.12,
+      "20": 13.64,
+      "50": 9.92
+    }
+  },
+  {
+    "s": "TATAELXSI",
+    "n": "Tata Elxsi Ltd.",
+    "i": "Information Technology",
+    "c": 3710.7,
+    "h52": 6058.97,
+    "l52": 2996.0,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": -4.61,
+      "10": -1.93,
+      "20": -3.62,
+      "50": 2.82
+    }
+  },
+  {
+    "s": "TATAINVEST",
+    "n": "Tata Investment Corporation Ltd.",
+    "i": "Financial Services",
+    "c": 609.55,
+    "h52": 789.3,
+    "l52": 544.55,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 5.6,
+      "10": 5.57,
+      "20": -1.69,
+      "50": -3.97
+    }
+  },
+  {
+    "s": "TATAPOWER",
+    "n": "Tata Power Co. Ltd.",
+    "i": "Power",
+    "c": 344.5,
+    "h52": 464.9,
+    "l52": 331.33,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": -4.31,
+      "10": -3.2,
+      "20": -2.64,
+      "50": -5.36
+    }
+  },
+  {
+    "s": "TATASTEEL",
+    "n": "Tata Steel Ltd.",
+    "i": "Metals & Mining",
+    "c": 181.5,
+    "h52": 229.1,
+    "l52": 156.85,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": -1.81,
+      "10": 0.23,
+      "20": 1.3,
+      "50": -3.3
+    }
+  },
+  {
+    "s": "TATATECH",
+    "n": "Tata Technologies Ltd.",
+    "i": "Information Technology",
+    "c": 659.8,
+    "h52": 900.84,
+    "l52": 513.0,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": -0.9,
+      "10": -0.59,
+      "20": -9.84,
+      "50": -19.75
+    }
+  },
+  {
+    "s": "TBOTEK",
+    "n": "TBO Tek Ltd.",
+    "i": "Consumer Services",
+    "c": 1586.0,
+    "h52": 1772.5,
+    "l52": 1004.2,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 2.53,
+      "10": -0.47,
+      "20": -2.55,
+      "50": -6.71
+    }
+  },
+  {
+    "s": "TCS",
+    "n": "Tata Consultancy Services Ltd.",
+    "i": "Information Technology",
+    "c": 2406.6,
+    "h52": 3395.73,
+    "l52": 1976.8,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": -2.78,
+      "10": -3.8,
+      "20": -2.37,
+      "50": 2.5
+    }
+  },
+  {
+    "s": "TDPOWERSYS",
+    "n": "TD Power Systems Ltd.",
+    "i": "Capital Goods",
+    "c": 620.9,
+    "h52": 1690.13,
+    "l52": 560.8,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 8.62,
+      "10": -18.18,
+      "20": -20.16,
+      "50": -20.15
+    }
+  },
+  {
+    "s": "TECHM",
+    "n": "Tech Mahindra Ltd.",
+    "i": "Information Technology",
+    "c": 1762.0,
+    "h52": 1860.0,
+    "l52": 1304.1,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": -2.38,
+      "10": -1.39,
+      "20": -1.56,
+      "50": 8.56
+    }
+  },
+  {
+    "s": "TECHNOE",
+    "n": "Techno Electric & Engineering Company Ltd.",
+    "i": "Construction",
+    "c": 950.0,
+    "h52": 1437.41,
+    "l52": 833.01,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 0.35,
+      "10": 8.55,
+      "20": -3.38,
+      "50": -5.7
+    }
+  },
+  {
+    "s": "TEGA",
+    "n": "Tega Industries Ltd.",
+    "i": "Capital Goods",
+    "c": 1586.2,
+    "h52": 2224.41,
+    "l52": 1490.7,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": true,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": -5.75,
+      "10": -7.16,
+      "20": -18.5,
+      "50": 1.8
+    }
+  },
+  {
+    "s": "TEJASNET",
+    "n": "Tejas Networks Ltd.",
+    "i": "Telecommunication",
+    "c": 404.8,
+    "h52": 652.01,
+    "l52": 288.68,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": true,
+      "l6": true,
+      "l52": false
+    },
+    "g": {
+      "5": -3.37,
+      "10": -4.58,
+      "20": -15.68,
+      "50": -27.07
+    }
+  },
+  {
+    "s": "THANGAMAYL",
+    "n": "Thangamayil Jewellery Ltd.",
+    "i": "Consumer Durables",
+    "c": 4072.5,
+    "h52": 7615.02,
+    "l52": 2924.08,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": -3.8,
+      "10": -12.03,
+      "20": -22.06,
+      "50": -24.14
+    }
+  },
+  {
+    "s": "THERMAX",
+    "n": "Thermax Ltd.",
+    "i": "Capital Goods",
+    "c": 2737.8,
+    "h52": 5457.49,
+    "l52": 2701.8,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": -1.73,
+      "10": -15.54,
+      "20": -20.41,
+      "50": -29.44
+    }
+  },
+  {
+    "s": "TIINDIA",
+    "n": "Tube Investments of India Ltd.",
+    "i": "Automobile and Auto Components",
+    "c": 2230.8,
+    "h52": 3335.2,
+    "l52": 2005.2,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 0.96,
+      "10": 2.38,
+      "20": 1.52,
+      "50": -17.99
+    }
+  },
+  {
+    "s": "TIMKEN",
+    "n": "Timken India Ltd.",
+    "i": "Capital Goods",
+    "c": 3148.5,
+    "h52": 3925.0,
+    "l52": 2687.9,
+    "f": {
+      "h1": true,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 4.46,
+      "10": 4.37,
+      "20": 8.96,
+      "50": 0.45
+    }
+  },
+  {
+    "s": "TITAGARH",
+    "n": "Titagarh Rail Systems Ltd.",
+    "i": "Capital Goods",
+    "c": 731.9,
+    "h52": 1001.94,
+    "l52": 586.82,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 4.19,
+      "10": 1.95,
+      "20": -5.32,
+      "50": -14.02
+    }
+  },
+  {
+    "s": "TITAN",
+    "n": "Titan Company Ltd.",
+    "i": "Consumer Durables",
+    "c": 4908.0,
+    "h52": 5186.7,
+    "l52": 3751.0,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": -1.94,
+      "10": 9.64,
+      "20": 10.42,
+      "50": -3.27
+    }
+  },
+  {
+    "s": "TMPV",
+    "n": "Tata Motors Passenger Vehicles Ltd.",
+    "i": "Automobile and Auto Components",
+    "c": 259.2,
+    "h52": 412.61,
+    "l52": 259.0,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": true,
+      "l6": true,
+      "l52": true
+    },
+    "g": {
+      "5": -12.14,
+      "10": -5.91,
+      "20": -10.65,
+      "50": -18.05
+    }
+  },
+  {
+    "s": "TORNTPHARM",
+    "n": "Torrent Pharmaceuticals Ltd.",
+    "i": "Healthcare",
+    "c": 4668.8,
+    "h52": 5250.0,
+    "l52": 3602.0,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": -2.33,
+      "10": 1.61,
+      "20": 2.41,
+      "50": -6.85
+    }
+  },
+  {
+    "s": "TORNTPOWER",
+    "n": "Torrent Power Ltd.",
+    "i": "Power",
+    "c": 1216.0,
+    "h52": 1824.1,
+    "l52": 1147.5,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": -1.62,
+      "10": -0.22,
+      "20": -0.84,
+      "50": -2.63
+    }
+  },
+  {
+    "s": "TRENT",
+    "n": "Trent Ltd.",
+    "i": "Consumer Services",
+    "c": 3176.3,
+    "h52": 4511.54,
+    "l52": 2545.8,
+    "f": {
+      "h1": true,
+      "h3": true,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 1.83,
+      "10": 4.26,
+      "20": 7.35,
+      "50": 11.36
+    }
+  },
+  {
+    "s": "TRIDENT",
+    "n": "Trident Ltd.",
+    "i": "Textiles",
+    "c": 23.54,
+    "h52": 30.94,
+    "l52": 20.15,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": -0.13,
+      "10": 5.99,
+      "20": 5.7,
+      "50": -2.16
+    }
+  },
+  {
+    "s": "TRITURBINE",
+    "n": "Triveni Turbine Ltd.",
+    "i": "Capital Goods",
+    "c": 475.55,
+    "h52": 797.91,
+    "l52": 433.96,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": -5.46,
+      "10": -4.77,
+      "20": -5.34,
+      "50": -16.95
+    }
+  },
+  {
+    "s": "TTML",
+    "n": "Tata Teleservices (Maharashtra) Ltd.",
+    "i": "Telecommunication",
+    "c": 37.11,
+    "h52": 57.36,
+    "l52": 32.59,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": -5.64,
+      "10": 2.09,
+      "20": 5.97,
+      "50": -6.43
+    }
+  },
+  {
+    "s": "TVSMOTOR",
+    "n": "TVS Motor Company Ltd.",
+    "i": "Automobile and Auto Components",
+    "c": 4466.2,
+    "h52": 4636.1,
+    "l52": 3228.0,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": -0.88,
+      "10": 6.01,
+      "20": 9.06,
+      "50": 6.34
+    }
+  },
+  {
+    "s": "UBL",
+    "n": "United Breweries Ltd.",
+    "i": "Fast Moving Consumer Goods",
+    "c": 1206.7,
+    "h52": 1838.42,
+    "l52": 1140.65,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": -1.53,
+      "10": 1.35,
+      "20": -0.64,
+      "50": -6.91
+    }
+  },
+  {
+    "s": "UCOBANK",
+    "n": "UCO Bank",
+    "i": "Financial Services",
+    "c": 24.88,
+    "h52": 31.92,
+    "l52": 21.34,
+    "f": {
+      "h1": true,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 2.85,
+      "10": 10.63,
+      "20": 4.85,
+      "50": 2.01
+    }
+  },
+  {
+    "s": "ULTRACEMCO",
+    "n": "UltraTech Cement Ltd.",
+    "i": "Construction Materials",
+    "c": 12290.0,
+    "h52": 13110.0,
+    "l52": 10325.0,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 0.12,
+      "10": 7.93,
+      "20": 12.68,
+      "50": 7.87
+    }
+  },
+  {
+    "s": "UNIONBANK",
+    "n": "Union Bank of India",
+    "i": "Financial Services",
+    "c": 207.9,
+    "h52": 209.7,
+    "l52": 136.68,
+    "f": {
+      "h1": true,
+      "h3": true,
+      "h6": true,
+      "h52": true,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 5.53,
+      "10": 11.77,
+      "20": 21.1,
+      "50": 11.26
+    }
+  },
+  {
+    "s": "UNITDSPR",
+    "n": "United Spirits Ltd.",
+    "i": "Fast Moving Consumer Goods",
+    "c": 1444.0,
+    "h52": 1563.4,
+    "l52": 1210.8,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 0.81,
+      "10": 7.26,
+      "20": 4.64,
+      "50": -1.74
+    }
+  },
+  {
+    "s": "UNOMINDA",
+    "n": "UNO Minda Ltd.",
+    "i": "Automobile and Auto Components",
+    "c": 1388.1,
+    "h52": 1406.5,
+    "l52": 994.0,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 2.53,
+      "10": 24.08,
+      "20": 25.28,
+      "50": 12.31
+    }
+  },
+  {
+    "s": "UPL",
+    "n": "UPL Ltd.",
+    "i": "Chemicals",
+    "c": 551.7,
+    "h52": 771.9,
+    "l52": 476.45,
+    "f": {
+      "h1": true,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 1.88,
+      "10": 6.9,
+      "20": 3.19,
+      "50": -4.62
+    }
+  },
+  {
+    "s": "URBANCO",
+    "n": "Urban Company Ltd.",
+    "i": "Consumer Services",
+    "c": 161.63,
+    "h52": 187.51,
+    "l52": 102.64,
+    "f": {
+      "h1": true,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 1.58,
+      "10": 1.09,
+      "20": 0.29,
+      "50": -7.71
+    }
+  },
+  {
+    "s": "USHAMART",
+    "n": "Usha Martin Ltd.",
+    "i": "Capital Goods",
+    "c": 459.55,
+    "h52": 549.48,
+    "l52": 384.82,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": -6.23,
+      "10": -1.24,
+      "20": -7.63,
+      "50": -9.53
+    }
+  },
+  {
+    "s": "UTIAMC",
+    "n": "UTI Asset Management Company Ltd.",
+    "i": "Financial Services",
+    "c": 847.65,
+    "h52": 1250.53,
+    "l52": 796.91,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 1.48,
+      "10": 2.7,
+      "20": -4.41,
+      "50": -5.18
+    }
+  },
+  {
+    "s": "VBL",
+    "n": "Varun Beverages Ltd.",
+    "i": "Fast Moving Consumer Goods",
+    "c": 430.0,
+    "h52": 555.8,
+    "l52": 381.0,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": -1.15,
+      "10": 8.27,
+      "20": -0.12,
+      "50": 3.61
+    }
+  },
+  {
+    "s": "VEDL",
+    "n": "Vedanta Ltd.",
+    "i": "Metals & Mining",
+    "c": 255.03,
+    "h52": 795.0,
+    "l52": 221.6,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": -2.66,
+      "10": 3.67,
+      "20": 3.63,
+      "50": -5.79
+    }
+  },
+  {
+    "s": "VIJAYA",
+    "n": "Vijaya Diagnostic Centre Ltd.",
+    "i": "Healthcare",
+    "c": 1467.4,
+    "h52": 1593.6,
+    "l52": 848.0,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": -0.74,
+      "10": 0.69,
+      "20": 6.2,
+      "50": -0.92
+    }
+  },
+  {
+    "s": "VMM",
+    "n": "Vishal Mega Mart Ltd.",
+    "i": "Consumer Services",
+    "c": 92.99,
+    "h52": 142.01,
+    "l52": 84.16,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 0.4,
+      "10": 4.6,
+      "20": -3.14,
+      "50": -14.35
+    }
+  },
+  {
+    "s": "VOLTAS",
+    "n": "Voltas Ltd.",
+    "i": "Consumer Durables",
+    "c": 1148.9,
+    "h52": 1521.3,
+    "l52": 894.52,
+    "f": {
+      "h1": true,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 5.39,
+      "10": 15.27,
+      "20": 16.13,
+      "50": 3.73
+    }
+  },
+  {
+    "s": "VTL",
+    "n": "Vardhman Textiles Ltd.",
+    "i": "Textiles",
+    "c": 527.35,
+    "h52": 704.23,
+    "l52": 418.6,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 0.16,
+      "10": 3.7,
+      "20": -3.14,
+      "50": -12.3
+    }
+  },
+  {
+    "s": "WAAREEENER",
+    "n": "Waaree Energies Ltd.",
+    "i": "Capital Goods",
+    "c": 2441.5,
+    "h52": 3557.0,
+    "l52": 2161.5,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": -0.1,
+      "10": 5.06,
+      "20": -4.83,
+      "50": -5.41
+    }
+  },
+  {
+    "s": "WELCORP",
+    "n": "Welspun Corp Ltd.",
+    "i": "Capital Goods",
+    "c": 2260.2,
+    "h52": 2953.79,
+    "l52": 723.17,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 2.64,
+      "10": -4.15,
+      "20": -13.71,
+      "50": -12.07
+    }
+  },
+  {
+    "s": "WELSPUNLIV",
+    "n": "Welspun Living Ltd.",
+    "i": "Textiles",
+    "c": 265.62,
+    "h52": 279.81,
+    "l52": 112.06,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 5.32,
+      "10": 4.75,
+      "20": 15.76,
+      "50": 26.92
+    }
+  },
+  {
+    "s": "WHIRLPOOL",
+    "n": "Whirlpool of India Ltd.",
+    "i": "Consumer Durables",
+    "c": 826.45,
+    "h52": 1364.59,
+    "l52": 713.26,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": -1.34,
+      "10": -0.38,
+      "20": -3.78,
+      "50": 2.23
+    }
+  },
+  {
+    "s": "WIPRO",
+    "n": "Wipro Ltd.",
+    "i": "Information Technology",
+    "c": 189.89,
+    "h52": 278.75,
+    "l52": 156.79,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": -4.58,
+      "10": -3.31,
+      "20": 2.98,
+      "50": 7.23
+    }
+  },
+  {
+    "s": "WOCKPHARMA",
+    "n": "Wockhardt Ltd.",
+    "i": "Healthcare",
+    "c": 2008.9,
+    "h52": 2496.08,
+    "l52": 1119.8,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": -1.11,
+      "10": 2.8,
+      "20": -0.28,
+      "50": 2.37
+    }
+  },
+  {
+    "s": "YESBANK",
+    "n": "Yes Bank Ltd.",
+    "i": "Financial Services",
+    "c": 17.85,
+    "h52": 25.78,
+    "l52": 15.1,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 4.82,
+      "10": 14.64,
+      "20": 2.0,
+      "50": -19.41
+    }
+  },
+  {
+    "s": "ZEEL",
+    "n": "Zee Entertainment Enterprises Ltd.",
+    "i": "Media Entertainment & Publication",
+    "c": 71.29,
+    "h52": 126.58,
+    "l52": 64.82,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 2.18,
+      "10": 8.24,
+      "20": -7.23,
+      "50": -26.41
+    }
+  },
+  {
+    "s": "ZENSARTECH",
+    "n": "Zensar Technolgies Ltd.",
+    "i": "Information Technology",
+    "c": 528.0,
+    "h52": 778.51,
+    "l52": 416.15,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": -6.68,
+      "10": -2.86,
+      "20": 3.99,
+      "50": 14.65
+    }
+  },
+  {
+    "s": "ZENTEC",
+    "n": "Zen Technologies Ltd.",
+    "i": "Capital Goods",
+    "c": 1719.6,
+    "h52": 2043.7,
+    "l52": 1154.49,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": 0.41,
+      "10": -0.06,
+      "20": 3.87,
+      "50": -5.99
+    }
+  },
+  {
+    "s": "ZFCVINDIA",
+    "n": "ZF Commercial Vehicle Control Systems India Ltd.",
+    "i": "Automobile and Auto Components",
+    "c": 2177.7,
+    "h52": 16665.0,
+    "l52": 2053.0,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": -6.18,
+      "10": 1.9,
+      "20": 0.96,
+      "50": -15.34
+    }
+  },
+  {
+    "s": "ZYDUSLIFE",
+    "n": "Zydus Lifesciences Ltd.",
+    "i": "Healthcare",
+    "c": 1204.2,
+    "h52": 1266.6,
+    "l52": 835.5,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": false,
+      "l6": false,
+      "l52": false
+    },
+    "g": {
+      "5": -0.96,
+      "10": -2.93,
+      "20": 7.23,
+      "50": 4.33
+    }
+  },
+  {
+    "s": "ZYDUSWELL",
+    "n": "Zydus Wellness Ltd.",
+    "i": "Fast Moving Consumer Goods",
+    "c": 460.35,
+    "h52": 622.62,
+    "l52": 374.02,
+    "f": {
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
+      "l1": true,
+      "l6": true,
+      "l52": false
+    },
+    "g": {
+      "5": -1.93,
+      "10": -6.4,
+      "20": -11.77,
+      "50": -15.38
+    }
+  }
+]

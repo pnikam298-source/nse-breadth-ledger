@@ -1,0 +1,2963 @@
+{
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2025/03/BhavCopy_NSE_CM_20250304.csv.csv": {
+    "date": "2025-03-04",
+    "sha256": "51d701f2eda2a52bba150bb28a665ad9504ddf522408c68077a3edce2e0976dd",
+    "size_bytes": 512134,
+    "stored_at": "1794917983.9854474",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2025/03/BhavCopy_NSE_CM_20250305.csv.csv": {
+    "date": "2025-03-05",
+    "sha256": "83c4eee1946ca50dcbe397bef4557953cb43f75ae3f0df608b7e684160c8ca02",
+    "size_bytes": 513989,
+    "stored_at": "1794917983.7153046",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2025/03/BhavCopy_NSE_CM_20250306.csv.csv": {
+    "date": "2025-03-06",
+    "sha256": "eca9636ba79576b93816ca585c5cd90db0f92ef4b915eb4472a40ed2621e8ce2",
+    "size_bytes": 518808,
+    "stored_at": "1794917983.171966",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2025/03/BhavCopy_NSE_CM_20250307.csv.csv": {
+    "date": "2025-03-07",
+    "sha256": "96a0174e7ddb424daf89083d1eddcf488615094f68483fe074761042799d9f9a",
+    "size_bytes": 517690,
+    "stored_at": "1794917982.8121169",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2025/03/BhavCopy_NSE_CM_20250310.csv.csv": {
+    "date": "2025-03-10",
+    "sha256": "4fe30752d6a4c86e04547b940aae503282b16cd06fb978ca70cb32c85d7c17ba",
+    "size_bytes": 517026,
+    "stored_at": "1794917982.4726562",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2025/03/BhavCopy_NSE_CM_20250311.csv.csv": {
+    "date": "2025-03-11",
+    "sha256": "64c5d0b4be960ba8068b33e0299fec7b1d19e8d3f2baf36775c0e2821469b2c2",
+    "size_bytes": 512093,
+    "stored_at": "1794917981.9967713",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2025/03/BhavCopy_NSE_CM_20250312.csv.csv": {
+    "date": "2025-03-12",
+    "sha256": "b613cd0a0eaac3cd5b22b8f64e35617014cf6056e25a6cbfa9d0e5abf8bcf962",
+    "size_bytes": 513310,
+    "stored_at": "1794917981.0124316",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2025/03/BhavCopy_NSE_CM_20250313.csv.csv": {
+    "date": "2025-03-13",
+    "sha256": "8902a55053eebd22c5d50fa8d05dc777f89427534b610832eceb1b2068370cfe",
+    "size_bytes": 511855,
+    "stored_at": "1794917980.7047868",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2025/03/BhavCopy_NSE_CM_20250317.csv.csv": {
+    "date": "2025-03-17",
+    "sha256": "f8cc25ada3513e2bb5495cb0f6e4167c8304a97f382f84dbcceee556435ab9ca",
+    "size_bytes": 517352,
+    "stored_at": "1794917979.025867",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2025/03/BhavCopy_NSE_CM_20250318.csv.csv": {
+    "date": "2025-03-18",
+    "sha256": "86adfb93e65c97917f12a7255a3b8458388b7042d73cb7df8f78a8939ef15f30",
+    "size_bytes": 524942,
+    "stored_at": "1794917978.6969345",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2025/03/BhavCopy_NSE_CM_20250319.csv.csv": {
+    "date": "2025-03-19",
+    "sha256": "144d2849c7fee4c5c26f4c5cd5bc68d436a9693db07747d9a5818293a0cddf46",
+    "size_bytes": 518464,
+    "stored_at": "1794917978.4363604",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2025/03/BhavCopy_NSE_CM_20250320.csv.csv": {
+    "date": "2025-03-20",
+    "sha256": "8e32137ba529bf16494a91735d479aa4d878bc4bdb659e79927ec5e3e81aa863",
+    "size_bytes": 517574,
+    "stored_at": "1794917978.137199",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2025/03/BhavCopy_NSE_CM_20250321.csv.csv": {
+    "date": "2025-03-21",
+    "sha256": "39b32baf71c76210b3d7e2ac3cdc51ba4a4678913e7480a31929c587f95d9f32",
+    "size_bytes": 518946,
+    "stored_at": "1794917977.7951577",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2025/03/BhavCopy_NSE_CM_20250324.csv.csv": {
+    "date": "2025-03-24",
+    "sha256": "4b4b173f761d32534cff3e15fa16c385b2149a4b5de9c4968c8a612bd331aa21",
+    "size_bytes": 526248,
+    "stored_at": "1794917977.5479314",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2025/03/BhavCopy_NSE_CM_20250325.csv.csv": {
+    "date": "2025-03-25",
+    "sha256": "a49729ca50d0438d306d60390b867a315b8c072584cb085d5b8d74a732232ab1",
+    "size_bytes": 521610,
+    "stored_at": "1794917977.2613575",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2025/03/BhavCopy_NSE_CM_20250326.csv.csv": {
+    "date": "2025-03-26",
+    "sha256": "7f6582f31dfc705846bc582558d00f220fc7d764dc3504fe9155595aa433cd1e",
+    "size_bytes": 520586,
+    "stored_at": "1794917976.9993522",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2025/03/BhavCopy_NSE_CM_20250327.csv.csv": {
+    "date": "2025-03-27",
+    "sha256": "c6e1600959cd02c87664975cf828ff0b6a79a465f002ae5b47934eaf74611118",
+    "size_bytes": 520018,
+    "stored_at": "1794917976.5657613",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2025/03/BhavCopy_NSE_CM_20250328.csv.csv": {
+    "date": "2025-03-28",
+    "sha256": "817d71d008983a7dcc356bf6a6b52f93315a50101d0fb36ea14ca9086e28ef4e",
+    "size_bytes": 518722,
+    "stored_at": "1794917976.2994018",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2025/04/BhavCopy_NSE_CM_20250401.csv.csv": {
+    "date": "2025-04-01",
+    "sha256": "c60aa2376bc2f1e3f1820e033487650669878d043d0dcf40ccedf2697f844673",
+    "size_bytes": 519165,
+    "stored_at": "1794917975.3477612",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2025/04/BhavCopy_NSE_CM_20250402.csv.csv": {
+    "date": "2025-04-02",
+    "sha256": "1b3ea36ad7fc906065463f379f71364b82feacf9d4b22fdfca2451fe7635d61c",
+    "size_bytes": 516704,
+    "stored_at": "1794917974.4969745",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2025/04/BhavCopy_NSE_CM_20250403.csv.csv": {
+    "date": "2025-04-03",
+    "sha256": "c2a16b84e44705b690d6e58f53de40ffc95e34e00ef6b2cc029fe653ad29feb4",
+    "size_bytes": 516276,
+    "stored_at": "1794917974.1850379",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2025/04/BhavCopy_NSE_CM_20250404.csv.csv": {
+    "date": "2025-04-04",
+    "sha256": "f61740670c68528b1a8285a4b8bc5bd1fe82f1b1ffeb5c886e24ad82428f82d0",
+    "size_bytes": 512397,
+    "stored_at": "1794917973.9688315",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2025/04/BhavCopy_NSE_CM_20250407.csv.csv": {
+    "date": "2025-04-07",
+    "sha256": "e48717adfe8894c1aab0b8094347d6377ec53969fc1a9c365befc73906243042",
+    "size_bytes": 527741,
+    "stored_at": "1794917973.727461",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2025/04/BhavCopy_NSE_CM_20250408.csv.csv": {
+    "date": "2025-04-08",
+    "sha256": "f6e891458f54235c4d86e6cd2e0d8d5a5e23bc5b2a8db40bbb9cf6e508101c45",
+    "size_bytes": 512828,
+    "stored_at": "1794917973.5427234",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2025/04/BhavCopy_NSE_CM_20250409.csv.csv": {
+    "date": "2025-04-09",
+    "sha256": "c1b9e987dadb72a351b1d65f0faf78b2aa633c4b8f1051e02a2762b375019d40",
+    "size_bytes": 506174,
+    "stored_at": "1794917973.2238038",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2025/04/BhavCopy_NSE_CM_20250411.csv.csv": {
+    "date": "2025-04-11",
+    "sha256": "07efeb3ec778ebcf54026c767fed4b2f01dc605e7ca577dd751e44a8b4d8b53b",
+    "size_bytes": 515874,
+    "stored_at": "1794917972.4037797",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2025/04/BhavCopy_NSE_CM_20250415.csv.csv": {
+    "date": "2025-04-15",
+    "sha256": "32859e6e84663b89c1bbd864ff535a6b6551018515cdd15368d6b892aa0d8cd1",
+    "size_bytes": 526591,
+    "stored_at": "1794917971.7203238",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2025/04/BhavCopy_NSE_CM_20250416.csv.csv": {
+    "date": "2025-04-16",
+    "sha256": "6a634cc46d48559b09971707aabfd3027ee3f618f96bec8f385da392c667fcd6",
+    "size_bytes": 519197,
+    "stored_at": "1794917971.465222",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2025/04/BhavCopy_NSE_CM_20250417.csv.csv": {
+    "date": "2025-04-17",
+    "sha256": "9257a8688cbcae1e03115fddf0ce0e7927a599431bbbd6af1ce584d859020f87",
+    "size_bytes": 520311,
+    "stored_at": "1794917971.277963",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2025/04/BhavCopy_NSE_CM_20250421.csv.csv": {
+    "date": "2025-04-21",
+    "sha256": "bd74e9f07d8633744f7561c70e68850df21dea0975b7c41ba587482eac457230",
+    "size_bytes": 527228,
+    "stored_at": "1794917970.6694987",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2025/04/BhavCopy_NSE_CM_20250422.csv.csv": {
+    "date": "2025-04-22",
+    "sha256": "b7aa5f805a2c63e0ab2f1564df854ce1d0057b8f79070e75f5f213dc56bfb128",
+    "size_bytes": 522000,
+    "stored_at": "1794917970.359176",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2025/04/BhavCopy_NSE_CM_20250423.csv.csv": {
+    "date": "2025-04-23",
+    "sha256": "46cc9bd0490a0afb116d7ec97c3709a4a32f8fc600c08fcd2e8cd07c5f6834ae",
+    "size_bytes": 513456,
+    "stored_at": "1794917970.048118",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2025/04/BhavCopy_NSE_CM_20250424.csv.csv": {
+    "date": "2025-04-24",
+    "sha256": "92e41206bcfa4830c8b720e7a2d9034fef3fa6d9e3e5281bf06ba45c15c1ed25",
+    "size_bytes": 512483,
+    "stored_at": "1794917969.8226225",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2025/04/BhavCopy_NSE_CM_20250425.csv.csv": {
+    "date": "2025-04-25",
+    "sha256": "293c8eac6fb25df429d0cff8ca889a707ffe1873e816cd2c265e4c59ddfbbf13",
+    "size_bytes": 515552,
+    "stored_at": "1794917969.6025832",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2025/04/BhavCopy_NSE_CM_20250428.csv.csv": {
+    "date": "2025-04-28",
+    "sha256": "4d89d518afe7907a5db7d81b8e28ac6e783a8ab40562c980643a70e2cbeee90e",
+    "size_bytes": 521033,
+    "stored_at": "1794917969.4185162",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2025/04/BhavCopy_NSE_CM_20250429.csv.csv": {
+    "date": "2025-04-29",
+    "sha256": "0c0963d5cd6460ecfdc1daaa64352e78e0a2bc6e221efda8625d1386b1402fef",
+    "size_bytes": 511982,
+    "stored_at": "1794917969.1981516",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2025/04/BhavCopy_NSE_CM_20250430.csv.csv": {
+    "date": "2025-04-30",
+    "sha256": "3e9214973c1b155380802c6dcc23540e91f86010461df179385c216db57979ef",
+    "size_bytes": 511530,
+    "stored_at": "1794917968.9747622",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2025/05/BhavCopy_NSE_CM_20250502.csv.csv": {
+    "date": "2025-05-02",
+    "sha256": "733a5188cf2d72e10a6211344dd1b1bb3cb6daa59575220e16b0d3e3038a2df9",
+    "size_bytes": 513215,
+    "stored_at": "1794917968.2570372",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2025/05/BhavCopy_NSE_CM_20250505.csv.csv": {
+    "date": "2025-05-05",
+    "sha256": "ccd340de96d3910ffb0402eb77eaba3a46bdda7798a3a9d8a93a34526a340de9",
+    "size_bytes": 518638,
+    "stored_at": "1794917968.0341203",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2025/05/BhavCopy_NSE_CM_20250506.csv.csv": {
+    "date": "2025-05-06",
+    "sha256": "3f48a765263c4a4d4ecde98d75a47c50dcf80b96877661ec5bd85e0afd092db1",
+    "size_bytes": 513130,
+    "stored_at": "1794917967.6389906",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2025/05/BhavCopy_NSE_CM_20250507.csv.csv": {
+    "date": "2025-05-07",
+    "sha256": "3e8640878e495451b28e8e858621bcc90c42a2df61b28733fedc17725cc890a4",
+    "size_bytes": 506363,
+    "stored_at": "1794917967.3158963",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2025/05/BhavCopy_NSE_CM_20250508.csv.csv": {
+    "date": "2025-05-08",
+    "sha256": "4f7f6c7a4486fd38b67842db265ecda066baaedd0877aadb0efba25d3b95c253",
+    "size_bytes": 510439,
+    "stored_at": "1794917966.943906",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2025/05/BhavCopy_NSE_CM_20250509.csv.csv": {
+    "date": "2025-05-09",
+    "sha256": "bc7403d1c753dd03da5f35cc0749c20314b9cb2f1512c580ec41a8359bbd49ff",
+    "size_bytes": 503494,
+    "stored_at": "1794917966.7641163",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2025/05/BhavCopy_NSE_CM_20250512.csv.csv": {
+    "date": "2025-05-12",
+    "sha256": "555803171009bb10140cb03f413fbed3bf1a554b7bcdb25e4b88e42436d5bb06",
+    "size_bytes": 523982,
+    "stored_at": "1794917966.550976",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2025/05/BhavCopy_NSE_CM_20250513.csv.csv": {
+    "date": "2025-05-13",
+    "sha256": "ca5911e2d604f87f40113908271b36fa11691881ea1aeda84ad9a498d16dd663",
+    "size_bytes": 514659,
+    "stored_at": "1794917966.3369083",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2025/05/BhavCopy_NSE_CM_20250514.csv.csv": {
+    "date": "2025-05-14",
+    "sha256": "c2a53207161a68ce358083d1a1cb0911f49e4aaf2b5d86444922eecbc60faa26",
+    "size_bytes": 516756,
+    "stored_at": "1794917966.1489015",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2025/05/BhavCopy_NSE_CM_20250515.csv.csv": {
+    "date": "2025-05-15",
+    "sha256": "30e0b25846aa340fdddc7d49c8beb3d489012f50d8fdf9d0c986eba44a936b40",
+    "size_bytes": 513293,
+    "stored_at": "1794917965.9806807",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2025/05/BhavCopy_NSE_CM_20250516.csv.csv": {
+    "date": "2025-05-16",
+    "sha256": "eacddf4f98b12d37ea8e18838bd4a74da25d7c717e5c8c57aad2fd971cacb61c",
+    "size_bytes": 516944,
+    "stored_at": "1794917965.7408366",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2025/05/BhavCopy_NSE_CM_20250519.csv.csv": {
+    "date": "2025-05-19",
+    "sha256": "6c1c02fc9d9ad6b7f5c61d80b0ea930a08557a3788e546f4710e26856af77668",
+    "size_bytes": 523293,
+    "stored_at": "1794917965.4801981",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2025/05/BhavCopy_NSE_CM_20250520.csv.csv": {
+    "date": "2025-05-20",
+    "sha256": "71efc1cf40e01e318ba15bfe55484d436ccd37c9aaf48085da94b390c965ded4",
+    "size_bytes": 517487,
+    "stored_at": "1794917965.127612",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2025/05/BhavCopy_NSE_CM_20250521.csv.csv": {
+    "date": "2025-05-21",
+    "sha256": "3b53aa86d3c6b4a71a078d583a491851eaa090e062247c817a7aa4b0c0a09c0e",
+    "size_bytes": 513592,
+    "stored_at": "1794917964.6042016",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2025/05/BhavCopy_NSE_CM_20250522.csv.csv": {
+    "date": "2025-05-22",
+    "sha256": "cf011e9028d774879553341e3206476dbd8e1d6e58cbf852014314990945f76d",
+    "size_bytes": 513185,
+    "stored_at": "1794917964.4283748",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2025/05/BhavCopy_NSE_CM_20250523.csv.csv": {
+    "date": "2025-05-23",
+    "sha256": "1595a25592fc272e3ea2f36b20442d88dbb9d2fe5eb9c207811de78cd4865d19",
+    "size_bytes": 513971,
+    "stored_at": "1794917964.2229092",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2025/05/BhavCopy_NSE_CM_20250526.csv.csv": {
+    "date": "2025-05-26",
+    "sha256": "feb102fce9bd6122f8abcb64d426458d1712f1b33c3266e09d0a6eb9d81f2810",
+    "size_bytes": 519565,
+    "stored_at": "1794917964.0310388",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2025/05/BhavCopy_NSE_CM_20250527.csv.csv": {
+    "date": "2025-05-27",
+    "sha256": "0da81946f10c18fac9ff2ce1f0659a28b3645e854e33792e4656d17758d130a4",
+    "size_bytes": 515354,
+    "stored_at": "1794917963.8488503",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2025/05/BhavCopy_NSE_CM_20250528.csv.csv": {
+    "date": "2025-05-28",
+    "sha256": "910c3201fe8348930a79a1c0c437e427f0b07961888659ff7853c2fd5f574a50",
+    "size_bytes": 513728,
+    "stored_at": "1794917963.670322",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2025/05/BhavCopy_NSE_CM_20250529.csv.csv": {
+    "date": "2025-05-29",
+    "sha256": "ae091a88d30aca7ed3112d29d8b1f77a8147a67590ca0007a9acb725ffa4ef60",
+    "size_bytes": 514926,
+    "stored_at": "1794917963.4557116",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2025/05/BhavCopy_NSE_CM_20250530.csv.csv": {
+    "date": "2025-05-30",
+    "sha256": "b5c7df90280f481baebfc0746c1b712b3d2ede6dfcd4bb42d1d382e789ff8403",
+    "size_bytes": 516707,
+    "stored_at": "1794917963.066057",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2025/06/BhavCopy_NSE_CM_20250602.csv.csv": {
+    "date": "2025-06-02",
+    "sha256": "d7419ad4da5411451871585d1b6bde3cca36eb78663d56f3a6cf4b9ca48df503",
+    "size_bytes": 525165,
+    "stored_at": "1794917962.435118",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2025/06/BhavCopy_NSE_CM_20250603.csv.csv": {
+    "date": "2025-06-03",
+    "sha256": "cebd47b25e4d7fe5f55d9a205eaf807bb676b90ee4a95f9900f7a44c1f25dbc9",
+    "size_bytes": 522825,
+    "stored_at": "1794917962.068589",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2025/06/BhavCopy_NSE_CM_20250604.csv.csv": {
+    "date": "2025-06-04",
+    "sha256": "3a76c5e04127559753c846b4cfe18d5eb709ab4835d1441e351fda9344cae5a1",
+    "size_bytes": 519174,
+    "stored_at": "1794917961.8324862",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2025/06/BhavCopy_NSE_CM_20250605.csv.csv": {
+    "date": "2025-06-05",
+    "sha256": "011e9d02ca5b017e709709406ed4ef9df20989a78fcebd322b2b6736e0ea397b",
+    "size_bytes": 518169,
+    "stored_at": "1794917961.6018775",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2025/06/BhavCopy_NSE_CM_20250606.csv.csv": {
+    "date": "2025-06-06",
+    "sha256": "c7261cbf92f8f24adfc478a18818290639ea1ed8d48d0bad16140719bbfa987f",
+    "size_bytes": 522533,
+    "stored_at": "1794917961.3104944",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2025/06/BhavCopy_NSE_CM_20250609.csv.csv": {
+    "date": "2025-06-09",
+    "sha256": "8df0272adb0c64c57a192932450a24acccbbde4e0c0ccd92f15034b3242efafa",
+    "size_bytes": 533270,
+    "stored_at": "1794917961.0739038",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2025/06/BhavCopy_NSE_CM_20250610.csv.csv": {
+    "date": "2025-06-10",
+    "sha256": "6d8f44c069e2ab1f55d2e543ebcd99a9795a0630fe1c7599bf5c3e4a289da6ac",
+    "size_bytes": 521936,
+    "stored_at": "1794917960.1231487",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2025/06/BhavCopy_NSE_CM_20250611.csv.csv": {
+    "date": "2025-06-11",
+    "sha256": "37005840e8692bc94af76d6de6f7e13b5eb6bce0be9adb7a40f40789686197ac",
+    "size_bytes": 524834,
+    "stored_at": "1794917959.7749116",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2025/06/BhavCopy_NSE_CM_20250612.csv.csv": {
+    "date": "2025-06-12",
+    "sha256": "5fcdea0a28a2976abb0b837601619a5109774bdd5740535c3503bd5f52a4fe98",
+    "size_bytes": 518286,
+    "stored_at": "1794917959.2999485",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2025/06/BhavCopy_NSE_CM_20250613.csv.csv": {
+    "date": "2025-06-13",
+    "sha256": "2ec137e13316c912a32ab193ecd534eab3da69b2cb77a89eee9f2c84f45fbbc8",
+    "size_bytes": 517774,
+    "stored_at": "1794917958.9974282",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2025/06/BhavCopy_NSE_CM_20250616.csv.csv": {
+    "date": "2025-06-16",
+    "sha256": "f979f6cdb251088b3b78beb02e04e4bdcd30eb93c557e4eb421f13abb44fa928",
+    "size_bytes": 525769,
+    "stored_at": "1794917958.8158934",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2025/06/BhavCopy_NSE_CM_20250617.csv.csv": {
+    "date": "2025-06-17",
+    "sha256": "d0f2a4d18565d4287d785055518e1748e757231fe7e5e2dadb74883ed3031a10",
+    "size_bytes": 517826,
+    "stored_at": "1794917958.5700574",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2025/06/BhavCopy_NSE_CM_20250618.csv.csv": {
+    "date": "2025-06-18",
+    "sha256": "f4e97edb00315bbcc8dd3ed6b7d6996d4d14a256b14ed398250ad234365a5616",
+    "size_bytes": 517153,
+    "stored_at": "1794917958.2943885",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2025/06/BhavCopy_NSE_CM_20250619.csv.csv": {
+    "date": "2025-06-19",
+    "sha256": "e8806b90ddc717ee1836c9b5a34dd96aa2f3f2403a52fb0715f71b8b31207371",
+    "size_bytes": 516454,
+    "stored_at": "1794917958.1097467",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2025/06/BhavCopy_NSE_CM_20250620.csv.csv": {
+    "date": "2025-06-20",
+    "sha256": "8107bd0b31cd486b37f0de28ef54b4f17c80a69ce5f915bdce4d8189407274e4",
+    "size_bytes": 516760,
+    "stored_at": "1794917957.8465228",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2025/06/BhavCopy_NSE_CM_20250623.csv.csv": {
+    "date": "2025-06-23",
+    "sha256": "7c4bd564fb4b2a2720bfc8d1f6d32d32fe4d2ca3d8bf9ee1d892216403733e41",
+    "size_bytes": 521383,
+    "stored_at": "1794917957.588082",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2025/06/BhavCopy_NSE_CM_20250624.csv.csv": {
+    "date": "2025-06-24",
+    "sha256": "e00f28a83fbbcb9b1dd2007b93406dc05408f2c498989c4cac85fdf6ba9bbd64",
+    "size_bytes": 519169,
+    "stored_at": "1794917957.3724205",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2025/06/BhavCopy_NSE_CM_20250625.csv.csv": {
+    "date": "2025-06-25",
+    "sha256": "3c98361552a965632db4ed2c5afdc8c3ea0e9d098aae172359b2a8e6df7635c0",
+    "size_bytes": 521182,
+    "stored_at": "1794917957.1143584",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2025/06/BhavCopy_NSE_CM_20250626.csv.csv": {
+    "date": "2025-06-26",
+    "sha256": "3bff70f1776912ceda83711a85b453aacbb4bebd17fc3ec1dbae460de1ff3136",
+    "size_bytes": 519628,
+    "stored_at": "1794917956.8077025",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2025/06/BhavCopy_NSE_CM_20250627.csv.csv": {
+    "date": "2025-06-27",
+    "sha256": "db41248896bd9464d2bd3afec4f1638fe1a29173b93f758b1226fb471d44bf3f",
+    "size_bytes": 520129,
+    "stored_at": "1794917956.6293848",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2025/06/BhavCopy_NSE_CM_20250630.csv.csv": {
+    "date": "2025-06-30",
+    "sha256": "1030823f194c7d8bc17e23d0d57068e8e04421785209866601c14c305ff0be49",
+    "size_bytes": 530291,
+    "stored_at": "1794917956.3564239",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2025/07/BhavCopy_NSE_CM_20250701.csv.csv": {
+    "date": "2025-07-01",
+    "sha256": "27888195b1c01297b7f062bd45fb4e8886acd58528a644018e7724996c20bf59",
+    "size_bytes": 525818,
+    "stored_at": "1794917956.1843479",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2025/07/BhavCopy_NSE_CM_20250702.csv.csv": {
+    "date": "2025-07-02",
+    "sha256": "2c972d602d5b3efff69fa6f5d9946e19d6d10ff1ff1dab3d7a65ef5287537fcc",
+    "size_bytes": 527962,
+    "stored_at": "1794917955.9678752",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2025/07/BhavCopy_NSE_CM_20250703.csv.csv": {
+    "date": "2025-07-03",
+    "sha256": "62b484e10a7f48f69024e99889573f1656ceb49222dc6af220391e98b212c110",
+    "size_bytes": 527431,
+    "stored_at": "1794917955.7681737",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2025/07/BhavCopy_NSE_CM_20250704.csv.csv": {
+    "date": "2025-07-04",
+    "sha256": "d3e7cf1de0480722818220063fc2289b54a3dd20a9862927164845bd1abf9d88",
+    "size_bytes": 525158,
+    "stored_at": "1794917955.5298538",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2025/07/BhavCopy_NSE_CM_20250707.csv.csv": {
+    "date": "2025-07-07",
+    "sha256": "eafd0f47c5ec84fd73b6891c35d367f548d0af0a2ed690b1f11ae5203a9aec6c",
+    "size_bytes": 531259,
+    "stored_at": "1794917954.5549407",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2025/07/BhavCopy_NSE_CM_20250708.csv.csv": {
+    "date": "2025-07-08",
+    "sha256": "9a88a0da55aad2ef8629e9175182733fce18cca13bac79848db71310a77865b2",
+    "size_bytes": 526022,
+    "stored_at": "1794917954.2946646",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2025/07/BhavCopy_NSE_CM_20250709.csv.csv": {
+    "date": "2025-07-09",
+    "sha256": "83e55b30ef2d15098e1f226639e36a4ec13995104eeb23693848baf6d8a05656",
+    "size_bytes": 526340,
+    "stored_at": "1794917954.0544562",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2025/07/BhavCopy_NSE_CM_20250710.csv.csv": {
+    "date": "2025-07-10",
+    "sha256": "3e9343341682f85e228b34870ba0994577e9cbb4a3d79c190519e28799f9f291",
+    "size_bytes": 523129,
+    "stored_at": "1794917953.8248677",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2025/07/BhavCopy_NSE_CM_20250711.csv.csv": {
+    "date": "2025-07-11",
+    "sha256": "dab727e1eba9638897b715bf33c47dde54f0f21ae8e484022a13feb2f4ba0b9e",
+    "size_bytes": 523653,
+    "stored_at": "1794917953.638149",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2025/07/BhavCopy_NSE_CM_20250714.csv.csv": {
+    "date": "2025-07-14",
+    "sha256": "85e58cb5fb7da07def417a17c734d77c3d9648c11dd21ed4305f8911ec571612",
+    "size_bytes": 538015,
+    "stored_at": "1794917953.4464734",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2025/07/BhavCopy_NSE_CM_20250715.csv.csv": {
+    "date": "2025-07-15",
+    "sha256": "9a0dabc4dff0190aa8eb0813057cc42ebe5728e57f83197df5dd5a5454c1d38e",
+    "size_bytes": 525232,
+    "stored_at": "1794917953.2359805",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2025/07/BhavCopy_NSE_CM_20250716.csv.csv": {
+    "date": "2025-07-16",
+    "sha256": "9e65da842214269ecc3abf5c7fb0926111a53835f1f3987d5671ae684282ee44",
+    "size_bytes": 524924,
+    "stored_at": "1794917953.0456452",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2025/07/BhavCopy_NSE_CM_20250717.csv.csv": {
+    "date": "2025-07-17",
+    "sha256": "e13235129b7c758f7b0fd3d40254f30590498738185e8624d3ae92b5638586eb",
+    "size_bytes": 526829,
+    "stored_at": "1794917952.6012526",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2025/07/BhavCopy_NSE_CM_20250718.csv.csv": {
+    "date": "2025-07-18",
+    "sha256": "a82c67e779ff4e1436d4a7cb9bff5a2973cc9333b07a8d0562cfff98cc80b470",
+    "size_bytes": 528877,
+    "stored_at": "1794917952.412243",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2025/07/BhavCopy_NSE_CM_20250721.csv.csv": {
+    "date": "2025-07-21",
+    "sha256": "533e4722b3088361c61067097c204e70f80b59d8926dfb1c529a74195fdd264d",
+    "size_bytes": 534848,
+    "stored_at": "1794917952.1611402",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2025/07/BhavCopy_NSE_CM_20250722.csv.csv": {
+    "date": "2025-07-22",
+    "sha256": "8290a732e6c18f6b607cb08d2f28e1bef12201782cfa2c3c5d7b04d9f33ab7ad",
+    "size_bytes": 527735,
+    "stored_at": "1794917951.956196",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2025/07/BhavCopy_NSE_CM_20250723.csv.csv": {
+    "date": "2025-07-23",
+    "sha256": "6f7ca78aab0985727f859f19a6b20f1b0bb4dda8168a8f8b227ebd5dab2f63f8",
+    "size_bytes": 531292,
+    "stored_at": "1794917951.7739923",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2025/07/BhavCopy_NSE_CM_20250724.csv.csv": {
+    "date": "2025-07-24",
+    "sha256": "c3422869de28cb1901a811c8ed91d1821be42a00330c8b1b2567506f1709c694",
+    "size_bytes": 531713,
+    "stored_at": "1794917951.583918",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2025/07/BhavCopy_NSE_CM_20250725.csv.csv": {
+    "date": "2025-07-25",
+    "sha256": "3c63030e47373ca744d8e84608b636c63590b927bd8f7057ff620c56bf3e049b",
+    "size_bytes": 527053,
+    "stored_at": "1794917951.3838985",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2025/07/BhavCopy_NSE_CM_20250728.csv.csv": {
+    "date": "2025-07-28",
+    "sha256": "47959b660c721ef0a9e785e6dbd0fdcacb4dc720b20c1242a091e4702b516b96",
+    "size_bytes": 536874,
+    "stored_at": "1794917951.1971138",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2025/07/BhavCopy_NSE_CM_20250729.csv.csv": {
+    "date": "2025-07-29",
+    "sha256": "a6d43d9ea9ab6f73ce3d932729a8af05e6d515494f08a423ef59fd5992bd70ac",
+    "size_bytes": 529154,
+    "stored_at": "1794917951.0069146",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2025/07/BhavCopy_NSE_CM_20250730.csv.csv": {
+    "date": "2025-07-30",
+    "sha256": "9ea86637fd9e66d0e1a9f000f8c4d719ad5c76626da1807126e47ac585374e44",
+    "size_bytes": 530732,
+    "stored_at": "1794917950.5186796",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2025/07/BhavCopy_NSE_CM_20250731.csv.csv": {
+    "date": "2025-07-31",
+    "sha256": "f17eff0a33d77943680aed700726d1a48c2702cc8fac52ec43bba98b0aad8619",
+    "size_bytes": 529874,
+    "stored_at": "1794917950.3437824",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2025/08/BhavCopy_NSE_CM_20250801.csv.csv": {
+    "date": "2025-08-01",
+    "sha256": "60aabe47112541513d43a400a22c9f31cc1dcc7a9c50f86e2e75acb0608c318b",
+    "size_bytes": 527623,
+    "stored_at": "1794917950.1129258",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2025/08/BhavCopy_NSE_CM_20250804.csv.csv": {
+    "date": "2025-08-04",
+    "sha256": "5a18ca9c4f8ec6d8627b7559a386330b076cebd6dcaa25572b807aa716bc9a9c",
+    "size_bytes": 537795,
+    "stored_at": "1794917949.917224",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2025/08/BhavCopy_NSE_CM_20250805.csv.csv": {
+    "date": "2025-08-05",
+    "sha256": "9de45acac95cb08d693478ba603dc9ccfadee7d3926134adb5cb2d35a87ecb94",
+    "size_bytes": 531720,
+    "stored_at": "1794917949.7409627",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2025/08/BhavCopy_NSE_CM_20250806.csv.csv": {
+    "date": "2025-08-06",
+    "sha256": "7d5d1669499a258d5dd9e4b7d52087df993ab84a2164616a04c8c2c816e8ccca",
+    "size_bytes": 533911,
+    "stored_at": "1794917949.5440073",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2025/08/BhavCopy_NSE_CM_20250807.csv.csv": {
+    "date": "2025-08-07",
+    "sha256": "05af4fc99cd420deeafce3a8e835d638d60a1d26646dfc9f153aa7601e7bd95d",
+    "size_bytes": 532106,
+    "stored_at": "1794917949.3615541",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2025/08/BhavCopy_NSE_CM_20250808.csv.csv": {
+    "date": "2025-08-08",
+    "sha256": "ae4578e85ffb3e8329afcf8b603246ef133dfaf28dbd02dac4c1c65b0bfb475d",
+    "size_bytes": 527785,
+    "stored_at": "1794917949.1657052",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2025/08/BhavCopy_NSE_CM_20250811.csv.csv": {
+    "date": "2025-08-11",
+    "sha256": "fff4d8834986d31eb40ab3d944d8b12250a298adda69cac9f5bdd6abde07919c",
+    "size_bytes": 536748,
+    "stored_at": "1794917948.8914537",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2025/08/BhavCopy_NSE_CM_20250812.csv.csv": {
+    "date": "2025-08-12",
+    "sha256": "1d58ebc82bc78f8a8616842a514764af21f206182c779465e8bbdedbc12b2fe8",
+    "size_bytes": 531597,
+    "stored_at": "1794917948.6240637",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2025/08/BhavCopy_NSE_CM_20250813.csv.csv": {
+    "date": "2025-08-13",
+    "sha256": "2493486d909eceb2ec8f85a0111856c5cc9119bc2fde8fc8adf30984e334d1d4",
+    "size_bytes": 531669,
+    "stored_at": "1794917948.047133",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2025/08/BhavCopy_NSE_CM_20250814.csv.csv": {
+    "date": "2025-08-14",
+    "sha256": "00a8a74315d3c19e896e6d6532e1a58908d6bd0692d8ba5c2acf51426da8aeb9",
+    "size_bytes": 528188,
+    "stored_at": "1794917947.7963488",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2025/08/BhavCopy_NSE_CM_20250818.csv.csv": {
+    "date": "2025-08-18",
+    "sha256": "71c4c3d4a21833e5dc9230edfe6f257a8b80abd72ce4f685c3e41cba4c3b97bc",
+    "size_bytes": 546005,
+    "stored_at": "1794917947.08168",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2025/08/BhavCopy_NSE_CM_20250819.csv.csv": {
+    "date": "2025-08-19",
+    "sha256": "ad4bc3e22bd046cc0e210541cf0ea7ce4e9eddf36c36da3925a039705db488b4",
+    "size_bytes": 534043,
+    "stored_at": "1794917946.89975",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2025/08/BhavCopy_NSE_CM_20250820.csv.csv": {
+    "date": "2025-08-20",
+    "sha256": "bf88e59a2c3f50461e257a64ae06b90ea1071227923b9fdec93a881cb7eab449",
+    "size_bytes": 531814,
+    "stored_at": "1794917946.7027192",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2025/08/BhavCopy_NSE_CM_20250821.csv.csv": {
+    "date": "2025-08-21",
+    "sha256": "c615f4baf2f8eccc93b9456558a9c2f2bfa00d29ddf018c4e363504b14c9027b",
+    "size_bytes": 532353,
+    "stored_at": "1794917946.5300255",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2025/08/BhavCopy_NSE_CM_20250822.csv.csv": {
+    "date": "2025-08-22",
+    "sha256": "60ecb4506851d7f17ce8cb30559710def17dcae89e4c10d67c3adeb4c63335cd",
+    "size_bytes": 528948,
+    "stored_at": "1794917946.3513222",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2025/08/BhavCopy_NSE_CM_20250825.csv.csv": {
+    "date": "2025-08-25",
+    "sha256": "64a0e87c1241f62b3089c52752c495db0df1674545c255230f18f53017303bdf",
+    "size_bytes": 538747,
+    "stored_at": "1794917946.180685",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2025/08/BhavCopy_NSE_CM_20250826.csv.csv": {
+    "date": "2025-08-26",
+    "sha256": "ce95ee4637a0c10e40e58998b25db5c47aff707224912389bdf54290f2006168",
+    "size_bytes": 535031,
+    "stored_at": "1794917946.0111623",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2025/08/BhavCopy_NSE_CM_20250828.csv.csv": {
+    "date": "2025-08-28",
+    "sha256": "9305a26aa49f274541287b29349cf69bf6013e6eefaf25d5f46eda23e3cc8cbd",
+    "size_bytes": 532978,
+    "stored_at": "1794917945.2160318",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2025/08/BhavCopy_NSE_CM_20250829.csv.csv": {
+    "date": "2025-08-29",
+    "sha256": "96f5db4da6ac95f306543a34e61cb7432e9f2896347841cdb1a60667f7f425a1",
+    "size_bytes": 537399,
+    "stored_at": "1794917945.0217764",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2025/09/BhavCopy_NSE_CM_20250901.csv.csv": {
+    "date": "2025-09-01",
+    "sha256": "c00dc4b012dfdd602e14f76b34f5c48333b88d384a8061b404f28db5ee8012ea",
+    "size_bytes": 547382,
+    "stored_at": "1794917944.8383985",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2025/09/BhavCopy_NSE_CM_20250902.csv.csv": {
+    "date": "2025-09-02",
+    "sha256": "460cbd8d7638c2e278d2d2991531839e20ba76d5c036f1f9ed75208f456343a3",
+    "size_bytes": 544622,
+    "stored_at": "1794917944.6682925",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2025/09/BhavCopy_NSE_CM_20250903.csv.csv": {
+    "date": "2025-09-03",
+    "sha256": "cbf0145f3fe2017d3a8b04a5d83a63ccd91a29fd0745c1466bb02869518093c0",
+    "size_bytes": 545061,
+    "stored_at": "1794917944.4804015",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2025/09/BhavCopy_NSE_CM_20250904.csv.csv": {
+    "date": "2025-09-04",
+    "sha256": "d168a169cc057f38b0c0bd02c63b5d3fc67abc1647234cb139a4d0f53e7a4447",
+    "size_bytes": 545636,
+    "stored_at": "1794917944.252702",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2025/09/BhavCopy_NSE_CM_20250905.csv.csv": {
+    "date": "2025-09-05",
+    "sha256": "07b272cbd4ef72ad92d29f7cd2fa70cc7b442b083ae2bd43956f250116d59bcc",
+    "size_bytes": 543427,
+    "stored_at": "1794917944.0666804",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2025/09/BhavCopy_NSE_CM_20250908.csv.csv": {
+    "date": "2025-09-08",
+    "sha256": "cc22660b18a0fd9e27dde0f050899bd0bba85185ce877bec0bc71f5ec241d994",
+    "size_bytes": 544888,
+    "stored_at": "1794917943.8193114",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2025/09/BhavCopy_NSE_CM_20250909.csv.csv": {
+    "date": "2025-09-09",
+    "sha256": "c1f4c7829b2c0ac884a06e2feb9c46589f5b10c874b5e7c2f45133577f47be16",
+    "size_bytes": 540183,
+    "stored_at": "1794917943.6271498",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2025/09/BhavCopy_NSE_CM_20250910.csv.csv": {
+    "date": "2025-09-10",
+    "sha256": "fb1ba9e141aa7b6f900d91ff92a8ee5f7afe2de82675117a563236dd5f083067",
+    "size_bytes": 542920,
+    "stored_at": "1794917943.4207537",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2025/09/BhavCopy_NSE_CM_20250911.csv.csv": {
+    "date": "2025-09-11",
+    "sha256": "30789fee7018a4f53b3baf2980e5790fdf6b834560f2b1d07c8c30c19f1dd7e4",
+    "size_bytes": 546315,
+    "stored_at": "1794917943.248343",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2025/09/BhavCopy_NSE_CM_20250912.csv.csv": {
+    "date": "2025-09-12",
+    "sha256": "881f75ea03c24cce161877572114163becc33c09e200a7df5f5a1e405fd9e9d9",
+    "size_bytes": 545563,
+    "stored_at": "1794917943.0164917",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2025/09/BhavCopy_NSE_CM_20250915.csv.csv": {
+    "date": "2025-09-15",
+    "sha256": "d0b481a36c8771395be41e45306f0c2cc61ec86ac097ac178a6e30a7a591e71b",
+    "size_bytes": 550312,
+    "stored_at": "1794917942.2670066",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2025/09/BhavCopy_NSE_CM_20250916.csv.csv": {
+    "date": "2025-09-16",
+    "sha256": "da8be07a1d0b190996b811c5775084ad05c0c088edc79ee775a00e26f1acb472",
+    "size_bytes": 548185,
+    "stored_at": "1794917942.0100784",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2025/09/BhavCopy_NSE_CM_20250917.csv.csv": {
+    "date": "2025-09-17",
+    "sha256": "8b479a0e138f005d4aeab3ac287ca2276f418eeae8e21d2f292f24f01dbbac5d",
+    "size_bytes": 552698,
+    "stored_at": "1794917941.8216193",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2025/09/BhavCopy_NSE_CM_20250918.csv.csv": {
+    "date": "2025-09-18",
+    "sha256": "e2820d7e180b1717e43186b80fe08a014a73dff42ac0d47a5e6547440a771397",
+    "size_bytes": 544924,
+    "stored_at": "1794917941.0822945",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2025/09/BhavCopy_NSE_CM_20250919.csv.csv": {
+    "date": "2025-09-19",
+    "sha256": "d931c282ddbc725712f94a172f69c814eed76f813370aa5afe3d0f554ce0b921",
+    "size_bytes": 543687,
+    "stored_at": "1794917940.7774482",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2025/09/BhavCopy_NSE_CM_20250922.csv.csv": {
+    "date": "2025-09-22",
+    "sha256": "10737f0b287b29ceca8ea3fce0c8fb3ba9ab28acd4b1c4a1fc34095ba8320052",
+    "size_bytes": 555313,
+    "stored_at": "1794917940.6003454",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2025/09/BhavCopy_NSE_CM_20250923.csv.csv": {
+    "date": "2025-09-23",
+    "sha256": "07aade43e08f5f416371f9e1b9b67621ca4577dff99329c5c9524db1850d0933",
+    "size_bytes": 544016,
+    "stored_at": "1794917940.418221",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2025/09/BhavCopy_NSE_CM_20250924.csv.csv": {
+    "date": "2025-09-24",
+    "sha256": "3a9cd635d20d523d21100fbf7e7f8dd42572daa9997ef82ebb2a96ed2b237408",
+    "size_bytes": 542989,
+    "stored_at": "1794917940.233885",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2025/09/BhavCopy_NSE_CM_20250925.csv.csv": {
+    "date": "2025-09-25",
+    "sha256": "c8bf0ac72b2c11fae0daf1688830199fbad017f7ed2d0b5c419e1d50d89fc925",
+    "size_bytes": 541563,
+    "stored_at": "1794917939.986636",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2025/09/BhavCopy_NSE_CM_20250926.csv.csv": {
+    "date": "2025-09-26",
+    "sha256": "301032c310222133bf022a045413e0f6f3ea496c1d20f4d8df73c8eb210f6c28",
+    "size_bytes": 545363,
+    "stored_at": "1794917939.8069937",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2025/09/BhavCopy_NSE_CM_20250929.csv.csv": {
+    "date": "2025-09-29",
+    "sha256": "34f7a6c23d1e016e00ea76e76877d48d5ad8a682604a49c99f7e019546e917c0",
+    "size_bytes": 548597,
+    "stored_at": "1794917939.6088312",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2025/09/BhavCopy_NSE_CM_20250930.csv.csv": {
+    "date": "2025-09-30",
+    "sha256": "4d583ed2e4a4dadc21387800b45104d1a5bf44877fa544da64db3285c8066632",
+    "size_bytes": 539800,
+    "stored_at": "1794917939.4003",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2025/10/BhavCopy_NSE_CM_20251001.csv.csv": {
+    "date": "2025-10-01",
+    "sha256": "a0851ff966cdebbd8cdb97dc7ba457458187ca67f9cd2d1f0714d4e4777ed58b",
+    "size_bytes": 546716,
+    "stored_at": "1794917939.2157242",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2025/10/BhavCopy_NSE_CM_20251003.csv.csv": {
+    "date": "2025-10-03",
+    "sha256": "57076e8b328f98acf1125272e3eb3a99c92d6476031dd81d14f42d7922131a66",
+    "size_bytes": 551897,
+    "stored_at": "1794917938.516468",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2025/10/BhavCopy_NSE_CM_20251006.csv.csv": {
+    "date": "2025-10-06",
+    "sha256": "ebec7ac20aa382c9db49d4cc8c25f2f3811a248f04b17cdf2704acc2fda4faea",
+    "size_bytes": 557537,
+    "stored_at": "1794917938.34207",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2025/10/BhavCopy_NSE_CM_20251007.csv.csv": {
+    "date": "2025-10-07",
+    "sha256": "78a6ccd3de87f07c29117dcd2ee49189f42fb648e9dc0589f15af126f9218d36",
+    "size_bytes": 555387,
+    "stored_at": "1794917938.1202192",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2025/10/BhavCopy_NSE_CM_20251008.csv.csv": {
+    "date": "2025-10-08",
+    "sha256": "61f1ad731ffedabda15194383f9eef527f4b7157b53d4a70cd8ec93cd4a5d23b",
+    "size_bytes": 556625,
+    "stored_at": "1794917937.950401",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2025/10/BhavCopy_NSE_CM_20251009.csv.csv": {
+    "date": "2025-10-09",
+    "sha256": "e58f2c54ac916e85b74d9adb5bc1535a59598ebc94cb4ad8ad09b24b2e991f3b",
+    "size_bytes": 554304,
+    "stored_at": "1794917937.7681017",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2025/10/BhavCopy_NSE_CM_20251010.csv.csv": {
+    "date": "2025-10-10",
+    "sha256": "b4f94f0a71b407d8f5e4d9db62d9af9b37b1991bf9a769cdc641773ec55d177f",
+    "size_bytes": 549958,
+    "stored_at": "1794917937.5334086",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2025/10/BhavCopy_NSE_CM_20251013.csv.csv": {
+    "date": "2025-10-13",
+    "sha256": "87af44dbc84a7bb2f2144f60ba8908753ecdf3c21f5a358572d866ae97f454b3",
+    "size_bytes": 556165,
+    "stored_at": "1794917937.3524659",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2025/10/BhavCopy_NSE_CM_20251014.csv.csv": {
+    "date": "2025-10-14",
+    "sha256": "eb9b1a80fee8e77c0c4e53daedfff28e226a679c4b54b2364271d463fd9d8b85",
+    "size_bytes": 556154,
+    "stored_at": "1794917937.1724935",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2025/10/BhavCopy_NSE_CM_20251015.csv.csv": {
+    "date": "2025-10-15",
+    "sha256": "18299c0b14b3ae569d3aa9efbd3cd0e5661fada9e58e87172ee7abfeff727763",
+    "size_bytes": 552779,
+    "stored_at": "1794917936.9958184",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2025/10/BhavCopy_NSE_CM_20251016.csv.csv": {
+    "date": "2025-10-16",
+    "sha256": "25bd3094aa5b1f25786196e09f82669aed88ad05a37bccbcefb51412fda553f2",
+    "size_bytes": 555925,
+    "stored_at": "1794917936.8123832",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2025/10/BhavCopy_NSE_CM_20251017.csv.csv": {
+    "date": "2025-10-17",
+    "sha256": "b5f674c31fa5878b4e2d8d17e1dc7533bb24b3469f42a8be20d04265e085be42",
+    "size_bytes": 548049,
+    "stored_at": "1794917936.6343286",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2025/10/BhavCopy_NSE_CM_20251020.csv.csv": {
+    "date": "2025-10-20",
+    "sha256": "a83b4b8e644165488a3277bcdad9dfc4543b9d8465abe6a42be543ff0a701d53",
+    "size_bytes": 560578,
+    "stored_at": "1794917936.455416",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2025/10/BhavCopy_NSE_CM_20251021.csv.csv": {
+    "date": "2025-10-21",
+    "sha256": "33206c1e60f6909c7759e6cc5928582563f7213a9c4a38ead53ef9bd802aea6f",
+    "size_bytes": 521854,
+    "stored_at": "1794917936.2657094",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2025/10/BhavCopy_NSE_CM_20251023.csv.csv": {
+    "date": "2025-10-23",
+    "sha256": "46294547e7d2a43bfc49baf48b02b568a534b0bf98aa4e13600c218b287e3555",
+    "size_bytes": 557207,
+    "stored_at": "1794917935.5758371",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2025/10/BhavCopy_NSE_CM_20251024.csv.csv": {
+    "date": "2025-10-24",
+    "sha256": "cc1033a838ce67ba54aa920742a3f9a424363af8daf9f004929a0e9d4edcb462",
+    "size_bytes": 551041,
+    "stored_at": "1794917935.3886094",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2025/10/BhavCopy_NSE_CM_20251027.csv.csv": {
+    "date": "2025-10-27",
+    "sha256": "432c7fc766684c8c0fb994e5cc294c07e8ac151a5157282ba6094bbcf57fd1f9",
+    "size_bytes": 561772,
+    "stored_at": "1794917935.201729",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2025/10/BhavCopy_NSE_CM_20251028.csv.csv": {
+    "date": "2025-10-28",
+    "sha256": "331124fd44ae0cdaa25c2144bc9f172a3d152c4e3e8d19e07ea9408d19bc5c41",
+    "size_bytes": 560309,
+    "stored_at": "1794917934.9934082",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2025/10/BhavCopy_NSE_CM_20251029.csv.csv": {
+    "date": "2025-10-29",
+    "sha256": "6c8b5a669cf3504cb88bde8b765bb14cc12d9c9a3b730de810118710c17cda98",
+    "size_bytes": 554184,
+    "stored_at": "1794917934.8189442",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2025/10/BhavCopy_NSE_CM_20251030.csv.csv": {
+    "date": "2025-10-30",
+    "sha256": "937f1ebe8f5884067f7940daf004125e7ca9ee46ab335130fff35c7693577802",
+    "size_bytes": 549537,
+    "stored_at": "1794917934.6075873",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2025/10/BhavCopy_NSE_CM_20251031.csv.csv": {
+    "date": "2025-10-31",
+    "sha256": "2d5558d52cc632d7a4a40344d977fc035b255d5016fbcdbb37bf30cb123d29ac",
+    "size_bytes": 551189,
+    "stored_at": "1794917934.4330401",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2025/11/BhavCopy_NSE_CM_20251103.csv.csv": {
+    "date": "2025-11-03",
+    "sha256": "b29120c2858f5ff99bbc565bd684c6b778f901d2f32ddda3fa9b3e64db5c44c5",
+    "size_bytes": 555934,
+    "stored_at": "1794917934.1863832",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2025/11/BhavCopy_NSE_CM_20251104.csv.csv": {
+    "date": "2025-11-04",
+    "sha256": "c3ff65d000448130ae8fee9083ad770063b7729d5fa2594cfe73279c2f2b9336",
+    "size_bytes": 550339,
+    "stored_at": "1794917933.268736",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2025/11/BhavCopy_NSE_CM_20251106.csv.csv": {
+    "date": "2025-11-06",
+    "sha256": "c3d26901bfeed15013941cbe49a762156e45fac3978c973b5b6e6f67f07bdb57",
+    "size_bytes": 553416,
+    "stored_at": "1794917932.6057146",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2025/11/BhavCopy_NSE_CM_20251107.csv.csv": {
+    "date": "2025-11-07",
+    "sha256": "83fe7bd3754d0648938bcf9b72c5536b471ffbe454ca31385917bdeef53cd911",
+    "size_bytes": 555686,
+    "stored_at": "1794917932.3839476",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2025/11/BhavCopy_NSE_CM_20251110.csv.csv": {
+    "date": "2025-11-10",
+    "sha256": "4ed2dbc7a62886c3cb2c7890101d954181285e7968f4638c9038b6e2a75e39c7",
+    "size_bytes": 560015,
+    "stored_at": "1794917932.2017527",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2025/11/BhavCopy_NSE_CM_20251111.csv.csv": {
+    "date": "2025-11-11",
+    "sha256": "f41e498d5b16be1e202d7a42fa4060f187daa4f2c953a0abbfe75d50da67eb3b",
+    "size_bytes": 554703,
+    "stored_at": "1794917932.0309246",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2025/11/BhavCopy_NSE_CM_20251112.csv.csv": {
+    "date": "2025-11-12",
+    "sha256": "581de4e870180d6fece11fd033e1f5131ba9fb9bb0db09ea35da7dec088d2903",
+    "size_bytes": 553929,
+    "stored_at": "1794917931.8477564",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2025/11/BhavCopy_NSE_CM_20251113.csv.csv": {
+    "date": "2025-11-13",
+    "sha256": "bea129d9a831c536c5151063a8c0576dc13908e30741ca059d9f099c3ed93a54",
+    "size_bytes": 552299,
+    "stored_at": "1794917931.6498523",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2025/11/BhavCopy_NSE_CM_20251114.csv.csv": {
+    "date": "2025-11-14",
+    "sha256": "461bd0f9ae2bffff2484875976b9f5ba62ef3a8172eebe0ba9ffe02a05e7f6e2",
+    "size_bytes": 552559,
+    "stored_at": "1794917931.4846141",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2025/11/BhavCopy_NSE_CM_20251117.csv.csv": {
+    "date": "2025-11-17",
+    "sha256": "61d1e0ed0bb50f27f5eb69f4f9367062cb659da193434aff67d13026a570c25b",
+    "size_bytes": 563577,
+    "stored_at": "1794917931.286547",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2025/11/BhavCopy_NSE_CM_20251118.csv.csv": {
+    "date": "2025-11-18",
+    "sha256": "94dfd7296d4520ad5aaadf57047d6d15571707c7a780ad9c3b1301797b29dc2c",
+    "size_bytes": 559736,
+    "stored_at": "1794917931.0750751",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2025/11/BhavCopy_NSE_CM_20251119.csv.csv": {
+    "date": "2025-11-19",
+    "sha256": "92f4cd8d306cdaa412b7eb798c0e5706a5d4c63f013ae7f588fe31021f9cffee",
+    "size_bytes": 556755,
+    "stored_at": "1794917930.9045777",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2025/11/BhavCopy_NSE_CM_20251120.csv.csv": {
+    "date": "2025-11-20",
+    "sha256": "0cff121bf01316a3a349d058f65f8d85f70719d121b904fbcad6a12473f0f7e3",
+    "size_bytes": 554213,
+    "stored_at": "1794917930.709095",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2025/11/BhavCopy_NSE_CM_20251121.csv.csv": {
+    "date": "2025-11-21",
+    "sha256": "14e71f78b29431f325a8ba713f16c5f8780bde92ef986927547aa12f5df6ce04",
+    "size_bytes": 549810,
+    "stored_at": "1794917930.5410223",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2025/11/BhavCopy_NSE_CM_20251124.csv.csv": {
+    "date": "2025-11-24",
+    "sha256": "b3fe07a3f1addf29c7ed7dd934182e7086f29ddf7eb3a4e520ba64ea029c7a90",
+    "size_bytes": 556544,
+    "stored_at": "1794917930.3611836",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2025/11/BhavCopy_NSE_CM_20251125.csv.csv": {
+    "date": "2025-11-25",
+    "sha256": "f993338a8aa4c13c42a902dce748eeea7c2068fc7eaa475e3174222e7610497c",
+    "size_bytes": 555803,
+    "stored_at": "1794917930.1542523",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2025/11/BhavCopy_NSE_CM_20251126.csv.csv": {
+    "date": "2025-11-26",
+    "sha256": "a8d70661ae6fb4084d431a978bd8649fb193181728ace5a2b4aa5c1e2da9c0f9",
+    "size_bytes": 552725,
+    "stored_at": "1794917929.9668367",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2025/11/BhavCopy_NSE_CM_20251127.csv.csv": {
+    "date": "2025-11-27",
+    "sha256": "0f2e22cdbef6a9dce9a695bf9328dac217377ced90e8b382bad3a13d69a86986",
+    "size_bytes": 552721,
+    "stored_at": "1794917929.7658112",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2025/11/BhavCopy_NSE_CM_20251128.csv.csv": {
+    "date": "2025-11-28",
+    "sha256": "10b4347602771b517dc319aa3193092c566bf63bfb9df3bdb87a7facf594bc08",
+    "size_bytes": 551216,
+    "stored_at": "1794917929.5873635",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2025/12/BhavCopy_NSE_CM_20251201.csv.csv": {
+    "date": "2025-12-01",
+    "sha256": "efb2d09b77ac144d159b84306b3a0c0e95e3fa47033cfa9c9b4421a0c1101508",
+    "size_bytes": 557254,
+    "stored_at": "1794917929.3889413",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2025/12/BhavCopy_NSE_CM_20251202.csv.csv": {
+    "date": "2025-12-02",
+    "sha256": "7f30d55f79b3a38453f5f937d3a4922f685d4ff1d8d95902169e9876bd0b5730",
+    "size_bytes": 554240,
+    "stored_at": "1794917924.8740072",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2025/12/BhavCopy_NSE_CM_20251203.csv.csv": {
+    "date": "2025-12-03",
+    "sha256": "aa15ae1618b80fe343a9db346b2a191e9926e632f9d55a6f1013c0999a8af2aa",
+    "size_bytes": 556990,
+    "stored_at": "1794917924.692575",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2025/12/BhavCopy_NSE_CM_20251204.csv.csv": {
+    "date": "2025-12-04",
+    "sha256": "6948083280586b9a0a0e87092d741f41e249bca70751bc5e16a824830f12cdd3",
+    "size_bytes": 556162,
+    "stored_at": "1794917924.513036",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2025/12/BhavCopy_NSE_CM_20251205.csv.csv": {
+    "date": "2025-12-05",
+    "sha256": "d5d012bd74a1e5bf2573c9faa663016479a36b7b913e497ca618402156cb8f60",
+    "size_bytes": 552749,
+    "stored_at": "1794917924.322226",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2025/12/BhavCopy_NSE_CM_20251208.csv.csv": {
+    "date": "2025-12-08",
+    "sha256": "5d73c5263d6641f5939d81e8fb9c1605eeb17345ba20390022359cc075be07d8",
+    "size_bytes": 562341,
+    "stored_at": "1794917922.6864367",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2025/12/BhavCopy_NSE_CM_20251209.csv.csv": {
+    "date": "2025-12-09",
+    "sha256": "e0014d4b85fd33f0a25529d255784f959a3d3dada1890a150c91a0d45566970c",
+    "size_bytes": 556029,
+    "stored_at": "1794917922.143693",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2025/12/BhavCopy_NSE_CM_20251210.csv.csv": {
+    "date": "2025-12-10",
+    "sha256": "e902ac92f22301a9dc7535d5f53cbd03d37a5a7b7e521032b4c143af639f51b6",
+    "size_bytes": 554586,
+    "stored_at": "1794917921.9187126",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2025/12/BhavCopy_NSE_CM_20251211.csv.csv": {
+    "date": "2025-12-11",
+    "sha256": "d78c137025028cbb9e93c06381a4a71b2533c96cef2c4490857564be97325daa",
+    "size_bytes": 554021,
+    "stored_at": "1794917921.7168841",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2025/12/BhavCopy_NSE_CM_20251212.csv.csv": {
+    "date": "2025-12-12",
+    "sha256": "0010a092050a4e9ecd3321797b5d4c9d81d582941232e90126b1131580dd6724",
+    "size_bytes": 552006,
+    "stored_at": "1794917921.5316756",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2025/12/BhavCopy_NSE_CM_20251215.csv.csv": {
+    "date": "2025-12-15",
+    "sha256": "62394b21e310b766bfeebf30ceb72b45e40b557e84770ad310c7eb364510936b",
+    "size_bytes": 559126,
+    "stored_at": "1794917921.3511798",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2025/12/BhavCopy_NSE_CM_20251216.csv.csv": {
+    "date": "2025-12-16",
+    "sha256": "bbcc4a05e31abccf7d178f137da79c924b18e6bafb4619332ad08764c9e4bc03",
+    "size_bytes": 554691,
+    "stored_at": "1794917921.17883",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2025/12/BhavCopy_NSE_CM_20251217.csv.csv": {
+    "date": "2025-12-17",
+    "sha256": "679d16460834589ed989c6ad8b48ab481e494118ab5a2bd1d9eacc2e379ea54e",
+    "size_bytes": 557078,
+    "stored_at": "1794917920.9826703",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2025/12/BhavCopy_NSE_CM_20251218.csv.csv": {
+    "date": "2025-12-18",
+    "sha256": "a813cdc7b333b8b4b266f085ac8cc929c26eb5dc7b057c288a4e361b59658b97",
+    "size_bytes": 554556,
+    "stored_at": "1794917920.7995932",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2025/12/BhavCopy_NSE_CM_20251219.csv.csv": {
+    "date": "2025-12-19",
+    "sha256": "b7ae159a51be1675a41a067276ca8da503b8eb7dd175a149c4a7ec4dec666d88",
+    "size_bytes": 555507,
+    "stored_at": "1794917920.629309",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2025/12/BhavCopy_NSE_CM_20251222.csv.csv": {
+    "date": "2025-12-22",
+    "sha256": "4a9fd80a54902a378aee9f27b7b82f2bf878a4438a54579a3b8dc626dec03a5d",
+    "size_bytes": 567718,
+    "stored_at": "1794917920.455566",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2025/12/BhavCopy_NSE_CM_20251223.csv.csv": {
+    "date": "2025-12-23",
+    "sha256": "39abef352f9c4fab474e37904ae3c3549059ab6b399965a99b800fd79fe6a5f0",
+    "size_bytes": 564274,
+    "stored_at": "1794917920.24691",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2025/12/BhavCopy_NSE_CM_20251224.csv.csv": {
+    "date": "2025-12-24",
+    "sha256": "b5154d9a67a6b8e544ca36081a3713bb6f143674daeb9e391431721b75b43089",
+    "size_bytes": 561204,
+    "stored_at": "1794917920.0292356",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2025/12/BhavCopy_NSE_CM_20251226.csv.csv": {
+    "date": "2025-12-26",
+    "sha256": "1c2603cc77581f5a5593c3aec9079ed622af632a863bf3160dbc51a95a4a57e4",
+    "size_bytes": 561238,
+    "stored_at": "1794917919.0065446",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2025/12/BhavCopy_NSE_CM_20251229.csv.csv": {
+    "date": "2025-12-29",
+    "sha256": "ae035163f0d02e32552238e24bae5b9fd54f54ad36425bc47e7c010ecc8dc17d",
+    "size_bytes": 569128,
+    "stored_at": "1794917918.8177636",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2025/12/BhavCopy_NSE_CM_20251230.csv.csv": {
+    "date": "2025-12-30",
+    "sha256": "b2a5dda4ff204ae8433fa91320ad5af470eda690eaaea80cbe58169b6a5d0852",
+    "size_bytes": 560177,
+    "stored_at": "1794917918.603709",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2025/12/BhavCopy_NSE_CM_20251231.csv.csv": {
+    "date": "2025-12-31",
+    "sha256": "028d1159254836df18b005a52ba45d60afd05914e922ec82eb2c518d36492bcf",
+    "size_bytes": 562009,
+    "stored_at": "1794917918.3886871",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2026/01/BhavCopy_NSE_CM_20260101.csv.csv": {
+    "date": "2026-01-01",
+    "sha256": "c5bfeeee2822bc646dc412d7d4b0c98cdce37ef536fe8d54ddd0b89cab9a8f26",
+    "size_bytes": 555785,
+    "stored_at": "1794917918.2094016",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2026/01/BhavCopy_NSE_CM_20260102.csv.csv": {
+    "date": "2026-01-02",
+    "sha256": "3e14dd33e52b318baea7cba8f938e0004ee4721171474fea90d2ed21f9bd66af",
+    "size_bytes": 561614,
+    "stored_at": "1794917918.0168853",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2026/01/BhavCopy_NSE_CM_20260105.csv.csv": {
+    "date": "2026-01-05",
+    "sha256": "ab137fbcd50baf31fe3a5b8ed519a07bcc2932fd635eb7e6964325309b8d02e5",
+    "size_bytes": 563192,
+    "stored_at": "1794917917.5899792",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2026/01/BhavCopy_NSE_CM_20260106.csv.csv": {
+    "date": "2026-01-06",
+    "sha256": "6ce5ba331d8d2c5873328ae0a304af6dc3c03a0667bbb69a08b1168c602ce57c",
+    "size_bytes": 559326,
+    "stored_at": "1794917916.6008053",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2026/01/BhavCopy_NSE_CM_20260107.csv.csv": {
+    "date": "2026-01-07",
+    "sha256": "e053e791fd1790ea3e7e5821791bb5a7456051aa5fc43b49ec800f714f8a40e7",
+    "size_bytes": 560734,
+    "stored_at": "1794917916.1616278",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2026/01/BhavCopy_NSE_CM_20260108.csv.csv": {
+    "date": "2026-01-08",
+    "sha256": "e41d650c67207a0676a951dbb173dc2c91a4f858e01752331071a53ffe4d447b",
+    "size_bytes": 561002,
+    "stored_at": "1794917915.8513553",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2026/01/BhavCopy_NSE_CM_20260109.csv.csv": {
+    "date": "2026-01-09",
+    "sha256": "b6daeab721e42c8d7b714d57c7f8bfc3b4293085ee37b586451784472d8c40bd",
+    "size_bytes": 560297,
+    "stored_at": "1794917915.5940328",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2026/01/BhavCopy_NSE_CM_20260112.csv.csv": {
+    "date": "2026-01-12",
+    "sha256": "d424ee85a62315508a8faff7a1212e226313c3ad23bc153bc36b82e01389f0b2",
+    "size_bytes": 559719,
+    "stored_at": "1794917914.3700345",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2026/01/BhavCopy_NSE_CM_20260113.csv.csv": {
+    "date": "2026-01-13",
+    "sha256": "1f997a1fa723ed97e25fdffe31febb87487e0eab8f804c41deba23458b3d18ff",
+    "size_bytes": 560137,
+    "stored_at": "1794917911.8691788",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2026/01/BhavCopy_NSE_CM_20260114.csv.csv": {
+    "date": "2026-01-14",
+    "sha256": "2ff48902aa2dcabc03f1dad4a47a34ab435ea85496341c3d8d783fe1123ee125",
+    "size_bytes": 559247,
+    "stored_at": "1794917911.6168468",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2026/01/BhavCopy_NSE_CM_20260116.csv.csv": {
+    "date": "2026-01-16",
+    "sha256": "924dd8f5aafdc3e4e8b91364cf0a9946214e41962ae4cd3b8728de58c19a81c2",
+    "size_bytes": 565161,
+    "stored_at": "1794917911.3627515",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2026/01/BhavCopy_NSE_CM_20260119.csv.csv": {
+    "date": "2026-01-19",
+    "sha256": "1bbde682386166c493d37ccd364b79e63b7275a641e54ae783389c3e2a021cfd",
+    "size_bytes": 568262,
+    "stored_at": "1794917908.7837396",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2026/01/BhavCopy_NSE_CM_20260120.csv.csv": {
+    "date": "2026-01-20",
+    "sha256": "57b23c5dde78ff3e57efadd12efc444c60dce22beee1379b35d4640a426da172",
+    "size_bytes": 571834,
+    "stored_at": "1794917904.565705",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2026/01/BhavCopy_NSE_CM_20260121.csv.csv": {
+    "date": "2026-01-21",
+    "sha256": "491b48ff06e7fb6257910e104e6c0973b1d4ceb5d41ad8fa047b8d6f60c76bb2",
+    "size_bytes": 570760,
+    "stored_at": "1794917904.3900933",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2026/01/BhavCopy_NSE_CM_20260122.csv.csv": {
+    "date": "2026-01-22",
+    "sha256": "eb1eecb62912d2f88144eae1645799db0e5d27bffd9a237b356f2e511e6104ac",
+    "size_bytes": 563669,
+    "stored_at": "1794917904.136692",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2026/01/BhavCopy_NSE_CM_20260123.csv.csv": {
+    "date": "2026-01-23",
+    "sha256": "8ca4777f5826d2383a70331b7775a1385a6bbf0566a679f92fce56ba4ae686db",
+    "size_bytes": 562152,
+    "stored_at": "1794917903.8071704",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2026/01/BhavCopy_NSE_CM_20260127.csv.csv": {
+    "date": "2026-01-27",
+    "sha256": "abc8be8e6e01e93550c78d1a53f41f401c325b8c44f1f1e17a52f52b74fe4097",
+    "size_bytes": 572166,
+    "stored_at": "1794917903.542611",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2026/01/BhavCopy_NSE_CM_20260128.csv.csv": {
+    "date": "2026-01-28",
+    "sha256": "81c0bb7b9534caabc7f926eb58b43ea8134db26063e4bd4a9f6e1504c445f40e",
+    "size_bytes": 567228,
+    "stored_at": "1794917903.1820316",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2026/01/BhavCopy_NSE_CM_20260129.csv.csv": {
+    "date": "2026-01-29",
+    "sha256": "cc03350460f8cbe3339e2a3ea27f19ed5dc5a1bf48b56dbdecfead6e0f00e60d",
+    "size_bytes": 570899,
+    "stored_at": "1794917902.969952",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2026/01/BhavCopy_NSE_CM_20260130.csv.csv": {
+    "date": "2026-01-30",
+    "sha256": "fc7265e5170ce0d78f0fb47f1988970f1911e1bd4fc7b804a773033fa64edc32",
+    "size_bytes": 562817,
+    "stored_at": "1794917902.772356",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2026/02/BhavCopy_NSE_CM_20260202.csv.csv": {
+    "date": "2026-02-02",
+    "sha256": "ad6a185b6f1eaeadbbfed16a355cb60254c15514c23a604f357c487eb2619127",
+    "size_bytes": 566683,
+    "stored_at": "1794917902.5815551",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2026/02/BhavCopy_NSE_CM_20260203.csv.csv": {
+    "date": "2026-02-03",
+    "sha256": "1b374cdaeaa5af15a15e1a6c16e1aae8f557ddfa86f21461f2261fe2a33814f4",
+    "size_bytes": 573800,
+    "stored_at": "1794917902.2383478",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2026/02/BhavCopy_NSE_CM_20260204.csv.csv": {
+    "date": "2026-02-04",
+    "sha256": "77526989a2b1821c1e2340c2bce916f5f64d71e83b2f4516881fe320af5b9543",
+    "size_bytes": 569373,
+    "stored_at": "1794917902.0173314",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2026/02/BhavCopy_NSE_CM_20260205.csv.csv": {
+    "date": "2026-02-05",
+    "sha256": "a734c091d7c21d48a6355dffc268225d1a90c22ac5e27a4920004896d03f8e3e",
+    "size_bytes": 559867,
+    "stored_at": "1794917901.7867599",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2026/02/BhavCopy_NSE_CM_20260206.csv.csv": {
+    "date": "2026-02-06",
+    "sha256": "6f85366853dfee2808e6a715f0e8edd451c1c2480a70e8e2288ce8a099634d5e",
+    "size_bytes": 559333,
+    "stored_at": "1794917901.5666382",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2026/02/BhavCopy_NSE_CM_20260209.csv.csv": {
+    "date": "2026-02-09",
+    "sha256": "3c2de66f6f4979fd9fbf5cf3bf992753c781ffe5a966642843b06c5636a740f8",
+    "size_bytes": 571476,
+    "stored_at": "1794917901.210312",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2026/02/BhavCopy_NSE_CM_20260210.csv.csv": {
+    "date": "2026-02-10",
+    "sha256": "29aab83b1b9d86ffa0f99b0deaaad4bd8fad64b0068aa5846437c82d6707541a",
+    "size_bytes": 565019,
+    "stored_at": "1794917901.0198228",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2026/02/BhavCopy_NSE_CM_20260211.csv.csv": {
+    "date": "2026-02-11",
+    "sha256": "b1d3f5cb4c10ce13bf43396ba979e4c33176c4157bc55e04c5a91a2429d53f1e",
+    "size_bytes": 562021,
+    "stored_at": "1794917900.8241253",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2026/02/BhavCopy_NSE_CM_20260212.csv.csv": {
+    "date": "2026-02-12",
+    "sha256": "e14004c598edd606bf410c0553f7c677e12d9a6e41a3017f6a104095ba3821a1",
+    "size_bytes": 563707,
+    "stored_at": "1794917900.4941688",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2026/02/BhavCopy_NSE_CM_20260213.csv.csv": {
+    "date": "2026-02-13",
+    "sha256": "85aca8ed2645672248efbd3cda80effb84bc0183f300d3f4fadf70cdcc0fca60",
+    "size_bytes": 561070,
+    "stored_at": "1794917900.2422462",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2026/02/BhavCopy_NSE_CM_20260216.csv.csv": {
+    "date": "2026-02-16",
+    "sha256": "c553b29d94dd469d986d1c85788672b2f7d2394a8b6e32ecf4e3b78d92e31691",
+    "size_bytes": 563815,
+    "stored_at": "1794917899.994618",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2026/02/BhavCopy_NSE_CM_20260217.csv.csv": {
+    "date": "2026-02-17",
+    "sha256": "0e41d69f6f2d41f0345daa336efbe8db423e7e27070a0eb2b486dc47fe867d6f",
+    "size_bytes": 561206,
+    "stored_at": "1794917899.7831287",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2026/02/BhavCopy_NSE_CM_20260218.csv.csv": {
+    "date": "2026-02-18",
+    "sha256": "519b2436e16eb21b2609dea87c94a0e78cc993011556ecb1f6c734603b63d589",
+    "size_bytes": 566296,
+    "stored_at": "1794917899.4763954",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2026/02/BhavCopy_NSE_CM_20260219.csv.csv": {
+    "date": "2026-02-19",
+    "sha256": "51b9f408745ad92efce1b91c52f943d42383f8e576f81f04de12beb8ad3ba7fa",
+    "size_bytes": 561143,
+    "stored_at": "1794917899.1357074",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2026/02/BhavCopy_NSE_CM_20260220.csv.csv": {
+    "date": "2026-02-20",
+    "sha256": "9381427809f4fb4bd3d8fb260693952fc867eaef13862bc32582195f9370a432",
+    "size_bytes": 560848,
+    "stored_at": "1794917898.9462466",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2026/02/BhavCopy_NSE_CM_20260223.csv.csv": {
+    "date": "2026-02-23",
+    "sha256": "b06a485f769f3e4111a45c6a26bcfb8ca8b9d04883ec992859f79ab43290e639",
+    "size_bytes": 566634,
+    "stored_at": "1794917898.7521162",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2026/02/BhavCopy_NSE_CM_20260224.csv.csv": {
+    "date": "2026-02-24",
+    "sha256": "9fc7c1fc4781137a12440dc197dc995d5f1a5b849b0483348c0527e4b468e770",
+    "size_bytes": 565164,
+    "stored_at": "1794917898.4945023",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2026/02/BhavCopy_NSE_CM_20260225.csv.csv": {
+    "date": "2026-02-25",
+    "sha256": "038c877348620f830e842cdb6ff8e0d813d1c0946fade918ee403b0c3f701de9",
+    "size_bytes": 567352,
+    "stored_at": "1794917898.2859342",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2026/02/BhavCopy_NSE_CM_20260226.csv.csv": {
+    "date": "2026-02-26",
+    "sha256": "959ae2f128601bc40340e3aacf3955deb31060e062cf861f9415bcc977f720d6",
+    "size_bytes": 562550,
+    "stored_at": "1794917897.967123",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2026/02/BhavCopy_NSE_CM_20260227.csv.csv": {
+    "date": "2026-02-27",
+    "sha256": "6d9083dfbb03d64d2d3e81324eadbdd69775772b4404ff5bc95837998d26b44d",
+    "size_bytes": 559339,
+    "stored_at": "1794917897.7338703",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2026/03/BhavCopy_NSE_CM_20260302.csv.csv": {
+    "date": "2026-03-02",
+    "sha256": "4b3687eb57257360737a98104c7a71503eeb28617b61cdc90311e54869cc452d",
+    "size_bytes": 570533,
+    "stored_at": "1794917897.5040793",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2026/03/BhavCopy_NSE_CM_20260304.csv.csv": {
+    "date": "2026-03-04",
+    "sha256": "1cf08d11fdeca96413003bc9fff11fe7a84ac3a65e944d4ab53e01b7c202a5fd",
+    "size_bytes": 577443,
+    "stored_at": "1794917897.1966176",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2026/03/BhavCopy_NSE_CM_20260305.csv.csv": {
+    "date": "2026-03-05",
+    "sha256": "3dbef745a2050c804a1ef4d4c8d2e2370399a59fa0da3f921a0960986139f904",
+    "size_bytes": 575886,
+    "stored_at": "1794917896.8742735",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2026/03/BhavCopy_NSE_CM_20260306.csv.csv": {
+    "date": "2026-03-06",
+    "sha256": "eabc3637ebb89583101844b7eda97f5acf3afa6dcc9a2b2736fb40126fa1dc37",
+    "size_bytes": 569102,
+    "stored_at": "1794917896.6611533",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2026/03/BhavCopy_NSE_CM_20260309.csv.csv": {
+    "date": "2026-03-09",
+    "sha256": "0e48ea916c4e1cba77187e1b973cd3da9900f6dfcd04bf98bd5d8bce946cb75d",
+    "size_bytes": 582448,
+    "stored_at": "1794917896.4939694",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2026/03/BhavCopy_NSE_CM_20260310.csv.csv": {
+    "date": "2026-03-10",
+    "sha256": "0a0a618cc215faac1e1d8dc04300b15265327eee71774418ea4f0572b8953808",
+    "size_bytes": 570993,
+    "stored_at": "1794917896.2987995",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2026/03/BhavCopy_NSE_CM_20260311.csv.csv": {
+    "date": "2026-03-11",
+    "sha256": "bd67765f4455318833396c4e2523e616da4d431b94255120de53b09692a7d7df",
+    "size_bytes": 569940,
+    "stored_at": "1794917895.9962034",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2026/03/BhavCopy_NSE_CM_20260312.csv.csv": {
+    "date": "2026-03-12",
+    "sha256": "bdb1aabf4dd09347f727d3ac3c7fc04e33ab35f07ddc2e7d25a60cb6e119f00c",
+    "size_bytes": 571326,
+    "stored_at": "1794917895.7583897",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2026/03/BhavCopy_NSE_CM_20260313.csv.csv": {
+    "date": "2026-03-13",
+    "sha256": "29e201a1a7e94cca4cdc18fafd61293ece8a30e151a0353589de7d51eddaee41",
+    "size_bytes": 573804,
+    "stored_at": "1794917895.4395988",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2026/03/BhavCopy_NSE_CM_20260316.csv.csv": {
+    "date": "2026-03-16",
+    "sha256": "8c6e11b2bf8e09a8a283d2b12958864fae19b2eff6327b5d434a847befd42226",
+    "size_bytes": 582550,
+    "stored_at": "1794917895.1148055",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2026/03/BhavCopy_NSE_CM_20260317.csv.csv": {
+    "date": "2026-03-17",
+    "sha256": "bc33aca2e7037cc165c18cd070ed107e400b9b4c643ac7b1d57379768f15ea70",
+    "size_bytes": 574118,
+    "stored_at": "1794917894.7894547",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2026/03/BhavCopy_NSE_CM_20260318.csv.csv": {
+    "date": "2026-03-18",
+    "sha256": "f3f604b76d1458be8aebb714bb98eb452e89bca167971a0e3b962d0d2c290608",
+    "size_bytes": 576091,
+    "stored_at": "1794917894.6135128",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2026/03/BhavCopy_NSE_CM_20260319.csv.csv": {
+    "date": "2026-03-19",
+    "sha256": "40d2ec2bee2a9349d13c62ab24e0d30a6a82b6311551269b7079b61daba220a4",
+    "size_bytes": 570753,
+    "stored_at": "1794917894.4416552",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2026/03/BhavCopy_NSE_CM_20260320.csv.csv": {
+    "date": "2026-03-20",
+    "sha256": "4b87d199f23b263ddcdf21998e1fe84a04cefe227e7c00e40a83145dc963c0ef",
+    "size_bytes": 573531,
+    "stored_at": "1794917894.2740326",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2026/03/BhavCopy_NSE_CM_20260323.csv.csv": {
+    "date": "2026-03-23",
+    "sha256": "4e88a9ba8b18ab1b49979ed39479049fe3818ec6902273ff28c94effb10a4cd6",
+    "size_bytes": 591450,
+    "stored_at": "1794917894.0826886",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2026/03/BhavCopy_NSE_CM_20260324.csv.csv": {
+    "date": "2026-03-24",
+    "sha256": "8b64884017b70bfb80a39865d56369d3a3892dbfe0a1348b4639a52fb5125fbc",
+    "size_bytes": 582225,
+    "stored_at": "1794917893.7625365",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2026/03/BhavCopy_NSE_CM_20260325.csv.csv": {
+    "date": "2026-03-25",
+    "sha256": "8c081e2fe03c61674a4e1f4d75eec597a60058acce1b2635eef61ba372297dff",
+    "size_bytes": 582260,
+    "stored_at": "1794917891.613653",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2026/03/BhavCopy_NSE_CM_20260327.csv.csv": {
+    "date": "2026-03-27",
+    "sha256": "3258b7c7570d28b348e93e369e6d22c7a9ed31d18dc37b26dcf8cc0c1b0da470",
+    "size_bytes": 586522,
+    "stored_at": "1794917891.315525",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2026/03/BhavCopy_NSE_CM_20260330.csv.csv": {
+    "date": "2026-03-30",
+    "sha256": "82ccade7ddebdf41af7896a8e4af080f96c7d00191e31874634e7e181af93626",
+    "size_bytes": 589844,
+    "stored_at": "1794917891.0150602",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2026/04/BhavCopy_NSE_CM_20260401.csv.csv": {
+    "date": "2026-04-01",
+    "sha256": "76867cb5fdf0388056ab9b57c9e6e2b4719cfaa95f0d388d52e91dc9b4c62d80",
+    "size_bytes": 573011,
+    "stored_at": "1794917889.0151925",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2026/04/BhavCopy_NSE_CM_20260402.csv.csv": {
+    "date": "2026-04-02",
+    "sha256": "ae6a7cdda18059d55d81fe27507f411cd4ef7a5bc27b42b35bda021945eee005",
+    "size_bytes": 570357,
+    "stored_at": "1794917888.81814",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2026/04/BhavCopy_NSE_CM_20260406.csv.csv": {
+    "date": "2026-04-06",
+    "sha256": "534392fd4fe735f68ba7703a45061a3d236173205383b43dd9426a6960e54c28",
+    "size_bytes": 577066,
+    "stored_at": "1794917888.5633144",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2026/04/BhavCopy_NSE_CM_20260407.csv.csv": {
+    "date": "2026-04-07",
+    "sha256": "640d908267bef7e354562344eef8a429060f5985622e2699594445757df49bd9",
+    "size_bytes": 571226,
+    "stored_at": "1794917888.214527",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2026/04/BhavCopy_NSE_CM_20260408.csv.csv": {
+    "date": "2026-04-08",
+    "sha256": "edd625565e45fc2f12ae3e4c6c272709e12bf2e684861e5dde5e064ce8534c0f",
+    "size_bytes": 583357,
+    "stored_at": "1794917888.0415993",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2026/04/BhavCopy_NSE_CM_20260409.csv.csv": {
+    "date": "2026-04-09",
+    "sha256": "caa37a261d077096e04a3a2f334e59bed94d59bdea2a179afbd45a55022e9c9a",
+    "size_bytes": 573617,
+    "stored_at": "1794917887.815154",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2026/04/BhavCopy_NSE_CM_20260410.csv.csv": {
+    "date": "2026-04-10",
+    "sha256": "9a540ab3475be2fc6ff854f16d6a983c1712a9c4a2d97017f99480369030d02c",
+    "size_bytes": 577932,
+    "stored_at": "1794917887.600003",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2026/04/BhavCopy_NSE_CM_20260413.csv.csv": {
+    "date": "2026-04-13",
+    "sha256": "246f04642d0ed903038ce8c8efa88db863e0b945b358bf6a0939c33d3225528c",
+    "size_bytes": 574149,
+    "stored_at": "1794917887.4031808",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2026/04/BhavCopy_NSE_CM_20260415.csv.csv": {
+    "date": "2026-04-15",
+    "sha256": "b19ea1554aaeef2eee6f6acfca356f79d67302da41e61dc1d7d154fe08f6db4c",
+    "size_bytes": 581922,
+    "stored_at": "1794917887.134289",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2026/04/BhavCopy_NSE_CM_20260416.csv.csv": {
+    "date": "2026-04-16",
+    "sha256": "5981a6e98b782b3fd292791512c4233d5c3296b974b648f190d735e48d67feb7",
+    "size_bytes": 575357,
+    "stored_at": "1794917886.9004133",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2026/04/BhavCopy_NSE_CM_20260417.csv.csv": {
+    "date": "2026-04-17",
+    "sha256": "e31edc2a0cff4b0cab2d25472578b8fb12c0d23cc699bf419cc9b47598f212f9",
+    "size_bytes": 580161,
+    "stored_at": "1794917886.6860297",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2026/04/BhavCopy_NSE_CM_20260420.csv.csv": {
+    "date": "2026-04-20",
+    "sha256": "5419ea79e32b32ae2cd80f73ba606d53f80807aca9e24bc915a8a3f195cd42c0",
+    "size_bytes": 591722,
+    "stored_at": "1794917886.383614",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2026/04/BhavCopy_NSE_CM_20260421.csv.csv": {
+    "date": "2026-04-21",
+    "sha256": "153c293b3bec8776113082b63fa851a8bbcd2d1549c6f04cf92d650d912a7897",
+    "size_bytes": 593518,
+    "stored_at": "1794917886.1506612",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2026/04/BhavCopy_NSE_CM_20260422.csv.csv": {
+    "date": "2026-04-22",
+    "sha256": "08897c64f8a93c0bf24f35bf9967832ee35e2cc551a4419da4a9e4678292080f",
+    "size_bytes": 587321,
+    "stored_at": "1794917885.9837492",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2026/04/BhavCopy_NSE_CM_20260423.csv.csv": {
+    "date": "2026-04-23",
+    "sha256": "0998a36b785a288f0e7ecada2f608a340c7f6e57b4e21f53b4c3f517a9737fc7",
+    "size_bytes": 587063,
+    "stored_at": "1794917885.769692",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2026/04/BhavCopy_NSE_CM_20260424.csv.csv": {
+    "date": "2026-04-24",
+    "sha256": "907b541afed52578716abb574605cd038266823cf90d3a963b70a2b175286614",
+    "size_bytes": 587343,
+    "stored_at": "1794917885.5659168",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2026/04/BhavCopy_NSE_CM_20260427.csv.csv": {
+    "date": "2026-04-27",
+    "sha256": "c1a33b0f74c539b3fbee92d1129c5baa4c2b657956525d1a85740dafcdcb346f",
+    "size_bytes": 595352,
+    "stored_at": "1794917885.3740928",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2026/04/BhavCopy_NSE_CM_20260428.csv.csv": {
+    "date": "2026-04-28",
+    "sha256": "4f4754751c6c1afc5838dfa59a2de59efd65d71009b12105db8677630022e15b",
+    "size_bytes": 583851,
+    "stored_at": "1794917885.085523",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2026/04/BhavCopy_NSE_CM_20260429.csv.csv": {
+    "date": "2026-04-29",
+    "sha256": "3a92741e86453efbb210163625153d1d658d1bd3357b9a04c38cdc94131b7c07",
+    "size_bytes": 586664,
+    "stored_at": "1794917884.8663301",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2026/04/BhavCopy_NSE_CM_20260430.csv.csv": {
+    "date": "2026-04-30",
+    "sha256": "4724199972e62dc465c7c8dbb778a11dafaf86088fbf81af144e7ee50fc2ea49",
+    "size_bytes": 582164,
+    "stored_at": "1794917884.577671",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2026/05/BhavCopy_NSE_CM_20260504.csv.csv": {
+    "date": "2026-05-04",
+    "sha256": "fa38d7ddaf77a8efd3b8a665b5ec94842f64276d8459b2d1b6dd9c290d0c8563",
+    "size_bytes": 592827,
+    "stored_at": "1794917884.4183328",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2026/05/BhavCopy_NSE_CM_20260505.csv.csv": {
+    "date": "2026-05-05",
+    "sha256": "3f48be3fb3c33f4473f8ca5a5205a30028f82ff166a870d86170c83352e9b2cd",
+    "size_bytes": 585982,
+    "stored_at": "1794917884.215603",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2026/05/BhavCopy_NSE_CM_20260506.csv.csv": {
+    "date": "2026-05-06",
+    "sha256": "d0b06467ad9d085bcd693871d9b9c1f91c0874d2a66566af11d943db1cadd456",
+    "size_bytes": 584015,
+    "stored_at": "1794917883.9838939",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2026/05/BhavCopy_NSE_CM_20260507.csv.csv": {
+    "date": "2026-05-07",
+    "sha256": "a2cd03d7611aadece58a4620c2935fbed158a08c1dcc797655ae313423d1d787",
+    "size_bytes": 587351,
+    "stored_at": "1794917883.799527",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2026/05/BhavCopy_NSE_CM_20260508.csv.csv": {
+    "date": "2026-05-08",
+    "sha256": "a37c994af8355cf89da1e1604ec8783fecf7f61d4281b05fe0e59e83a399e9f6",
+    "size_bytes": 586383,
+    "stored_at": "1794917883.5671537",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2026/05/BhavCopy_NSE_CM_20260511.csv.csv": {
+    "date": "2026-05-11",
+    "sha256": "652972751328a8f7cf903be53cce902dcf03b801fdee5bc8c6bb4759d7100ed7",
+    "size_bytes": 592162,
+    "stored_at": "1794917883.392424",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2026/05/BhavCopy_NSE_CM_20260512.csv.csv": {
+    "date": "2026-05-12",
+    "sha256": "253d6cb7ff09ea962fad389c252f115bec9d562dc8fb9741f24932f6d80b73dd",
+    "size_bytes": 586199,
+    "stored_at": "1794917883.1811135",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2026/05/BhavCopy_NSE_CM_20260513.csv.csv": {
+    "date": "2026-05-13",
+    "sha256": "1e497e45312c6d32e62beabee80f3ae62c1c2373ce1e1bc341ff50db1d9cb91c",
+    "size_bytes": 583616,
+    "stored_at": "1794917882.8808582",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2026/05/BhavCopy_NSE_CM_20260514.csv.csv": {
+    "date": "2026-05-14",
+    "sha256": "c1dc548c176e7c9d288ae8ac9c9bc7dc7e62b240abe800c3ca76dad31290ad1b",
+    "size_bytes": 583266,
+    "stored_at": "1794917882.714949",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2026/05/BhavCopy_NSE_CM_20260515.csv.csv": {
+    "date": "2026-05-15",
+    "sha256": "dd64133709ce031f5bf81a693623e33a60da4441108f606cc9ca34fc7694b2bb",
+    "size_bytes": 581163,
+    "stored_at": "1794917882.5283864",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2026/05/BhavCopy_NSE_CM_20260518.csv.csv": {
+    "date": "2026-05-18",
+    "sha256": "5b73850b036d7a0e15be09ae413f49e3ea2c8de4d214f71e84903116a056e34a",
+    "size_bytes": 589532,
+    "stored_at": "1794917882.2889774",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2026/05/BhavCopy_NSE_CM_20260519.csv.csv": {
+    "date": "2026-05-19",
+    "sha256": "0c27893d1f0227a4de0f726fa85e608b255e05c727de0fb5927012ce47a51e11",
+    "size_bytes": 579144,
+    "stored_at": "1794917882.1049864",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2026/05/BhavCopy_NSE_CM_20260520.csv.csv": {
+    "date": "2026-05-20",
+    "sha256": "3fa16e7248d2add0bd78ee6ffcc7eb1b913671e6f17c80b908fcec3515c13dfc",
+    "size_bytes": 581537,
+    "stored_at": "1794917881.9282498",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2026/05/BhavCopy_NSE_CM_20260521.csv.csv": {
+    "date": "2026-05-21",
+    "sha256": "05340e8f7c1afdf9573cc7d407e03d7cbb50f9a1477c17b31737ed72e7d70342",
+    "size_bytes": 583798,
+    "stored_at": "1794917881.7640803",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2026/05/BhavCopy_NSE_CM_20260522.csv.csv": {
+    "date": "2026-05-22",
+    "sha256": "b2ecb80f844363d02a6772b541aac6563a6eede2aed0399cbaabd1ad6ad9860b",
+    "size_bytes": 581694,
+    "stored_at": "1794917881.564288",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2026/05/BhavCopy_NSE_CM_20260525.csv.csv": {
+    "date": "2026-05-25",
+    "sha256": "1104c3df613b1eb9815ab431841ff1a0c1a0d621edfbfa4f462df5947b25d935",
+    "size_bytes": 591074,
+    "stored_at": "1794917881.3828013",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2026/05/BhavCopy_NSE_CM_20260526.csv.csv": {
+    "date": "2026-05-26",
+    "sha256": "d16ff6f4ea26372f2f862113dbe3f65a1673499a7d926834c168b67bdaa991ab",
+    "size_bytes": 592091,
+    "stored_at": "1794917881.2006347",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2026/05/BhavCopy_NSE_CM_20260527.csv.csv": {
+    "date": "2026-05-27",
+    "sha256": "23d59ac28e2a6796a26ec8c447c67ef65f2f879501161632e3730a0d4b950bf1",
+    "size_bytes": 591132,
+    "stored_at": "1794917881.0165226",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2026/05/BhavCopy_NSE_CM_20260529.csv.csv": {
+    "date": "2026-05-29",
+    "sha256": "ebc3d56447d35223fd6142065e6299925307163cc024f49899501ad6ef842d22",
+    "size_bytes": 592496,
+    "stored_at": "1794917880.7933826",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2026/06/BhavCopy_NSE_CM_20260601.csv.csv": {
+    "date": "2026-06-01",
+    "sha256": "92e4d4e2fa0ef966696867bdc396e07e06ebfccf271abbd7a5f4e6ec160ebbc2",
+    "size_bytes": 597177,
+    "stored_at": "1794917880.5090532",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2026/06/BhavCopy_NSE_CM_20260602.csv.csv": {
+    "date": "2026-06-02",
+    "sha256": "d2487e4b93372e5f533217e1889bfabbdefbbf37e8ebd8b36d42574b8de94394",
+    "size_bytes": 592210,
+    "stored_at": "1794917880.2803955",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2026/06/BhavCopy_NSE_CM_20260603.csv.csv": {
+    "date": "2026-06-03",
+    "sha256": "c470ab525b489249909a738b1df8cd481edeaf56c055dbce6228192b043188aa",
+    "size_bytes": 587685,
+    "stored_at": "1794917879.973655",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2026/06/BhavCopy_NSE_CM_20260604.csv.csv": {
+    "date": "2026-06-04",
+    "sha256": "ad2c2865f4835557114aacbf6881b925655e1a44b9037a0c47183e5ed664aa0d",
+    "size_bytes": 586288,
+    "stored_at": "1794917879.8016834",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2026/06/BhavCopy_NSE_CM_20260605.csv.csv": {
+    "date": "2026-06-05",
+    "sha256": "c0d998103f7167c4a5c7754330a70d53e8b9c517c0f86437117f049308c5e001",
+    "size_bytes": 589224,
+    "stored_at": "1794917879.5963678",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2026/06/BhavCopy_NSE_CM_20260608.csv.csv": {
+    "date": "2026-06-08",
+    "sha256": "6798a760198fcc02218f2d081ff56d048a582333f24204cb58b0f546dd890542",
+    "size_bytes": 588576,
+    "stored_at": "1794917879.3914156",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2026/06/BhavCopy_NSE_CM_20260609.csv.csv": {
+    "date": "2026-06-09",
+    "sha256": "97e0bb1a2878d7438c4d0d2fa998c36b704a2b468658b7e6d98559a090ff5d9d",
+    "size_bytes": 586501,
+    "stored_at": "1794917879.2111049",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2026/06/BhavCopy_NSE_CM_20260610.csv.csv": {
+    "date": "2026-06-10",
+    "sha256": "76a7c8e56779dc4050ec35f6779220dabf6aaf125b6e76e241a78759c02d85a9",
+    "size_bytes": 582833,
+    "stored_at": "1794917879.0172083",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2026/06/BhavCopy_NSE_CM_20260611.csv.csv": {
+    "date": "2026-06-11",
+    "sha256": "2b0ce5dde0e02ff8ad7c0ed20f28175ecfdb3922c88e60927e48561a2fd6bbd1",
+    "size_bytes": 580507,
+    "stored_at": "1794917878.860992",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2026/06/BhavCopy_NSE_CM_20260612.csv.csv": {
+    "date": "2026-06-12",
+    "sha256": "f9321f37202dd94150a51439028dd5ecda2767f7f3b20f910ba319b924c713c9",
+    "size_bytes": 585836,
+    "stored_at": "1794917878.662286",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2026/06/BhavCopy_NSE_CM_20260615.csv.csv": {
+    "date": "2026-06-15",
+    "sha256": "18ee267a441c243d354fce5390f29ee73067c7f2e403c1ec0f510d6040d59a95",
+    "size_bytes": 596980,
+    "stored_at": "1794917878.4748847",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2026/06/BhavCopy_NSE_CM_20260616.csv.csv": {
+    "date": "2026-06-16",
+    "sha256": "639d6c578969cda53561308c0ce126342ebd4d720906a49e9fd97c4aa511bd7e",
+    "size_bytes": 590258,
+    "stored_at": "1794917878.2889757",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2026/06/BhavCopy_NSE_CM_20260617.csv.csv": {
+    "date": "2026-06-17",
+    "sha256": "67eeb5620e3215c37ec23216162cec58064d1792384eed5bdf16f15f53603bb3",
+    "size_bytes": 592689,
+    "stored_at": "1794917878.1149733",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2026/06/BhavCopy_NSE_CM_20260618.csv.csv": {
+    "date": "2026-06-18",
+    "sha256": "b955fb3bf7f593488df36365bdafd963b013aacba1bb88e516e49ba90f3a3766",
+    "size_bytes": 585112,
+    "stored_at": "1794917877.9085023",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2026/06/BhavCopy_NSE_CM_20260619.csv.csv": {
+    "date": "2026-06-19",
+    "sha256": "21418bb779403633517300e351fae40284cb8ef1a7d9b985747fd5e58a616de4",
+    "size_bytes": 588092,
+    "stored_at": "1794917877.7058384",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2026/06/BhavCopy_NSE_CM_20260622.csv.csv": {
+    "date": "2026-06-22",
+    "sha256": "0dd705bcf7378aa07c93a3a625d3e32c4f3bb09efbc407776b20c46b9050e7d5",
+    "size_bytes": 597192,
+    "stored_at": "1794917877.5014844",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2026/06/BhavCopy_NSE_CM_20260623.csv.csv": {
+    "date": "2026-06-23",
+    "sha256": "751476e518d63e6dc4fe4f65a7c03b584be45e5baa875f490dc3da477398e12a",
+    "size_bytes": 588313,
+    "stored_at": "1794917877.3108168",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2026/06/BhavCopy_NSE_CM_20260624.csv.csv": {
+    "date": "2026-06-24",
+    "sha256": "236d5f65513ba745a275af56e628af03ebeb25909689166b727a43aed36023bd",
+    "size_bytes": 589695,
+    "stored_at": "1794917877.1014125",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2026/06/BhavCopy_NSE_CM_20260625.csv.csv": {
+    "date": "2026-06-25",
+    "sha256": "be2ace269d4a3e3d370c871316cb868cc4f03ab44f366366ebc86088c4a565e4",
+    "size_bytes": 591727,
+    "stored_at": "1794917876.9294467",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2026/06/BhavCopy_NSE_CM_20260629.csv.csv": {
+    "date": "2026-06-29",
+    "sha256": "5dbaa415734b943517bb609cc03c517d0c258f8a2814b38cc6bec78964fd8d2d",
+    "size_bytes": 600363,
+    "stored_at": "1794917876.7005277",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2026/06/BhavCopy_NSE_CM_20260630.csv.csv": {
+    "date": "2026-06-30",
+    "sha256": "55da537f2dce1061862fcbb2b8c9912849f068bd4ae21ddea5ef51813da55f47",
+    "size_bytes": 590156,
+    "stored_at": "1794917876.479614",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2026/07/BhavCopy_NSE_CM_20260701.csv.csv": {
+    "date": "2026-07-01",
+    "sha256": "b4b41e84e4b1ecc499d457b10eaabf57e1a818ad8994b48572059307fea8c495",
+    "size_bytes": 591928,
+    "stored_at": "1794917876.2863126",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2026/07/BhavCopy_NSE_CM_20260702.csv.csv": {
+    "date": "2026-07-02",
+    "sha256": "5da98ff024e3bc8a4451c25f98689606b6b34e72e705176c8e7006565f4cc2eb",
+    "size_bytes": 597881,
+    "stored_at": "1794917876.0690181",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2026/07/BhavCopy_NSE_CM_20260703.csv.csv": {
+    "date": "2026-07-03",
+    "sha256": "af4fb2eab90627062b64066e5de1f88b097a7f730a212c7f8477e74f70ec85f3",
+    "size_bytes": 595166,
+    "stored_at": "1794917875.8528478",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2026/07/BhavCopy_NSE_CM_20260706.csv.csv": {
+    "date": "2026-07-06",
+    "sha256": "04b4c74b05b76431a935e712f9f9cc51c78cf6e7cd03b2746c5fc62dc643ea73",
+    "size_bytes": 598649,
+    "stored_at": "1794917875.6578681",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2026/07/BhavCopy_NSE_CM_20260707.csv.csv": {
+    "date": "2026-07-07",
+    "sha256": "298064933ba8e92a86b5cff0326158b3733ce890773cc348f92808efc779fe2c",
+    "size_bytes": 585799,
+    "stored_at": "1794917875.457815",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2026/07/BhavCopy_NSE_CM_20260708.csv.csv": {
+    "date": "2026-07-08",
+    "sha256": "2032c64291db018471b8808af5795d5efff15383ae4b2308e0e750ee9f92aa3e",
+    "size_bytes": 591106,
+    "stored_at": "1794917875.2549353",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2026/07/BhavCopy_NSE_CM_20260709.csv.csv": {
+    "date": "2026-07-09",
+    "sha256": "d81d2112b53840d38afc6b281d013827e0af423a7e1a7502c1b292b3882bb16c",
+    "size_bytes": 590151,
+    "stored_at": "1794917875.0255277",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2026/07/BhavCopy_NSE_CM_20260710.csv.csv": {
+    "date": "2026-07-10",
+    "sha256": "d702562acf250c42d7bab6eae538eb5f0fc8b298091bf2af1c0bdd140cdc6cfc",
+    "size_bytes": 589799,
+    "stored_at": "1794917874.781846",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2026/07/BhavCopy_NSE_CM_20260713.csv.csv": {
+    "date": "2026-07-13",
+    "sha256": "5d885ff5d0f44981aaf64f6c98c162900ed56805bd2c1f8978e342159cc5636f",
+    "size_bytes": 595480,
+    "stored_at": "1794917874.4695919",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2026/07/BhavCopy_NSE_CM_20260714.csv.csv": {
+    "date": "2026-07-14",
+    "sha256": "af036a89d78d8ad5b112a449825c6458532b4270ab635e59954a4628c985b822",
+    "size_bytes": 589471,
+    "stored_at": "1794917874.236599",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2026/07/BhavCopy_NSE_CM_20260715.csv.csv": {
+    "date": "2026-07-15",
+    "sha256": "f073234ab734fbd679755c485cd607bec220bfe77fa2eebf4e605766386f5a19",
+    "size_bytes": 588097,
+    "stored_at": "1794917874.0207753",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2026/07/BhavCopy_NSE_CM_20260716.csv.csv": {
+    "date": "2026-07-16",
+    "sha256": "8f9ee750381b764dfdebafce8164ea73a3385cbd1bfbba61ef9418e30969b7d1",
+    "size_bytes": 592975,
+    "stored_at": "1794917873.8485315",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2026/07/BhavCopy_NSE_CM_20260717.csv.csv": {
+    "date": "2026-07-17",
+    "sha256": "978c5eb70a9a0dc852b5c97a93b583090fb3deea0cf0eef555a3f3d9a0eb339c",
+    "size_bytes": 590873,
+    "stored_at": "1794917873.6320634",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2026/07/BhavCopy_NSE_CM_20260720.csv.csv": {
+    "date": "2026-07-20",
+    "sha256": "f52d8dfe50807d3303743434188831115eee268b4bb7539b00ed5c1cdb714ac5",
+    "size_bytes": 585397,
+    "stored_at": "1794917870.6201124",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2026/07/BhavCopy_NSE_CM_20260721.csv.csv": {
+    "date": "2026-07-21",
+    "sha256": "d1d45e39dc501b2f48f9a5fea59b98bece2a49dc70564717cd57c3cbdc39d0de",
+    "size_bytes": 593317,
+    "stored_at": "1794917870.3777475",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2026/07/BhavCopy_NSE_CM_20260722.csv.csv": {
+    "date": "2026-07-22",
+    "sha256": "5e0b57775ba82e779cf58a5530ce308f2228723d43d0af85cc9238db67ea5c1e",
+    "size_bytes": 589234,
+    "stored_at": "1794917870.0383813",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2026/07/BhavCopy_NSE_CM_20260723.csv.csv": {
+    "date": "2026-07-23",
+    "sha256": "c108b7cfb21cc8ebc44a94f5290fcfa3e7c78200cc572acd4960ec7b8ddad645",
+    "size_bytes": 584878,
+    "stored_at": "1794917869.8675094",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2026/07/BhavCopy_NSE_CM_20260724.csv.csv": {
+    "date": "2026-07-24",
+    "sha256": "619c3322d984fd5fc1cc96ab150bcadd7c145a13d3c2d647479d76bd6a78976e",
+    "size_bytes": 591680,
+    "stored_at": "1794917869.6524167",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2026/07/BhavCopy_NSE_CM_20260727.csv.csv": {
+    "date": "2026-07-27",
+    "sha256": "783a9837d0f1799a35dcc60db43795c32a0c38666107a31f34b7fa6247b37226",
+    "size_bytes": 595333,
+    "stored_at": "1794917869.3416975",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2026/07/BhavCopy_NSE_CM_20260728.csv.csv": {
+    "date": "2026-07-28",
+    "sha256": "56c3d1be12bc64589953b8b6276c38bd5c980a8bae414bcbfd940aff9037f03d",
+    "size_bytes": 588106,
+    "stored_at": "1794917869.1522622",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2026/07/BhavCopy_NSE_CM_20260729.csv.csv": {
+    "date": "2026-07-29",
+    "sha256": "295216f074460bf05038036aa7fdfda3fb07083f2568392d66f4ae6ffa784bfa",
+    "size_bytes": 594264,
+    "stored_at": "1794917868.8487928",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2026/07/BhavCopy_NSE_CM_20260730.csv.csv": {
+    "date": "2026-07-30",
+    "sha256": "87a502163212df579e343724a38cd4cef4205e59b8e51d7620ed431504ef4882",
+    "size_bytes": 589703,
+    "stored_at": "1794917868.6766226",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2026/07/BhavCopy_NSE_CM_20260731.csv.csv": {
+    "date": "2026-07-31",
+    "sha256": "ff1d98c1a1d5e09ec0fa477fdec7cf7d434b08197cd9c584e94d5c8db1ecd772",
+    "size_bytes": 593188,
+    "stored_at": "1794917868.4089117",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2026/08/BhavCopy_NSE_CM_20260803.csv.csv": {
+    "date": "2026-08-03",
+    "sha256": "b06edcf0012012281f9179befa02a61458211f730d0a77584329b76e900160ec",
+    "size_bytes": 606655,
+    "stored_at": "1794917868.108973",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2026/08/BhavCopy_NSE_CM_20260804.csv.csv": {
+    "date": "2026-08-04",
+    "sha256": "eecb8d90aba1610b3696e66f4dc2859a5687cbc5372c70337edf4fb2aef7a9b9",
+    "size_bytes": 594968,
+    "stored_at": "1794917867.6998842",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2026/08/BhavCopy_NSE_CM_20260805.csv.csv": {
+    "date": "2026-08-05",
+    "sha256": "97849a8214f85aa15d4b0d3c0024a4e27f5beb270c114596e1fe6aff619f7e1a",
+    "size_bytes": 599867,
+    "stored_at": "1794917867.3243034",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2026/08/BhavCopy_NSE_CM_20260806.csv.csv": {
+    "date": "2026-08-06",
+    "sha256": "efc0e9fe7aaac06313d9f717f44e60dfe799843c92ca17eb5e1af7c38fa54989",
+    "size_bytes": 601608,
+    "stored_at": "1794917867.1599083",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2026/08/BhavCopy_NSE_CM_20260807.csv.csv": {
+    "date": "2026-08-07",
+    "sha256": "2087c80491f16185df9617401504cbf24dfe6da95c4b09e38ea26a357834d472",
+    "size_bytes": 599431,
+    "stored_at": "1794917866.9713407",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2026/08/BhavCopy_NSE_CM_20260810.csv.csv": {
+    "date": "2026-08-10",
+    "sha256": "657ad33e9aff53fa6cbb097ae2b2b2ec5eaab27872f950868bddbb80f700b534",
+    "size_bytes": 614701,
+    "stored_at": "1794917866.7981758",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2026/08/BhavCopy_NSE_CM_20260811.csv.csv": {
+    "date": "2026-08-11",
+    "sha256": "2f88383e260d1cc073a15333b5733001630a10c4bd7c481586a5af11ae09e9be",
+    "size_bytes": 601493,
+    "stored_at": "1794917866.499731",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2026/08/BhavCopy_NSE_CM_20260812.csv.csv": {
+    "date": "2026-08-12",
+    "sha256": "fcf125fb480fdb5daaffcf4338d35c30251c3a756184b0cc00a50f2b096c3434",
+    "size_bytes": 600937,
+    "stored_at": "1794917866.2042778",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2026/08/BhavCopy_NSE_CM_20260813.csv.csv": {
+    "date": "2026-08-13",
+    "sha256": "5cb34523f6a2359f59305bbc74949eb44708a898b45fbb52ad3cd037095e27c6",
+    "size_bytes": 604844,
+    "stored_at": "1794917866.0335395",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2026/08/BhavCopy_NSE_CM_20260814.csv.csv": {
+    "date": "2026-08-14",
+    "sha256": "8e977490e761e4c10e170d0b8f2ae2b0a23df9b7b1ddab85d70e870df3ec572d",
+    "size_bytes": 597790,
+    "stored_at": "1794917865.8389943",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2026/08/BhavCopy_NSE_CM_20260817.csv.csv": {
+    "date": "2026-08-17",
+    "sha256": "5d5bfd3a06965497f692106d03c6edd3c18642591c3439555fd03a2c32ca007d",
+    "size_bytes": 625114,
+    "stored_at": "1794917865.5433178",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2026/08/BhavCopy_NSE_CM_20260818.csv.csv": {
+    "date": "2026-08-18",
+    "sha256": "437aceacd51514db1fff2c23125ada76df7c0532e1e0165aed51c896a879c4dc",
+    "size_bytes": 618172,
+    "stored_at": "1794917865.3436685",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2026/08/BhavCopy_NSE_CM_20260819.csv.csv": {
+    "date": "2026-08-19",
+    "sha256": "ea17e3108b2f9536786c6e32cec2790df08f15923cc686e93a4c176b21f9d5d2",
+    "size_bytes": 623033,
+    "stored_at": "1794917865.1712608",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2026/08/BhavCopy_NSE_CM_20260820.csv.csv": {
+    "date": "2026-08-20",
+    "sha256": "1c07ec0e2cfa20ceecd00d77421f43395beb499594fbb010cbad9050702efb5b",
+    "size_bytes": 627092,
+    "stored_at": "1794917864.968159",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2026/08/BhavCopy_NSE_CM_20260821.csv.csv": {
+    "date": "2026-08-21",
+    "sha256": "7565833f18fbd8bc32be4d46b2a8c0b10693921bed13283de7311dd2393a70f8",
+    "size_bytes": 629026,
+    "stored_at": "1794917864.7799819",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2026/08/BhavCopy_NSE_CM_20260824.csv.csv": {
+    "date": "2026-08-24",
+    "sha256": "2beed2f7be656991b54f4876dfe383390c3dbd485c22c00005433fd68b9a7358",
+    "size_bytes": 633892,
+    "stored_at": "1794917864.5114567",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2026/08/BhavCopy_NSE_CM_20260825.csv.csv": {
+    "date": "2026-08-25",
+    "sha256": "c7dcd7347b552f6ee41287423cdb02c055ba278747892d2add6f44070206e11f",
+    "size_bytes": 627354,
+    "stored_at": "1794917864.2936826",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2026/08/BhavCopy_NSE_CM_20260826.csv.csv": {
+    "date": "2026-08-26",
+    "sha256": "c0874736a467b95d3e0e595302cff0c1a2f271cb58b866304845dc51a4a00580",
+    "size_bytes": 629361,
+    "stored_at": "1794917864.1135137",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2026/08/BhavCopy_NSE_CM_20260827.csv.csv": {
+    "date": "2026-08-27",
+    "sha256": "1cd3399e3e31de2ccf5d688fda7d94eaa573253c0bffa220c5b0e54e7555fdd8",
+    "size_bytes": 624269,
+    "stored_at": "1794917863.9016137",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2026/08/BhavCopy_NSE_CM_20260828.csv.csv": {
+    "date": "2026-08-28",
+    "sha256": "310000d6dcc19b790204404a2cbfcda8e0bf70dbff1df903ae587cc6b22ee8eb",
+    "size_bytes": 622180,
+    "stored_at": "1794917863.566086",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2026/08/BhavCopy_NSE_CM_20260831.csv.csv": {
+    "date": "2026-08-31",
+    "sha256": "b6017ebe7da497a10d32399c22b1ed4043b7a3c3b324d260ff6ee0b718739f6c",
+    "size_bytes": 628824,
+    "stored_at": "1794917863.3933148",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2026/09/BhavCopy_NSE_CM_20260901.csv.csv": {
+    "date": "2026-09-01",
+    "sha256": "62af4a8b4e5fad42f2372d7c4a707be4eca362d6c9188283f98d9162a9b13d79",
+    "size_bytes": 630276,
+    "stored_at": "1794917863.210646",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2026/09/BhavCopy_NSE_CM_20260902.csv.csv": {
+    "date": "2026-09-02",
+    "sha256": "d0f6cbe61dec688dae670871d1731ecbff8c26890b1245355ff63cad38b6e21f",
+    "size_bytes": 626248,
+    "stored_at": "1794917862.947039",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2026/09/BhavCopy_NSE_CM_20260903.csv.csv": {
+    "date": "2026-09-03",
+    "sha256": "6d65a8f881ae9fefcf750a6e788096de15ae297d8baea3b5c1a2ac16e811eb48",
+    "size_bytes": 626375,
+    "stored_at": "1794917862.78183",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2026/09/BhavCopy_NSE_CM_20260904.csv.csv": {
+    "date": "2026-09-04",
+    "sha256": "7036e0056a4d7d5e0ac7ab9ed612846c55a2375fb18fe6692dde1b496ffaac04",
+    "size_bytes": 629901,
+    "stored_at": "1794917862.579018",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2026/09/BhavCopy_NSE_CM_20260907.csv.csv": {
+    "date": "2026-09-07",
+    "sha256": "bf2ad7a4ae5d1640e00c0d934c4ee4e8662db839398c07fffbd02644178fe7f4",
+    "size_bytes": 638678,
+    "stored_at": "1794917862.367419",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2026/09/BhavCopy_NSE_CM_20260908.csv.csv": {
+    "date": "2026-09-08",
+    "sha256": "f85d43956b14699a58c94d512dc4a753eb00cf35221a9f9d84da7f3d8a06b038",
+    "size_bytes": 629462,
+    "stored_at": "1794917862.1896667",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2026/09/BhavCopy_NSE_CM_20260909.csv.csv": {
+    "date": "2026-09-09",
+    "sha256": "338436fd93b4369cc1128c36556aa73731ec0dd794d5bf1e24a8e5d9ecf1ff4b",
+    "size_bytes": 634713,
+    "stored_at": "1794917862.017969",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2026/09/BhavCopy_NSE_CM_20260910.csv.csv": {
+    "date": "2026-09-10",
+    "sha256": "3bb0db7c40bbc581a49eadc4b894db59c6e7e167bb68c6669bb1fdb1cafe7ef8",
+    "size_bytes": 632567,
+    "stored_at": "1794917861.7023437",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2026/09/BhavCopy_NSE_CM_20260911.csv.csv": {
+    "date": "2026-09-11",
+    "sha256": "e8805d9835fa641eb09c983b8dd4873a8fca360d59573fc2eb3749b20396ce76",
+    "size_bytes": 628748,
+    "stored_at": "1794917861.521492",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2026/09/BhavCopy_NSE_CM_20260915.csv.csv": {
+    "date": "2026-09-15",
+    "sha256": "8731e2b6f7394ad52884aa15d5ba0327c8082f3ea89bcb92227fad43e801c6a7",
+    "size_bytes": 636695,
+    "stored_at": "1794917861.355271",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2026/09/BhavCopy_NSE_CM_20260916.csv.csv": {
+    "date": "2026-09-16",
+    "sha256": "698168dbd2fd2cc536bb164da3462b06ab878450407ea7e49dada1c912da1c31",
+    "size_bytes": 632311,
+    "stored_at": "1794917861.0760567",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2026/09/BhavCopy_NSE_CM_20260917.csv.csv": {
+    "date": "2026-09-17",
+    "sha256": "f9792c3f6b08e801c18b505a4702a4bf1a3c407b2e4e48284e7d98ad7718cc7e",
+    "size_bytes": 629796,
+    "stored_at": "1794917860.8945062",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2026/09/BhavCopy_NSE_CM_20260918.csv.csv": {
+    "date": "2026-09-18",
+    "sha256": "7cae275ca1013640be78b5607978830b92ff17f5412a303c514aaf9c3d8578a1",
+    "size_bytes": 630771,
+    "stored_at": "1794917860.6308715",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2026/09/BhavCopy_NSE_CM_20260921.csv.csv": {
+    "date": "2026-09-21",
+    "sha256": "75123cbb70d098a468df14f3a7d0944aaea07445f20a507d08b3c614782dc868",
+    "size_bytes": 638866,
+    "stored_at": "1794917860.366689",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2026/09/BhavCopy_NSE_CM_20260922.csv.csv": {
+    "date": "2026-09-22",
+    "sha256": "984ea58d3dba92bcdfd65686564458004c96f49a3f93174fbaf08be1f422a819",
+    "size_bytes": 633400,
+    "stored_at": "1794917860.2019997",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2026/09/BhavCopy_NSE_CM_20260923.csv.csv": {
+    "date": "2026-09-23",
+    "sha256": "fe6775a537b6dc8f796eab650f37d039ba1b38a20b903f4d4de681a5cd4f7547",
+    "size_bytes": 637410,
+    "stored_at": "1794917859.9929264",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2026/09/BhavCopy_NSE_CM_20260924.csv.csv": {
+    "date": "2026-09-24",
+    "sha256": "8b09a3e30b3683e0f16799d503b50575a8eee956dc0ee843e284815f8760d7e1",
+    "size_bytes": 627075,
+    "stored_at": "1794917859.687967",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2026/09/BhavCopy_NSE_CM_20260925.csv.csv": {
+    "date": "2026-09-25",
+    "sha256": "4f77b81b0df764a95376a997c1fd6524d8a6f1c5ae44604d553bebbdbca8f5f8",
+    "size_bytes": 629557,
+    "stored_at": "1794917859.5088243",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2026/09/BhavCopy_NSE_CM_20260928.csv.csv": {
+    "date": "2026-09-28",
+    "sha256": "3822761536596adb38171e51d3b1422d99004830c605172e4bb6b648f64858b5",
+    "size_bytes": 634897,
+    "stored_at": "1794917859.326972",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2026/09/BhavCopy_NSE_CM_20260929.csv.csv": {
+    "date": "2026-09-29",
+    "sha256": "37ac1f6e42b44faadc215a0fe343140dfe15012609a427dc6b25482bf8a34ae0",
+    "size_bytes": 636080,
+    "stored_at": "1794917859.1693451",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2026/09/BhavCopy_NSE_CM_20260930.csv.csv": {
+    "date": "2026-09-30",
+    "sha256": "ae65f303173049b9f0b9d611c03df29af8d550828a7d8c9f545c7e9921ddb7a8",
+    "size_bytes": 636954,
+    "stored_at": "1794917858.987184",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2026/10/BhavCopy_NSE_CM_20261001.csv.csv": {
+    "date": "2026-10-01",
+    "sha256": "5d5ac5591c32ca5d53539df02cfdee3795a2657183570a42eb1d714ab1822354",
+    "size_bytes": 640497,
+    "stored_at": "1794917858.7740004",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2026/10/BhavCopy_NSE_CM_20261005.csv.csv": {
+    "date": "2026-10-05",
+    "sha256": "567b772dd9a411fd4b2271fc3490dde3b013a1596c3b67a56ccb4e45d0bf2df3",
+    "size_bytes": 639749,
+    "stored_at": "1794917858.578647",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2026/10/BhavCopy_NSE_CM_20261006.csv.csv": {
+    "date": "2026-10-06",
+    "sha256": "17ee74d481b757de1f8ca59305ea3c872cbaecd6a4896aa5dad0bdeda7e3ae70",
+    "size_bytes": 637725,
+    "stored_at": "1794917858.4125783",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2026/10/BhavCopy_NSE_CM_20261007.csv.csv": {
+    "date": "2026-10-07",
+    "sha256": "b9bbf9f231734c1640b156ee4ad8e09c1e0bac2084bf72bb7732f066ca46bd3b",
+    "size_bytes": 636837,
+    "stored_at": "1794917858.1583812",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2026/10/BhavCopy_NSE_CM_20261008.csv.csv": {
+    "date": "2026-10-08",
+    "sha256": "3bfb33cd4a0eb55b77ed2b24fd95cac6803edf00256bee65796ede4ee7549e53",
+    "size_bytes": 643700,
+    "stored_at": "1794917858.0025954",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2026/10/BhavCopy_NSE_CM_20261009.csv.csv": {
+    "date": "2026-10-09",
+    "sha256": "4b158c3ff73eaf8f5020490a169c0d3ab44a5d949e6e6dc4f86814ca3ed079e5",
+    "size_bytes": 635209,
+    "stored_at": "1794917857.6611443",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2026/10/BhavCopy_NSE_CM_20261012.csv.csv": {
+    "date": "2026-10-12",
+    "sha256": "e97a99b5942574087d707bf87f815517e08b36fce6ada9aac060294e80f5b6f1",
+    "size_bytes": 639229,
+    "stored_at": "1794917857.4924512",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2026/10/BhavCopy_NSE_CM_20261013.csv.csv": {
+    "date": "2026-10-13",
+    "sha256": "e79cd8acfd7e45ae4acdfeeafa05926908b19508e87a5cb40c2b8e64e7840865",
+    "size_bytes": 627924,
+    "stored_at": "1794917857.1898286",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2026/10/BhavCopy_NSE_CM_20261014.csv.csv": {
+    "date": "2026-10-14",
+    "sha256": "244f747013dc9eaa0137ed7fad0ff06622d69df32a833115763c572a1c43c035",
+    "size_bytes": 632356,
+    "stored_at": "1794917856.8564994",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2026/10/BhavCopy_NSE_CM_20261015.csv.csv": {
+    "date": "2026-10-15",
+    "sha256": "31f468a3b27f34bed3ce030d8ef9e34d69a70b9e3d20da54894ce9d7e2f148f1",
+    "size_bytes": 632773,
+    "stored_at": "1794917856.6721911",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2026/10/BhavCopy_NSE_CM_20261016.csv.csv": {
+    "date": "2026-10-16",
+    "sha256": "91ac4fdb87413ea1e41d6ef3972dafa1489558e51fe34d551d3b84b5cacfc4ac",
+    "size_bytes": 633000,
+    "stored_at": "1794917856.4848561",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2026/10/BhavCopy_NSE_CM_20261019.csv.csv": {
+    "date": "2026-10-19",
+    "sha256": "97003c62f9ee12e6c78f7d7a989421df6fc9c927cebb5327c6871923d741fd85",
+    "size_bytes": 631058,
+    "stored_at": "1794917856.282836",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2026/10/BhavCopy_NSE_CM_20261021.csv.csv": {
+    "date": "2026-10-21",
+    "sha256": "2e54167393d03a8983b66c1aa780d3280060870311422ca409397a5d880dfbe8",
+    "size_bytes": 639151,
+    "stored_at": "1794917856.1102283",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2026/10/BhavCopy_NSE_CM_20261022.csv.csv": {
+    "date": "2026-10-22",
+    "sha256": "3742b6ac6aee7d11166b7866b6412ad6f58a73967b797eb7f4ba0b4121b8eefb",
+    "size_bytes": 628148,
+    "stored_at": "1794917855.921715",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2026/10/BhavCopy_NSE_CM_20261023.csv.csv": {
+    "date": "2026-10-23",
+    "sha256": "35ccefe3f28abfaee521508be1b1cf41908e463cb94bf7a9220e276a3fae5b21",
+    "size_bytes": 643149,
+    "stored_at": "1794917855.730446",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2026/10/BhavCopy_NSE_CM_20261026.csv.csv": {
+    "date": "2026-10-26",
+    "sha256": "b80fc4e2203408c0e101163c463b44093d8ede068604fe41a25a053c64c7a329",
+    "size_bytes": 633955,
+    "stored_at": "1794917855.5548768",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2026/10/BhavCopy_NSE_CM_20261027.csv.csv": {
+    "date": "2026-10-27",
+    "sha256": "5be67e599f3240b2d941c8c6fc464757185e781b801e998908b2dffcd731aad7",
+    "size_bytes": 631301,
+    "stored_at": "1794917855.2739825",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2026/10/BhavCopy_NSE_CM_20261028.csv.csv": {
+    "date": "2026-10-28",
+    "sha256": "cbfbfbd7b4ed3d54fadf8857b0f4c7a1e603052045013fb6b2bc7bf72e451f94",
+    "size_bytes": 633113,
+    "stored_at": "1794917855.0580206",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2026/10/BhavCopy_NSE_CM_20261029.csv.csv": {
+    "date": "2026-10-29",
+    "sha256": "18a18db9fd4c2394b764f072f360fae1b383537cfca57d9f5e3c8a05c7c4e881",
+    "size_bytes": 635787,
+    "stored_at": "1794917854.720745",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2026/10/BhavCopy_NSE_CM_20261030.csv.csv": {
+    "date": "2026-10-30",
+    "sha256": "3d239e96ba885611a20f2466394ba61061d3bcbf797f412114dd6cd174dd8f1b",
+    "size_bytes": 626511,
+    "stored_at": "1794917854.5062954",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2026/11/BhavCopy_NSE_CM_20261102.csv.csv": {
+    "date": "2026-11-02",
+    "sha256": "3313b016a5f906888505e86b6da96ae952a60b16df51ec644b282396cc940c0d",
+    "size_bytes": 639009,
+    "stored_at": "1794917854.3368995",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2026/11/BhavCopy_NSE_CM_20261103.csv.csv": {
+    "date": "2026-11-03",
+    "sha256": "6b52c74a3f116a786dfa238ea095d4c4da2b9f538d6a88bd92bebb666d4e806c",
+    "size_bytes": 639731,
+    "stored_at": "1794917854.1637008",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2026/11/BhavCopy_NSE_CM_20261104.csv.csv": {
+    "date": "2026-11-04",
+    "sha256": "0eba17344bc91fa8a847c822938273f89aeeb73c1fd9aafba353ffb4f36d30e5",
+    "size_bytes": 637980,
+    "stored_at": "1794917853.9719155",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2026/11/BhavCopy_NSE_CM_20261105.csv.csv": {
+    "date": "2026-11-05",
+    "sha256": "5ff5fc6be45726d34b5a772f1aee9c36bbf03af2462e77f9f2b5e716c5b0bf31",
+    "size_bytes": 642562,
+    "stored_at": "1794917853.788468",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2026/11/BhavCopy_NSE_CM_20261106.csv.csv": {
+    "date": "2026-11-06",
+    "sha256": "5b9904e9e8d9d918c2550aca80560e816b3e571d507200f3613ea0ab410edb5f",
+    "size_bytes": 639660,
+    "stored_at": "1794917853.581529",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2026/11/BhavCopy_NSE_CM_20261109.csv.csv": {
+    "date": "2026-11-09",
+    "sha256": "cc0fac21cf1f8c3ff11cb8cf06b48787eedf4b0981b7e9686ee4736985f14468",
+    "size_bytes": 636877,
+    "stored_at": "1794917853.3797045",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2026/11/BhavCopy_NSE_CM_20261111.csv.csv": {
+    "date": "2026-11-11",
+    "sha256": "1473344f3a87e5baf44b9fbbeb9f85c7963b95b423db7c878210f71090440995",
+    "size_bytes": 650786,
+    "stored_at": "1794917790.1010346",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2026/11/BhavCopy_NSE_CM_20261112.csv.csv": {
+    "date": "2026-11-12",
+    "sha256": "7023865b5b99b5e8c542afce8790568de8b3b1fd8076f31f18c17010fbc6370f",
+    "size_bytes": 642048,
+    "stored_at": "1794917789.9134953",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2026/11/BhavCopy_NSE_CM_20261113.csv.csv": {
+    "date": "2026-11-13",
+    "sha256": "5736864df9797ba7b0427ec91dc506b5cd07c283edaefa8cf3f5609da4720b9e",
+    "size_bytes": 642233,
+    "stored_at": "1794917789.7720227",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2026/11/BhavCopy_NSE_CM_20261116.csv.csv": {
+    "date": "2026-11-16",
+    "sha256": "f5941836a1dc1608acdf89211e49ca6178ac0ba87c5c4369e6c3297c443179ee",
+    "size_bytes": 650511,
+    "stored_at": "1794917789.6340525",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2026/11/BhavCopy_NSE_CM_20261117.csv.csv": {
+    "date": "2026-11-17",
+    "sha256": "14b28cfdcedc6118ea0c7237df27dfa4344d0bb80533de30c701b92b2c16d952",
+    "size_bytes": 646704,
+    "stored_at": "1794917789.485202",
+    "type": "bhavcopy"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/constituents/20261117/nifty_500_constituents.csv": {
+    "index": "NIFTY_500",
+    "sha256": "31b764a95cc03ad1d7ddb6c42340de9125ed2c78b3d436bf0dbc8440e4e38c5e",
+    "size_bytes": 32765,
+    "snapshot_date": "2026-11-17",
+    "stored_at": "1794917787.8765843"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/corporate_actions/corp_actions_20261117.json": {
+    "from_date": "01-01-2024",
+    "sha256": "7c53c81c2aa2ea043135f357b2399cc9d3a2a2692f4cf80c1bc3851e6b88760e",
+    "size_bytes": 2032503,
+    "stored_at": "1794917789.217972",
+    "to_date": "17-11-2026",
+    "type": "corporate_actions"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/holidays/holidays_20261117.json": {
+    "sha256": "8903f442b9b3bef9bb1e835112ffae68faab995948d591adc9dcbd6ddd056d6a",
+    "size_bytes": 35739,
+    "stored_at": "1794917789.350845",
+    "type": "trading_holidays"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "date": "2026-11-17",
+  "universe_size": 475,
+  "total_universe_capacity": 475,
+  "quarantined_count": 4,
+  "advancers": 248,
+  "decliners": 226,
+  "unchanged": 1,
+  "highs_lows": {
+    "window_1m": {
+      "highs": 72,
+      "lows": 19,
+      "sessions": 21
+    },
+    "window_3m": {
+      "highs": 38,
+      "lows": 18,
+      "sessions": 63
+    },
+    "window_6m": {
+      "highs": 20,
+      "lows": 12,
+      "sessions": 126
+    },
+    "window_52w": {
+      "highs": 15,
+      "lows": 7,
+      "sessions": 252
+    }
+  },
+  "monthly_thrust": {
+    "value": 3,
+    "stocks_up_25pct": 6,
+    "stocks_down_25pct": 3,
+    "window_sessions": 20,
+    "threshold_pct": 25
+  },
+  "moving_averages": {
+    "pct_above_20dma": 71.2,
+    "pct_above_50dma": 54.1,
+    "pct_above_200dma": 47.6
+  },
+  "regime": {
+    "score": 0.0532,
+    "label": "Moderate Advance",
+    "color": "#14b8a6"
+  }
+}

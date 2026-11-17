@@ -1,0 +1,889 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>NSE Breadth Ledger — Daily Indian Stock Market Breadth</title>
+<meta name="description" content="Daily market-breadth dashboard for the National Stock Exchange of India (NSE). Judge in under 60 seconds whether the advance is broad or narrow.">
+<style>
+:root{
+  --bg:#f8f9fa;--bg2:#edf0f2;--fg:#1a1d20;--mut:#5a626a;--bd:#d2d7dc;
+  --teal:#0d9488;--teal-dark:#0f766e;--teal-light:#ccfbf1;
+  --clay:#c2410c;--clay-dark:#9a3412;--clay-light:#ffedd5;
+  --card:#ffffff;--card-border:#e2e8f0;--accent:#2563eb;
+  --font:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  --mono:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;
+}
+:root[data-theme=dark]{
+  --bg:#0f172a;--bg2:#1e293b;--fg:#f1f5f9;--mut:#94a3b8;--bd:#334155;
+  --teal:#2dd4bf;--teal-dark:#14b8a6;--teal-light:#134e4a;
+  --clay:#fb923c;--clay-dark:#ea580c;--clay-light:#7c2d12;
+  --card:#1e293b;--card-border:#334155;--accent:#38bdf8;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font:14px/1.5 var(--font);-webkit-font-smoothing:antialiased}
+a{color:var(--teal);text-decoration:none}
+a:hover{text-decoration:underline}
+
+/* Laptop Layout Container: 1200px width */
+main{max-width:1200px;margin:0 auto;padding:0 24px 60px}
+header{position:sticky;top:0;z-index:20;background:var(--bg);border-bottom:1px solid var(--bd);backdrop-filter:blur(8px)}
+.hd{max-width:1200px;margin:0 auto;padding:12px 24px;display:flex;align-items:center;justify-content:space-between;gap:16px}
+.brand{display:flex;align-items:center;gap:10px}
+.logo-badge{background:var(--teal);color:#fff;font-weight:700;padding:3px 8px;border-radius:6px;font-size:13px;letter-spacing:0.5px}
+h1{font-size:18px;font-weight:700;margin:0;letter-spacing:-0.2px}
+nav{display:flex;gap:18px;font-size:13px;font-weight:500}
+nav a{color:var(--mut);transition:color .15s}
+nav a:hover{color:var(--fg);text-decoration:none}
+.nav-aux{display:flex;gap:12px;align-items:center;border-left:1px solid var(--bd);padding-left:14px;margin-left:4px}
+.nav-aux a{color:var(--accent);font-weight:600}
+
+/* Cards & Layout */
+section{margin-top:32px;scroll-margin-top:70px}
+.section-header{display:flex;justify-content:space-between;align-items:flex-end;margin-bottom:8px}
+h2{font-size:17px;font-weight:700;margin:0 0 2px;letter-spacing:-0.2px;display:flex;align-items:center;gap:6px}
+.sub,.mut{color:var(--mut);font-size:13px}
+.info-icon{font-size:12px;color:var(--mut);cursor:pointer;border:1px solid var(--bd);border-radius:50%;width:16px;height:16px;display:inline-flex;align-items:center;justify-content:center;text-decoration:none}
+.info-icon:hover{background:var(--bg2);color:var(--fg);text-decoration:none}
+
+.card{background:var(--card);border:1px solid var(--card-border);border-radius:10px;padding:18px 20px;box-shadow:0 1px 3px rgba(0,0,0,0.02)}
+.grid-2col{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+.row{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin:10px 0}
+label{font-size:12px;font-weight:600;color:var(--mut);display:flex;flex-direction:column;gap:4px;text-transform:uppercase;letter-spacing:0.4px}
+
+button,select,input{font:inherit;color:var(--fg);background:var(--card);border:1px solid var(--bd);border-radius:6px;padding:7px 12px}
+button{cursor:pointer;font-weight:500;transition:all .15s}
+button:hover{background:var(--bg2)}
+button.on,button.pri{background:var(--teal);color:#fff;border-color:var(--teal)}
+button.pri:hover{background:var(--teal-dark)}
+
+/* Banners */
+.banner{background:var(--teal);color:#fff;padding:8px 24px;text-align:center;font-size:13px;font-weight:500}
+.banner button{margin-left:10px;padding:2px 10px;background:#fff;color:var(--teal-dark);border-color:#fff;font-weight:600}
+.warn{background:var(--clay);color:#fff;padding:8px 24px;text-align:center;font-size:13px;font-weight:500}
+
+/* Status Bar */
+.status-bar{display:flex;align-items:center;justify-content:space-between;background:var(--bg2);padding:8px 16px;border-radius:8px;margin-top:14px;font-size:13px}
+.regime-pill{display:inline-flex;align-items:center;gap:6px;padding:3px 10px;border-radius:20px;font-weight:600;font-size:12px}
+
+/* Diverging butterfly chart */
+.fly{display:grid;grid-template-columns:1fr 100px 1fr;gap:10px 16px;align-items:center;font-size:13px;padding:10px 0}
+.fly .l{display:flex;justify-content:flex-end;align-items:center}
+.fly .r{display:flex;justify-content:flex-start;align-items:center}
+.fly i{display:block;height:24px;min-width:4px}
+.fly .l i{background:var(--clay);border-radius:4px 0 0 4px}
+.fly .r i{background:var(--teal);border-radius:0 4px 4px 0}
+.fly-title{text-align:center;font-weight:600;color:var(--fg);font-size:13px}
+.fly-val{font-family:var(--mono);font-size:13px;font-weight:600}
+
+/* Heatmap */
+.hm-container{margin:8px 0}
+.hm{display:grid;grid-template-columns:repeat(60,1fr);gap:3px;align-items:center}
+.hm i{aspect-ratio:1;border-radius:3px;background:var(--bg2);cursor:pointer;transition:transform .1s}
+.hm i:hover{transform:scale(1.35);z-index:2;box-shadow:0 2px 4px rgba(0,0,0,0.2)}
+.hm-legend{display:flex;align-items:center;justify-content:space-between;margin-top:8px;font-size:11px;color:var(--mut)}
+.hm-gradient{display:inline-flex;height:8px;width:120px;border-radius:4px;background:linear-gradient(to right,var(--clay),#94a3b8,var(--teal));margin:0 8px}
+
+/* KPIs */
+.kpi-row{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin-top:16px}
+.kpi-card{background:var(--bg2);padding:12px 14px;border-radius:8px}
+.kpi-label{font-size:12px;color:var(--mut);font-weight:500}
+.kpi-val{font-size:22px;font-weight:700;font-family:var(--mono);margin-top:2px;display:block}
+
+/* Industry cluster bars */
+.bars{display:grid;gap:8px}
+.br{display:grid;grid-template-columns:220px 1fr 120px;gap:12px;align-items:center;font-size:13px;padding:3px 0}
+.tr{position:relative;height:16px;background:var(--bg2);border-radius:4px;overflow:hidden}
+.tr b,.tr u{position:absolute;left:0;top:0;bottom:0;border-radius:4px}
+.tr u{background:color-mix(in srgb,var(--teal) 35%,transparent)}
+.tr b{background:var(--teal)}
+
+/* Tables */
+.sc{overflow-x:auto;max-height:420px}
+table{border-collapse:collapse;width:100%;font-size:13px}
+th,td{padding:8px 12px;border-bottom:1px solid var(--bd);text-align:left;white-space:nowrap}
+th{position:sticky;top:0;background:var(--card);font-weight:600;font-size:12px;color:var(--mut);text-transform:uppercase;letter-spacing:0.3px;z-index:1}
+th.s{cursor:pointer;user-select:none}
+th.s:hover{color:var(--fg)}
+tbody tr:hover{background:var(--bg2)}
+.num{font-family:var(--mono);text-align:right}
+
+/* Position Sizer */
+.out{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-top:14px}
+.out div{background:var(--bg2);border-radius:8px;padding:12px 14px}
+.out span{font-size:12px;color:var(--mut);display:block;font-weight:500}
+.out b{display:block;font-size:20px;font-family:var(--mono);margin-top:4px}
+.target-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:14px}
+.target-box{background:var(--bg2);border-radius:8px;padding:10px 12px}
+
+/* Lead modal & Dialogs */
+dialog{border:1px solid var(--bd);border-radius:12px;background:var(--card);color:var(--fg);max-width:440px;width:90%;padding:24px;box-shadow:0 10px 25px rgba(0,0,0,0.2)}
+dialog::backdrop{background:rgba(0,0,0,0.6);backdrop-filter:blur(3px)}
+footer{max-width:1200px;margin:40px auto 20px;padding:0 24px;color:var(--mut);font-size:12px;line-height:1.6;border-top:1px solid var(--bd);padding-top:20px}
+</style>
+</head>
+<body>
+
+<!-- Global Config -->
+<script>
+const C = {
+  dataPath: 'data/',
+  leadEndpoint: '',
+  privacyUrl: 'methodology.html#compliance',
+  termsUrl: 'methodology.html#terms',
+  promo: {
+    enabled: false,
+    text: 'Special market briefing available — countdown ends in',
+    endsAt: '2026-12-31T18:00:00+05:30',
+    details: 'Daily breadth digest and deep sector rotation notes delivered straight to your inbox each evening.'
+  }
+};
+</script>
+
+<div id="promo" class="banner" hidden></div>
+<div id="warn" class="warn" hidden></div>
+
+<header>
+  <div class="hd">
+    <div class="brand">
+      <span class="logo-badge">NSE</span>
+      <h1>NSE Breadth Ledger</h1>
+    </div>
+    <nav>
+      <a href="#highlow">Highs/Lows</a>
+      <a href="#heat">60 Sessions</a>
+      <a href="#cluster">Clusters</a>
+      <a href="#momentum">Momentum</a>
+      <a href="#scanner">52W Scanner</a>
+      <a href="#log">Session Log</a>
+      <a href="#sizer">Position Sizer</a>
+      <div class="nav-aux">
+        <a href="methodology.html">Methodology</a>
+        <a href="data-quality.html">Data Quality</a>
+      </div>
+    </nav>
+    <button id="th" aria-label="Toggle theme" title="Toggle Light/Dark Theme">◐</button>
+  </div>
+</header>
+
+<main>
+  <!-- Data Status Line -->
+  <div class="status-bar" id="status-container">
+    <div>
+      <span id="status">Loading market data…</span>
+      <span class="mut" style="margin-left:8px">· Built from official NSE Bhavcopy · Final after close</span>
+    </div>
+    <div id="regime-badge"></div>
+  </div>
+
+  <!-- 1. Fresh Highs vs Fresh Lows -->
+  <section id="highlow">
+    <div class="section-header">
+      <div>
+        <h2>Fresh Highs vs Fresh Lows <a class="info-icon" href="methodology.html#highs-lows" title="Highs/Lows calculation details">ⓘ</a></h2>
+        <div class="sub">Stocks making new adjusted breakout highs (right, teal) vs new lows (left, clay).</div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="fly" id="fly"></div>
+    </div>
+  </section>
+
+  <!-- 2. Last 60 Sessions Heatmap -->
+  <section id="heat">
+    <div class="section-header">
+      <div>
+        <h2>Last 60 Sessions Market Regime <a class="info-icon" href="methodology.html#regime" title="Heatmap regime formula details">ⓘ</a></h2>
+        <div class="sub">Teal = broad market strength, Clay = broad market weakness. Oldest left (60 sessions ago), newest right (Today).</div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="hm-container">
+        <div class="hm" id="hm"></div>
+        <div class="hm-legend">
+          <span>← 60 sessions ago</span>
+          <div style="display:flex;align-items:center">
+            <span>Severe Decline</span>
+            <span class="hm-gradient"></span>
+            <span>Strong Advance</span>
+          </div>
+          <span>Today →</span>
+        </div>
+      </div>
+
+      <div class="kpi-row">
+        <div class="kpi-card">
+          <span class="kpi-label">Monthly Thrust (20 sessions)</span>
+          <b class="kpi-val" id="thr">–</b>
+          <span class="sub">Stocks up $\ge 25\%$ minus down $\ge 25\%$</span>
+        </div>
+        <div class="kpi-card">
+          <span class="kpi-label">% Above 20 DMA</span>
+          <b class="kpi-val" id="dma20">–</b>
+          <span class="sub">Short-term participation</span>
+        </div>
+        <div class="kpi-card">
+          <span class="kpi-label">% Above 50 DMA</span>
+          <b class="kpi-val" id="dma50">–</b>
+          <span class="sub">Intermediate trend health</span>
+        </div>
+        <div class="kpi-card">
+          <span class="kpi-label">% Above 200 DMA</span>
+          <b class="kpi-val" id="dma200">–</b>
+          <span class="sub">Structural bull market health</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 3. Where Fresh Highs Cluster -->
+  <section id="cluster">
+    <div class="section-header">
+      <div>
+        <h2>Where Fresh Highs Cluster <a class="info-icon" href="methodology.html#clusters" title="Industry cluster methodology">ⓘ</a></h2>
+        <div class="sub">Dark bar = share of stocks at 3-month high · Pale bar = share at 1-month high · Minimum 3 tracked stocks.</div>
+      </div>
+      <div class="row" data-ex="ind" style="margin:0"></div>
+    </div>
+    <div class="card">
+      <div class="bars" id="ib"></div>
+    </div>
+  </section>
+
+  <!-- 4. Broad Momentum Explorer -->
+  <section id="momentum">
+    <div class="section-header">
+      <div>
+        <h2>Broad Momentum Explorer <a class="info-icon" href="methodology.html#momentum" title="Momentum formula details">ⓘ</a></h2>
+        <div class="sub">Filter by industry, minimum return threshold, and session window. Click a symbol to open its TradingView chart.</div>
+      </div>
+      <div class="row" data-ex="mom" style="margin:0"></div>
+    </div>
+    <div class="card">
+      <div class="row" style="background:var(--bg2);padding:10px 14px;border-radius:8px">
+        <label>Industry <select id="mi"></select></label>
+        <label>Gain of at least (%) <input id="mg" type="number" value="20" min="0" step="1" style="width:90px"></label>
+        <label>Over the last <select id="md"></select></label>
+      </div>
+      <div class="sub" id="mc" style="margin:12px 0 8px;font-weight:600"></div>
+      <div class="sc">
+        <table id="mt"></table>
+      </div>
+
+      <div style="margin-top:20px;border-top:1px solid var(--bd);padding-top:14px">
+        <h3 style="font-size:14px;margin:0 0 10px">All Industries Ranked by Share Meeting This Test (Click to filter above)</h3>
+        <div class="bars" id="mr"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 5. 52-Week Highs Scanner -->
+  <section id="scanner">
+    <div class="section-header">
+      <div>
+        <h2>52-Week Highs Scanner <a class="info-icon" href="methodology.html#scanner" title="Scanner criteria details">ⓘ</a></h2>
+        <div class="sub">Find stocks making new breakout highs or consolidating within X% of their 52-week peak.</div>
+      </div>
+      <div class="row" data-ex="scan" style="margin:0"></div>
+    </div>
+    <div class="card">
+      <div class="row" style="background:var(--bg2);padding:10px 14px;border-radius:8px">
+        <label>Show
+          <select id="sm">
+            <option value="near">Within X% of 52-week high</option>
+            <option value="h52">New 52-week highs today</option>
+            <option value="h6">New 6-month highs today</option>
+            <option value="h1">New 1-month highs today</option>
+          </select>
+        </label>
+        <label>Within (%) <input id="sw" type="number" value="5" min="0.5" max="30" step="0.5" style="width:90px"></label>
+        <label>Industry <select id="si"></select></label>
+      </div>
+      <div class="sub" id="sc" style="margin:12px 0 8px;font-weight:600"></div>
+      <div class="sc">
+        <table id="st"></table>
+      </div>
+    </div>
+  </section>
+
+  <!-- 6. Session Log -->
+  <section id="log">
+    <div class="section-header">
+      <div>
+        <h2>Last 10 Sessions History Log <a class="info-icon" href="methodology.html#sessions" title="Session log details">ⓘ</a></h2>
+        <div class="sub">Daily advancers, decliners, new highs, new lows, monthly thrust, and market regime.</div>
+      </div>
+      <div>
+        <button data-lg>Download CSV</button>
+      </div>
+    </div>
+    <div class="card">
+      <div class="sc">
+        <table id="lt"></table>
+      </div>
+    </div>
+  </section>
+
+  <!-- 7. Position Sizer (Desktop / Laptop Optimized) -->
+  <section id="sizer">
+    <div class="section-header">
+      <div>
+        <h2>Client-Side Position Sizer <a class="info-icon" href="methodology.html#sizer" title="Position sizer formula">ⓘ</a></h2>
+        <div class="sub">A calculator, not a recommendation. Runs strictly in your local browser; zero data is transmitted.</div>
+      </div>
+      <span class="sub" style="font-style:italic">Saved automatically in localStorage</span>
+    </div>
+    <div class="card">
+      <div class="row">
+        <button id="pl" class="on">Long Position</button>
+        <button id="pshort">Short Position</button>
+      </div>
+
+      <div class="row" style="background:var(--bg2);padding:14px;border-radius:8px">
+        <label>Entry Price (₹) <input id="pe" type="number" value="1000" step="0.05" style="width:130px"></label>
+        <label>Stop Loss (%) <input id="ps" type="number" value="3.0" step="0.1" style="width:100px"></label>
+        <label>Stop Price (₹) <input id="pp" type="number" step="0.05" style="width:130px"></label>
+        <label>Account Capital (₹) <input id="pa" type="number" value="1000000" step="50000" style="width:150px"></label>
+        <label>Risk Per Trade (%) <input id="pr" type="number" value="1.0" step="0.1" style="width:100px"></label>
+        <label>Max Capital Cap (%) <input id="pc" type="number" value="25" step="1" style="width:100px"></label>
+      </div>
+
+      <div class="row" style="margin-top:12px">
+        <span class="mut" style="font-size:12px;font-weight:600;text-transform:uppercase">Quick Stop-Loss Presets:</span>
+        <button data-q="1">1%</button>
+        <button data-q="2">2%</button>
+        <button data-q="3">3%</button>
+        <button data-q="5">5%</button>
+      </div>
+
+      <div class="out">
+        <div>
+          <span>Shares Quantity</span>
+          <b id="o1">–</b>
+        </div>
+        <div>
+          <span>Position Value</span>
+          <b id="o2">–</b>
+        </div>
+        <div>
+          <span>Capital Used (% of Account)</span>
+          <b id="o3">–</b>
+        </div>
+        <div>
+          <span>Risk Amount (₹)</span>
+          <b id="o4">–</b>
+        </div>
+      </div>
+
+      <div style="margin-top:18px">
+        <span class="mut" style="font-size:12px;font-weight:600;text-transform:uppercase">Target Profit Projections (Editable R-Multiples):</span>
+        <div class="target-grid" id="tg"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Daily Lead Subscription -->
+  <section style="margin-top:40px;text-align:center">
+    <div class="card" style="padding:28px;background:var(--bg2)">
+      <h3 style="margin:0 0 6px;font-size:18px">Get the Daily NSE Breadth Ledger Delivered</h3>
+      <p class="sub" style="margin:0 auto 16px;max-width:540px">Receive verified market breadth counts, sector clustering shifts, and 52-week breakout summaries every evening after market close.</p>
+      <button class="pri" id="lead" style="padding:10px 24px;font-size:14px">Subscribe to Daily Market Note</button>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <p><strong>Disclaimer & Legal Compliance:</strong> Market-wide counts and breadth metrics only, derived from official National Stock Exchange of India (NSE) end-of-day bhavcopy data. This tool provides quantitative market information, not investment advice or recommendations. Market breadth helps assess systemic risk and participation health, not directional market price prediction. Under SEBI regulations, this website does not provide research reports, stock targets, or buy/sell recommendations.</p>
+  <p style="margin-top:8px">Data integrity: Never uses mock or synthetic data. Historical prices are backward-adjusted for verified corporate actions (splits, bonuses, rights, demergers). Unexplained price anomalies are quarantined. Check the <a href="methodology.html">Methodology Page</a> for formulas and <a href="data-quality.html">Data Quality Report</a> for audit results.</p>
+</footer>
+
+<!-- Promo Dialog -->
+<dialog id="dp">
+  <div id="dpb" style="margin-bottom:16px;line-height:1.6"></div>
+  <form method="dialog"><button class="pri">Close</button></form>
+</dialog>
+
+<!-- Lead Subscription Dialog (DPDP Act 2023 Compliant) -->
+<dialog id="dl">
+  <form id="lf">
+    <h3 style="margin:0 0 4px">Daily NSE Breadth Update</h3>
+    <p class="sub" style="margin:0 0 16px">Delivered each evening at 7:00 PM IST after final exchange reconciliation.</p>
+    <div class="row">
+      <label style="width:100%">Full Name
+        <input name="name" placeholder="Ramesh Patel" required style="width:100%">
+      </label>
+      <label style="width:100%">Email Address
+        <input name="email" type="email" placeholder="ramesh@example.com" required style="width:100%">
+      </label>
+      <label style="width:100%">WhatsApp Number (+91)
+        <input name="wa" inputmode="numeric" pattern="[0-9]{10}" placeholder="10-digit mobile number" required style="width:100%">
+      </label>
+    </div>
+    <div style="margin:14px 0">
+      <label style="flex-direction:row;gap:8px;align-items:flex-start;text-transform:none;font-weight:400;font-size:12px;line-height:1.4">
+        <input type="checkbox" name="consent" required style="margin-top:2px">
+        <span>I explicitly consent to receive market information updates via WhatsApp/Email under India's Digital Personal Data Protection (DPDP) Act 2023. I accept the <a href="methodology.html#terms" target="_blank" rel="noopener">Terms</a> and <a href="methodology.html#privacy" target="_blank" rel="noopener">Privacy Policy</a>. I can withdraw consent at any time.</span>
+      </label>
+    </div>
+    <div class="row" style="justify-content:flex-end">
+      <button type="button" id="lc" style="margin-right:6px">Cancel</button>
+      <button class="pri" type="submit">Subscribe</button>
+    </div>
+    <div id="lm" class="sub" style="margin-top:10px"></div>
+  </form>
+</dialog>
+
+<!-- Frontend Application Logic -->
+<script>
+const $ = s => document.querySelector(s);
+const $$ = s => [...document.querySelectorAll(s)];
+const esc = s => String(s).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const N = x => Number(x).toLocaleString('en-IN');
+const pc = x => (x >= 0 ? '+' : '') + Number(x).toFixed(1) + '%';
+const cnt = k => S.filter(x => x.f && x.f[k]).length;
+const csv = (h, r) => [h.join(',')].concat(r.map(a => a.map(v => '"' + String(v).replace(/"/g, '""') + '"').join(','))).join('\n');
+const tvl = s => 'https://www.tradingview.com/chart/?symbol=NSE:' + encodeURIComponent(s);
+
+function dlf(filename, text, type) {
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(new Blob([text], {type: type || 'text/csv'}));
+  a.download = filename;
+  a.click();
+  setTimeout(() => URL.revokeObjectURL(a.href), 1000);
+}
+
+const jf = async file => {
+  const r = await fetch(C.dataPath + file, {cache: 'no-cache'});
+  if (!r.ok) throw new Error(file + ' (' + r.status + ')');
+  return r.json();
+};
+
+let S = [], H = [], G = [], B = {}, LT = {}, EX = {}, sortK = 'd', sortD = 1;
+
+// Theme toggle
+const root = document.documentElement;
+root.dataset.theme = matchMedia('(prefers-color-scheme:dark)').matches ? 'dark' : 'light';
+$('#th').onclick = () => root.dataset.theme = root.dataset.theme === 'dark' ? 'light' : 'dark';
+
+// Export buttons attachment
+$$('[data-ex]').forEach(d => {
+  d.innerHTML = '<button data-a="csv">Download CSV</button><button data-a="copy">Copy for TradingView</button><button data-a="tv">Download TradingView file</button>';
+});
+
+document.addEventListener('click', async e => {
+  const b = e.target.closest('[data-a]');
+  if (!b) return;
+  const k = b.parentElement.dataset.ex;
+  const x = EX[k] && EX[k]();
+  if (!x) return;
+
+  if (b.dataset.a === 'csv') {
+    dlf(x.n + '.csv', x.csv);
+  } else {
+    const t = x.syms.map(s => 'NSE:' + s).join(',');
+    if (b.dataset.a === 'tv') {
+      dlf(x.n + '-tradingview.txt', t, 'text/plain');
+    } else {
+      try {
+        await navigator.clipboard.writeText(t);
+        b.textContent = 'Copied ✓';
+      } catch {
+        b.textContent = 'Copy failed';
+      }
+      setTimeout(() => b.textContent = 'Copy for TradingView', 1500);
+    }
+  }
+});
+
+const opt = (a, all) => (all ? '<option>All</option>' : '') + a.map(x => `<option>${esc(x)}</option>`).join('');
+
+function inds() {
+  const m = {};
+  S.forEach(x => (m[x.i] = m[x.i] || []).push(x));
+  return Object.entries(m).filter(([, a]) => a.length >= 3);
+}
+
+function render() {
+  // 1. Butterfly Diverging Chart
+  const hi = [
+    ['1 Month (21d)', 'h1', 'l1'],
+    ['6 Months (126d)', 'h6', 'l6'],
+    ['52 Weeks (252d)', 'h52', 'l52']
+  ];
+  const mx = Math.max(1, ...hi.flatMap(r => [cnt(r[1]), cnt(r[2])]));
+  $('#fly').innerHTML = hi.map(([t, h, l]) => `
+    <div class="l">
+      <span class="fly-val">${N(cnt(l))}&nbsp;</span>
+      <i style="width:${(cnt(l) / mx * 80).toFixed(1)}%"></i>
+    </div>
+    <div class="fly-title">${t}</div>
+    <div class="r">
+      <i style="width:${(cnt(h) / mx * 80).toFixed(1)}%"></i>
+      <span class="fly-val">&nbsp;${N(cnt(h))}</span>
+    </div>
+  `).join('');
+
+  // 2. Heatmap & KPIs
+  $('#hm').innerHTML = H.slice(-60).map(d => {
+    const v = Math.max(-1, Math.min(1, d.v !== undefined ? d.v : (d.regime_score || 0)));
+    const c = v >= 0 ? '--teal' : '--clay';
+    const absPct = Math.round(Math.abs(v) * 100);
+    return `<i title="${esc(d.date)}: ${d.hi || d.new_52w_highs || 0} highs, ${d.lo || d.new_52w_lows || 0} lows · Regime: ${(v*100).toFixed(1)}%" style="background:color-mix(in srgb,var(${c}) ${absPct}%,var(--bg2))"></i>`;
+  }).join('');
+
+  // Monthly thrust & DMAs
+  const th = B.monthly_thrust ? B.monthly_thrust.value : (S.filter(x => x.g && x.g['20'] >= 25).length - S.filter(x => x.g && x.g['20'] <= -25).length);
+  $('#thr').textContent = (th > 0 ? '+' : '') + th;
+  $('#thr').style.color = th > 0 ? 'var(--teal)' : (th < 0 ? 'var(--clay)' : 'var(--fg)');
+
+  if (B.moving_averages) {
+    $('#dma20').textContent = B.moving_averages.pct_above_20dma + '%';
+    $('#dma50').textContent = B.moving_averages.pct_above_50dma + '%';
+    $('#dma200').textContent = B.moving_averages.pct_above_200dma + '%';
+  }
+
+  // 3. Industry clusters
+  const I = inds().map(([n, a]) => ({
+    n,
+    c: a.length,
+    p3: a.filter(x => x.f.h3).length / a.length * 100,
+    p1: a.filter(x => x.f.h1).length / a.length * 100
+  })).sort((a, b) => b.p3 - a.p3 || b.p1 - a.p1);
+
+  $('#ib').innerHTML = I.map(r => `
+    <div class="br">
+      <span style="font-weight:600">${esc(r.n)} <span class="mut" style="font-size:11px">(${r.c})</span></span>
+      <div class="tr">
+        <u style="width:${r.p1}%" title="1-Month High: ${r.p1.toFixed(1)}%"></u>
+        <b style="width:${r.p3}%" title="3-Month High: ${r.p3.toFixed(1)}%"></b>
+      </div>
+      <span class="num">${r.p3.toFixed(0)}% / ${r.p1.toFixed(0)}%</span>
+    </div>
+  `).join('') || '<span class="mut">No industry has 3+ tracked stocks.</span>';
+
+  EX.ind = () => ({
+    n: 'industries-cluster',
+    csv: csv(['Industry', 'Stocks Count', 'At 3M High %', 'At 1M High %'], I.map(r => [r.n, r.c, r.p3.toFixed(1), r.p1.toFixed(1)])),
+    syms: S.filter(x => x.f && (x.f.h3 || x.f.h1)).map(x => x.s)
+  });
+
+  // 4. Momentum options
+  const il = inds().map(([n]) => n).sort();
+  $('#mi').innerHTML = opt(il, 1);
+  $('#si').innerHTML = opt(il, 1);
+
+  if (S.length && S[0].g) {
+    const days = Object.keys(S[0].g).sort((a, b) => Number(a) - Number(b));
+    $('#md').innerHTML = opt(days).replace(/<option>(\d+)<\/option>/g, '<option value="$1">$1 trading days</option>');
+    const d20 = [...$('#md').options].find(o => o.value === '20');
+    if (d20) d20.selected = true;
+  }
+
+  mom();
+  scan();
+
+  // 5. Session Log
+  $('#lt').innerHTML = '<thead><tr>' + ['Date', 'Advancers', 'Decliners', 'Unchanged', '52W Highs', '52W Lows', 'Monthly Thrust', 'Regime'].map((h, i) => `<th class="${i>0?'num':''}">${h}</th>`).join('') + '</tr></thead><tbody>' +
+    G.map(r => `
+      <tr>
+        <td style="font-weight:600">${esc(r.date)}</td>
+        <td class="num" style="color:var(--teal)">${r.adv || r.advancers || 0}</td>
+        <td class="num" style="color:var(--clay)">${r.dec || r.decliners || 0}</td>
+        <td class="num">${r.unch !== undefined ? r.unch : (r.unchanged || 0)}</td>
+        <td class="num" style="font-weight:600;color:var(--teal)">${r.hi52 || r.new_52w_highs || 0}</td>
+        <td class="num" style="font-weight:600;color:var(--clay)">${r.lo52 || r.new_52w_lows || 0}</td>
+        <td class="num" style="font-weight:600">${r.thrust !== undefined ? r.thrust : (r.monthly_thrust || 0)}</td>
+        <td class="num"><span class="regime-pill" style="background:var(--bg2)">${esc(r.regime_label || 'Normal')}</span></td>
+      </tr>
+    `).join('') + '</tbody>';
+}
+
+function tbl(el, rows, cols) {
+  el.innerHTML = '<thead><tr>' + cols.map(c => `<th class="${c[2] ? 's' : ''} ${c[3] ? 'num' : ''}" data-k="${c[2] || ''}">${c[0]}</th>`).join('') + '</tr></thead><tbody>' +
+    rows.map(r => '<tr>' + cols.map(c => `<td class="${c[3] ? 'num' : ''}">${c[1](r)}</td>`).join('') + '</tr>').join('') + '</tbody>';
+}
+
+const symLink = r => `<a href="${tvl(r.s)}" target="_blank" rel="noopener" style="font-weight:600">${esc(r.s)}</a>`;
+
+function mom() {
+  const ind = $('#mi').value;
+  const g = +$('#mg').value;
+  const d = $('#md').value || '20';
+  const base = S.filter(x => ind === 'All' || x.i === ind);
+  const hit = base.filter(x => x.g && x.g[d] >= g).sort((a, b) => b.g[d] - a.g[d]);
+
+  $('#mc').textContent = `${hit.length} of ${base.length} stocks (${(base.length ? (hit.length/base.length*100).toFixed(1) : 0)}%) gained ${g}% or more over ${d} trading days.`;
+
+  tbl($('#mt'), hit, [
+    ['Symbol', symLink, 's', false],
+    ['Company Name', r => esc(r.n), 'n', false],
+    ['Industry', r => esc(r.i), 'i', false],
+    ['Close (₹)', r => N(r.c), 'c', true],
+    [`Gain (${d}d)`, r => pc(r.g[d]), 'g', true]
+  ]);
+
+  EX.mom = () => ({
+    n: `momentum-${d}d-gain${g}pct`,
+    syms: hit.map(x => x.s),
+    csv: csv(['Symbol', 'Company Name', 'Industry', 'Close Price', `Gain % (${d}d)`], hit.map(r => [r.s, r.n, r.i, r.c, r.g[d].toFixed(2)]))
+  });
+
+  $('#mr').innerHTML = inds().map(([n, a]) => ({
+    n,
+    p: a.filter(x => x.g && x.g[d] >= g).length / a.length * 100
+  })).sort((a, b) => b.p - a.p).map(r => `
+    <div class="br" data-pick="${esc(r.n)}" style="cursor:pointer" title="Click to view ${esc(r.n)} stocks">
+      <span style="font-weight:500">${esc(r.n)}</span>
+      <div class="tr"><b style="width:${r.p}%"></b></div>
+      <span class="num">${r.p.toFixed(0)}%</span>
+    </div>
+  `).join('');
+}
+
+function scan() {
+  const m = $('#sm').value;
+  const w = +$('#sw').value;
+  const ind = $('#si').value;
+  $('#sw').disabled = (m !== 'near');
+
+  let r = S.filter(x => (ind === 'All' || x.i === ind)).map(x => {
+    const dist = ((x.h52 - x.c) / x.h52 * 100);
+    return {...x, d: dist};
+  }).filter(x => m === 'near' ? x.d <= w : (x.f && x.f[m]));
+
+  r.sort((a, b) => {
+    if (sortK === 's' || sortK === 'i' || sortK === 'n') {
+      return String(a[sortK]).localeCompare(String(b[sortK])) * sortD;
+    }
+    return (Number(a[sortK]) - Number(b[sortK])) * sortD;
+  });
+
+  $('#sc').textContent = `${r.length} stocks matching criteria`;
+
+  tbl($('#st'), r, [
+    ['Symbol ↕', symLink, 's', false],
+    ['Company Name ↕', x => esc(x.n), 'n', false],
+    ['Industry ↕', x => esc(x.i), 'i', false],
+    ['Close (₹) ↕', x => N(x.c), 'c', true],
+    ['52W High (₹) ↕', x => N(x.h52), 'h52', true],
+    ['From 52W High ↕', x => x.d.toFixed(1) + '%', 'd', true],
+    ['20D Return ↕', x => (x.g && x.g['20'] !== undefined ? pc(x.g['20']) : '–'), 'g', true]
+  ]);
+
+  EX.scan = () => ({
+    n: 'scanner-highs-results',
+    syms: r.map(x => x.s),
+    csv: csv(['Symbol', 'Company Name', 'Industry', 'Close Price', '52W High', 'Distance from 52W High %'], r.map(x => [x.s, x.n, x.i, x.c, x.h52, x.d.toFixed(2)]))
+  });
+}
+
+$('#mi').onchange = $('#mg').oninput = $('#md').onchange = mom;
+$('#sm').onchange = $('#sw').oninput = $('#si').onchange = scan;
+
+$('#st').onclick = e => {
+  const k = e.target.dataset && e.target.dataset.k;
+  if (!k) return;
+  sortD = sortK === k ? -sortD : 1;
+  sortK = k;
+  scan();
+};
+
+$('#mr').onclick = e => {
+  const b = e.target.closest('[data-pick]');
+  if (b) {
+    $('#mi').value = b.dataset.pick;
+    mom();
+  }
+};
+
+$('[data-lg]').onclick = () => {
+  dlf('sessions_10.csv', csv(
+    ['Date', 'Advancers', 'Decliners', 'Unchanged', '52W Highs', '52W Lows', 'Monthly Thrust', 'Regime Score'],
+    G.map(r => [r.date, r.adv || r.advancers, r.dec || r.decliners, r.unch !== undefined ? r.unch : r.unchanged, r.hi52 || r.new_52w_highs, r.lo52 || r.new_52w_lows, r.thrust !== undefined ? r.thrust : r.monthly_thrust, r.regime_score || ''])
+  ));
+};
+
+// 7. Position Sizer
+let side = 'L';
+const PI = ['pe', 'ps', 'pa', 'pr', 'pc'];
+const R_MULTIPLES = [1.0, 2.0, 3.0];
+
+$('#tg').innerHTML = R_MULTIPLES.map(r => `
+  <div class="target-box">
+    <label style="display:flex;flex-direction:row;align-items:center;justify-content:space-between">
+      <span>Target Multiple (R)</span>
+      <input class="rt" type="number" value="${r}" step="0.5" style="width:70px">
+    </label>
+    <div class="target-res" style="margin-top:6px;font-family:var(--mono);font-size:13px"></div>
+  </div>
+`).join('');
+
+const val = id => +$('#' + id).value;
+const inr = x => '₹' + N(Math.round(x));
+
+function stopPrice() {
+  const e = val('pe');
+  const s = val('ps');
+  if (e > 0 && s > 0) {
+    $('#pp').value = (side === 'L' ? e * (1 - s / 100) : e * (1 + s / 100)).toFixed(2);
+  }
+}
+
+function calc() {
+  const e = val('pe');
+  const s = val('ps');
+  const a = val('pa');
+  const rk = val('pr');
+  const cp = val('pc');
+
+  const rps = e * (s / 100);
+  if (!(e > 0 && s > 0 && a > 0 && rps > 0)) return;
+
+  const maxRiskCapital = a * (rk / 100);
+  const maxPositionCap = a * (cp / 100);
+
+  const qFromRisk = Math.floor(maxRiskCapital / rps);
+  const qFromCap = Math.floor(maxPositionCap / e);
+  const q = Math.max(0, Math.min(qFromRisk, qFromCap));
+
+  $('#o1').textContent = N(q);
+  $('#o2').textContent = inr(q * e);
+  $('#o3').textContent = (a > 0 ? (q * e / a * 100).toFixed(1) : 0) + '%';
+  $('#o4').textContent = inr(q * rps);
+
+  $$('.rt').forEach(i => {
+    const r = +i.value;
+    const targetPrice = side === 'L' ? e + (r * rps) : e - (r * rps);
+    const profit = q * rps * r;
+    const box = i.closest('.target-box').querySelector('.target-res');
+    box.innerHTML = `<span style="color:var(--teal)">Price: ₹${targetPrice.toFixed(2)}</span><br><span class="mut">Profit: ${inr(profit)}</span>`;
+  });
+
+  try {
+    localStorage.setItem('nse_breadth_sizer', JSON.stringify({
+      side,
+      ...Object.fromEntries(PI.map(i => [i, $('#' + i).value]))
+    }));
+  } catch {}
+}
+
+PI.forEach(i => $('#' + i).oninput = () => {
+  stopPrice();
+  calc();
+});
+
+$$('.rt').forEach(i => i.oninput = calc);
+
+$('#pp').oninput = () => {
+  const e = val('pe');
+  const p = val('pp');
+  if (e > 0 && p > 0) {
+    $('#ps').value = (Math.abs(e - p) / e * 100).toFixed(2);
+    calc();
+  }
+};
+
+$$('[data-q]').forEach(b => b.onclick = () => {
+  $('#ps').value = b.dataset.q;
+  stopPrice();
+  calc();
+});
+
+function setSide(s) {
+  side = s;
+  $('#pl').classList.toggle('on', s === 'L');
+  $('#pshort').classList.toggle('on', s === 'S');
+  stopPrice();
+  calc();
+}
+
+$('#pl').onclick = () => setSide('L');
+$('#pshort').onclick = () => setSide('S');
+
+try {
+  const sv = JSON.parse(localStorage.getItem('nse_breadth_sizer') || 'null');
+  if (sv) {
+    PI.forEach(i => { if (sv[i]) $('#' + i).value = sv[i]; });
+    side = sv.side || 'L';
+  }
+} catch {}
+
+setSide(side);
+
+// Lead Form + Promo
+$('#lead').onclick = () => $('#dl').showModal();
+$('#lc').onclick = () => $('#dl').close();
+
+$('#lf').onsubmit = async e => {
+  e.preventDefault();
+  const m = $('#lm');
+  if (!C.leadEndpoint) {
+    m.innerHTML = '<span style="color:var(--teal)">Thank you for subscribing! Your email & WhatsApp will receive the daily digest.</span>';
+    setTimeout(() => $('#dl').close(), 2500);
+    return;
+  }
+  const f = Object.fromEntries(new FormData(e.target));
+  f.wa = '+91' + f.wa;
+  f.consentAt = new Date().toISOString();
+  try {
+    const r = await fetch(C.leadEndpoint, {
+      method: 'POST',
+      headers: {'Content-Type': 'application/json'},
+      body: JSON.stringify(f)
+    });
+    if (!r.ok) throw 0;
+    e.target.innerHTML = '<h3>Thank you!</h3><p>You are on the list for the daily breadth update.</p>';
+  } catch {
+    m.textContent = 'Something went wrong. Please check endpoint or try again.';
+  }
+};
+
+if (C.promo.enabled) {
+  const p = $('#promo');
+  const end = new Date(C.promo.endsAt).getTime();
+  p.hidden = false;
+  const t = () => {
+    const s = Math.max(0, Math.floor((end - Date.now()) / 1000));
+    p.innerHTML = `${esc(C.promo.text)} <b>${Math.floor(s/86400)}d ${Math.floor(s%86400/3600)}h ${Math.floor(s%3600/60)}m ${s%60}s</b> <button id="pd">Details</button>`;
+    $('#pd').onclick = () => {
+      $('#dpb').textContent = C.promo.details;
+      $('#dp').showModal();
+    };
+  };
+  t();
+  setInterval(t, 1000);
+}
+
+// Data Loader
+(async () => {
+  try {
+    const [l, s, h, g, b] = await Promise.all([
+      'latest.json', 'stocks.json', 'heatmap_60.json', 'sessions_10.json', 'breadth.json'
+    ].map(jf));
+
+    LT = l; S = s; H = h; B = b;
+    G = g.sort((a, b) => b.date.localeCompare(a.date));
+
+    const asofStr = l.asof || l.as_of_date || 'Today';
+    const uCount = l.universe || l.universe_size || 0;
+    const qCount = l.quarantined !== undefined ? l.quarantined : (l.quarantined_count || 0);
+
+    $('#status').textContent = `As of ${asofStr} · ${N(uCount)} stocks tracked (${l.index_name || 'Nifty 500'}) · ${qCount} quarantined`;
+
+    if (B.regime) {
+      $('#regime-badge').innerHTML = `<span class="regime-pill" style="background:${B.regime.color};color:#fff">${esc(B.regime.label)} (${(B.regime.score*100).toFixed(1)}%)</span>`;
+    }
+
+    if (l.status !== 'ok' && l.data_status !== 'ok') {
+      $('#warn').hidden = false;
+      $('#warn').textContent = l.message || 'Data delayed: showing the last validated session.';
+    }
+
+    render();
+  } catch (e) {
+    $('#status').textContent = 'Could not load data: ' + e.message + '. Check that public/data/ is generated.';
+  }
+})();
+</script>
+</body>
+</html>

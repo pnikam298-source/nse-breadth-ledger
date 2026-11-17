@@ -1,0 +1,122 @@
+[
+  {
+    "date": "2026-11-17",
+    "universe_size": 475,
+    "advancers": 248,
+    "decliners": 226,
+    "unchanged": 1,
+    "new_52w_highs": 15,
+    "new_52w_lows": 7,
+    "monthly_thrust": 3,
+    "regime_score": 0.0532,
+    "regime_label": "Moderate Advance"
+  },
+  {
+    "date": "2026-11-16",
+    "universe_size": 475,
+    "advancers": 173,
+    "decliners": 302,
+    "unchanged": 0,
+    "new_52w_highs": 14,
+    "new_52w_lows": 6,
+    "monthly_thrust": 4,
+    "regime_score": 0.0411,
+    "regime_label": "Moderate Advance"
+  },
+  {
+    "date": "2026-11-13",
+    "universe_size": 475,
+    "advancers": 150,
+    "decliners": 324,
+    "unchanged": 1,
+    "new_52w_highs": 14,
+    "new_52w_lows": 3,
+    "monthly_thrust": 1,
+    "regime_score": 0.0747,
+    "regime_label": "Moderate Advance"
+  },
+  {
+    "date": "2026-11-12",
+    "universe_size": 475,
+    "advancers": 280,
+    "decliners": 190,
+    "unchanged": 5,
+    "new_52w_highs": 15,
+    "new_52w_lows": 3,
+    "monthly_thrust": -2,
+    "regime_score": 0.0953,
+    "regime_label": "Moderate Advance"
+  },
+  {
+    "date": "2026-11-11",
+    "universe_size": 475,
+    "advancers": 342,
+    "decliners": 132,
+    "unchanged": 1,
+    "new_52w_highs": 24,
+    "new_52w_lows": 3,
+    "monthly_thrust": -3,
+    "regime_score": 0.1458,
+    "regime_label": "Moderate Advance"
+  },
+  {
+    "date": "2026-11-09",
+    "universe_size": 475,
+    "advancers": 223,
+    "decliners": 249,
+    "unchanged": 3,
+    "new_52w_highs": 20,
+    "new_52w_lows": 8,
+    "monthly_thrust": -1,
+    "regime_score": 0.0884,
+    "regime_label": "Moderate Advance"
+  },
+  {
+    "date": "2026-11-06",
+    "universe_size": 475,
+    "advancers": 212,
+    "decliners": 261,
+    "unchanged": 2,
+    "new_52w_highs": 15,
+    "new_52w_lows": 8,
+    "monthly_thrust": 2,
+    "regime_score": 0.0558,
+    "regime_label": "Moderate Advance"
+  },
+  {
+    "date": "2026-11-05",
+    "universe_size": 475,
+    "advancers": 337,
+    "decliners": 135,
+    "unchanged": 3,
+    "new_52w_highs": 22,
+    "new_52w_lows": 3,
+    "monthly_thrust": 1,
+    "regime_score": 0.1558,
+    "regime_label": "Strong Advance"
+  },
+  {
+    "date": "2026-11-04",
+    "universe_size": 475,
+    "advancers": 389,
+    "decliners": 86,
+    "unchanged": 0,
+    "new_52w_highs": 14,
+    "new_52w_lows": 6,
+    "monthly_thrust": 1,
+    "regime_score": 0.0689,
+    "regime_label": "Moderate Advance"
+  },
+  {
+    "date": "2026-11-03",
+    "universe_size": 475,
+    "advancers": 303,
+    "decliners": 171,
+    "unchanged": 1,
+    "new_52w_highs": 8,
+    "new_52w_lows": 7,
+    "monthly_thrust": 2,
+    "regime_score": 0.0384,
+    "regime_label": "Neutral / Selective"
+  }
+]

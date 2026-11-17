@@ -1,0 +1,85 @@
+name: NSE Breadth Ledger Daily Pipeline
+
+on:
+  schedule:
+    # 13:00 UTC is 18:30 IST (6:30 PM IST), Monday through Friday
+    - cron: '0 13 * * 1-5'
+  workflow_dispatch:
+    inputs:
+      num_sessions:
+        description: 'Number of sessions (for backfill/run)'
+        required: false
+        default: '1'
+
+permissions:
+  contents: write
+
+jobs:
+  run-pipeline:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install pandas pyarrow requests pytest jsonschema jugaad-data yfinance
+
+      - name: Run Test Suite
+        run: |
+          pytest tests/
+
+      - name: Ingest and Process Daily Data with Retry
+        run: |
+          echo "Starting daily pipeline polling loop from 6:30 PM IST..."
+          # Max attempts: 9 tries with 10-minute sleeps = 90 mins max polling window
+          MAX_ATTEMPTS=9
+          ATTEMPT=1
+          SUCCESS=0
+
+          while [ $ATTEMPT -le $MAX_ATTEMPTS ]; do
+            echo "Attempt $ATTEMPT of $MAX_ATTEMPTS..."
+            if python3 -m pipeline.cli run; then
+              echo "Daily pipeline completed and validated successfully!"
+              SUCCESS=1
+              break
+            else
+              echo "Bhavcopy not yet published or validation check in progress. Waiting 10 minutes..."
+              sleep 600
+              ATTEMPT=$((ATTEMPT + 1))
+            fi
+          done
+
+          if [ $SUCCESS -ne 1 ]; then
+            echo "Pipeline failed after maximum retry window!"
+            exit 1
+          fi
+
+      - name: Commit and Push Updated Data
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add public/data/ data/processed/ data/metadata/ data/raw/constituents/ data/raw/corporate_actions/ data/raw/holidays/
+          git diff --quiet && git diff --staged --quiet || (git commit -m "chore(data): automated daily market breadth update [skip ci]" && git push)
+
+      - name: Failure Alert Notification
+        if: failure()
+        run: |
+          echo "ALERT: Daily pipeline execution failed on $(date)"
+          # Configurable alert notification: Telegram / Webhook / Email
+          if [ -n "${{ secrets.ALERT_WEBHOOK_URL }}" ]; then
+            curl -X POST -H "Content-Type: application/json" \
+              -d '{"text": "🚨 NSE Breadth Ledger: Daily Pipeline Failed or Bhavcopy Delayed on '"$(date)"'"}' \
+              "${{ secrets.ALERT_WEBHOOK_URL }}"
+          fi

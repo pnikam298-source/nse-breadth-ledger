@@ -1,0 +1,201 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Methodology & Quantitative Definitions — NSE Breadth Ledger</title>
+<style>
+:root{
+  --bg:#f8f9fa;--bg2:#edf0f2;--fg:#1a1d20;--mut:#5a626a;--bd:#d2d7dc;
+  --teal:#0d9488;--teal-dark:#0f766e;--card:#ffffff;--card-border:#e2e8f0;--accent:#2563eb;
+  --font:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  --mono:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;
+}
+:root[data-theme=dark]{
+  --bg:#0f172a;--bg2:#1e293b;--fg:#f1f5f9;--mut:#94a3b8;--bd:#334155;
+  --teal:#2dd4bf;--teal-dark:#14b8a6;--card:#1e293b;--card-border:#334155;--accent:#38bdf8;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font:14px/1.6 var(--font);-webkit-font-smoothing:antialiased}
+a{color:var(--teal);text-decoration:none}
+a:hover{text-decoration:underline}
+main{max-width:1100px;margin:0 auto;padding:0 24px 60px}
+header{position:sticky;top:0;z-index:10;background:var(--bg);border-bottom:1px solid var(--bd)}
+.hd{max-width:1100px;margin:0 auto;padding:12px 24px;display:flex;align-items:center;justify-content:space-between}
+h1{font-size:18px;margin:0;font-weight:700}
+nav{display:flex;gap:18px;font-size:13px}
+.card{background:var(--card);border:1px solid var(--card-border);border-radius:10px;padding:24px;margin:20px 0;box-shadow:0 1px 3px rgba(0,0,0,0.02)}
+h2{font-size:18px;margin-top:0;border-bottom:1px solid var(--bd);padding-bottom:8px;color:var(--fg)}
+h3{font-size:15px;margin:18px 0 6px}
+code{background:var(--bg2);padding:2px 6px;border-radius:4px;font-family:var(--mono);font-size:13px}
+pre{background:var(--bg2);padding:14px;border-radius:8px;overflow-x:auto;font-family:var(--mono);font-size:13px}
+table{border-collapse:collapse;width:100%;font-size:13px;margin:14px 0}
+th,td{padding:8px 12px;border:1px solid var(--bd);text-align:left}
+th{background:var(--bg2);font-weight:600}
+.formula{background:var(--bg2);border-left:4px solid var(--teal);padding:10px 14px;margin:12px 0;font-family:var(--mono);font-size:13px}
+</style>
+</head>
+<body>
+<header>
+  <div class="hd">
+    <div style="display:flex;align-items:center;gap:12px">
+      <a href="index.html" style="font-weight:700;font-size:16px;color:var(--fg)">← NSE Breadth Ledger</a>
+      <span style="color:var(--mut)">/ Methodology</span>
+    </div>
+    <nav>
+      <a href="index.html">Dashboard</a>
+      <a href="data-quality.html">Data Quality</a>
+      <button id="th" style="background:none;border:none;cursor:pointer;font-size:16px;color:var(--fg)">◐</button>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <div style="margin:24px 0 10px">
+    <h1 style="font-size:24px">Quantitative Methodology & Mathematical Definitions</h1>
+    <p style="color:var(--mut);font-size:14px">Comprehensive documentation of data sources, backward price adjustment algorithms, survivorship disclosures, and breadth calculations.</p>
+  </div>
+
+  <!-- Section 1: Data Sources & Raw Store -->
+  <div class="card" id="sources">
+    <h2>1. Primary Data Sources & Immutable Raw Storage</h2>
+    <p>To eliminate data errors caused by web scraping, synthetic estimates, or unofficial aggregators, NSE Breadth Ledger strictly ingests exchange-published files:</p>
+    <ul>
+      <li><strong>Official End-of-Day Bhavcopy:</strong> National Stock Exchange of India (NSE) Common Bhavcopy in current UDiFF (Unified Data Interchange Financial Format) format (<code>BhavCopy_NSE_CM_0_0_0_YYYYMMDD_F_0000.csv.zip</code>). Includes official Open, High, Low, Close, PrevClose, Total Traded Volume, and Total Turnover.</li>
+      <li><strong>Index Constituents & Industry Classification:</strong> Sourced directly from official snapshots on <code>niftyindices.com</code> (e.g. <code>ind_nifty500list.csv</code>).</li>
+      <li><strong>Corporate Actions:</strong> NSE corporate actions register recording ex-dates for stock splits, bonus issues, rights offerings, and demergers.</li>
+      <li><strong>Trading Holiday Master:</strong> Official NSE trading calendar.</li>
+    </ul>
+    <p><strong>Immutable Storage Policy:</strong> Every downloaded raw file is stored permanently under <code>/data/raw/</code> with its SHA-256 cryptographic checksum recorded in <code>data/metadata/raw_checksums.json</code>. Files are never modified or overwritten in place.</p>
+  </div>
+
+  <!-- Section 2: Universe Rules & Survivorship Bias -->
+  <div class="card" id="universe">
+    <h2>2. Universe Selection & Survivorship Bias Disclosure</h2>
+    <p>The tracked universe represents the active constituents of the chosen index (default: <strong>Nifty 500</strong>), filtered by the following criteria:</p>
+    <table>
+      <thead>
+        <tr><th>Filter Rule</th><th>Specification</th><th>Rationale</th></tr>
+      </thead>
+      <tbody>
+        <tr><td><strong>Series</strong></td><td><code>EQ</code> only</td><td>Excludes debt securities (<code>NX</code>, <code>N1</code>), preference shares, and REITs/InvITs (<code>RR</code>) to reflect pure common equity breadth.</td></tr>
+        <tr><td><strong>Minimum Price</strong></td><td>₹10.00</td><td>Filters out illiquid penny stocks susceptible to pump-and-dump manipulation.</td></tr>
+        <tr><td><strong>Minimum Liquidity</strong></td><td>₹5,000,000 (₹50 Lakhs) average daily turnover</td><td>Ensures all tracked stocks have sufficient institutional and retail trading liquidity.</td></tr>
+        <tr><td><strong>History Length</strong></td><td>At least 252 trading sessions</td><td>Required to construct valid, non-distorted 52-week (252 sessions) high and low metrics.</td></tr>
+      </tbody>
+    </table>
+    <h3>Survivorship Bias Disclosure</h3>
+    <p>The universe utilizes dated index constituent snapshots from <code>niftyindices.com</code>. In historical backtests, stocks that were removed from the Nifty 500 prior to the current snapshot date are not retrospectively reconstructed. This creates survivorship bias in multi-year historical data. For daily breadth tracking and positional risk assessment, today's advance/decline breadth reflects the current investable universe.</p>
+  </div>
+
+  <!-- Section 3: Corporate Action Backward Price Adjustment -->
+  <div class="card" id="adjustment">
+    <h2>3. Backward Price Adjustment & Quarantine Engine</h2>
+    <p>Unadjusted splits and bonus issues create massive false "52-week lows" that corrupt market breadth. To guarantee correctness:</p>
+    <div class="formula">
+      Daily Adjustment Ratio: R_t = PrevClose_t / Close_{t-1}
+    </div>
+    <ul>
+      <li>On normal trading days with no corporate actions, <code>PrevClose_t == Close_{t-1}</code>, yielding <code>R_t = 1.0</code>.</li>
+      <li>When a corporate action (e.g. 1:1 bonus or 2:1 split) occurs, the exchange adjusts <code>PrevClose_t</code> to the reference baseline (e.g., ₹1,000 becomes ₹500, ratio = 0.50).</li>
+      <li>Whenever <code>|R_t - 1.0| > 0.01</code> (1% gap), the event is cross-referenced with the NSE corporate actions table.</li>
+      <li>If verified, the adjustment factor is propagated backwards to all prior sessions:
+        <div class="formula">
+          adj_Price_{&tau;} = Price_{&tau;} &times; &prod;_{s > &tau;} R_s
+        </div>
+      </li>
+      <li><strong>Quarantine Protocol:</strong> If a stock displays an unexplained price gap exceeding <strong>20%</strong> without an official corporate action on record, the stock is immediately <strong>QUARANTINED</strong>. It is isolated from daily breadth counts and logged in the <a href="data-quality.html">Data Quality Report</a> until resolved.</li>
+    </ul>
+  </div>
+
+  <!-- Section 4: Quantitative Metric Formulas -->
+  <div class="card" id="metrics">
+    <h2>4. Quantitative Metric Definitions</h2>
+
+    <h3 id="highs-lows">A. Breakout Highs and Lows</h3>
+    <p>A stock records a new breakout high today if its current adjusted High meets or exceeds the highest adjusted High across the previous $N$ trading sessions (excluding today):</p>
+    <div class="formula">
+      New N-Session High = (adj_High_t &ge; max_{i=1...N} adj_High_{t-i})<br>
+      New N-Session Low  = (adj_Low_t  &le; min_{i=1...N} adj_Low_{t-i})
+    </div>
+    <table>
+      <thead>
+        <tr><th>Window</th><th>Sessions (Trading Days)</th><th>Application</th></tr>
+      </thead>
+      <tbody>
+        <tr><td><strong>1 Month</strong></td><td>21 sessions</td><td>Short-term swing breakout momentum</td></tr>
+        <tr><td><strong>3 Months</strong></td><td>63 sessions</td><td>Used for Industry Cluster concentration</td></tr>
+        <tr><td><strong>6 Months</strong></td><td>126 sessions</td><td>Intermediate positional momentum</td></tr>
+        <tr><td><strong>52 Weeks</strong></td><td>252 sessions</td><td>Long-term structural breakouts and institutional accumulation</td></tr>
+      </tbody>
+    </table>
+
+    <h3 id="momentum">B. Gain Over N Sessions</h3>
+    <div class="formula">
+      Gain_N = (adj_Close_t / adj_Close_{t-N}) - 1.0
+    </div>
+
+    <h3 id="thrust">C. Monthly Thrust</h3>
+    <p>Measures market thrust velocity by contrasting strong runners against severe decliners over a 20-session trading month:</p>
+    <div class="formula">
+      Monthly Thrust = Count(Gain_20 &ge; +25%) - Count(Gain_20 &le; -25%)
+    </div>
+
+    <h3 id="clusters">D. Industry Cluster Concentration</h3>
+    <p>For each industry containing at least 3 tracked stocks:</p>
+    <div class="formula">
+      Share at 3M High (%) = [Count(Stock at 3M High) / Total Industry Stocks] &times; 100<br>
+      Share at 1M High (%) = [Count(Stock at 1M High) / Total Industry Stocks] &times; 100
+    </div>
+
+    <h3 id="regime">E. Market Regime Heatmap Score</h3>
+    <p>The daily market regime value maps multi-timeframe net expansion onto a normalised scale $[-1.0, +1.0]$:</p>
+    <div class="formula">
+      Composite Net = (NH_52W - NL_52W) + 0.50 &times; (NH_6M - NL_6M) + 0.25 &times; (NH_1M - NL_1M)<br>
+      Regime Score  = Composite Net / Universe Size
+    </div>
+    <table>
+      <thead>
+        <tr><th>Regime Score Range</th><th>Classification</th><th>Color Code</th><th>Interpretation</th></tr>
+      </thead>
+      <tbody>
+        <tr><td><code>&ge; +0.15</code></td><td>Strong Advance</td><td><span style="color:#0d9488;font-weight:700">Dark Teal (#0d9488)</span></td><td>Broad market rally; institutional accumulation across sectors.</td></tr>
+        <tr><td><code>+0.04 to +0.15</code></td><td>Moderate Advance</td><td><span style="color:#14b8a6;font-weight:700">Medium Teal (#14b8a6)</span></td><td>Healthy selective upside; leaders breaking out.</td></tr>
+        <tr><td><code>-0.04 to +0.04</code></td><td>Neutral / Selective</td><td><span style="color:#64748b;font-weight:700">Slate Gray (#64748b)</span></td><td>Consolidation, rotation, or mixed two-way market.</td></tr>
+        <tr><td><code>-0.15 to -0.04</code></td><td>Moderate Decline</td><td><span style="color:#f97316;font-weight:700">Orange Clay (#f97316)</span></td><td>Distribution emerging; breakdowns outnumbering breakouts.</td></tr>
+        <tr><td><code>&le; -0.15</code></td><td>Severe Decline</td><td><span style="color:#c2410c;font-weight:700">Deep Clay (#c2410c)</span></td><td>Systemic selling; pervasive fresh 52-week and 6-month lows.</td></tr>
+      </tbody>
+    </table>
+
+    <h3 id="sizer">F. Client-Side Position Sizer</h3>
+    <div class="formula">
+      Risk Per Share (RPS) = Entry &times; (Stop_Loss_% / 100)<br>
+      Quantity_Risk = &lfloor; (Account &times; Risk_%) / RPS &rfloor;<br>
+      Quantity_Cap  = &lfloor; (Account &times; Max_Capital_Cap_%) / Entry &rfloor;<br>
+      Final Quantity = min(Quantity_Risk, Quantity_Cap)
+    </div>
+  </div>
+
+  <!-- Section 5: Compliance -->
+  <div class="card" id="compliance">
+    <h2>5. Regulatory Compliance & Disclaimers</h2>
+    <h3>SEBI Non-Advisory Notice</h3>
+    <p>Under SEBI (Research Analysts) Regulations, 2014 and SEBI (Investment Advisers) Regulations, 2013, NSE Breadth Ledger operates purely as a quantitative market information dashboard. It does not provide buy, sell, or target recommendations. Breadth measures systemic risk and market participation; it is not investment advice.</p>
+    
+    <h3 id="privacy">DPDP Act 2023 Privacy Policy</h3>
+    <p>In accordance with the Digital Personal Data Protection (DPDP) Act, 2023 of India:</p>
+    <ul>
+      <li>Contact details (Name, Email, WhatsApp number) are collected strictly with explicit, opt-in consent for market briefing notifications.</li>
+      <li>Users may withdraw consent or request complete data erasure at any time.</li>
+      <li>Position sizer inputs and calculations run entirely in the client's local browser memory and are never transmitted to any external server.</li>
+    </ul>
+  </div>
+</main>
+
+<script>
+const root = document.documentElement;
+root.dataset.theme = matchMedia('(prefers-color-scheme:dark)').matches ? 'dark' : 'light';
+document.getElementById('th').onclick = () => root.dataset.theme = root.dataset.theme === 'dark' ? 'light' : 'dark';
+</script>
+</body>
+</html>

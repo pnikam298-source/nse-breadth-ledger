@@ -1,0 +1,77 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "NSE Breadth Ledger - Breadth Metrics",
+  "type": "object",
+  "required": [
+    "date", "universe_size", "advancers", "decliners", "unchanged",
+    "highs_lows", "monthly_thrust", "moving_averages", "regime"
+  ],
+  "properties": {
+    "date": {"type": "string"},
+    "universe_size": {"type": "integer"},
+    "advancers": {"type": "integer"},
+    "decliners": {"type": "integer"},
+    "unchanged": {"type": "integer"},
+    "highs_lows": {
+      "type": "object",
+      "required": ["window_1m", "window_6m", "window_52w"],
+      "properties": {
+        "window_1m": {
+          "type": "object",
+          "required": ["highs", "lows"],
+          "properties": {
+            "highs": {"type": "integer"},
+            "lows": {"type": "integer"},
+            "sessions": {"type": "integer"}
+          }
+        },
+        "window_3m": {"type": "object"},
+        "window_6m": {
+          "type": "object",
+          "required": ["highs", "lows"],
+          "properties": {
+            "highs": {"type": "integer"},
+            "lows": {"type": "integer"},
+            "sessions": {"type": "integer"}
+          }
+        },
+        "window_52w": {
+          "type": "object",
+          "required": ["highs", "lows"],
+          "properties": {
+            "highs": {"type": "integer"},
+            "lows": {"type": "integer"},
+            "sessions": {"type": "integer"}
+          }
+        }
+      }
+    },
+    "monthly_thrust": {
+      "type": "object",
+      "required": ["value", "stocks_up_25pct", "stocks_down_25pct"],
+      "properties": {
+        "value": {"type": "integer"},
+        "stocks_up_25pct": {"type": "integer"},
+        "stocks_down_25pct": {"type": "integer"}
+      }
+    },
+    "moving_averages": {
+      "type": "object",
+      "required": ["pct_above_20dma", "pct_above_50dma", "pct_above_200dma"],
+      "properties": {
+        "pct_above_20dma": {"type": "number"},
+        "pct_above_50dma": {"type": "number"},
+        "pct_above_200dma": {"type": "number"}
+      }
+    },
+    "regime": {
+      "type": "object",
+      "required": ["score", "label", "color"],
+      "properties": {
+        "score": {"type": "number"},
+        "label": {"type": "string"},
+        "color": {"type": "string"}
+      }
+    }
+  }
+}
