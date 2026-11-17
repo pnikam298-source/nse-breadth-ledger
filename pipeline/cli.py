@@ -326,6 +326,13 @@ class PipelineRunner:
 
         if published:
             logger.info("All files validated and published successfully!")
+            # Also generate comprehensive 1000-stock data.json matching exact dashboard spec
+            try:
+                from pipeline.manas_generator import build_data_json
+                build_data_json()
+                logger.info("Successfully refreshed 1000-stock dashboard data.json!")
+            except Exception as e:
+                logger.warning(f"Could not build data.json: {e}")
         else:
             logger.error("Validation failed! Publishing aborted; live data preserved; status marked delayed.")
 
