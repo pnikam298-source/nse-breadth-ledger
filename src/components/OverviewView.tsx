@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { RootData, SeriesPoint } from '@/types/data';
 import { TrendingUp, TrendingDown, ArrowUpRight, ArrowDownRight, Layers, BarChart3, Activity } from 'lucide-react';
+import { formatSessionDate } from '@/lib/utils';
 
 interface OverviewViewProps {
   data: RootData;
@@ -179,7 +180,7 @@ export const OverviewView: React.FC<OverviewViewProps> = ({ data }) => {
             <h3 className="font-semibold text-sm text-zinc-900 dark:text-zinc-100 flex items-center gap-2">
               Daily Heatmap Ribbon
               <span className="text-xs font-normal text-zinc-500 dark:text-zinc-400 font-mono">
-                ({visibleSeries.length} sessions, {visibleSeries[0]?.d} to {visibleSeries[visibleSeries.length - 1]?.d})
+                ({visibleSeries.length} sessions, {formatSessionDate(visibleSeries[0]?.d, data.asOf).formatted} to {formatSessionDate(visibleSeries[visibleSeries.length - 1]?.d, data.asOf).formatted})
               </span>
             </h3>
             <p className="text-xs text-zinc-500 dark:text-zinc-400">
