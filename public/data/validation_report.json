@@ -1,11 +1,11 @@
 {
-  "as_of_date": "2026-11-17",
+  "as_of_date": "2026-11-18",
   "overall_status": "PASSED",
   "passed": true,
   "gates": {
     "gate_1_trading_date": {
       "passed": true,
-      "message": "Date 2026-11-17 is a valid trading weekday"
+      "message": "Date 2026-11-18 is a valid trading weekday"
     },
     "gate_2_coverage": {
       "passed": true,
@@ -31,17 +31,17 @@
     },
     "gate_5_history_continuity": {
       "passed": true,
-      "message": "History continuity verified across 420 trading sessions with no missing dates",
+      "message": "History continuity verified across 421 trading sessions with no missing dates",
       "details": {
-        "sessions": 420
+        "sessions": 421
       }
     },
     "gate_6_breadth_accounting": {
       "passed": true,
-      "message": "Accounting exact: 248 Adv + 226 Dec + 1 Unch = 475 Universe Size"
+      "message": "Accounting exact: 117 Adv + 357 Dec + 1 Unch = 475 Universe Size"
     },
     "gate_7_secondary_spot_check": {
-      "date": "2026-11-17",
+      "date": "2026-11-18",
       "tolerance_pct": 1.5,
       "passed": true,
       "symbols_checked": [],

@@ -111,6 +111,25 @@ class PipelineRunner:
         # 3. Parse and process all bhavcopies
         self._process_and_publish(holidays_set=holidays_set)
 
+    def run_daily(self, target_date: Optional[date] = None) -> bool:
+        """
+        Runs the daily pipeline for target_date (or today).
+        Downloads today's bhavcopy, processes, runs validation gates, and publishes.
+        """
+        target = target_date or date.today()
+        d_str = target.strftime("%Y-%m-%d")
+        logger.info(f"Running daily pipeline for {d_str}...")
+
+        # Ingest today's bhavcopy
+        bhav_path = self.ingest_manager.ingest_bhavcopy(target)
+        if not bhav_path:
+            logger.warning(f"Bhavcopy for {target} not yet available from NSE or market holiday.")
+            return False
+
+        logger.info(f"Successfully obtained bhavcopy: {bhav_path}")
+        report = self._process_and_publish()
+        return report.get("overall_status") in ["PASSED", "PASS", "WARN"]
+
     def _process_and_publish(self, holidays_set: Optional[set] = None):
         """
         Parses all raw bhavcopies, applies universe filters, adjusts prices backwards,
@@ -355,7 +374,9 @@ def main():
     if args.command == "backfill":
         runner.run_backfill(num_sessions=args.sessions)
     elif args.command == "run":
-        runner._process_and_publish()
+        success = runner.run_daily()
+        if not success:
+            sys.exit(1)
     else:
         parser.print_help()
 

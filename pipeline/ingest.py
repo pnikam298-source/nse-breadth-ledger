@@ -69,10 +69,13 @@ class IngestionManager:
         Downloads and saves bhavcopy immutably.
         """
         d_str = dt.strftime("%Y%m%d")
-        target_path = RAW_BHAVCOPY_DIR / str(dt.year) / f"{dt.month:02d}" / f"BhavCopy_NSE_CM_{d_str}.csv.zip"
+        zip_path = RAW_BHAVCOPY_DIR / str(dt.year) / f"{dt.month:02d}" / f"BhavCopy_NSE_CM_{d_str}.csv.zip"
+        csv_path = RAW_BHAVCOPY_DIR / str(dt.year) / f"{dt.month:02d}" / f"BhavCopy_NSE_CM_{d_str}.csv"
 
-        if target_path.exists():
-            return target_path
+        if zip_path.exists():
+            return zip_path
+        if csv_path.exists():
+            return csv_path
 
         raw_bytes = self.download_bhavcopy(dt)
         if not raw_bytes:
@@ -80,8 +83,9 @@ class IngestionManager:
 
         # Check if raw_bytes is zip or plain csv
         if not raw_bytes.startswith(b"PK\x03\x04"):
-            # Plain CSV text: save as .csv
-            target_path = target_path.with_suffix(".csv")
+            target_path = csv_path
+        else:
+            target_path = zip_path
 
         stored_path = self.raw_store.store_file(
             target_path,

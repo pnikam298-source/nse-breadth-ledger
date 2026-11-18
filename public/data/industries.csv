@@ -1,20 +1,20 @@
 industry,total_stocks,count_3m_high,share_3m_high,count_1m_high,share_1m_high,avg_gain_20d,median_gain_20d
-Realty,11,3,27.3,6,54.5,9.59,13.47
-Media Entertainment & Publication,4,1,25.0,1,25.0,2.42,-0.25
-Consumer Services,21,5,23.8,6,28.6,1.38,2.71
-Textiles,5,1,20.0,1,20.0,3.0,5.7
-Financial Services,93,17,18.3,25,26.9,4.73,4.85
-Fast Moving Consumer Goods,28,4,14.3,7,25.0,1.6,0.24
-Chemicals,26,2,7.7,5,19.2,-2.02,-0.9
-Services,13,1,7.7,2,15.4,3.03,-0.09
-Oil Gas & Consumable Fuels,17,1,5.9,1,5.9,2.38,0.89
-Automobile and Auto Components,39,1,2.6,5,12.8,5.01,3.51
-Healthcare,44,1,2.3,4,9.1,6.27,7.12
-Capital Goods,66,1,1.5,4,6.1,-7.16,-7.56
-Consumer Durables,16,0,0.0,4,25.0,2.19,1.67
-Power,17,0,0.0,1,5.9,-0.26,-0.8
-Information Technology,23,0,0.0,0,0.0,-3.54,-3.62
-Metals & Mining,18,0,0.0,0,0.0,-0.29,-0.21
-Construction,13,0,0.0,0,0.0,1.19,0.0
-Construction Materials,11,0,0.0,0,0.0,4.83,6.35
-Telecommunication,9,0,0.0,0,0.0,0.85,2.43
+Media Entertainment & Publication,4,2,50.0,2,50.0,3.7,2.22
+Oil Gas & Consumable Fuels,17,2,11.8,3,17.6,2.54,1.3
+Fast Moving Consumer Goods,28,3,10.7,3,10.7,2.83,2.04
+Realty,11,1,9.1,1,9.1,10.24,13.59
+Services,13,1,7.7,1,7.7,2.75,-1.02
+Financial Services,93,6,6.5,9,9.7,4.39,3.82
+Healthcare,44,2,4.5,7,15.9,7.17,7.29
+Chemicals,26,1,3.8,2,7.7,-0.37,-0.43
+Automobile and Auto Components,39,1,2.6,1,2.6,4.83,4.71
+Capital Goods,66,1,1.5,2,3.0,-6.58,-7.13
+Power,17,0,0.0,1,5.9,0.09,0.15
+Metals & Mining,18,0,0.0,1,5.6,-1.11,-1.29
+Consumer Services,21,0,0.0,1,4.8,2.79,3.2
+Information Technology,23,0,0.0,0,0.0,-3.03,-3.17
+Consumer Durables,16,0,0.0,0,0.0,1.53,1.33
+Construction,13,0,0.0,0,0.0,0.92,-0.4
+Construction Materials,11,0,0.0,0,0.0,5.3,5.33
+Telecommunication,9,0,0.0,0,0.0,1.79,2.41
+Textiles,5,0,0.0,0,0.0,3.07,6.11
