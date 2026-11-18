@@ -100,6 +100,7 @@ export interface SetupItem {
   base_depth?: number;
   pullback_high?: number;
   right_side_pct?: number;
+  dist_from_floor?: number;
   base_high?: number;
   base_low?: number;
 }

@@ -113,6 +113,7 @@ def build_data_json():
         g["pullback_high"] = ((g["high_60d"] - g["adj_close"]) / g["high_60d"] * 100.0).round(1)
         base_span = (g["high_60d"] - g["low_60d"]).clip(lower=1e-6)
         g["right_side_pct"] = (((g["adj_close"] - g["low_60d"]) / base_span) * 100.0).clip(0.0, 100.0).round(1)
+        g["dist_from_floor"] = (((g["adj_close"] - g["low_15d"]) / g["low_15d"].clip(lower=1e-6)) * 100.0).round(1)
 
         # 50 DMA and 20 DMA
         g["sma_50"] = g["adj_close"].rolling(50, min_periods=10).mean()
@@ -311,18 +312,24 @@ def build_data_json():
         right_side = float(row["right_side_pct"]) if pd.notna(row["right_side_pct"]) else 50.0
         base_high = round(float(row["high_60d"]), 2) if pd.notna(row["high_60d"]) else round(float(row["close"]), 2)
         base_low = round(float(row["low_60d"]), 2) if pd.notna(row["low_60d"]) else round(float(row["close"]), 2)
+        dist_floor = float(row["dist_from_floor"]) if pd.notna(row["dist_from_floor"]) else 0.0
         ind = sub_ind_map.get(sym, "Diversified")
 
-        # Capture institutional candidates:
-        # RS >= 65, tightness <= 18%, and either:
-        # A) Within 15% of 52W High (High-Tight Flag or 52W Tight Base)
-        # B) Corrected 12% to 40% from 60d high and now recovering on the Right Side (>= 40% of base)
-        is_near_high = (dist_52w >= -15.0 and above_50 and tightness <= 15.0)
-        is_vcp_base = (base_depth >= 12.0 and base_depth <= 40.0 and right_side >= 40.0 and tightness <= 18.0 and above_50)
+        # 1. Base-Floor Coil: Dropped 12% to 40% from peak, coiling tightly at the bottom (within 8% of floor)
+        # Allows catching the stock BEFORE the right-side run starts!
+        is_floor_coil = (pullback_high >= 12.0 and pullback_high <= 40.0 and tightness <= 15.0 and dist_floor <= 8.0)
 
-        if rs_val >= 65 and (is_near_high or is_vcp_base):
-            if base_depth >= 15.0 and base_depth <= 38.0 and right_side >= 45.0:
-                setup_type = "VCP Stage 2 Base"
+        # 2. Right-Side Pivot: Already recovered into upper right half of the base (>= 45% recovery)
+        is_right_side = (base_depth >= 15.0 and base_depth <= 40.0 and right_side >= 45.0 and tightness <= 15.0 and above_50)
+
+        # 3. Near 52W High: High-tight flags and narrow 52W consolidations
+        is_near_high = (dist_52w >= -15.0 and above_50 and tightness <= 15.0)
+
+        if rs_val >= 60 and (is_floor_coil or is_right_side or is_near_high):
+            if is_floor_coil:
+                setup_type = "Base-Floor Coil"
+            elif is_right_side:
+                setup_type = "Right-Side Pivot"
             elif (g60 >= 40.0 or g20 >= 20.0) and base_depth <= 18.0:
                 setup_type = "High-Tight Flag"
             else:
@@ -339,13 +346,14 @@ def build_data_json():
                 "base_depth": base_depth,
                 "pullback_high": pullback_high,
                 "right_side_pct": right_side,
+                "dist_from_floor": dist_floor,
                 "base_high": base_high,
                 "base_low": base_low,
                 "industry": ind,
                 "setup_type": setup_type
             })
 
-    setups_list.sort(key=lambda x: (-x["rs"], -x["right_side_pct"]))
+    setups_list.sort(key=lambda x: (-x["rs"], x["tightness_15d"]))
 
     # 7. Build Sector Rotation Model (Where Institutional Money is Moving)
     rotation_sectors = []

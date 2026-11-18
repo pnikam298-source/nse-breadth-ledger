@@ -77,4 +77,4 @@ def test_data_json_structure():
     assert len(data["setups"]) >= 10, f"Expected >= 10 setups, got {len(data['setups'])}"
     stp = data["setups"][0]
     assert "symbol" in stp and "setup_type" in stp and "rs" in stp and "tightness_15d" in stp
-    assert stp["setup_type"] in ["High-Tight Flag", "52W Tight Base"]
+    assert stp["setup_type"] in ["High-Tight Flag", "52W Tight Base", "Base-Floor Coil", "Right-Side Pivot"]
