@@ -75,6 +75,30 @@ export interface RsData {
   rows: [string, number, string][];
 }
 
+export interface RotationSector {
+  industry: string;
+  n: number;
+  avg_rs: number;
+  quadrant: 'Leading' | 'Weakening' | 'Lagging' | 'Improving';
+  g5: number;
+  g20: number;
+  g60: number;
+  h3_share: number;
+  leaders: string[];
+}
+
+export interface SetupItem {
+  symbol: string;
+  rs: number;
+  close: number;
+  dist_52w: number;
+  tightness_15d: number;
+  gain_20d: number;
+  gain_60d: number;
+  industry: string;
+  setup_type: string;
+}
+
 export interface RootData {
   asOf: string;
   final: boolean;
@@ -91,4 +115,6 @@ export interface RootData {
   near: [string, number, number, string][];
   clusters: ClusterItem[];
   rs?: RsData;
+  rotation?: RotationSector[];
+  setups?: SetupItem[];
 }

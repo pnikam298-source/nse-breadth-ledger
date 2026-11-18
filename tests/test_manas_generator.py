@@ -64,3 +64,17 @@ def test_data_json_structure():
     assert len(data["recentDays"]) >= 5
     assert data["recentDays"][0]["date"] == "live"
     assert "h1m" in data["recentDays"][1]
+
+    # Test Sector Rotation
+    assert "rotation" in data, "rotation key missing in data.json"
+    assert len(data["rotation"]) >= 30, f"Expected >= 30 sectors, got {len(data['rotation'])}"
+    sec = data["rotation"][0]
+    assert "industry" in sec and "quadrant" in sec and "avg_rs" in sec
+    assert sec["quadrant"] in ["Leading", "Weakening", "Lagging", "Improving"]
+
+    # Test Leaderboard Setups
+    assert "setups" in data, "setups key missing in data.json"
+    assert len(data["setups"]) >= 10, f"Expected >= 10 setups, got {len(data['setups'])}"
+    stp = data["setups"][0]
+    assert "symbol" in stp and "setup_type" in stp and "rs" in stp and "tightness_15d" in stp
+    assert stp["setup_type"] in ["High-Tight Flag", "52W Tight Base"]

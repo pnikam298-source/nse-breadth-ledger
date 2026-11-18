@@ -101,6 +101,11 @@ def build_data_json():
         g["peak_52w"] = g["adj_high"].rolling(WINDOW_52W, min_periods=1).max()
         g["pct_from_52w"] = ((g["adj_close"] - g["peak_52w"]) / g["peak_52w"] * 100.0).round(1)
 
+        # 15-day base tightness (3-week price consolidation range)
+        g["high_15d"] = g["adj_high"].rolling(15, min_periods=5).max()
+        g["low_15d"] = g["adj_low"].rolling(15, min_periods=5).min()
+        g["tightness_15d"] = ((g["high_15d"] - g["low_15d"]) / g["high_15d"] * 100.0).round(1)
+
         # 50 DMA and 20 DMA
         g["sma_50"] = g["adj_close"].rolling(50, min_periods=10).mean()
         g["above_50"] = g["adj_close"] > g["sma_50"]
@@ -281,7 +286,82 @@ def build_data_json():
         "rows": rs_rows
     }
 
-    # 6. Build series (last 420 sessions)
+    # Build RS dictionary for fast lookup
+    rs_dict = {r[0]: r[1] for r in rs_rows}
+
+    # 6. Build High-Tight Flag & 52W Tight Base setups (Leaderboard Setup Hunter)
+    setups_list = []
+    for sym, row in latest_df.iterrows():
+        rs_val = rs_dict.get(sym, 0)
+        dist_52w = float(row["pct_from_52w"])
+        tightness = float(row["tightness_15d"]) if pd.notna(row["tightness_15d"]) else 99.9
+        above_50 = bool(row["above_50"])
+        g60 = float(row["gain_60"]) if pd.notna(row["gain_60"]) else 0.0
+        g20 = float(row["gain_20"]) * 100.0 if pd.notna(row["gain_20"]) else 0.0
+        ind = sub_ind_map.get(sym, "Diversified")
+
+        # Minervini / O'Neil base criteria:
+        # RS >= 75, within 15% of 52W High, 15d price range <= 15%, Above 50 DMA
+        if rs_val >= 75 and dist_52w >= -15.0 and tightness <= 15.0 and above_50:
+            setup_type = "High-Tight Flag" if (g60 >= 50.0 or g20 >= 25.0) else "52W Tight Base"
+            setups_list.append({
+                "symbol": sym,
+                "rs": rs_val,
+                "close": round(float(row["close"]), 2),
+                "dist_52w": dist_52w,
+                "tightness_15d": tightness,
+                "gain_20d": round(g20, 1),
+                "gain_60d": round(g60, 1),
+                "industry": ind,
+                "setup_type": setup_type
+            })
+
+    setups_list.sort(key=lambda x: (-x["rs"], x["dist_52w"]))
+
+    # 7. Build Sector Rotation Model (Where Institutional Money is Moving)
+    rotation_sectors = []
+    for ind, members in ind_groups.items():
+        if len(members) < 3:
+            continue
+        mem_rs = [rs_dict.get(sym, 50) for sym, _ in members]
+        mem_g5 = [float(r["gain_5"]) for sym, r in members if pd.notna(r["gain_5"])]
+        mem_g20 = [float(r["gain_20"]) * 100.0 for sym, r in members if pd.notna(r["gain_20"])]
+        mem_g60 = [float(r["gain_60"]) for sym, r in members if pd.notna(r["gain_60"])]
+        c_h3 = sum(1 for _, r in members if r["is_h3"])
+
+        avg_rs = round(float(np.mean(mem_rs)), 1) if mem_rs else 50.0
+        avg_g5 = round(float(np.mean(mem_g5)), 1) if mem_g5 else 0.0
+        avg_g20 = round(float(np.mean(mem_g20)), 1) if mem_g20 else 0.0
+        avg_g60 = round(float(np.mean(mem_g60)), 1) if mem_g60 else 0.0
+        h3_share = round(float((c_h3 / len(members)) * 100.0), 1)
+
+        # Quadrant classification
+        if avg_rs >= 50.0 and avg_g20 >= 0.0:
+            quadrant = "Leading"
+        elif avg_rs >= 50.0 and avg_g20 < 0.0:
+            quadrant = "Weakening"
+        elif avg_rs < 50.0 and avg_g20 < 0.0:
+            quadrant = "Lagging"
+        else:
+            quadrant = "Improving"
+
+        leaders = sorted(members, key=lambda x: -rs_dict.get(x[0], 0))[:4]
+
+        rotation_sectors.append({
+            "industry": ind,
+            "n": len(members),
+            "avg_rs": avg_rs,
+            "quadrant": quadrant,
+            "g5": avg_g5,
+            "g20": avg_g20,
+            "g60": avg_g60,
+            "h3_share": h3_share,
+            "leaders": [s[0] for s in leaders]
+        })
+
+    rotation_sectors.sort(key=lambda x: -x["avg_rs"])
+
+    # 8. Build series (last 420 sessions)
     series_list = []
     for d in dates:
         d_df = combined[combined["date"] == d]
@@ -371,7 +451,9 @@ def build_data_json():
         },
         "near": near_list,
         "clusters": clusters,
-        "rs": rs_payload
+        "rs": rs_payload,
+        "rotation": rotation_sectors,
+        "setups": setups_list
     }
 
     out_file = PUBLIC_DATA_DIR / "data.json"

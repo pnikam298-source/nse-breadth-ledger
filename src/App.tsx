@@ -3,6 +3,8 @@ import { RootData } from '@/types/data';
 import { Header } from '@/components/Header';
 import { OverviewView } from '@/components/OverviewView';
 import { RsRatingView } from '@/components/RsRatingView';
+import { SetupHunterView } from '@/components/SetupHunterView';
+import { SectorRotationView } from '@/components/SectorRotationView';
 import { HighsView } from '@/components/HighsView';
 import { MomentumView } from '@/components/MomentumView';
 import { ClustersView } from '@/components/ClustersView';
@@ -12,6 +14,8 @@ import { ExpandableTabs } from '@/components/ui/expandable-tabs';
 import {
   LayoutDashboard,
   TrendingUp,
+  Sparkles,
+  Compass,
   Target,
   Zap,
   Layers,
@@ -81,6 +85,8 @@ export default function App() {
   const navTabs = [
     { title: 'Overview', icon: LayoutDashboard },
     { title: 'RS Rating', icon: TrendingUp },
+    { title: 'Setup Hunter', icon: Sparkles },
+    { title: 'Sector Rotation', icon: Compass },
     { title: '52W Highs', icon: Target },
     { title: 'Momentum', icon: Zap },
     { title: 'Clusters', icon: Layers },
@@ -160,11 +166,13 @@ export default function App() {
             >
               {activeTab === 0 && <OverviewView data={data} />}
               {activeTab === 1 && <RsRatingView rsData={data.rs} />}
-              {activeTab === 2 && <HighsView data={data} />}
-              {activeTab === 3 && <MomentumView data={data} />}
-              {activeTab === 4 && <ClustersView data={data} />}
-              {activeTab === 6 && <LogView data={data} />}
-              {activeTab === 7 && <PositionSizerView />}
+              {activeTab === 2 && <SetupHunterView setups={data.setups} />}
+              {activeTab === 3 && <SectorRotationView sectors={data.rotation} />}
+              {activeTab === 4 && <HighsView data={data} />}
+              {activeTab === 5 && <MomentumView data={data} />}
+              {activeTab === 6 && <ClustersView data={data} />}
+              {activeTab === 8 && <LogView data={data} />}
+              {activeTab === 9 && <PositionSizerView />}
             </motion.div>
           </AnimatePresence>
         ) : null}
