@@ -97,6 +97,11 @@ export interface SetupItem {
   gain_60d: number;
   industry: string;
   setup_type: string;
+  base_depth?: number;
+  pullback_high?: number;
+  right_side_pct?: number;
+  base_high?: number;
+  base_low?: number;
 }
 
 export interface RootData {

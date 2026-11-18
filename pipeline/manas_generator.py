@@ -106,6 +106,14 @@ def build_data_json():
         g["low_15d"] = g["adj_low"].rolling(15, min_periods=5).min()
         g["tightness_15d"] = ((g["high_15d"] - g["low_15d"]) / g["high_15d"] * 100.0).round(1)
 
+        # 60-day base structure (Minervini VCP / Deep Base Analysis)
+        g["high_60d"] = g["adj_high"].rolling(60, min_periods=10).max()
+        g["low_60d"] = g["adj_low"].rolling(60, min_periods=10).min()
+        g["base_depth"] = ((g["high_60d"] - g["low_60d"]) / g["high_60d"] * 100.0).round(1)
+        g["pullback_high"] = ((g["high_60d"] - g["adj_close"]) / g["high_60d"] * 100.0).round(1)
+        base_span = (g["high_60d"] - g["low_60d"]).clip(lower=1e-6)
+        g["right_side_pct"] = (((g["adj_close"] - g["low_60d"]) / base_span) * 100.0).clip(0.0, 100.0).round(1)
+
         # 50 DMA and 20 DMA
         g["sma_50"] = g["adj_close"].rolling(50, min_periods=10).mean()
         g["above_50"] = g["adj_close"] > g["sma_50"]
@@ -289,7 +297,7 @@ def build_data_json():
     # Build RS dictionary for fast lookup
     rs_dict = {r[0]: r[1] for r in rs_rows}
 
-    # 6. Build High-Tight Flag & 52W Tight Base setups (Leaderboard Setup Hunter)
+    # 6. Build High-Tight Flag, Minervini VCP Deep Base & 52W Tight Base setups
     setups_list = []
     for sym, row in latest_df.iterrows():
         rs_val = rs_dict.get(sym, 0)
@@ -298,12 +306,28 @@ def build_data_json():
         above_50 = bool(row["above_50"])
         g60 = float(row["gain_60"]) if pd.notna(row["gain_60"]) else 0.0
         g20 = float(row["gain_20"]) * 100.0 if pd.notna(row["gain_20"]) else 0.0
+        base_depth = float(row["base_depth"]) if pd.notna(row["base_depth"]) else 0.0
+        pullback_high = float(row["pullback_high"]) if pd.notna(row["pullback_high"]) else 0.0
+        right_side = float(row["right_side_pct"]) if pd.notna(row["right_side_pct"]) else 50.0
+        base_high = round(float(row["high_60d"]), 2) if pd.notna(row["high_60d"]) else round(float(row["close"]), 2)
+        base_low = round(float(row["low_60d"]), 2) if pd.notna(row["low_60d"]) else round(float(row["close"]), 2)
         ind = sub_ind_map.get(sym, "Diversified")
 
-        # Minervini / O'Neil base criteria:
-        # RS >= 75, within 15% of 52W High, 15d price range <= 15%, Above 50 DMA
-        if rs_val >= 75 and dist_52w >= -15.0 and tightness <= 15.0 and above_50:
-            setup_type = "High-Tight Flag" if (g60 >= 50.0 or g20 >= 25.0) else "52W Tight Base"
+        # Capture institutional candidates:
+        # RS >= 65, tightness <= 18%, and either:
+        # A) Within 15% of 52W High (High-Tight Flag or 52W Tight Base)
+        # B) Corrected 12% to 40% from 60d high and now recovering on the Right Side (>= 40% of base)
+        is_near_high = (dist_52w >= -15.0 and above_50 and tightness <= 15.0)
+        is_vcp_base = (base_depth >= 12.0 and base_depth <= 40.0 and right_side >= 40.0 and tightness <= 18.0 and above_50)
+
+        if rs_val >= 65 and (is_near_high or is_vcp_base):
+            if base_depth >= 15.0 and base_depth <= 38.0 and right_side >= 45.0:
+                setup_type = "VCP Stage 2 Base"
+            elif (g60 >= 40.0 or g20 >= 20.0) and base_depth <= 18.0:
+                setup_type = "High-Tight Flag"
+            else:
+                setup_type = "52W Tight Base"
+
             setups_list.append({
                 "symbol": sym,
                 "rs": rs_val,
@@ -312,11 +336,16 @@ def build_data_json():
                 "tightness_15d": tightness,
                 "gain_20d": round(g20, 1),
                 "gain_60d": round(g60, 1),
+                "base_depth": base_depth,
+                "pullback_high": pullback_high,
+                "right_side_pct": right_side,
+                "base_high": base_high,
+                "base_low": base_low,
                 "industry": ind,
                 "setup_type": setup_type
             })
 
-    setups_list.sort(key=lambda x: (-x["rs"], x["dist_52w"]))
+    setups_list.sort(key=lambda x: (-x["rs"], -x["right_side_pct"]))
 
     # 7. Build Sector Rotation Model (Where Institutional Money is Moving)
     rotation_sectors = []
