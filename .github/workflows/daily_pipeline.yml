@@ -49,23 +49,7 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Run Test Suite
-        env:
-          PYTHONPATH: .
-        run: |
-          python3 -m pytest tests/
-
-      - name: Set up Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: '20'
-
-      - name: Build React Dashboard
-        run: |
-          npm install
-          npm run build
-
-      # Only run ingestion if triggered by schedule or manual dispatch
+      # Ingest and process daily Bhavcopy if triggered by schedule or manual trigger
       - name: Ingest and Process Daily Data with Retry
         if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
         run: |
@@ -91,6 +75,22 @@ jobs:
             echo "Pipeline failed after maximum retry window!"
             exit 1
           fi
+
+      - name: Run Test Suite
+        env:
+          PYTHONPATH: .
+        run: |
+          python3 -m pytest tests/
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Build React Dashboard
+        run: |
+          npm install
+          npm run build
 
       - name: Commit and Push Updated Data
         if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
