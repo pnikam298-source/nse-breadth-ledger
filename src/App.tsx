@@ -27,6 +27,7 @@ import { AnimatePresence, motion } from 'framer-motion';
 export default function App() {
   const [data, setData] = useState<RootData | null>(null);
   const [loading, setLoading] = useState<boolean>(true);
+  const [syncing, setSyncing] = useState<boolean>(false);
   const [error, setError] = useState<string | null>(null);
   const [activeTab, setActiveTab] = useState<number>(0);
   const [theme, setTheme] = useState<'dark' | 'light'>('dark');
@@ -53,11 +54,38 @@ export default function App() {
     } catch {}
   };
 
-  const fetchData = async () => {
+  const fetchData = async (force: boolean = false) => {
     setLoading(true);
     setError(null);
     try {
-      // Try local or relative path
+      // 1. Proactively ping smart local server to trigger update if today's Bhavcopy is pending
+      try {
+        const updateEndpoint = force ? '/api/check-update?force=true' : '/api/check-update';
+        const updateCheck = await fetch(updateEndpoint, { cache: 'no-store' });
+        if (updateCheck.ok) {
+          const uJson = await updateCheck.json();
+          if (uJson.is_updating || uJson.triggered) {
+            setSyncing(true);
+            let attempts = 0;
+            while (attempts < 60) {
+              await new Promise((r) => setTimeout(r, 2000));
+              attempts++;
+              const poll = await fetch('/api/check-update', { cache: 'no-store' });
+              if (poll.ok) {
+                const pj = await poll.json();
+                if (!pj.is_updating) {
+                  break;
+                }
+              }
+            }
+            setSyncing(false);
+          }
+        }
+      } catch {
+        // Fallback for static hosting without local python daemon
+      }
+
+      // 2. Fetch latest data payload
       const res = await fetch('./data/data.json?t=' + Date.now(), { cache: 'no-store' });
       if (!res.ok) {
         // Fallback to root data.json
@@ -74,6 +102,7 @@ export default function App() {
       setError(err?.message || 'Failed to load market data.');
     } finally {
       setLoading(false);
+      setSyncing(false);
     }
   };
 
@@ -116,9 +145,16 @@ export default function App() {
         data={data}
         theme={theme}
         onToggleTheme={toggleTheme}
-        onRefresh={fetchData}
-        isRefreshing={loading}
+        onRefresh={() => fetchData(true)}
+        isRefreshing={loading || syncing}
       />
+
+      {syncing && (
+        <div className="bg-teal-500/10 border-b border-teal-500/30 text-teal-700 dark:text-teal-300 py-2.5 px-4 text-center text-xs font-mono flex items-center justify-center gap-2">
+          <span className="w-2 h-2 rounded-full bg-teal-500 animate-ping" />
+          <span>Synchronizing today's official NSE Bhavcopy into Breadth Ledger...</span>
+        </div>
+      )}
 
       <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 space-y-6">
         {/* Navigation Tabs Bar */}
