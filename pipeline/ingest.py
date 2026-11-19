@@ -14,7 +14,7 @@ import jugaad_data.nse as jnse
 
 from pipeline.config import (
     RAW_BHAVCOPY_DIR, RAW_CONSTITUENTS_DIR, RAW_CORP_ACTIONS_DIR,
-    RAW_HOLIDAYS_DIR, INDEX_CONSTITUENT_URLS, BROWSER_HEADERS, NSE_API_HEADERS
+    RAW_HOLIDAYS_DIR, RAW_INDICES_DIR, INDEX_CONSTITUENT_URLS, BROWSER_HEADERS, NSE_API_HEADERS
 )
 from pipeline.raw_store import RawStore
 
@@ -166,4 +166,38 @@ class IngestionManager:
             target_path,
             r.content,
             metadata={"type": "trading_holidays"}
+        )
+
+    def download_index_closes(self, dt: date) -> Optional[bytes]:
+        """
+        Downloads official daily NSE index close CSV:
+        https://nsearchives.nseindia.com/content/indices/ind_close_all_{ddmmyyyy}.csv
+        """
+        d_str = dt.strftime("%d%m%Y")
+        url = f"https://nsearchives.nseindia.com/content/indices/ind_close_all_{d_str}.csv"
+        try:
+            r = self.session.get(url, timeout=15)
+            if r.status_code == 200 and len(r.content) > 500:
+                return r.content
+        except Exception:
+            pass
+        return None
+
+    def ingest_index_closes(self, dt: date) -> Optional[Path]:
+        """
+        Downloads and saves official NSE index closes immutably.
+        """
+        d_str = dt.strftime("%d%m%Y")
+        target_path = RAW_INDICES_DIR / str(dt.year) / f"ind_close_all_{d_str}.csv"
+        if target_path.exists():
+            return target_path
+
+        raw_bytes = self.download_index_closes(dt)
+        if not raw_bytes:
+            return None
+
+        return self.raw_store.store_file(
+            target_path,
+            raw_bytes,
+            metadata={"date": dt.strftime("%Y-%m-%d"), "type": "index_closes"}
         )

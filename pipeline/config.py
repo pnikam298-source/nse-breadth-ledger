@@ -17,12 +17,14 @@ RAW_BHAVCOPY_DIR = RAW_DIR / "bhavcopy"
 RAW_CONSTITUENTS_DIR = RAW_DIR / "constituents"
 RAW_CORP_ACTIONS_DIR = RAW_DIR / "corporate_actions"
 RAW_HOLIDAYS_DIR = RAW_DIR / "holidays"
+RAW_INDICES_DIR = RAW_DIR / "indices"
 RAW_CHECKSUM_FILE = METADATA_DIR / "raw_checksums.json"
 
 # Processed storage files
 PARQUET_ALL_OHLC = PROCESSED_DIR / "daily_ohlc.parquet"
 PARQUET_UNIVERSE_HISTORY = PROCESSED_DIR / "universe_history.parquet"
 PARQUET_CORP_ACTIONS = PROCESSED_DIR / "corporate_actions.parquet"
+PARQUET_NIFTY_HISTORY = PROCESSED_DIR / "nifty50_history.parquet"
 
 # Universe Configuration
 # Supported indices: NIFTY_50, NIFTY_100, NIFTY_200, NIFTY_500, TOTAL_MARKET

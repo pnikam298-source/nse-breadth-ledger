@@ -2973,5 +2973,19 @@
     "size_bytes": 35739,
     "stored_at": "1794917789.350845",
     "type": "trading_holidays"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/indices/2026/ind_close_all_18112026.csv": {
+    "date": "2026-11-18",
+    "sha256": "b23709e77ecfdff44bc2410304424efbb3a954c9c2578fb52ab36169c0a51232",
+    "size_bytes": 17942,
+    "stored_at": "1795114579.3289638",
+    "type": "index_closes"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/indices/2026/ind_close_all_19112026.csv": {
+    "date": "2026-11-19",
+    "sha256": "1bf9578c4d0ebf5672db14980a83f7b661ea0c4548bb29f5cd8a466019dfdd62",
+    "size_bytes": 17775,
+    "stored_at": "1795114498.2581894",
+    "type": "index_closes"
   }
 }

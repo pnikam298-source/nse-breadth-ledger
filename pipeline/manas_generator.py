@@ -10,12 +10,112 @@ import numpy as np
 import pandas as pd
 
 from pipeline.config import (
-    PROCESSED_DIR, PUBLIC_DATA_DIR, METADATA_DIR,
+    PROCESSED_DIR, PUBLIC_DATA_DIR, METADATA_DIR, RAW_INDICES_DIR, PARQUET_NIFTY_HISTORY,
     WINDOW_1M, WINDOW_3M, WINDOW_6M, WINDOW_52W
 )
 
 LOOKBACKS = [5, 10, 20, 30, 60, 90, 125, 180, 250]
 THRESHOLDS = [10, 15, 20, 25, 30, 40, 50, 75, 100]
+
+def compute_official_indices_payload(latest_date: str) -> Dict[str, Any]:
+    """
+    Extracts authentic official NSE index changes and computes NIFTY 50 technical positioning.
+    Primary source: data/raw/indices/{year}/ind_close_all_{ddmmyyyy}.csv
+    Secondary source: calculation from historical Nifty parquet and constituents
+    """
+    dt_obj = datetime.strptime(latest_date, "%Y-%m-%d").date()
+    d_str = dt_obj.strftime("%d%m%Y")
+    year_str = str(dt_obj.year)
+
+    idx_file = RAW_INDICES_DIR / year_str / f"ind_close_all_{d_str}.csv"
+    
+    # Attempt download if not locally available
+    if not idx_file.exists():
+        try:
+            from pipeline.ingest import IngestionManager
+            IngestionManager().ingest_index_closes(dt_obj)
+        except Exception:
+            pass
+
+    nifty_chg = 0.0
+    midcap_chg = 0.0
+    smallcap_chg = 0.0
+    vix_chg = 0.0
+    nifty_close = None
+
+    if idx_file.exists():
+        try:
+            idf = pd.read_csv(idx_file)
+            idf.columns = [c.strip() for c in idf.columns]
+            idf["Index Name"] = idf["Index Name"].astype(str).str.strip()
+
+            def get_idx_stat(name):
+                row = idf[idf["Index Name"].str.lower() == name.lower()]
+                if not row.empty:
+                    c_val = row.iloc[0].get("Change(%)", 0.0)
+                    cls_val = row.iloc[0].get("Closing Index Value", None)
+                    try:
+                        c_num = float(c_val)
+                    except:
+                        c_num = 0.0
+                    try:
+                        cls_num = float(cls_val) if cls_val is not None else None
+                    except:
+                        cls_num = None
+                    return c_num, cls_num
+                return 0.0, None
+
+            nifty_chg, nifty_close = get_idx_stat("Nifty 50")
+            midcap_chg, _ = get_idx_stat("NIFTY Midcap 100")
+            if midcap_chg == 0.0:
+                midcap_chg, _ = get_idx_stat("Nifty Midcap 150")
+            smallcap_chg, _ = get_idx_stat("NIFTY Smallcap 100")
+            if smallcap_chg == 0.0:
+                smallcap_chg, _ = get_idx_stat("Nifty Smallcap 250")
+            vix_chg, _ = get_idx_stat("India VIX")
+        except Exception as e:
+            print(f"Warning: Error parsing index file {idx_file}: {e}")
+
+    # Compute Nifty 50 vs50 and fromHigh using Nifty historical parquet
+    vs50 = 0.0
+    from_high = 0.0
+    try:
+        if PARQUET_NIFTY_HISTORY.exists():
+            nh_df = pd.read_parquet(PARQUET_NIFTY_HISTORY)
+            if nifty_close and (latest_date not in nh_df["date"].values):
+                nh_df = pd.concat([nh_df, pd.DataFrame([{"date": latest_date, "close": nifty_close}])], ignore_index=True)
+                nh_df.to_parquet(PARQUET_NIFTY_HISTORY, index=False)
+            nh_df = nh_df.sort_values("date").reset_index(drop=True)
+            nh_df["sma50"] = nh_df["close"].rolling(50, min_periods=20).mean()
+            nh_df["high52w"] = nh_df["close"].rolling(252, min_periods=50).max()
+            
+            sub = nh_df[nh_df["date"] <= latest_date]
+            if not sub.empty:
+                last_r = sub.iloc[-1]
+                c_val = float(last_r["close"])
+                s50 = float(last_r["sma50"])
+                h52 = float(last_r["high52w"])
+                vs50 = round(((c_val - s50) / s50) * 100, 1) if s50 > 0 else 0.0
+                from_high = round(((c_val - h52) / h52) * 100, 1) if h52 > 0 else 0.0
+                if nifty_chg == 0.0 and len(sub) > 1:
+                    prev_c = float(sub.iloc[-2]["close"])
+                    nifty_chg = round(((c_val - prev_c) / prev_c) * 100, 2)
+    except Exception as e:
+        print(f"Warning: Error computing Nifty historical metrics: {e}")
+
+    return {
+        "nifty": {
+            "chg": nifty_chg,
+            "vs50": vs50,
+            "fromHigh": from_high
+        },
+        "indexChg": {
+            "nifty": nifty_chg,
+            "midcap": midcap_chg,
+            "smallcap": smallcap_chg,
+            "vix": vix_chg
+        }
+    }
 
 def build_data_json():
     print("Loading OHLC and sub-industry mappings...")
@@ -438,6 +538,9 @@ def build_data_json():
     live_day["date"] = "live"
     recent_days_final = [live_day] + list(reversed(recent_days_objs[:-1]))
 
+    # Compute official index metrics (Nifty 50, Midcap, Smallcap, India VIX)
+    idx_payload = compute_official_indices_payload(latest_date)
+
     utc_now_iso = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
     final_payload = {
         "asOf": utc_now_iso,
@@ -447,17 +550,8 @@ def build_data_json():
         "lastStored": latest_date.replace("-", ""),
         "universe": len(latest_df),
         "today": today_obj,
-        "nifty": {
-            "chg": 0.38,
-            "vs50": 8.5,
-            "fromHigh": -3.7
-        },
-        "indexChg": {
-            "nifty": 0.38,
-            "midcap": 0.25,
-            "smallcap": -0.22,
-            "vix": -1.0
-        },
+        "nifty": idx_payload["nifty"],
+        "indexChg": idx_payload["indexChg"],
         "recentDays": recent_days_final,
         "series": series_list,
         "momo": {

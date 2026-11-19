@@ -120,11 +120,15 @@ class PipelineRunner:
         d_str = target.strftime("%Y-%m-%d")
         logger.info(f"Running daily pipeline for {d_str}...")
 
-        # Ingest today's bhavcopy
+        # Ingest today's bhavcopy & index closes
         bhav_path = self.ingest_manager.ingest_bhavcopy(target)
         if not bhav_path:
             logger.warning(f"Bhavcopy for {target} not yet available from NSE or market holiday.")
             return False
+
+        idx_path = self.ingest_manager.ingest_index_closes(target)
+        if idx_path:
+            logger.info(f"Successfully obtained index closes: {idx_path}")
 
         logger.info(f"Successfully obtained bhavcopy: {bhav_path}")
         report = self._process_and_publish()
