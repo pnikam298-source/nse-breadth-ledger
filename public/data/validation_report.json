@@ -1,22 +1,22 @@
 {
-  "as_of_date": "2026-11-18",
+  "as_of_date": "2026-11-19",
   "overall_status": "PASSED",
   "passed": true,
   "gates": {
     "gate_1_trading_date": {
       "passed": true,
-      "message": "Date 2026-11-18 is a valid trading weekday"
+      "message": "Date 2026-11-19 is a valid trading weekday"
     },
     "gate_2_coverage": {
       "passed": true,
       "message": "Coverage 100.0% meets > 98.0% tolerance",
       "details": {
-        "total_universe_stocks": 475,
-        "present_in_bhavcopy": 475,
+        "total_universe_stocks": 476,
+        "present_in_bhavcopy": 476,
         "coverage_pct": 100.0,
         "missing_symbols": [],
-        "prior_day_row_count": 475,
-        "current_day_row_count": 475,
+        "prior_day_row_count": 476,
+        "current_day_row_count": 476,
         "row_count_diff_pct": 0.0
       }
     },
@@ -31,23 +31,58 @@
     },
     "gate_5_history_continuity": {
       "passed": true,
-      "message": "History continuity verified across 421 trading sessions with no missing dates",
+      "message": "History continuity verified across 422 trading sessions with no missing dates",
       "details": {
-        "sessions": 421
+        "sessions": 422
       }
     },
     "gate_6_breadth_accounting": {
       "passed": true,
-      "message": "Accounting exact: 117 Adv + 357 Dec + 1 Unch = 475 Universe Size"
+      "message": "Accounting exact: 339 Adv + 135 Dec + 2 Unch = 476 Universe Size"
     },
     "gate_7_secondary_spot_check": {
-      "date": "2026-11-18",
+      "date": "2026-11-19",
       "tolerance_pct": 1.5,
       "passed": true,
-      "symbols_checked": [],
+      "symbols_checked": [
+        {
+          "symbol": "RELIANCE",
+          "bhav_close": 1375.6,
+          "secondary_close": 1375.6,
+          "deviation_pct": 0.0,
+          "passed": true
+        },
+        {
+          "symbol": "TCS",
+          "bhav_close": 2342.7,
+          "secondary_close": 2342.7,
+          "deviation_pct": 0.0,
+          "passed": true
+        },
+        {
+          "symbol": "HDFCBANK",
+          "bhav_close": 821.8,
+          "secondary_close": 821.8,
+          "deviation_pct": 0.0,
+          "passed": true
+        },
+        {
+          "symbol": "INFY",
+          "bhav_close": 1091.9,
+          "secondary_close": 1091.9,
+          "deviation_pct": 0.0,
+          "passed": true
+        },
+        {
+          "symbol": "ICICIBANK",
+          "bhav_close": 1608.9,
+          "secondary_close": 1608.9,
+          "deviation_pct": 0.0,
+          "passed": true
+        }
+      ],
       "max_deviation_pct": 0.0,
-      "errors": [],
-      "warning": "Secondary source returned empty (offline or temporary rate limit). Spot check skipped with warning."
+      "errors": []
     },
     "gate_8_schema_validation": {
       "passed": true,
