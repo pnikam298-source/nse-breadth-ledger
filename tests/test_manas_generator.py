@@ -72,9 +72,10 @@ def test_data_json_structure():
     assert "industry" in sec and "quadrant" in sec and "avg_rs" in sec
     assert sec["quadrant"] in ["Leading", "Weakening", "Lagging", "Improving"]
 
-    # Test Leaderboard Setups
-    assert "setups" in data, "setups key missing in data.json"
-    assert len(data["setups"]) >= 10, f"Expected >= 10 setups, got {len(data['setups'])}"
-    stp = data["setups"][0]
-    assert "symbol" in stp and "setup_type" in stp and "rs" in stp and "tightness_15d" in stp
-    assert stp["setup_type"] in ["High-Tight Flag", "52W Tight Base", "Base-Floor Coil", "Right-Side Pivot"]
+    # Test Institutional Volume Surge Screener
+    assert "volume_surge" in data, "volume_surge key missing in data.json"
+    assert len(data["volume_surge"]) >= 10, f"Expected >= 10 volume surge stocks, got {len(data['volume_surge'])}"
+    stp = data["volume_surge"][0]
+    assert "symbol" in stp and "close" in stp and "pct_chg_1d" in stp and "rvol_1d" in stp and "vol_30d" in stp
+    assert stp["rvol_1d"] >= 1.0
+    assert stp["pct_chg_1d"] >= 1.0

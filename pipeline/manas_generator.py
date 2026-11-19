@@ -303,65 +303,36 @@ def build_data_json():
     # Build RS dictionary for fast lookup
     rs_dict = {r[0]: r[1] for r in rs_rows}
 
-    # 6. Build High-Tight Flag, Minervini VCP Deep Base & 52W Tight Base setups
-    setups_list = []
+    # 6. Build Institutional Volume Surge & RVOL Expansion Scanner
+    # Criteria: NSE Price >= 30, 1D Gain > 3%, 30D Avg Vol > 200K, RVOL 1D > 3.0
+    volume_surge_list = []
     for sym, row in latest_df.iterrows():
-        rs_val = rs_dict.get(sym, 0)
-        dist_52w = float(row["pct_from_52w"])
-        tightness = float(row["tightness_15d"]) if pd.notna(row["tightness_15d"]) else 99.9
-        above_50 = bool(row["above_50"])
-        g60 = float(row["gain_60"]) if pd.notna(row["gain_60"]) else 0.0
-        g20 = float(row["gain_20"]) * 100.0 if pd.notna(row["gain_20"]) else 0.0
-        base_depth = float(row["base_depth"]) if pd.notna(row["base_depth"]) else 0.0
-        pullback_high = float(row["pullback_high"]) if pd.notna(row["pullback_high"]) else 0.0
-        right_side = float(row["right_side_pct"]) if pd.notna(row["right_side_pct"]) else 50.0
-        base_high = round(float(row["high_60d"]), 2) if pd.notna(row["high_60d"]) else round(float(row["close"]), 2)
-        base_low = round(float(row["low_60d"]), 2) if pd.notna(row["low_60d"]) else round(float(row["close"]), 2)
-        dist_floor = float(row["dist_from_floor"]) if pd.notna(row["dist_from_floor"]) else 0.0
-        pct_ema50 = float(row["pct_ema50"]) if pd.notna(row["pct_ema50"]) else 0.0
+        close_p = round(float(row["close"]), 2)
+        prev_close_p = round(float(row["prev_close"]), 2) if row["prev_close"] > 0 else close_p
+        pct_chg = round(((close_p - prev_close_p) / prev_close_p) * 100.0, 2)
+        vol = int(row["volume"]) if pd.notna(row["volume"]) else 0
+        vol_30d = int(round(float(row["vol_30d"]))) if ("vol_30d" in row and pd.notna(row["vol_30d"])) else 0
+        rvol = round(float(vol / (vol_30d if vol_30d > 0 else 1)), 2)
+        val_cr = round(float(row["value"] / 1e7), 2) if ("value" in row and pd.notna(row["value"])) else round(float(close_p * vol / 1e7), 2)
+        rs_val = rs_dict.get(sym, 50)
         ind = sub_ind_map.get(sym, "Diversified")
 
-        # 1. Base-Floor Coil: Dropped 12% to 40% from peak, coiling tightly at the bottom (within 8% of floor)
-        # Allows catching the stock BEFORE the right-side run starts!
-        is_floor_coil = (pullback_high >= 12.0 and pullback_high <= 40.0 and tightness <= 15.0 and dist_floor <= 8.0)
-
-        # 2. Right-Side Pivot: Already recovered into upper right half of the base (>= 45% recovery)
-        is_right_side = (base_depth >= 15.0 and base_depth <= 40.0 and right_side >= 45.0 and tightness <= 15.0 and above_50)
-
-        # 3. Near 52W High: High-tight flags and narrow 52W consolidations
-        is_near_high = (dist_52w >= -15.0 and above_50 and tightness <= 15.0)
-
-        if rs_val >= 60 and (is_floor_coil or is_right_side or is_near_high):
-            if is_floor_coil:
-                setup_type = "Base-Floor Coil"
-            elif is_right_side:
-                setup_type = "Right-Side Pivot"
-            elif (g60 >= 40.0 or g20 >= 20.0) and base_depth <= 18.0:
-                setup_type = "High-Tight Flag"
-            else:
-                setup_type = "52W Tight Base"
-
-            setups_list.append({
+        # Candidate pool: Price >= 20, RVOL >= 1.5, 1D Gain >= 1.0%, 30D Vol >= 50,000
+        if close_p >= 20.0 and rvol >= 1.5 and pct_chg >= 1.0 and vol_30d >= 50000:
+            volume_surge_list.append({
                 "symbol": sym,
+                "close": close_p,
+                "prev_close": prev_close_p,
+                "pct_chg_1d": pct_chg,
+                "volume": vol,
+                "vol_30d": vol_30d,
+                "rvol_1d": rvol,
+                "value_cr": val_cr,
                 "rs": rs_val,
-                "close": round(float(row["close"]), 2),
-                "dist_52w": dist_52w,
-                "tightness_15d": tightness,
-                "gain_20d": round(g20, 1),
-                "gain_60d": round(g60, 1),
-                "base_depth": base_depth,
-                "pullback_high": pullback_high,
-                "right_side_pct": right_side,
-                "dist_from_floor": dist_floor,
-                "pct_ema50": pct_ema50,
-                "vol_30d": int(round(float(row["vol_30d"]))) if ("vol_30d" in row and pd.notna(row["vol_30d"])) else 0,
-                "base_high": base_high,
-                "base_low": base_low,
                 "industry": ind,
-                "setup_type": setup_type
             })
 
-    setups_list.sort(key=lambda x: (-x["rs"], x["tightness_15d"]))
+    volume_surge_list.sort(key=lambda x: -x["rvol_1d"])
 
     # 7. Build Sector Rotation Model (Where Institutional Money is Moving)
     rotation_sectors = []
@@ -498,7 +469,7 @@ def build_data_json():
         "clusters": clusters,
         "rs": rs_payload,
         "rotation": rotation_sectors,
-        "setups": setups_list
+        "volume_surge": volume_surge_list
     }
 
     out_file = PUBLIC_DATA_DIR / "data.json"

@@ -87,24 +87,17 @@ export interface RotationSector {
   leaders: string[];
 }
 
-export interface SetupItem {
+export interface VolumeSurgeItem {
   symbol: string;
-  rs: number;
   close: number;
-  dist_52w: number;
-  tightness_15d: number;
-  gain_20d: number;
-  gain_60d: number;
+  prev_close: number;
+  pct_chg_1d: number;
+  volume: number;
+  vol_30d: number;
+  rvol_1d: number;
+  value_cr: number;
+  rs: number;
   industry: string;
-  setup_type: string;
-  base_depth?: number;
-  pullback_high?: number;
-  right_side_pct?: number;
-  dist_from_floor?: number;
-  pct_ema50?: number;
-  vol_30d?: number;
-  base_high?: number;
-  base_low?: number;
 }
 
 export interface RootData {
@@ -124,5 +117,5 @@ export interface RootData {
   clusters: ClusterItem[];
   rs?: RsData;
   rotation?: RotationSector[];
-  setups?: SetupItem[];
+  volume_surge?: VolumeSurgeItem[];
 }

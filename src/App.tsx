@@ -3,7 +3,7 @@ import { RootData } from '@/types/data';
 import { Header } from '@/components/Header';
 import { OverviewView } from '@/components/OverviewView';
 import { RsRatingView } from '@/components/RsRatingView';
-import { SetupHunterView } from '@/components/SetupHunterView';
+import { VolumeSurgeView } from '@/components/VolumeSurgeView';
 import { SectorRotationView } from '@/components/SectorRotationView';
 import { HighsView } from '@/components/HighsView';
 import { MomentumView } from '@/components/MomentumView';
@@ -14,7 +14,7 @@ import { ExpandableTabs } from '@/components/ui/expandable-tabs';
 import {
   LayoutDashboard,
   TrendingUp,
-  Sparkles,
+  Flame,
   Compass,
   Target,
   Zap,
@@ -85,7 +85,7 @@ export default function App() {
   const navTabs = [
     { title: 'Overview', icon: LayoutDashboard },
     { title: 'RS Rating', icon: TrendingUp },
-    { title: 'Setup Hunter', icon: Sparkles },
+    { title: 'Volume Surge', icon: Flame },
     { title: 'Sector Rotation', icon: Compass },
     { title: '52W Highs', icon: Target },
     { title: 'Momentum', icon: Zap },
@@ -166,7 +166,7 @@ export default function App() {
             >
               {activeTab === 0 && <OverviewView data={data} />}
               {activeTab === 1 && <RsRatingView rsData={data.rs} />}
-              {activeTab === 2 && <SetupHunterView setups={data.setups} />}
+              {activeTab === 2 && <VolumeSurgeView items={data.volume_surge} />}
               {activeTab === 3 && <SectorRotationView sectors={data.rotation} />}
               {activeTab === 4 && <HighsView data={data} />}
               {activeTab === 5 && <MomentumView data={data} />}
