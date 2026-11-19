@@ -123,6 +123,9 @@ def build_data_json():
         g["sma_5"] = g["adj_close"].rolling(5, min_periods=3).mean()
         g["above_5"] = g["adj_close"] > g["sma_5"]
 
+        # 30-Day Average Volume
+        g["vol_30d"] = g["volume"].rolling(30, min_periods=5).mean().fillna(0.0)
+
         # Returns for thrust
         g["gain_20"] = (g["adj_close"] / g["adj_close"].shift(20) - 1.0).fillna(0.0)
 
@@ -351,6 +354,7 @@ def build_data_json():
                 "right_side_pct": right_side,
                 "dist_from_floor": dist_floor,
                 "pct_ema50": pct_ema50,
+                "vol_30d": int(round(float(row["vol_30d"]))) if ("vol_30d" in row and pd.notna(row["vol_30d"])) else 0,
                 "base_high": base_high,
                 "base_low": base_low,
                 "industry": ind,

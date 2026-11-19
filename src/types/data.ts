@@ -102,6 +102,7 @@ export interface SetupItem {
   right_side_pct?: number;
   dist_from_floor?: number;
   pct_ema50?: number;
+  vol_30d?: number;
   base_high?: number;
   base_low?: number;
 }
