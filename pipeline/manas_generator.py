@@ -115,9 +115,11 @@ def build_data_json():
         g["right_side_pct"] = (((g["adj_close"] - g["low_60d"]) / base_span) * 100.0).clip(0.0, 100.0).round(1)
         g["dist_from_floor"] = (((g["adj_close"] - g["low_15d"]) / g["low_15d"].clip(lower=1e-6)) * 100.0).round(1)
 
-        # 50 DMA and 20 DMA
+        # 50 DMA, 50 EMA and 20 DMA
         g["sma_50"] = g["adj_close"].rolling(50, min_periods=10).mean()
         g["above_50"] = g["adj_close"] > g["sma_50"]
+        g["ema_50"] = g["adj_close"].ewm(span=50, adjust=False).mean()
+        g["pct_ema50"] = ((g["adj_close"] - g["ema_50"]) / g["ema_50"] * 100.0).round(1)
         g["sma_5"] = g["adj_close"].rolling(5, min_periods=3).mean()
         g["above_5"] = g["adj_close"] > g["sma_5"]
 
@@ -313,6 +315,7 @@ def build_data_json():
         base_high = round(float(row["high_60d"]), 2) if pd.notna(row["high_60d"]) else round(float(row["close"]), 2)
         base_low = round(float(row["low_60d"]), 2) if pd.notna(row["low_60d"]) else round(float(row["close"]), 2)
         dist_floor = float(row["dist_from_floor"]) if pd.notna(row["dist_from_floor"]) else 0.0
+        pct_ema50 = float(row["pct_ema50"]) if pd.notna(row["pct_ema50"]) else 0.0
         ind = sub_ind_map.get(sym, "Diversified")
 
         # 1. Base-Floor Coil: Dropped 12% to 40% from peak, coiling tightly at the bottom (within 8% of floor)
@@ -347,6 +350,7 @@ def build_data_json():
                 "pullback_high": pullback_high,
                 "right_side_pct": right_side,
                 "dist_from_floor": dist_floor,
+                "pct_ema50": pct_ema50,
                 "base_high": base_high,
                 "base_low": base_low,
                 "industry": ind,

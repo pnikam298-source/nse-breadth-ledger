@@ -1,6 +1,6 @@
 import React, { useState, useMemo } from 'react';
 import { SetupItem } from '@/types/data';
-import { Sparkles, Flag, Target, ExternalLink, Download, Copy, Check, Filter, Layers, ShieldCheck, Zap, ArrowUpRight, TrendingUp } from 'lucide-react';
+import { Sparkles, Flag, Target, ExternalLink, Download, Copy, Check, Filter, Layers, ShieldCheck, Zap, ArrowUpRight, TrendingUp, Compass } from 'lucide-react';
 
 interface SetupHunterViewProps {
   setups?: SetupItem[];
@@ -8,9 +8,10 @@ interface SetupHunterViewProps {
 
 export const SetupHunterView: React.FC<SetupHunterViewProps> = ({ setups = [] }) => {
   const [selectedType, setSelectedType] = useState<string>('Base-Floor Coil');
-  const [minDrop, setMinDrop] = useState<number>(15);
+  const [emaFilter, setEmaFilter] = useState<'support' | 'above' | 'all'>('support');
+  const [minDrop, setMinDrop] = useState<number>(12);
   const [maxDrop, setMaxDrop] = useState<number>(32);
-  const [maxDistFloor, setMaxDistFloor] = useState<number>(8);
+  const [maxDistFloor, setMaxDistFloor] = useState<number>(10);
   const [maxTightness, setMaxTightness] = useState<number>(14);
   const [minRs, setMinRs] = useState<number>(65);
   const [searchQuery, setSearchQuery] = useState<string>('');
@@ -33,6 +34,11 @@ export const SetupHunterView: React.FC<SetupHunterViewProps> = ({ setups = [] })
       const drop = s.pullback_high ?? s.base_depth ?? Math.abs(s.dist_52w);
       if (drop < minDrop || drop > maxDrop) return false;
 
+      // 50 EMA filter
+      const emaPct = s.pct_ema50 ?? -99;
+      if (emaFilter === 'support' && emaPct < -3.5) return false;
+      if (emaFilter === 'above' && emaPct < 0.0) return false;
+
       // If Base-Floor Coil, must be close to floor
       if (s.setup_type === 'Base-Floor Coil') {
         const distFloor = s.dist_from_floor ?? 0;
@@ -45,15 +51,15 @@ export const SetupHunterView: React.FC<SetupHunterViewProps> = ({ setups = [] })
       }
       return true;
     }).sort((a, b) => {
-      // For Base-Floor Coil: lowest distance to floor first (closest to bottom) & highest RS
-      if (selectedType === 'Base-Floor Coil') {
-        const dFloorA = a.dist_from_floor ?? 0;
-        const dFloorB = b.dist_from_floor ?? 0;
-        if (dFloorA !== dFloorB) return dFloorA - dFloorB;
+      // Prioritize stocks holding closest to or above 50 EMA, then highest RS
+      const emaA = a.pct_ema50 ?? -99;
+      const emaB = b.pct_ema50 ?? -99;
+      if (Math.abs(emaB) !== Math.abs(emaA)) {
+        return Math.abs(emaA) - Math.abs(emaB);
       }
       return b.rs - a.rs;
     });
-  }, [setups, selectedType, minDrop, maxDrop, maxDistFloor, maxTightness, minRs, searchQuery]);
+  }, [setups, selectedType, emaFilter, minDrop, maxDrop, maxDistFloor, maxTightness, minRs, searchQuery]);
 
   const handleCopyTv = () => {
     const symbols = filtered.map((s) => `NSE:${s.symbol}`).join(',');
@@ -68,6 +74,7 @@ export const SetupHunterView: React.FC<SetupHunterViewProps> = ({ setups = [] })
       'Setup Type',
       'RS Rating',
       'Close Price',
+      '50 EMA Distance %',
       'Drop from Peak %',
       'Distance from Floor %',
       'Potential Upside to Peak %',
@@ -84,6 +91,7 @@ export const SetupHunterView: React.FC<SetupHunterViewProps> = ({ setups = [] })
         `"${s.setup_type}"`,
         s.rs,
         s.close,
+        s.pct_ema50?.toFixed(1) ?? 'N/A',
         drop.toFixed(1),
         s.dist_from_floor?.toFixed(1) ?? '0.0',
         upside,
@@ -97,7 +105,7 @@ export const SetupHunterView: React.FC<SetupHunterViewProps> = ({ setups = [] })
     const encodedUri = encodeURI(csvContent);
     const link = document.createElement('a');
     link.setAttribute('href', encodedUri);
-    link.setAttribute('download', `nse_base_coils_${new Date().toISOString().slice(0, 10)}.csv`);
+    link.setAttribute('download', `nse_50ema_coils_${new Date().toISOString().slice(0, 10)}.csv`);
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
@@ -112,14 +120,14 @@ export const SetupHunterView: React.FC<SetupHunterViewProps> = ({ setups = [] })
             <div className="flex items-center gap-2">
               <h2 className="text-lg font-bold text-zinc-900 dark:text-white flex items-center gap-2">
                 <Sparkles className="w-5 h-5 text-amber-500" />
-                Base-Floor Coil & Early Turnaround Scanner
+                Base-Floor Coil & 50 EMA Support Scanner
               </h2>
-              <span className="px-2 py-0.5 rounded text-[10px] font-bold bg-teal-500 text-white tracking-wider">
-                BUY AT THE BOTTOM
+              <span className="px-2 py-0.5 rounded text-[10px] font-bold bg-emerald-500 text-white tracking-wider">
+                50 EMA TRAMPOLINE
               </span>
             </div>
             <p className="mt-1 text-xs text-zinc-600 dark:text-zinc-400 leading-relaxed max-w-4xl">
-              Catches strong institutional stocks that have dropped <strong>15% to 30%</strong> from their run and are now <strong>coiling tightly right at the bottom floor</strong> with volume drying up. Buy early at the floor with minimal risk (2–3% stop) to ride the entire upward move back to the peak!
+              Institutions defend the <strong>50-day EMA</strong>. When a market leader pulls back 15% to 30% and <strong>coils directly at its rising 50 EMA</strong>, the moving average acts as a springboard rather than resistance. Catch the bottom turn early with tight risk before it takes off!
             </p>
           </div>
 
@@ -148,8 +156,9 @@ export const SetupHunterView: React.FC<SetupHunterViewProps> = ({ setups = [] })
           <button
             onClick={() => {
               setSelectedType('Base-Floor Coil');
-              setMinDrop(15);
+              setMinDrop(12);
               setMaxDrop(32);
+              setEmaFilter('support');
             }}
             className={`p-3 rounded-xl border text-left transition-all ${
               selectedType === 'Base-Floor Coil'
@@ -158,13 +167,13 @@ export const SetupHunterView: React.FC<SetupHunterViewProps> = ({ setups = [] })
             }`}
           >
             <div className="flex items-center justify-between text-[11px] font-bold text-emerald-600 dark:text-emerald-400">
-              <span>Base-Floor Coil</span>
+              <span>50 EMA Floor Coil</span>
               <span className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse" />
             </div>
             <div className="mt-1 text-2xl font-bold font-mono text-zinc-900 dark:text-white">
               {floorCoilCount}
             </div>
-            <div className="text-[10px] text-zinc-500">Buy at Floor (Ride Up)</div>
+            <div className="text-[10px] text-zinc-500">At Floor Low (Ride Up)</div>
           </button>
 
           {/* Option 2: Right-Side Pivot */}
@@ -173,6 +182,7 @@ export const SetupHunterView: React.FC<SetupHunterViewProps> = ({ setups = [] })
               setSelectedType('Right-Side Pivot');
               setMinDrop(12);
               setMaxDrop(35);
+              setEmaFilter('all');
             }}
             className={`p-3 rounded-xl border text-left transition-all ${
               selectedType === 'Right-Side Pivot'
@@ -195,6 +205,7 @@ export const SetupHunterView: React.FC<SetupHunterViewProps> = ({ setups = [] })
               setSelectedType('High-Tight Flag');
               setMinDrop(5);
               setMaxDrop(18);
+              setEmaFilter('all');
             }}
             className={`p-3 rounded-xl border text-left transition-all ${
               selectedType === 'High-Tight Flag'
@@ -217,19 +228,53 @@ export const SetupHunterView: React.FC<SetupHunterViewProps> = ({ setups = [] })
             <div className="mt-1 text-2xl font-bold font-mono text-emerald-600 dark:text-emerald-400">
               {filtered.length}
             </div>
-            <div className="text-[10px] text-zinc-500">Ready for Entry</div>
+            <div className="text-[10px] text-zinc-500">Holding 50 EMA Line</div>
           </div>
         </div>
       </div>
 
       {/* Interactive Controls & Filters */}
       <div className="p-5 rounded-xl bg-white dark:bg-zinc-900/60 border border-zinc-200 dark:border-zinc-800 shadow-sm space-y-4">
-        <div className="flex flex-wrap items-center justify-between gap-3 pb-2 border-b border-zinc-100 dark:border-zinc-800/80">
-          <div className="flex items-center gap-2">
-            <Filter className="w-4 h-4 text-emerald-500" />
-            <span className="text-xs font-semibold text-zinc-800 dark:text-zinc-200">
-              Scanner Parameters:
+        {/* Top Controls Row: 50 EMA Selector */}
+        <div className="flex flex-wrap items-center justify-between gap-3 pb-3 border-b border-zinc-100 dark:border-zinc-800/80">
+          <div className="flex flex-wrap items-center gap-2">
+            <span className="text-xs font-semibold text-zinc-800 dark:text-zinc-200 flex items-center gap-1.5">
+              <Compass className="w-4 h-4 text-emerald-500" /> 50 EMA Requirement:
             </span>
+            <div className="flex items-center p-1 rounded-xl bg-zinc-100 dark:bg-zinc-800 border border-zinc-200 dark:border-zinc-700/50">
+              <button
+                onClick={() => setEmaFilter('support')}
+                className={`px-3 py-1 rounded-lg text-xs font-medium transition-all ${
+                  emaFilter === 'support'
+                    ? 'bg-emerald-500 text-white shadow-xs font-bold'
+                    : 'text-zinc-500 hover:text-zinc-900 dark:hover:text-white'
+                }`}
+                title="Holding 50 EMA: Close is above or within 3.5% of 50 EMA"
+              >
+                ★ Holding 50 EMA Support (&ge; -3.5%)
+              </button>
+              <button
+                onClick={() => setEmaFilter('above')}
+                className={`px-3 py-1 rounded-lg text-xs font-medium transition-all ${
+                  emaFilter === 'above'
+                    ? 'bg-emerald-500 text-white shadow-xs font-bold'
+                    : 'text-zinc-500 hover:text-zinc-900 dark:hover:text-white'
+                }`}
+                title="Strictly above 50 EMA"
+              >
+                Strictly Above 50 EMA (&gt; 0%)
+              </button>
+              <button
+                onClick={() => setEmaFilter('all')}
+                className={`px-3 py-1 rounded-lg text-xs font-medium transition-all ${
+                  emaFilter === 'all'
+                    ? 'bg-white dark:bg-zinc-900 text-zinc-900 dark:text-white shadow-xs font-semibold'
+                    : 'text-zinc-500 hover:text-zinc-900 dark:hover:text-white'
+                }`}
+              >
+                Any Position
+              </button>
+            </div>
           </div>
 
           <div className="flex items-center gap-2">
@@ -318,8 +363,8 @@ export const SetupHunterView: React.FC<SetupHunterViewProps> = ({ setups = [] })
               className="w-full accent-emerald-500 h-1.5 bg-zinc-200 dark:bg-zinc-800 rounded-lg appearance-none cursor-pointer"
             />
             <div className="flex justify-between text-[10px] text-zinc-400 font-mono">
-              <span>2% (Right at Bottom)</span>
-              <span>8%</span>
+              <span>2% (At Bottom)</span>
+              <span>10%</span>
               <span>15%</span>
             </div>
           </div>
@@ -351,7 +396,7 @@ export const SetupHunterView: React.FC<SetupHunterViewProps> = ({ setups = [] })
             <label className="text-xs text-zinc-600 dark:text-zinc-400 block">Search Symbol</label>
             <input
               type="text"
-              placeholder="e.g. PAISALO, BHARATFORG..."
+              placeholder="e.g. BAJAJ-AUTO, ABB..."
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
               className="w-full px-3 py-1.5 rounded-lg border border-zinc-200 dark:border-zinc-800 bg-zinc-50 dark:bg-zinc-900 text-xs text-zinc-800 dark:text-zinc-200 placeholder-zinc-400 focus:outline-none focus:border-emerald-500"
@@ -364,9 +409,9 @@ export const SetupHunterView: React.FC<SetupHunterViewProps> = ({ setups = [] })
       {filtered.length === 0 ? (
         <div className="p-12 text-center rounded-2xl border border-zinc-200 dark:border-zinc-800 bg-white dark:bg-zinc-900/60">
           <Sparkles className="w-8 h-8 text-zinc-400 mx-auto mb-2 opacity-50" />
-          <h3 className="text-sm font-semibold text-zinc-700 dark:text-zinc-300">No Setups Match Current Drop & Floor Criteria</h3>
+          <h3 className="text-sm font-semibold text-zinc-700 dark:text-zinc-300">No Setups Match Current 50 EMA & Floor Criteria</h3>
           <p className="text-xs text-zinc-500 mt-1">
-            Try increasing <strong>Max Dist from Floor Low</strong> to 10% or widening the drop range.
+            Try switching 50 EMA to <strong>&ldquo;Holding 50 EMA Support (&ge; -3.5%)&rdquo;</strong> or increasing Max Dist from Floor to 10%.
           </p>
         </div>
       ) : viewMode === 'cards' ? (
@@ -376,6 +421,9 @@ export const SetupHunterView: React.FC<SetupHunterViewProps> = ({ setups = [] })
             const distFloor = item.dist_from_floor ?? 0;
             const upside = item.base_high ? (((item.base_high - item.close) / item.close) * 100).toFixed(1) : '—';
             const isFloorCoil = item.setup_type === 'Base-Floor Coil';
+            const emaPct = item.pct_ema50 ?? 0;
+            const isAboveEma = emaPct >= 0;
+            const isAtSupport = emaPct >= -3.5 && emaPct < 0;
 
             return (
               <div
@@ -408,12 +456,14 @@ export const SetupHunterView: React.FC<SetupHunterViewProps> = ({ setups = [] })
                     <div className="flex flex-col items-end gap-1">
                       <span
                         className={`px-2 py-0.5 rounded text-[10px] font-bold ${
-                          isFloorCoil
+                          isAboveEma
                             ? 'bg-emerald-500/15 text-emerald-600 dark:text-emerald-400 border border-emerald-500/30'
-                            : 'bg-teal-500/15 text-teal-600 dark:text-teal-400 border border-teal-500/30'
+                            : isAtSupport
+                            ? 'bg-teal-500/15 text-teal-600 dark:text-teal-400 border border-teal-500/30'
+                            : 'bg-rose-500/15 text-rose-600 dark:text-rose-400 border border-rose-500/30'
                         }`}
                       >
-                        {item.setup_type}
+                        {isAboveEma ? 'Above 50 EMA' : isAtSupport ? 'At 50 EMA Support' : 'Below 50 EMA'}
                       </span>
                       <div className="text-xs font-mono font-semibold text-zinc-700 dark:text-zinc-300">
                         ₹{item.close.toLocaleString('en-IN', { maximumFractionDigits: 1 })}
@@ -424,15 +474,15 @@ export const SetupHunterView: React.FC<SetupHunterViewProps> = ({ setups = [] })
                   {/* Metrics grid */}
                   <div className="grid grid-cols-3 gap-2 mt-4 pt-3 border-t border-zinc-100 dark:border-zinc-800/80 text-center">
                     <div className="p-2 rounded-lg bg-zinc-50 dark:bg-zinc-950/50">
-                      <div className="text-[10px] text-zinc-500">Drop from Peak</div>
-                      <div className="font-mono font-bold text-sm text-rose-500">
-                        -{drop.toFixed(1)}%
+                      <div className="text-[10px] text-zinc-500">50 EMA Dist</div>
+                      <div className={`font-mono font-bold text-sm ${isAboveEma ? 'text-emerald-600 dark:text-emerald-400' : isAtSupport ? 'text-teal-600 dark:text-teal-400' : 'text-rose-500'}`}>
+                        {emaPct >= 0 ? `+${emaPct.toFixed(1)}%` : `${emaPct.toFixed(1)}%`}
                       </div>
                     </div>
                     <div className="p-2 rounded-lg bg-zinc-50 dark:bg-zinc-950/50">
-                      <div className="text-[10px] text-zinc-500">Dist to Floor</div>
-                      <div className="font-mono font-bold text-sm text-emerald-600 dark:text-emerald-400">
-                        +{distFloor.toFixed(1)}%
+                      <div className="text-[10px] text-zinc-500">Drop from Peak</div>
+                      <div className="font-mono font-bold text-sm text-rose-500">
+                        -{drop.toFixed(1)}%
                       </div>
                     </div>
                     <div className="p-2 rounded-lg bg-zinc-50 dark:bg-zinc-950/50">
@@ -446,7 +496,7 @@ export const SetupHunterView: React.FC<SetupHunterViewProps> = ({ setups = [] })
                   {/* Potential Upside Banner */}
                   <div className="mt-3 p-2.5 rounded-xl bg-emerald-500/10 border border-emerald-500/20 flex items-center justify-between text-xs">
                     <span className="text-emerald-700 dark:text-emerald-300 font-medium flex items-center gap-1">
-                      <TrendingUp className="w-3.5 h-3.5 text-emerald-500" /> Upside to Prior High:
+                      <TrendingUp className="w-3.5 h-3.5 text-emerald-500" /> Target Prior High:
                     </span>
                     <span className="font-mono font-bold text-emerald-600 dark:text-emerald-400">
                       +{upside}% (to ₹{item.base_high ?? '—'})
@@ -485,14 +535,15 @@ export const SetupHunterView: React.FC<SetupHunterViewProps> = ({ setups = [] })
               <thead className="bg-zinc-50 dark:bg-zinc-950/60 border-b border-zinc-200 dark:border-zinc-800 text-zinc-500 font-medium">
                 <tr>
                   <th className="py-3 px-4">Symbol</th>
-                  <th className="py-3 px-4">Setup Type</th>
+                  <th className="py-3 px-4">50 EMA Status</th>
                   <th className="py-3 px-4 text-center">RS</th>
-                  <th className="py-3 px-4 text-right">Current Price (₹)</th>
+                  <th className="py-3 px-4 text-right">Price (₹)</th>
+                  <th className="py-3 px-4 text-right">50 EMA Dist</th>
                   <th className="py-3 px-4 text-right">Drop from Peak</th>
                   <th className="py-3 px-4 text-right">Dist to Floor</th>
                   <th className="py-3 px-4 text-right">15d Tightness</th>
-                  <th className="py-3 px-4 text-right">Peak Target (₹)</th>
-                  <th className="py-3 px-4 text-right">Upside to Peak</th>
+                  <th className="py-3 px-4 text-right">Target High (₹)</th>
+                  <th className="py-3 px-4 text-right">Upside</th>
                   <th className="py-3 px-4">Industry</th>
                   <th className="py-3 px-4 text-center">Chart</th>
                 </tr>
@@ -502,6 +553,9 @@ export const SetupHunterView: React.FC<SetupHunterViewProps> = ({ setups = [] })
                   const drop = item.pullback_high ?? item.base_depth ?? Math.abs(item.dist_52w);
                   const distFloor = item.dist_from_floor ?? 0;
                   const upside = item.base_high ? (((item.base_high - item.close) / item.close) * 100).toFixed(1) : '—';
+                  const emaPct = item.pct_ema50 ?? 0;
+                  const isAboveEma = emaPct >= 0;
+                  const isAtSupport = emaPct >= -3.5 && emaPct < 0;
 
                   return (
                     <tr key={item.symbol} className="hover:bg-zinc-50/80 dark:hover:bg-zinc-800/30 transition-colors">
@@ -511,12 +565,14 @@ export const SetupHunterView: React.FC<SetupHunterViewProps> = ({ setups = [] })
                       <td className="py-3 px-4">
                         <span
                           className={`px-2 py-0.5 rounded text-[10px] font-bold ${
-                            item.setup_type === 'Base-Floor Coil'
+                            isAboveEma
                               ? 'bg-emerald-500/15 text-emerald-600 dark:text-emerald-400'
-                              : 'bg-teal-500/15 text-teal-600 dark:text-teal-400'
+                              : isAtSupport
+                              ? 'bg-teal-500/15 text-teal-600 dark:text-teal-400'
+                              : 'bg-rose-500/15 text-rose-600 dark:text-rose-400'
                           }`}
                         >
-                          {item.setup_type}
+                          {isAboveEma ? 'Above 50 EMA' : isAtSupport ? 'At Support' : 'Below 50 EMA'}
                         </span>
                       </td>
                       <td className="py-3 px-4 text-center font-mono font-bold text-teal-600 dark:text-teal-400">
@@ -524,6 +580,9 @@ export const SetupHunterView: React.FC<SetupHunterViewProps> = ({ setups = [] })
                       </td>
                       <td className="py-3 px-4 text-right font-mono font-bold">
                         ₹{item.close.toLocaleString('en-IN', { maximumFractionDigits: 1 })}
+                      </td>
+                      <td className={`py-3 px-4 text-right font-mono font-bold ${isAboveEma ? 'text-emerald-600 dark:text-emerald-400' : isAtSupport ? 'text-teal-600 dark:text-teal-400' : 'text-rose-500'}`}>
+                        {emaPct >= 0 ? `+${emaPct.toFixed(1)}%` : `${emaPct.toFixed(1)}%`}
                       </td>
                       <td className="py-3 px-4 text-right font-mono font-bold text-rose-500">
                         -{drop.toFixed(1)}%
@@ -540,7 +599,7 @@ export const SetupHunterView: React.FC<SetupHunterViewProps> = ({ setups = [] })
                       <td className="py-3 px-4 text-right font-mono font-bold text-emerald-600 dark:text-emerald-400">
                         +{upside}%
                       </td>
-                      <td className="py-3 px-4 text-zinc-500 truncate max-w-[170px]">
+                      <td className="py-3 px-4 text-zinc-500 truncate max-w-[160px]">
                         {item.industry}
                       </td>
                       <td className="py-3 px-4 text-center">
@@ -566,13 +625,13 @@ export const SetupHunterView: React.FC<SetupHunterViewProps> = ({ setups = [] })
       <div className="p-5 rounded-2xl bg-zinc-50 dark:bg-zinc-950/40 border border-zinc-200 dark:border-zinc-800 text-xs text-zinc-600 dark:text-zinc-400 space-y-2">
         <div className="flex items-center gap-1.5 font-bold text-zinc-800 dark:text-zinc-200">
           <ShieldCheck className="w-4 h-4 text-emerald-500" />
-          The Base-Floor Turnaround Playbook (Buying at the Bottom Before the Herd)
+          The 50 EMA Trampoline: Why Institutional Leaders Defend This Line
         </div>
         <p className="leading-relaxed">
-          <strong>1. Why Buy at the Floor?</strong> Breakout traders wait until a stock climbs all the way from ₹70 back to ₹100. By identifying stocks that have dropped 15% to 30% and are coiling tightly right at the floor (within 2%–8% of the bottom with volatility compression), you get in at ₹72–₹75 with a tight 2% stop loss right beneath the floor.
+          <strong>1. The Trap of Breaking 50 EMA:</strong> If a stock drops 10%–20% below its 50 EMA, overhead trapped sellers dump every bounce, making the falling 50 EMA a heavy ceiling of resistance.
         </p>
         <p className="leading-relaxed">
-          <strong>2. Asymmetric Risk/Reward:</strong> Risk is 2%–3% while upside back to the prior high is +25% to +45%, giving an institutional Risk/Reward ratio of 1:10+. You ride the entire upward wave that everyone else misses.
+          <strong>2. The 50 EMA Trampoline:</strong> When a top institutional stock pulls back 15% to 25% and <strong>coils directly AT or just above the rising 50 EMA (within -3.5% to +2%)</strong> with low 15-day tightness, mutual funds and institutions defend this level. The 50 EMA acts as an institutional springboard launching the next rally back to the high.
         </p>
       </div>
     </div>
