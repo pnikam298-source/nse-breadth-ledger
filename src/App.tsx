@@ -28,6 +28,7 @@ export default function App() {
   const [data, setData] = useState<RootData | null>(null);
   const [loading, setLoading] = useState<boolean>(true);
   const [syncing, setSyncing] = useState<boolean>(false);
+  const [syncError, setSyncError] = useState<string | null>(null);
   const [error, setError] = useState<string | null>(null);
   const [activeTab, setActiveTab] = useState<number>(0);
   const [theme, setTheme] = useState<'dark' | 'light'>('dark');
@@ -57,6 +58,7 @@ export default function App() {
   const fetchData = async (force: boolean = false) => {
     setLoading(true);
     setError(null);
+    setSyncError(null);
     try {
       // 1. Proactively ping smart local server to trigger update if today's Bhavcopy is pending
       try {
@@ -74,11 +76,16 @@ export default function App() {
               if (poll.ok) {
                 const pj = await poll.json();
                 if (!pj.is_updating) {
+                  if (pj.error) {
+                    setSyncError(pj.error);
+                  }
                   break;
                 }
               }
             }
             setSyncing(false);
+          } else if (uJson.error && force) {
+            setSyncError(uJson.error);
           }
         }
       } catch {
@@ -153,6 +160,15 @@ export default function App() {
         <div className="bg-teal-500/10 border-b border-teal-500/30 text-teal-700 dark:text-teal-300 py-2.5 px-4 text-center text-xs font-mono flex items-center justify-center gap-2">
           <span className="w-2 h-2 rounded-full bg-teal-500 animate-ping" />
           <span>Synchronizing today's official NSE Bhavcopy into Breadth Ledger...</span>
+        </div>
+      )}
+
+      {syncError && !syncing && (
+        <div className="bg-amber-500/10 border-b border-amber-500/30 text-amber-700 dark:text-amber-300 py-2.5 px-4 text-center text-xs font-mono flex items-center justify-center gap-2">
+          <span>⚠️ {syncError}</span>
+          <button onClick={() => fetchData(true)} className="underline font-bold ml-2 hover:opacity-80">
+            Retry Sync
+          </button>
         </div>
       )}
 

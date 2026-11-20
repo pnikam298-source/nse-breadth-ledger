@@ -1,18 +1,5 @@
 [
   {
-    "date": "2026-08-24",
-    "regime_score": 0.0379,
-    "regime_label": "Neutral / Selective",
-    "color": "#64748b",
-    "new_52w_highs": 16,
-    "new_52w_lows": 7,
-    "new_1m_highs": 58,
-    "new_1m_lows": 46,
-    "monthly_thrust": 7,
-    "advancers": 198,
-    "decliners": 274
-  },
-  {
     "date": "2026-08-25",
     "regime_score": -0.0037,
     "regime_label": "Neutral / Selective",
@@ -778,5 +765,18 @@
     "monthly_thrust": 10,
     "advancers": 339,
     "decliners": 135
+  },
+  {
+    "date": "2026-11-20",
+    "regime_score": 0.0699,
+    "regime_label": "Moderate Advance",
+    "color": "#14b8a6",
+    "new_52w_highs": 14,
+    "new_52w_lows": 6,
+    "new_1m_highs": 89,
+    "new_1m_lows": 24,
+    "monthly_thrust": 11,
+    "advancers": 239,
+    "decliners": 237
   }
 ]
