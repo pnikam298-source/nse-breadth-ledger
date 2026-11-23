@@ -1,16 +1,16 @@
 {
-  "asof": "2026-11-20",
-  "as_of_date": "2026-11-20",
-  "as_of_timestamp": "2026-11-20T21:55:57.259106",
-  "universe": 476,
-  "universe_size": 476,
+  "asof": "2026-11-23",
+  "as_of_date": "2026-11-23",
+  "as_of_timestamp": "2026-11-23T18:26:31.243797",
+  "universe": 477,
+  "universe_size": 477,
   "quarantined": 4,
   "quarantined_count": 4,
   "status": "ok",
   "data_status": "ok",
   "message": "All validation gates passed",
   "index_name": "NIFTY_500",
-  "total_universe_capacity": 476,
+  "total_universe_capacity": 477,
   "validation_passed": true,
   "disclaimer": "Market-wide counts only, built from official NSE data. Final after close. Market information, not investment advice."
 }

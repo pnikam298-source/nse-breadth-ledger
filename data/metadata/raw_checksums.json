@@ -2960,6 +2960,13 @@
     "stored_at": "1795191932.0644908",
     "type": "bhavcopy"
   },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/bhavcopy/2026/11/BhavCopy_NSE_CM_20261123.csv.zip": {
+    "date": "2026-11-23",
+    "sha256": "bad854754423e5d2126e07226b5dd074d5a29a0bc994a2c120efcecc834891ba",
+    "size_bytes": 209916,
+    "stored_at": "1795438550.2500763",
+    "type": "bhavcopy"
+  },
   "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/constituents/20261117/nifty_500_constituents.csv": {
     "index": "NIFTY_500",
     "sha256": "31b764a95cc03ad1d7ddb6c42340de9125ed2c78b3d436bf0dbc8440e4e38c5e",
@@ -3000,6 +3007,13 @@
     "sha256": "18a2e064db143a72c1229bcd27a7763b26956c4ed80b147808153f05ceb04cf1",
     "size_bytes": 15658,
     "stored_at": "1795191932.641117",
+    "type": "index_closes"
+  },
+  "/Users/pratiknikam/Agnets/pratiknikam_ownmarket/data/raw/indices/2026/ind_close_all_23112026.csv": {
+    "date": "2026-11-23",
+    "sha256": "7cf4302e88a939fbf536d9e5d213bac102f7102fe7613c580a65d82956aa1b4b",
+    "size_bytes": 16706,
+    "stored_at": "1795438550.278747",
     "type": "index_closes"
   }
 }

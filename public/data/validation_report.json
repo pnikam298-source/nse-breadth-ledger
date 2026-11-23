@@ -1,22 +1,22 @@
 {
-  "as_of_date": "2026-11-20",
+  "as_of_date": "2026-11-23",
   "overall_status": "PASSED",
   "passed": true,
   "gates": {
     "gate_1_trading_date": {
       "passed": true,
-      "message": "Date 2026-11-20 is a valid trading weekday"
+      "message": "Date 2026-11-23 is a valid trading weekday"
     },
     "gate_2_coverage": {
       "passed": true,
       "message": "Coverage 100.0% meets > 98.0% tolerance",
       "details": {
-        "total_universe_stocks": 476,
-        "present_in_bhavcopy": 476,
+        "total_universe_stocks": 477,
+        "present_in_bhavcopy": 477,
         "coverage_pct": 100.0,
         "missing_symbols": [],
-        "prior_day_row_count": 476,
-        "current_day_row_count": 476,
+        "prior_day_row_count": 477,
+        "current_day_row_count": 477,
         "row_count_diff_pct": 0.0
       }
     },
@@ -31,52 +31,52 @@
     },
     "gate_5_history_continuity": {
       "passed": true,
-      "message": "History continuity verified across 423 trading sessions with no missing dates",
+      "message": "History continuity verified across 424 trading sessions with no missing dates",
       "details": {
-        "sessions": 423
+        "sessions": 424
       }
     },
     "gate_6_breadth_accounting": {
       "passed": true,
-      "message": "Accounting exact: 239 Adv + 237 Dec + 0 Unch = 476 Universe Size"
+      "message": "Accounting exact: 126 Adv + 349 Dec + 2 Unch = 477 Universe Size"
     },
     "gate_7_secondary_spot_check": {
-      "date": "2026-11-20",
+      "date": "2026-11-23",
       "tolerance_pct": 1.5,
       "passed": true,
       "symbols_checked": [
         {
           "symbol": "RELIANCE",
-          "bhav_close": 1377.5,
-          "secondary_close": 1377.5,
+          "bhav_close": 1351.0,
+          "secondary_close": 1351.0,
           "deviation_pct": 0.0,
           "passed": true
         },
         {
           "symbol": "TCS",
-          "bhav_close": 2376.2,
-          "secondary_close": 2376.2,
+          "bhav_close": 2460.0,
+          "secondary_close": 2460.0,
           "deviation_pct": 0.0,
           "passed": true
         },
         {
           "symbol": "HDFCBANK",
-          "bhav_close": 846.0,
-          "secondary_close": 846.0,
+          "bhav_close": 817.8,
+          "secondary_close": 817.8,
           "deviation_pct": 0.0,
           "passed": true
         },
         {
           "symbol": "INFY",
-          "bhav_close": 1098.0,
-          "secondary_close": 1098.0,
+          "bhav_close": 1103.4,
+          "secondary_close": 1103.4,
           "deviation_pct": 0.0,
           "passed": true
         },
         {
           "symbol": "ICICIBANK",
-          "bhav_close": 1640.0,
-          "secondary_close": 1640.0,
+          "bhav_close": 1585.5,
+          "secondary_close": 1585.5,
           "deviation_pct": 0.0,
           "passed": true
         }
