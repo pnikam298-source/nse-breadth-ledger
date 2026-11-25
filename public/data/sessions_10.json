@@ -1,5 +1,17 @@
 [
   {
+    "date": "2026-11-25",
+    "universe_size": 477,
+    "advancers": 261,
+    "decliners": 216,
+    "unchanged": 0,
+    "new_52w_highs": 13,
+    "new_52w_lows": 11,
+    "monthly_thrust": 19,
+    "regime_score": 0.0173,
+    "regime_label": "Neutral / Selective"
+  },
+  {
     "date": "2026-11-23",
     "universe_size": 477,
     "advancers": 126,
@@ -105,18 +117,6 @@
     "new_52w_lows": 3,
     "monthly_thrust": -3,
     "regime_score": 0.1452,
-    "regime_label": "Moderate Advance"
-  },
-  {
-    "date": "2026-11-09",
-    "universe_size": 477,
-    "advancers": 224,
-    "decliners": 250,
-    "unchanged": 3,
-    "new_52w_highs": 20,
-    "new_52w_lows": 8,
-    "monthly_thrust": -1,
-    "regime_score": 0.0881,
     "regime_label": "Moderate Advance"
   }
 ]

@@ -1,11 +1,11 @@
 {
-  "as_of_date": "2026-11-23",
+  "as_of_date": "2026-11-25",
   "overall_status": "PASSED",
   "passed": true,
   "gates": {
     "gate_1_trading_date": {
       "passed": true,
-      "message": "Date 2026-11-23 is a valid trading weekday"
+      "message": "Date 2026-11-25 is a valid trading weekday"
     },
     "gate_2_coverage": {
       "passed": true,
@@ -31,52 +31,52 @@
     },
     "gate_5_history_continuity": {
       "passed": true,
-      "message": "History continuity verified across 424 trading sessions with no missing dates",
+      "message": "History continuity verified across 425 trading sessions with no missing dates",
       "details": {
-        "sessions": 424
+        "sessions": 425
       }
     },
     "gate_6_breadth_accounting": {
       "passed": true,
-      "message": "Accounting exact: 126 Adv + 349 Dec + 2 Unch = 477 Universe Size"
+      "message": "Accounting exact: 261 Adv + 216 Dec + 0 Unch = 477 Universe Size"
     },
     "gate_7_secondary_spot_check": {
-      "date": "2026-11-23",
+      "date": "2026-11-25",
       "tolerance_pct": 1.5,
       "passed": true,
       "symbols_checked": [
         {
           "symbol": "RELIANCE",
-          "bhav_close": 1351.0,
-          "secondary_close": 1351.0,
+          "bhav_close": 1373.9,
+          "secondary_close": 1373.9,
           "deviation_pct": 0.0,
           "passed": true
         },
         {
           "symbol": "TCS",
-          "bhav_close": 2460.0,
-          "secondary_close": 2460.0,
+          "bhav_close": 2517.3,
+          "secondary_close": 2517.3,
           "deviation_pct": 0.0,
           "passed": true
         },
         {
           "symbol": "HDFCBANK",
-          "bhav_close": 817.8,
-          "secondary_close": 817.8,
+          "bhav_close": 846.2,
+          "secondary_close": 846.2,
           "deviation_pct": 0.0,
           "passed": true
         },
         {
           "symbol": "INFY",
-          "bhav_close": 1103.4,
-          "secondary_close": 1103.4,
+          "bhav_close": 1130.0,
+          "secondary_close": 1130.0,
           "deviation_pct": 0.0,
           "passed": true
         },
         {
           "symbol": "ICICIBANK",
-          "bhav_close": 1585.5,
-          "secondary_close": 1585.5,
+          "bhav_close": 1640.0,
+          "secondary_close": 1640.0,
           "deviation_pct": 0.0,
           "passed": true
         }
