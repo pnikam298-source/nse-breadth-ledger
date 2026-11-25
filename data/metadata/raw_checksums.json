@@ -3015,5 +3015,19 @@
     "size_bytes": 16706,
     "stored_at": "1795438550.278747",
     "type": "index_closes"
+  },
+  "/home/runner/work/nse-breadth-ledger/nse-breadth-ledger/data/raw/bhavcopy/2026/11/BhavCopy_NSE_CM_20261125.csv": {
+    "date": "2026-11-25",
+    "sha256": "9bd4c87565cfece5e21a258cf4ebf9a37a08a8f01a7c675949644f492bb7ca72",
+    "size_bytes": 644409,
+    "stored_at": "1795646346.8834043",
+    "type": "bhavcopy"
+  },
+  "/home/runner/work/nse-breadth-ledger/nse-breadth-ledger/data/raw/indices/2026/ind_close_all_25112026.csv": {
+    "date": "2026-11-25",
+    "sha256": "482bffb71948058af6c2cf1f8208b2099ff0b89d99026873a3d101c01ce9e1af",
+    "size_bytes": 17794,
+    "stored_at": "1795646347.1887658",
+    "type": "index_closes"
   }
 }
