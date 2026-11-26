@@ -1530,8 +1530,8 @@
     "pct_from_52w_high": 10.1,
     "is_new_52w_high": false,
     "is_new_6m_high": false,
-    "is_new_1m_high": true,
-    "gain_20d": 12.66
+    "is_new_1m_high": false,
+    "gain_20d": 4.67
   },
   {
     "symbol": "BANKINDIA",
@@ -6162,8 +6162,8 @@
     "gain_20d": 7.78
   },
   {
-    "symbol": "BAJAJFINSV",
-    "name": "Bajaj Finserv Ltd.",
+    "symbol": "KOTAKBANK",
+    "name": "Kotak Mahindra Bank Ltd.",
     "industry": "Financial Services",
     "close": 509.95,
     "high_52w": 2228.0,
@@ -6188,21 +6188,8 @@
     "gain_20d": 10.11
   },
   {
-    "symbol": "TITAN",
-    "name": "Titan Company Ltd.",
-    "industry": "Consumer Durables",
-    "close": 4686.6,
-    "high_52w": 5186.7,
-    "low_52w": 3751.0,
-    "pct_from_52w_high": 9.64,
-    "is_new_52w_high": false,
-    "is_new_6m_high": false,
-    "is_new_1m_high": false,
-    "gain_20d": 8.41
-  },
-  {
-    "symbol": "INDUSINDBK",
-    "name": "IndusInd Bank Ltd.",
+    "symbol": "AIIL",
+    "name": "Authum Investment & Infrastructure Ltd.",
     "industry": "Financial Services",
     "close": 552.6,
     "high_52w": 3235.11,

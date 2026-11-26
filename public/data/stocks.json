@@ -1134,7 +1134,7 @@
     "h52": 1144.1,
     "l52": 831.65,
     "f": {
-      "h1": true,
+      "h1": false,
       "h3": false,
       "h6": false,
       "h52": false,
@@ -1644,7 +1644,7 @@
       "h3": false,
       "h6": false,
       "h52": false,
-      "l1": true,
+      "l1": false,
       "l6": false,
       "l52": false
     },
@@ -1801,9 +1801,9 @@
     "h52": 2029.6,
     "l52": 1432.3,
     "f": {
-      "h1": true,
-      "h3": true,
-      "h6": true,
+      "h1": false,
+      "h3": false,
+      "h6": false,
       "h52": false,
       "l1": false,
       "l6": false,
@@ -2192,8 +2192,8 @@
     "h52": 4081.96,
     "l52": 2978.78,
     "f": {
-      "h1": true,
-      "h3": true,
+      "h1": false,
+      "h3": false,
       "h6": false,
       "h52": false,
       "l1": false,
@@ -2357,7 +2357,7 @@
       "h3": false,
       "h6": false,
       "h52": false,
-      "l1": true,
+      "l1": false,
       "l6": false,
       "l52": false
     },
@@ -2560,10 +2560,10 @@
     "h52": 2185.6,
     "l52": 1008.1,
     "f": {
-      "h1": true,
-      "h3": true,
-      "h6": true,
-      "h52": true,
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
       "l1": false,
       "l6": false,
       "l52": false
@@ -2583,9 +2583,9 @@
     "h52": 610.27,
     "l52": 271.9,
     "f": {
-      "h1": true,
-      "h3": true,
-      "h6": true,
+      "h1": false,
+      "h3": false,
+      "h6": false,
       "h52": false,
       "l1": false,
       "l6": false,
@@ -2656,9 +2656,9 @@
       "h3": false,
       "h6": false,
       "h52": false,
-      "l1": false,
-      "l6": false,
-      "l52": false
+      "l1": true,
+      "l6": true,
+      "l52": true
     },
     "g": {
       "5": -5.37,
@@ -3181,8 +3181,8 @@
     "h52": 1414.9,
     "l52": 1101.0,
     "f": {
-      "h1": true,
-      "h3": true,
+      "h1": false,
+      "h3": false,
       "h6": false,
       "h52": false,
       "l1": false,
@@ -3342,8 +3342,8 @@
     "h52": 546.66,
     "l52": 360.78,
     "f": {
-      "h1": true,
-      "h3": true,
+      "h1": false,
+      "h3": false,
       "h6": false,
       "h52": false,
       "l1": false,
@@ -3388,7 +3388,7 @@
     "h52": 395.53,
     "l52": 182.58,
     "f": {
-      "h1": true,
+      "h1": false,
       "h3": false,
       "h6": false,
       "h52": false,
@@ -4124,7 +4124,7 @@
     "h52": 923.65,
     "l52": 512.95,
     "f": {
-      "h1": true,
+      "h1": false,
       "h3": false,
       "h6": false,
       "h52": false,
@@ -4423,9 +4423,9 @@
     "h52": 1017.5,
     "l52": 669.2,
     "f": {
-      "h1": false,
-      "h3": false,
-      "h6": false,
+      "h1": true,
+      "h3": true,
+      "h6": true,
       "h52": false,
       "l1": false,
       "l6": false,
@@ -4542,8 +4542,8 @@
       "h3": false,
       "h6": false,
       "h52": false,
-      "l1": true,
-      "l6": true,
+      "l1": false,
+      "l6": false,
       "l52": false
     },
     "g": {
@@ -4657,8 +4657,8 @@
       "h3": false,
       "h6": false,
       "h52": false,
-      "l1": true,
-      "l6": true,
+      "l1": false,
+      "l6": false,
       "l52": false
     },
     "g": {
@@ -5086,7 +5086,7 @@
     "s": "INDIANB",
     "n": "Indian Bank",
     "i": "Financial Services",
-    "c": 930.0,
+    "c": 933.0,
     "h52": 1000.9,
     "l52": 706.6,
     "f": {
@@ -5112,29 +5112,6 @@
     "c": 5625.0,
     "h52": 5906.0,
     "l52": 3853.45,
-    "f": {
-      "h1": true,
-      "h3": true,
-      "h6": true,
-      "h52": false,
-      "l1": false,
-      "l6": false,
-      "l52": false
-    },
-    "g": {
-      "5": 1.94,
-      "10": 5.34,
-      "20": 25.48,
-      "50": 16.22
-    }
-  },
-  {
-    "s": "INDUSINDBK",
-    "n": "IndusInd Bank Ltd.",
-    "i": "Financial Services",
-    "c": 973.7,
-    "h52": 1077.85,
-    "l52": 750.5,
     "f": {
       "h1": false,
       "h3": false,
@@ -5347,7 +5324,7 @@
       "h3": false,
       "h6": false,
       "h52": false,
-      "l1": false,
+      "l1": true,
       "l6": false,
       "l52": false
     },
@@ -5688,29 +5665,6 @@
     "h52": 6105.0,
     "l52": 4671.5,
     "f": {
-      "h1": true,
-      "h3": true,
-      "h6": false,
-      "h52": false,
-      "l1": false,
-      "l6": false,
-      "l52": false
-    },
-    "g": {
-      "5": 6.15,
-      "10": 10.04,
-      "20": 12.66,
-      "50": 11.41
-    }
-  },
-  {
-    "s": "JKTYRE",
-    "n": "JK Tyre & Industries Ltd.",
-    "i": "Automobile and Auto Components",
-    "c": 366.55,
-    "h52": 611.9,
-    "l52": 296.75,
-    "f": {
       "h1": false,
       "h3": false,
       "h6": false,
@@ -5826,7 +5780,7 @@
     "h52": 143.4,
     "l52": 106.65,
     "f": {
-      "h1": false,
+      "h1": true,
       "h3": false,
       "h6": false,
       "h52": false,
@@ -5941,7 +5895,7 @@
     "h52": 818.54,
     "l52": 549.4,
     "f": {
-      "h1": true,
+      "h1": false,
       "h3": false,
       "h6": false,
       "h52": false,
@@ -6608,7 +6562,7 @@
     "h52": 332.22,
     "l52": 224.88,
     "f": {
-      "h1": true,
+      "h1": false,
       "h3": false,
       "h6": false,
       "h52": false,
@@ -6722,29 +6676,6 @@
     "c": 285.35,
     "h52": 424.19,
     "l52": 259.01,
-    "f": {
-      "h1": true,
-      "h3": false,
-      "h6": false,
-      "h52": false,
-      "l1": false,
-      "l6": false,
-      "l52": false
-    },
-    "g": {
-      "5": 0.41,
-      "10": 4.35,
-      "20": 2.46,
-      "50": -21.34
-    }
-  },
-  {
-    "s": "MAHABANK",
-    "n": "Bank of Maharashtra",
-    "i": "Financial Services",
-    "c": 98.71,
-    "h52": 100.7,
-    "l52": 51.39,
     "f": {
       "h1": false,
       "h3": false,
@@ -7302,8 +7233,8 @@
       "h3": false,
       "h6": false,
       "h52": false,
-      "l1": true,
-      "l6": true,
+      "l1": false,
+      "l6": false,
       "l52": false
     },
     "g": {
@@ -7578,8 +7509,8 @@
       "h3": false,
       "h6": false,
       "h52": false,
-      "l1": true,
-      "l6": true,
+      "l1": false,
+      "l6": false,
       "l52": false
     },
     "g": {
@@ -7785,7 +7716,7 @@
       "h3": false,
       "h6": false,
       "h52": false,
-      "l1": true,
+      "l1": false,
       "l6": false,
       "l52": false
     },
@@ -8264,10 +8195,10 @@
     "h52": 1226.3,
     "l52": 729.6,
     "f": {
-      "h1": true,
-      "h3": true,
-      "h6": true,
-      "h52": true,
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
       "l1": false,
       "l6": false,
       "l52": false
@@ -8452,8 +8383,8 @@
       "h3": false,
       "h6": false,
       "h52": false,
-      "l1": false,
-      "l6": false,
+      "l1": true,
+      "l6": true,
       "l52": false
     },
     "g": {
@@ -8586,10 +8517,10 @@
     "h52": 4747.0,
     "l52": 2500.0,
     "f": {
-      "h1": true,
-      "h3": true,
-      "h6": true,
-      "h52": true,
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "h52": false,
       "l1": false,
       "l6": false,
       "l52": false
@@ -8728,7 +8659,7 @@
       "h3": false,
       "h6": false,
       "h52": false,
-      "l1": true,
+      "l1": false,
       "l6": false,
       "l52": false
     },
@@ -8866,8 +8797,8 @@
       "h3": false,
       "h6": false,
       "h52": false,
-      "l1": true,
-      "l6": true,
+      "l1": false,
+      "l6": false,
       "l52": false
     },
     "g": {
@@ -9165,8 +9096,8 @@
       "h3": false,
       "h6": false,
       "h52": false,
-      "l1": true,
-      "l6": true,
+      "l1": false,
+      "l6": false,
       "l52": false
     },
     "g": {
@@ -9805,8 +9736,8 @@
     "h52": 1282.7,
     "l52": 916.0,
     "f": {
-      "h1": true,
-      "h3": true,
+      "h1": false,
+      "h3": false,
       "h6": false,
       "h52": false,
       "l1": false,
@@ -10614,8 +10545,8 @@
       "h3": false,
       "h6": false,
       "h52": false,
-      "l1": true,
-      "l6": true,
+      "l1": false,
+      "l6": false,
       "l52": false
     },
     "g": {
@@ -10821,7 +10752,7 @@
       "h3": false,
       "h6": false,
       "h52": false,
-      "l1": true,
+      "l1": false,
       "l6": false,
       "l52": false
     },
