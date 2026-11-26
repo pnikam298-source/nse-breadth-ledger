@@ -88,12 +88,20 @@ def run_pipeline_update(force=False):
             # Rebuild frontend bundle & sync to GitHub Pages automatically
             try:
                 logger.info("Rebuilding frontend bundle...")
-                subprocess.run(["npm", "run", "build"], capture_output=True, text=True, timeout=120)
-                logger.info("Pushing latest data to GitHub Pages...")
+                build_res = subprocess.run(["npm", "run", "build"], capture_output=True, text=True, timeout=120)
+                if build_res.returncode != 0:
+                    logger.warning(f"npm run build failed: {build_res.stderr[-200:]}")
+
+                logger.info("Syncing with origin/main and pushing latest data to GitHub Pages...")
                 subprocess.run(["git", "add", "."], capture_output=True, text=True, timeout=60)
-                subprocess.run(["git", "commit", "-m", f"chore(data): auto-sync market breadth for {today_str} [skip ci]"], capture_output=True, text=True, timeout=60)
-                subprocess.run(["git", "push", "origin", "main"], capture_output=True, text=True, timeout=120)
-                logger.info("GitHub Pages deployment triggered successfully!")
+                subprocess.run(["git", "commit", "-m", f"chore(data): auto-sync market breadth for {today_str}"], capture_output=True, text=True, timeout=60)
+                subprocess.run(["git", "fetch", "origin"], capture_output=True, text=True, timeout=60)
+                subprocess.run(["git", "merge", "-X", "ours", "origin/main", "--no-edit"], capture_output=True, text=True, timeout=60)
+                push_res = subprocess.run(["git", "push", "origin", "main"], capture_output=True, text=True, timeout=120)
+                if push_res.returncode == 0:
+                    logger.info("GitHub Pages deployment triggered successfully!")
+                else:
+                    logger.error(f"git push failed (code {push_res.returncode}): {push_res.stderr.strip()}")
             except Exception as pe:
                 logger.warning(f"Could not auto-push to GitHub: {pe}")
 
