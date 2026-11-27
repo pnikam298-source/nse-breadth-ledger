@@ -1644,7 +1644,7 @@
       "h3": false,
       "h6": false,
       "h52": false,
-      "l1": false,
+      "l1": true,
       "l6": false,
       "l52": false
     },
@@ -2656,9 +2656,9 @@
       "h3": false,
       "h6": false,
       "h52": false,
-      "l1": true,
-      "l6": true,
-      "l52": true
+      "l1": false,
+      "l6": false,
+      "l52": false
     },
     "g": {
       "5": -1.26,
@@ -4423,9 +4423,9 @@
     "h52": 1017.5,
     "l52": 669.2,
     "f": {
-      "h1": true,
-      "h3": true,
-      "h6": true,
+      "h1": false,
+      "h3": false,
+      "h6": false,
       "h52": false,
       "l1": false,
       "l6": false,
@@ -5780,7 +5780,7 @@
     "h52": 143.4,
     "l52": 106.65,
     "f": {
-      "h1": true,
+      "h1": false,
       "h3": false,
       "h6": false,
       "h52": false,

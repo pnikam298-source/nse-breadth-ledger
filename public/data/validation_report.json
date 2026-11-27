@@ -44,43 +44,7 @@
       "date": "2026-11-27",
       "tolerance_pct": 1.5,
       "passed": true,
-      "symbols_checked": [
-        {
-          "symbol": "RELIANCE",
-          "bhav_close": 1382.6,
-          "secondary_close": 1382.6,
-          "deviation_pct": 0.0,
-          "passed": true
-        },
-        {
-          "symbol": "TCS",
-          "bhav_close": 2572.5,
-          "secondary_close": 2572.5,
-          "deviation_pct": 0.0,
-          "passed": true
-        },
-        {
-          "symbol": "HDFCBANK",
-          "bhav_close": 857.25,
-          "secondary_close": 857.25,
-          "deviation_pct": 0.0,
-          "passed": true
-        },
-        {
-          "symbol": "INFY",
-          "bhav_close": 1151.3,
-          "secondary_close": 1151.3,
-          "deviation_pct": 0.0,
-          "passed": true
-        },
-        {
-          "symbol": "ICICIBANK",
-          "bhav_close": 1593.4,
-          "secondary_close": 1593.4,
-          "deviation_pct": 0.0,
-          "passed": true
-        }
-      ],
+      "symbols_checked": [],
       "max_deviation_pct": 0.0,
       "errors": []
     },
