@@ -1,48 +1,48 @@
 {
-  "date": "2026-11-26",
-  "universe_size": 479,
-  "total_universe_capacity": 479,
+  "date": "2026-11-27",
+  "universe_size": 480,
+  "total_universe_capacity": 480,
   "quarantined_count": 4,
-  "advancers": 241,
+  "advancers": 244,
   "decliners": 236,
-  "unchanged": 2,
+  "unchanged": 0,
   "highs_lows": {
     "window_1m": {
-      "highs": 55,
-      "lows": 19,
+      "highs": 44,
+      "lows": 13,
       "sessions": 21
     },
     "window_3m": {
-      "highs": 25,
-      "lows": 18,
+      "highs": 21,
+      "lows": 10,
       "sessions": 63
     },
     "window_6m": {
-      "highs": 17,
-      "lows": 14,
+      "highs": 14,
+      "lows": 5,
       "sessions": 126
     },
     "window_52w": {
       "highs": 11,
-      "lows": 6,
+      "lows": 1,
       "sessions": 252
     }
   },
   "monthly_thrust": {
-    "value": 11,
-    "stocks_up_25pct": 14,
-    "stocks_down_25pct": 3,
+    "value": 7,
+    "stocks_up_25pct": 9,
+    "stocks_down_25pct": 2,
     "window_sessions": 20,
     "threshold_pct": 25
   },
   "moving_averages": {
-    "pct_above_20dma": 60.5,
+    "pct_above_20dma": 61.3,
     "pct_above_50dma": 56.2,
-    "pct_above_200dma": 48.9
+    "pct_above_200dma": 47.1
   },
   "regime": {
-    "score": 0.0324,
-    "label": "Neutral / Selective",
-    "color": "#64748b"
+    "score": 0.0464,
+    "label": "Moderate Advance",
+    "color": "#14b8a6"
   }
 }
